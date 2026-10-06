@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import { pageRoot } from './check-assets.mjs';
+import { checkInputFit } from './check-input-fit.mjs';
 
 const dist = path.join(pageRoot, 'dist');
 assert(fs.existsSync(path.join(dist, 'index.html')), 'Run npm run build first.');
@@ -115,6 +116,7 @@ try {
     report.checks.push({ prefix: '/' + prefix + '/', width, ready: true, autoplayAndControls: Boolean(content.video?.src), placeholderMedia: emptyMedia, mediaRequests: mediaRequests.length, horizontalOverflow: false, missingAssets: false });
     await page.close();
   }
+  report.checks.push(await checkInputFit(browser));
   assert.deepEqual(report.errors, []);
   report.passed = true;
   console.log(JSON.stringify(report, null, 2));

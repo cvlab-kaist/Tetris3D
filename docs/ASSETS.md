@@ -67,3 +67,9 @@ npm run import:scenes -- --from /path/to/current/project-page \
 `model: null`은 결과 없음으로 표시합니다. Mesh의 객체 이름은 `objects`와 맞추고 원래 좌표를 보존합니다. `modelLight`는 선택 사항입니다. 새로운 baseline이 없으면 임의 결과를 대신 넣지 않습니다.
 
 자산을 교체한 뒤 `npm run check:assets`, `npm run build`, `npm run test:browser`로 확인합니다. 외부 자산의 실제 다운로드·3D·simulation 동작은 최종 호스트를 연결한 뒤 직접 확인합니다.
+
+## 입력 이미지 표시와 교체
+
+마스크 또는 PNG alpha가 있는 입력은 브라우저에서 피사체 범위를 계산해 긴 변의 2.5% 여백만 남겨 표시합니다. 원본 비율·파일은 보존하며 썸네일, 비교 패널, 확대 창에 같은 규칙을 적용합니다. 기존 마스크를 합친 뒤 흰 배경에 맞추며, 불투명한 실사 장면은 그대로 표시합니다.
+
+2026-10-06에 지정한 bottle과 두 번째 chess piece(knight)의 RGBA 원본 사본은 `project-page/examples/input-overrides/`에 보관합니다. 이 파일들은 공개 페이지에 연결되지 않습니다. 대응 scene ID, SHA-256, 적용할 경로는 `project-page/scripts/input-overrides-provenance.json`에 기록합니다. 개발본에서 장면을 가져오면 교체된 입력과 빈 `imageMasks`도 함께 가져옵니다. 직접 연결할 때는 PNG를 기록된 `assets/input-overrides/` 경로로 복사하고 해당 장면의 `image`·`thumbnail`을 바꾸며 `imageMasks`를 빈 배열로 둡니다. 원래 카메라 마스크를 새 이미지에 적용하지 마세요.

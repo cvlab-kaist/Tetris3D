@@ -35,7 +35,7 @@
   "affiliations": {
     "1": "KAIST AI"
   },
-  "abstract": "Tetris3D reconstructs a scene by generating each object in relation to its neighbors. Surrounding geometry and physical relationships guide both shape and pose, helping recover the parts hidden by contact and occlusion. Objects are generated in a physical dependency order, so previously generated surfaces become context for the next object.",
+  "abstract": "Tetris3D reconstructs a scene by generating each object in relation to its neighbors. Surrounding geometry and physical relationships guide both shape and pose, helping recover the parts hidden by contact and occlusion. Objects are generated in a physical dependency order, so previously generated surfaces become context for the next object. Voxel-aligned conditions guide both sparse structure and structured latent generation at each step. Visible-to-invisible attention transfers cues from observed regions to occluded surfaces, helping complete the object in its surrounding context.",
   "links": {
     "paper": null,
     "code": null,
@@ -67,5 +67,31 @@
     "initialStates": {}
   },
   "logo": null,
-  "venue": "arXiv 2026"
+  "venue": "arXiv 2026",
+  "qualitativeOrder": [
+    {"id": "v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297", "title": "panda"},
+    {"id": "v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc", "title": "bottle"},
+    {"id": "v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47", "title": "chess piece"},
+    {"id": "v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c", "title": "fries"},
+    {"id": "v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8", "title": "chair2"},
+    {"id": "v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1", "title": "sofa"},
+    {"id": "v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753", "title": "truck"},
+    {"id": "v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47", "title": "hammer 1"},
+    {"id": "v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8", "title": "ladder"},
+    {"id": "v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7", "title": "train"},
+    {"id": "v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1", "title": "tree"},
+    {"id": "v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5", "title": "chicken"},
+    {"id": "v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03", "title": "chess piece"},
+    {"id": "v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a", "title": "trashcan"},
+    {"id": "v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d", "title": "tractor"},
+    {"id": "v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2", "title": "chair"},
+    {"id": "v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad", "title": "boat"},
+    {"id": "v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492", "title": "butterfly"},
+    {"id": "v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767", "title": "hammer2"},
+    {"id": "v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7", "title": "monitor"},
+    {"id": "v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29", "title": "chair3"},
+    {"id": "v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803", "title": "robot"},
+    {"id": "v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab", "title": "boat"},
+    {"id": "v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472", "title": "monitor"}
+  ]
 }

@@ -33,6 +33,12 @@ npm run test:browser
 CHROMIUM_PATH=/path/to/chrome npm run test:browser
 ```
 
+## 개발본과 공개본 동기화
+
+페이지를 수정할 때는 실제 자산이 연결된 개발본과 이 저장소의 `project-page/`에 같은 UI 코드·표시 설정을 적용하고, 두 미리보기를 검증한 뒤 GitHub에도 반영합니다. 공개본의 영상·자산 미연결 설정은 유지합니다.
+
+Qualitative Comparisons의 표시 순서와 이름은 `public/content.json`의 `qualitativeOrder`에서 scene ID별로 관리합니다. 준비 페이지에 장면을 연결하면 이 순서가 적용되며, 지정되지 않은 장면은 원래 순서로 뒤에 표시됩니다. 같은 이름의 객체는 별도 ID로 구분합니다.
+
 ## 커밋과 푸시
 
 작성자는 실제 GitHub 계정에 연결된 이름과 이메일을 사용합니다. 커밋 메시지에는 공동 작성자 표기를 추가하지 않습니다. 기존 원격 `main`의 초기 커밋 위에 변경을 올리며 강제 푸시는 필요하지 않습니다.

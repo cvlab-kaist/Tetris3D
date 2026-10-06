@@ -449,7 +449,13 @@ async function init() {
   });
   $$('[data-gallery]').forEach((root) => {
     const key = root.dataset.gallery;
-    const samples = content.finalExamples?.[key]?.length ? content.finalExamples[key] : preview[key];
+    let samples = content.finalExamples?.[key]?.length ? content.finalExamples[key] : preview[key];
+    if (key === 'toys' && content.qualitativeOrder?.length) {
+      const order = new Map(content.qualitativeOrder.map(({ id, title }, index) => [id, { title, index }]));
+      samples = [...samples]
+        .sort((a, b) => (order.get(a.id)?.index ?? order.size) - (order.get(b.id)?.index ?? order.size))
+        .map((sample) => ({ ...sample, title: order.get(sample.id)?.title ?? sample.title }));
+    }
     new Gallery(root, samples, content.simulation);
     if (!samples.length) {
       $('.gallery-toolbar', root).hidden = true;

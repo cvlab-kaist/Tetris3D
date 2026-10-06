@@ -43,7 +43,7 @@ export class ComparisonPanel {
             <p class="comparison-announcement" role="status" aria-live="polite"></p>
           </div>
           <section class="comparison-initial" aria-label="Initial simulation state"><div class="method-card-heading"><h4>Initial state</h4></div><button class="initial-state-image" type="button" aria-label="Enlarge initial state"><img alt="GT mesh at the initial simulation state"/><span>Expand ↗</span></button></section>
-          <section class="comparison-motion" aria-label="Simulation comparison"><h4 class="comparison-row-label">Simulation</h4><div class="comparison-grid simulation-grid"></div></section>` : ''}
+          <section class="comparison-motion" aria-label="Simulation comparison"><div class="comparison-grid simulation-grid"></div></section>` : ''}
         </div>
       </div>
       <div class="comparison-bottom"><span class="comparison-help">Enable 3D on any card to orbit and inspect individual objects.</span><fieldset class="comparison-mesh-controls" disabled>

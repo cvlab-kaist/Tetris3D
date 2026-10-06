@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-06",
+  "policy": "Unconnected source copies; import scenes from the development page to publish. Never apply the old image masks to these replacement images.",
+  "entries": [
+    {
+      "scene_id": "v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc",
+      "repository_source": "examples/input-overrides/bottle-input.png",
+      "output": "assets/input-overrides/bottle-input.png",
+      "replaced_image": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc.webp",
+      "sha256": "379f567ea94e045838a2169e3e60cc97a3203ca2da39caea77d89a8e669b808f",
+      "bytes": 55818,
+      "image_masks": [],
+      "policy": "Byte-identical user-supplied RGBA input. Use native alpha, not the previous camera mask. Geometry and simulation unchanged."
+    },
+    {
+      "scene_id": "v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03",
+      "repository_source": "examples/input-overrides/knight-input.png",
+      "output": "assets/input-overrides/knight-input.png",
+      "replaced_image": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03.webp",
+      "sha256": "2ef738953c19dcef2a4ebf6c8df31e9be3e745a1bb601cea65c6ffb47f4d856c",
+      "bytes": 292905,
+      "image_masks": [],
+      "policy": "Byte-identical user-supplied RGBA input. Use native alpha, not the previous camera mask. Geometry and simulation unchanged."
+    }
+  ]
+}
