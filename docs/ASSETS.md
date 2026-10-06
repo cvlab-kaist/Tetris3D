@@ -70,6 +70,8 @@ npm run import:scenes -- --from /path/to/current/project-page \
 
 ## 입력 이미지 표시와 교체
 
-마스크 또는 PNG alpha가 있는 입력은 브라우저에서 피사체 범위를 계산해 긴 변의 2.5% 여백만 남겨 표시합니다. 원본 비율·파일은 보존하며 썸네일, 비교 패널, 확대 창에 같은 규칙을 적용합니다. 기존 마스크를 합친 뒤 흰 배경에 맞추며, 불투명한 실사 장면은 그대로 표시합니다.
+마스크 또는 PNG alpha가 있는 입력은 피사체 범위를 미리 잘라 긴 변의 3.5% 여백을 남긴 흰 배경 PNG로 저장합니다. `assets/input-cache/`의 콘텐츠 해시 파일을 장면 `image`·`thumbnail`에 지정하고 `imageMasks`는 빈 배열로 둡니다. 썸네일·비교 패널·확대 창에서 저장본을 바로 불러오므로 방문 후 이미지 크기가 바뀌지 않습니다. `imageOriginal`·`imageOriginalMasks`에 원본 경로·마스크를 보존하며 Original 링크는 원본을 엽니다. 불투명한 실사 장면은 그대로 표시합니다.
 
-2026-10-06에 지정한 bottle과 두 번째 chess piece(knight)의 RGBA 원본 사본은 `project-page/examples/input-overrides/`에 보관합니다. 이 파일들은 공개 페이지에 연결되지 않습니다. 대응 scene ID, SHA-256, 적용할 경로는 `project-page/scripts/input-overrides-provenance.json`에 기록합니다. 개발본에서 장면을 가져오면 교체된 입력과 빈 `imageMasks`도 함께 가져옵니다. 직접 연결할 때는 PNG를 기록된 `assets/input-overrides/` 경로로 복사하고 해당 장면의 `image`·`thumbnail`을 바꾸며 `imageMasks`를 빈 배열로 둡니다. 원래 카메라 마스크를 새 이미지에 적용하지 마세요.
+재생성은 `project-page/`에서 `node scripts/prepare-input-crops.mjs /path/to/development/project-page /path/to/input-cache`로 실행합니다. 생성기는 PNG와 `manifest.json`을 지정한 디렉터리에 저장하며 원본과 장면 metadata는 수정하지 않습니다. manifest의 `output`을 장면 `image`·`thumbnail`에 적용한 뒤 생성물을 `public/assets/input-cache/`로 복사합니다. 개발본에서 장면을 가져오면 크롭 저장본과 원본 경로도 포함됩니다. 현재 공개 준비본의 빈 갤러리는 유지합니다.
+
+2026-10-06에 지정한 bottle과 두 번째 chess piece(knight)의 RGBA 원본 사본은 `project-page/examples/input-overrides/`에 보관합니다. 이 파일들은 공개 페이지에 연결되지 않습니다. 대응 scene ID와 SHA-256은 `project-page/scripts/input-overrides-provenance.json`에, 24개 크롭 경로·해시는 `project-page/scripts/input-crop-provenance.json`에 기록합니다. 직접 연결할 때는 PNG를 기록된 `assets/input-overrides/` 경로로 복사한 뒤 위 명령으로 표시용 크롭을 생성합니다. 원래 카메라 마스크를 새 이미지에 적용하지 마세요.

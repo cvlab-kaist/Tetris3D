@@ -65,7 +65,7 @@ export class ComparisonPanel {
       $('.motion-speed input', element).addEventListener('input', (event) => this.setSpeed(Number(event.target.value)));
       $('.initial-state-image', element).addEventListener('click', () => this.openImage(this.config.initialStates[this.sample.id].src, `${this.sample.title} — Initial state`));
     }
-    $('.comparison-input', element).addEventListener('click', () => this.openImage(this.sample.image, `${this.sample.title} — input image`, this.sample.imageMasks));
+    $('.comparison-input', element).addEventListener('click', () => this.openImage(this.sample.image, `${this.sample.title} — input image`, this.sample.imageMasks, this.sample.imageOriginal));
     $('.segmentation-image', element)?.addEventListener('click', () => this.openImage(this.segmentationPath, `${this.sample.title} — Segmentation mask`));
     $('.comparison-object', element).addEventListener('change', (event) => this.selectObject(event.target.value));
     $('[data-object-mode=all]', element)?.addEventListener('click', () => this.selectObject('all'));

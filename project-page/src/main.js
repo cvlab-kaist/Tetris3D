@@ -21,9 +21,9 @@ function toast(message) {
   $('#toast').textContent = message; $('#toast').classList.add('visible');
   clearTimeout(toastTimer); toastTimer = setTimeout(() => $('#toast').classList.remove('visible'), 3600);
 }
-function openImage(path, title, masks = []) {
+function openImage(path, title, masks = [], original = path) {
   setInputImage($('#dialog-image'), path, masks); $('#dialog-image').alt = title;
-  $('#dialog-title').textContent = title; $('#dialog-original').href = asset(path);
+  $('#dialog-title').textContent = title; $('#dialog-original').href = asset(original);
   $('#image-dialog').showModal(); document.body.classList.add('dialog-open');
 }
 function syncDialogLock() {
@@ -152,7 +152,7 @@ class Gallery {
       this.quality = event.target.value; this.updateState();
       this.show({ preserveCamera: this.frame === this.method.frame });
     });
-    $('.input-thumb', root).addEventListener('click', () => openImage(this.sample.image, `${this.sample.title} — input image`, this.sample.imageMasks));
+    $('.input-thumb', root).addEventListener('click', () => openImage(this.sample.image, `${this.sample.title} — input image`, this.sample.imageMasks, this.sample.imageOriginal));
     $('.details-toggle', root).addEventListener('click', (event) => {
       const panel = $('.sample-details', root); panel.hidden = !panel.hidden;
       event.currentTarget.setAttribute('aria-expanded', String(!panel.hidden));

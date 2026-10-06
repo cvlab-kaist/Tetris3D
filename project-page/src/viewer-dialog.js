@@ -20,7 +20,7 @@ export class ViewerDialog {
     const input = dialog.querySelector('.expanded-input img');
     setInputImage(input, sample.image, sample.imageMasks);
     input.alt = `${sample.title} — input image`;
-    dialog.querySelector('.expanded-input').addEventListener('click', () => this.openImage(sample.image, input.alt, sample.imageMasks));
+    dialog.querySelector('.expanded-input').addEventListener('click', () => this.openImage(sample.image, input.alt, sample.imageMasks, sample.imageOriginal));
     dialog.querySelector('.expanded-close').addEventListener('click', () => this.close());
     dialog.addEventListener('cancel', (event) => { event.preventDefault(); this.close(); });
     dialog.addEventListener('close', () => { if (this.dialog === dialog) this.close(); });

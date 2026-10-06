@@ -1,6 +1,4 @@
 const asset = (path) => new URL(path, document.baseURI).href;
-const crops = new Map();
-const requests = new WeakMap();
 
 async function loadImage(url) {
   const image = new Image();
@@ -10,7 +8,8 @@ async function loadImage(url) {
   return image;
 }
 
-async function cropInput(url, masks) {
+// Used by the asset preparation script; visitors receive the saved crop directly.
+export async function createInputCrop(url, masks = [], paddingRatio = 0.035) {
   const [image, ...maskImages] = await Promise.all([url, ...masks].map(loadImage));
   const canvas = document.createElement('canvas');
   const width = canvas.width = image.naturalWidth, height = canvas.height = image.naturalHeight;
@@ -37,38 +36,19 @@ async function cropInput(url, masks) {
   }
   if (right < left || (!masks.length && left === 0 && top === 0 && right === width - 1 && bottom === height - 1)) return null;
   const cropWidth = right - left + 1, cropHeight = bottom - top + 1;
-  const padding = Math.max(1, Math.round(Math.max(cropWidth, cropHeight) * 0.025));
+  const padding = Math.max(1, Math.round(Math.max(cropWidth, cropHeight) * paddingRatio));
   const fitted = document.createElement('canvas');
   fitted.width = cropWidth + padding * 2; fitted.height = cropHeight + padding * 2;
   const output = fitted.getContext('2d');
   output.fillStyle = '#fff'; output.fillRect(0, 0, fitted.width, fitted.height);
   output.drawImage(canvas, left, top, cropWidth, cropHeight, padding, padding, cropWidth, cropHeight);
-  const blob = await new Promise((resolve) => fitted.toBlob(resolve, 'image/png'));
-  return blob ? URL.createObjectURL(blob) : null;
+  return new Promise((resolve) => fitted.toBlob(resolve, 'image/png'));
 }
 
 export function setInputImage(element, path, masks = []) {
-  const url = asset(path), maskUrls = masks.map(asset), token = {};
-  requests.set(element, token);
-  element.dataset.inputSource = url;
-  element.dataset.inputFit = 'original';
-  element.classList.remove('cropped-input');
+  element.dataset.inputSource = asset(path);
+  element.dataset.inputFit = 'static';
   element.classList.toggle('masked-input', masks.length > 0);
-  element.style.maskImage = maskUrls.length ? maskUrls.map((mask) => `url("${mask}")`).join(', ') : 'none';
-  // Start after the original image loads, preserving lazy gallery loading.
-  const fit = async () => {
-    element.onload = null;
-    const key = JSON.stringify([url, ...maskUrls]);
-    if (!crops.has(key)) crops.set(key, cropInput(url, maskUrls).catch(() => null));
-    const cropped = await crops.get(key);
-    if (requests.get(element) !== token || !cropped) return;
-    element.style.maskImage = 'none';
-    element.classList.remove('masked-input');
-    element.classList.add('cropped-input');
-    element.dataset.inputFit = 'cropped';
-    element.src = cropped;
-  };
-  element.onload = fit;
-  element.src = url;
-  if (element.complete && element.naturalWidth) fit();
+  element.style.maskImage = masks.length ? masks.map((mask) => `url("${asset(mask)}")`).join(', ') : 'none';
+  element.src = asset(path);
 }
