@@ -1,0 +1,9 @@
+node_modules/
+dist/
+review/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+*.publishing

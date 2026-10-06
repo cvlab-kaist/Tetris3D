@@ -1,0 +1,13 @@
+{
+  "createdAt": "2026-10-06T12:47:58.631723+00:00",
+  "description": "Project page scaffold; research media and result assets are not included.",
+  "assets": [
+    {
+      "asset": "favicon.svg",
+      "source": "Hand-authored SVG T block.",
+      "bytes": 1060,
+      "sha256": "ede01e2a64ce9df3cd852456f5c67cf67fb4b88b23e2ce5e1799ef283a4c865f",
+      "operation": "Preserved the existing transparent red T favicon."
+    }
+  ]
+}

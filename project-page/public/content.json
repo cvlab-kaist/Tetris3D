@@ -1,0 +1,71 @@
+{
+  "shortTitle": "Tetris3D",
+  "workingTitle": false,
+  "paperTitle": "Tetris3D: 3D Scene Generation with Objects That Fit Together",
+  "tagline": "",
+  "tldr": "Tetris3D reconstructs 3D scenes from a single image by generating objects in physical dependency order, using their neighbors as context so that shapes and poses fit together.",
+  "authors": [
+    {
+      "name": "Jaeyeong Kim",
+      "url": "https://kjae0.github.io/",
+      "affiliation": 1
+    },
+    {
+      "name": "Jinhyuk Jang",
+      "url": "https://jinhyukj.github.io/",
+      "affiliation": 1
+    },
+    {
+      "name": "Jongmin Lee",
+      "url": "https://icetea-cv.github.io/",
+      "affiliation": 1
+    },
+    {
+      "name": "Kyehong Park",
+      "url": "#overview",
+      "affiliation": 1
+    },
+    {
+      "name": "Seungryong Kim",
+      "url": "https://cvlab.kaist.ac.kr/members",
+      "affiliation": 1,
+      "corresponding": true
+    }
+  ],
+  "affiliations": {
+    "1": "KAIST AI"
+  },
+  "abstract": "Tetris3D reconstructs a scene by generating each object in relation to its neighbors. Surrounding geometry and physical relationships guide both shape and pose, helping recover the parts hidden by contact and occlusion. Objects are generated in a physical dependency order, so previously generated surfaces become context for the next object.",
+  "links": {
+    "paper": null,
+    "code": null,
+    "supplementary": null,
+    "arxiv": null
+  },
+  "methodFigure": null,
+  "methodCaption": "",
+  "citationPending": true,
+  "bibtex": "@misc{kim2026tetris3d,\n  title  = {Tetris3D: 3D Scene Generation with\n            Objects That Fit Together},\n  author = {Kim, Jaeyeong and Jang, Jinhyuk and Lee, Jongmin\n            and Park, Kyehong and Kim, Seungryong},\n  year   = {2026},\n  archivePrefix = {arXiv},\n  note   = {Preprint; arXiv identifier to be added}\n}",
+  "finalExamples": {
+    "demos": [],
+    "toys": []
+  },
+  "video": {
+    "src": null,
+    "poster": null
+  },
+  "simulation": {
+    "srcTemplate": null,
+    "overrides": {},
+    "playbackRate": 2,
+    "extraMethods": [
+      {
+        "id": "worldsculpt",
+        "label": "WorldSculpt"
+      }
+    ],
+    "initialStates": {}
+  },
+  "logo": null,
+  "venue": "arXiv 2026"
+}
