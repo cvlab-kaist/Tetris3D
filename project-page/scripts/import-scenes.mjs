@@ -53,10 +53,11 @@ if (options.list) {
   const validationPaths = new Set(Object.values(simulation.overrides).flatMap((methods) => Object.values(methods).filter(Boolean).map((entry) => entry.ready)).filter(Boolean).map((reference) => reference.split(/[?#]/)[0]));
   const hostedConfig = hostedAssetConfig();
   const hostedReferences = new Map();
-  if (!externalBase) for (const scene of Object.values(selected).flat()) {
+  if (!externalBase) for (const [collection, scenes] of Object.entries(selected)) for (const scene of scenes) {
     for (const method of scene.methods || []) {
-      if (hostedConfig.methods.includes(method.id)) for (const key of ['model', 'modelLight']) {
-        if (method[key]?.startsWith('assets/')) hostedReferences.set(method[key], method.id);
+      const hostCollection = hostedConfig.meshCollections?.includes(collection);
+      if (hostCollection || hostedConfig.methods.includes(method.id)) for (const key of ['model', 'modelLight']) {
+        if (method[key]?.startsWith('assets/')) hostedReferences.set(method[key], hostCollection ? `${collection}/${scene.id}` : method.id);
       }
     }
   }
@@ -64,6 +65,7 @@ if (options.list) {
   const files = publicFiles(publicRoot);
   const copies = [];
   const rewritten = new Map();
+  const relocatedFiles = new Set();
   for (const reference of references) {
     const source = assetPath(sourceRoot, reference);
     if (!fs.existsSync(source) || !fs.statSync(source).isFile()) throw new Error(`Missing source asset: ${reference}`);
@@ -80,6 +82,9 @@ if (options.list) {
     const gzipMesh = (options.gzipMeshes || hosted) && reference.endsWith('.glb');
     const name = gzipMesh ? `${reference}.gz` : reference;
     const destinationReference = hosted ? `${hostedReferences.get(reference)}/${path.basename(name)}` : name;
+    if (hosted) for (const oldPath of [reference, name]) {
+      if (files.delete(oldPath)) relocatedFiles.add(oldPath);
+    }
     let sourceSha256;
     if (gzipMesh) {
       const original = fs.readFileSync(source);
@@ -134,10 +139,16 @@ if (options.list) {
   content.simulation = rewrite(simulation);
   atomicWrite(path.join(publicRoot, 'preview-assets.json'), JSON.stringify(rewrite(selected), null, 2) + '\n');
   atomicWrite(contentPath, JSON.stringify(content, null, 2) + '\n');
+  // Hosted copies have been written and their metadata linked; remove duplicate
+  // public copies so the Pages build retains its existing size budget.
+  for (const reference of relocatedFiles) {
+    fs.unlinkSync(assetPath(publicRoot, reference));
+    records.delete(reference);
+  }
   provenance.updatedAt = new Date().toISOString();
   provenance.assets = [...records.values()];
   provenance.hostedAssets = [...hostedRecords.values()];
-  provenance.selection = { demos: selected.demos.map((scene) => scene.id), toys: selected.toys.map((scene) => scene.id), externalAssetBase: externalBase?.href || null, gzipMeshes: Boolean(options.gzipMeshes), hostedMethods: externalBase ? [] : hostedConfig.methods };
+  provenance.selection = { demos: selected.demos.map((scene) => scene.id), toys: selected.toys.map((scene) => scene.id), externalAssetBase: externalBase?.href || null, gzipMeshes: Boolean(options.gzipMeshes), hostedMethods: externalBase ? [] : hostedConfig.methods, hostedMeshCollections: externalBase ? [] : hostedConfig.meshCollections || [] };
   atomicWrite(provenancePath, JSON.stringify(provenance, null, 2) + '\n');
   console.log(JSON.stringify({ imported: provenance.selection, copiedFiles: copies.length, validation: checkAssets() }, null, 2));
 }

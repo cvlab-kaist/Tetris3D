@@ -1,5 +1,3071 @@
 {
-  "demos": [],
+  "demos": [
+    {
+      "id": "cinema2",
+      "title": "Cinema",
+      "group": "Demo scenes",
+      "objects": [
+        "film_box",
+        "camera_riser",
+        "movie_camera",
+        "projector",
+        "recorder",
+        "notepad",
+        "flashlight"
+      ],
+      "objectLabels": {
+        "film_box": "Open Film Storage Box",
+        "camera_riser": "Padded Wooden Camera Riser",
+        "movie_camera": "8Mm Movie Camera",
+        "projector": "8Mm Projector",
+        "recorder": "Cassette Recorder",
+        "notepad": "Paper Notepad",
+        "flashlight": "Red Flashlight"
+      },
+      "image": "assets/gallery/selected16/cinema2/input.webp",
+      "thumbnail": "assets/gallery/selected16/cinema2/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/ours-a67a2af9f4f8-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/ours-a67a2af9f4f8-200k.glb.gz",
+          "faces": 6781646,
+          "lightFaces": 1399998,
+          "bytes": 59785707,
+          "lightBytes": 12201266,
+          "objects": [
+            "context_support_plane",
+            "film_box",
+            "camera_riser",
+            "movie_camera",
+            "projector",
+            "recorder",
+            "notepad",
+            "flashlight"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/sam3d-658db53a3780-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/sam3d-658db53a3780-200k.glb.gz",
+          "faces": 4626064,
+          "lightFaces": 1400000,
+          "bytes": 41283818,
+          "lightBytes": 13365048,
+          "objects": [
+            "film_box",
+            "camera_riser",
+            "movie_camera",
+            "projector",
+            "recorder",
+            "notepad",
+            "flashlight"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/shaper-8813831f28e6-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/shaper-8813831f28e6-200k.glb.gz",
+          "faces": 874999,
+          "lightFaces": 874999,
+          "bytes": 9334292,
+          "lightBytes": 9344369,
+          "objects": [
+            "film_box",
+            "camera_riser",
+            "movie_camera",
+            "projector",
+            "recorder",
+            "notepad",
+            "flashlight"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/midi-0c52520b8bf1-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/midi-0c52520b8bf1-200k.glb.gz",
+          "faces": 3024192,
+          "lightFaces": 1400000,
+          "bytes": 19698866,
+          "lightBytes": 12471816,
+          "objects": [
+            "film_box",
+            "camera_riser",
+            "movie_camera",
+            "projector",
+            "recorder",
+            "notepad",
+            "flashlight"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.571836531162262,
+              -0.48046207427978516,
+              -0.9575895667076111
+            ],
+            [
+              0.7914878726005554,
+              0.2769811153411865,
+              0.6726531386375427
+            ]
+          ],
+          "cameraDirection": [
+            -0.6091487055899533,
+            0.6030716037258955,
+            0.5150169854068511
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/gt-8a4bcf24c2fa-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/gt-8a4bcf24c2fa-200k.glb.gz",
+          "faces": 86819,
+          "lightFaces": 86819,
+          "bytes": 695138,
+          "lightBytes": 701869,
+          "objects": [
+            "context_support_plane",
+            "film_box",
+            "movie_camera",
+            "projector",
+            "recorder",
+            "notepad",
+            "flashlight",
+            "camera_riser"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/ours-a67a2af9f4f8-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/cinema2/gt-8a4bcf24c2fa-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.3497302234172821,
+          0,
+          -0.2561393976211548
+        ],
+        [
+          0.29540008306503296,
+          0.32683348655700684,
+          0.26404955983161926
+        ]
+      ],
+      "cameraDirection": [
+        0.3088903303643481,
+        0.6030716037258955,
+        0.7354531967344219
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/cinema2/all.png",
+        "objects": {
+          "film_box": "assets/gallery/demos/segmentation/cinema2/film_box.png",
+          "camera_riser": "assets/gallery/demos/segmentation/cinema2/camera_riser.png",
+          "movie_camera": "assets/gallery/demos/segmentation/cinema2/movie_camera.png",
+          "projector": "assets/gallery/demos/segmentation/cinema2/projector.png",
+          "recorder": "assets/gallery/demos/segmentation/cinema2/recorder.png",
+          "notepad": "assets/gallery/demos/segmentation/cinema2/notepad.png",
+          "flashlight": "assets/gallery/demos/segmentation/cinema2/flashlight.png"
+        }
+      },
+      "subtitle": "7 objects",
+      "fitObjects": [
+        "film_box",
+        "camera_riser",
+        "movie_camera",
+        "projector",
+        "recorder",
+        "notepad",
+        "flashlight"
+      ]
+    },
+    {
+      "id": "keepsakes_unique",
+      "title": "Keepsakes",
+      "group": "Demo scenes",
+      "objects": [
+        "chest",
+        "vase",
+        "elephant",
+        "photograph",
+        "candlestick",
+        "watch"
+      ],
+      "objectLabels": {
+        "chest": "Open Wooden Keepsake Chest",
+        "vase": "Blue And White Ceramic Vase",
+        "elephant": "Carved Elephant",
+        "photograph": "Framed Photograph",
+        "candlestick": "Brass Candlestick",
+        "watch": "Pocket Watch"
+      },
+      "image": "assets/gallery/selected16/keepsakes_unique/input.webp",
+      "thumbnail": "assets/gallery/selected16/keepsakes_unique/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/ours-c4fa7ed11285-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/ours-c4fa7ed11285-200k.glb.gz",
+          "faces": 5803818,
+          "lightFaces": 1200002,
+          "bytes": 51848164,
+          "lightBytes": 10954210,
+          "objects": [
+            "context_support_plane",
+            "chest",
+            "vase",
+            "elephant",
+            "photograph",
+            "candlestick",
+            "watch"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/sam3d-d69dbfcd8c48-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/sam3d-d69dbfcd8c48-200k.glb.gz",
+          "faces": 3749650,
+          "lightFaces": 1113516,
+          "bytes": 33568297,
+          "lightBytes": 10573834,
+          "objects": [
+            "chest",
+            "vase",
+            "elephant",
+            "photograph",
+            "candlestick",
+            "watch"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/shaper-f4e86c415326-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/shaper-f4e86c415326-200k.glb.gz",
+          "faces": 721910,
+          "lightFaces": 721910,
+          "bytes": 7616708,
+          "lightBytes": 7623968,
+          "objects": [
+            "chest",
+            "vase",
+            "elephant",
+            "photograph",
+            "candlestick",
+            "watch"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/midi-d6062e64fac8-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/midi-d6062e64fac8-200k.glb.gz",
+          "faces": 3189434,
+          "lightFaces": 1200000,
+          "bytes": 21176283,
+          "lightBytes": 10464636,
+          "objects": [
+            "chest",
+            "vase",
+            "elephant",
+            "photograph",
+            "candlestick",
+            "watch"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9513871669769287,
+              -0.6421194672584534,
+              -0.8249379396438599
+            ],
+            [
+              0.7649167776107788,
+              0.49805814027786255,
+              0.5496212244033813
+            ]
+          ],
+          "cameraDirection": [
+            0.41618669015993026,
+            0.6233508069507617,
+            0.661983693460463
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/gt-c30fbb184772-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/gt-c30fbb184772-200k.glb.gz",
+          "faces": 87613,
+          "lightFaces": 87613,
+          "bytes": 772927,
+          "lightBytes": 773864,
+          "objects": [
+            "context_support_plane",
+            "chest",
+            "vase",
+            "elephant",
+            "photograph",
+            "candlestick",
+            "watch"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/ours-c4fa7ed11285-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/keepsakes_unique/gt-c30fbb184772-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.23499999940395355,
+          0,
+          -0.13984185457229614
+        ],
+        [
+          0.2160971611738205,
+          0.2800000011920929,
+          0.15486334264278412
+        ]
+      ],
+      "cameraDirection": [
+        0.2713409523210271,
+        0.6233508069507617,
+        0.7333538430166928
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/keepsakes_unique/all.png",
+        "objects": {
+          "chest": "assets/gallery/demos/segmentation/keepsakes_unique/chest.png",
+          "vase": "assets/gallery/demos/segmentation/keepsakes_unique/vase.png",
+          "elephant": "assets/gallery/demos/segmentation/keepsakes_unique/elephant.png",
+          "photograph": "assets/gallery/demos/segmentation/keepsakes_unique/photograph.png",
+          "candlestick": "assets/gallery/demos/segmentation/keepsakes_unique/candlestick.png",
+          "watch": "assets/gallery/demos/segmentation/keepsakes_unique/watch.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "chest",
+        "vase",
+        "elephant",
+        "photograph",
+        "candlestick",
+        "watch"
+      ]
+    },
+    {
+      "id": "stone_cairn_and_vase",
+      "title": "Stone Cairn",
+      "group": "Demo scenes",
+      "objects": [
+        "upholstered_ottoman",
+        "flat_grey_stone",
+        "speckled_round_stone",
+        "small_pale_stone",
+        "empty_terracotta_pot",
+        "dry_branch"
+      ],
+      "objectLabels": {
+        "upholstered_ottoman": "Upholstered Ottoman",
+        "flat_grey_stone": "Flat Grey Stone",
+        "speckled_round_stone": "Speckled Round Stone",
+        "small_pale_stone": "Small Pale Stone",
+        "empty_terracotta_pot": "Empty Terracotta Pot",
+        "dry_branch": "Dry Branch"
+      },
+      "image": "assets/gallery/selected16/stone_cairn_and_vase/input.webp",
+      "thumbnail": "assets/gallery/selected16/stone_cairn_and_vase/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/ours-e18ffd04fc85-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/ours-e18ffd04fc85-200k.glb.gz",
+          "faces": 5539638,
+          "lightFaces": 1200002,
+          "bytes": 49668227,
+          "lightBytes": 10968964,
+          "objects": [
+            "context_support_plane",
+            "upholstered_ottoman",
+            "flat_grey_stone",
+            "speckled_round_stone",
+            "small_pale_stone",
+            "empty_terracotta_pot",
+            "dry_branch"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/sam3d-84003f6d13f8-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/sam3d-84003f6d13f8-200k.glb.gz",
+          "faces": 4389836,
+          "lightFaces": 1096168,
+          "bytes": 40049626,
+          "lightBytes": 10645271,
+          "objects": [
+            "upholstered_ottoman",
+            "flat_grey_stone",
+            "speckled_round_stone",
+            "small_pale_stone",
+            "empty_terracotta_pot",
+            "dry_branch"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/shaper-7629808d4e63-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/shaper-7629808d4e63-200k.glb.gz",
+          "faces": 689966,
+          "lightFaces": 689966,
+          "bytes": 7284003,
+          "lightBytes": 7265256,
+          "objects": [
+            "upholstered_ottoman",
+            "flat_grey_stone",
+            "speckled_round_stone",
+            "small_pale_stone",
+            "empty_terracotta_pot",
+            "dry_branch"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/midi-55af5670d1c0-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/midi-55af5670d1c0-200k.glb.gz",
+          "faces": 2214682,
+          "lightFaces": 1128262,
+          "bytes": 14957990,
+          "lightBytes": 9938699,
+          "objects": [
+            "upholstered_ottoman",
+            "flat_grey_stone",
+            "speckled_round_stone",
+            "small_pale_stone",
+            "empty_terracotta_pot",
+            "dry_branch"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.7327899932861328,
+              -0.716189444065094,
+              -0.9526081085205078
+            ],
+            [
+              0.7029510140419006,
+              0.7004119753837585,
+              0.3287505805492401
+            ]
+          ],
+          "cameraDirection": [
+            -0.2613914850072654,
+            0.5182228808249344,
+            0.8143215196439314
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/gt-f176af87315d-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/gt-f176af87315d-200k.glb.gz",
+          "faces": 103760,
+          "lightFaces": 103760,
+          "bytes": 1032018,
+          "lightBytes": 1027685,
+          "objects": [
+            "context_support_plane",
+            "upholstered_ottoman",
+            "flat_grey_stone",
+            "speckled_round_stone",
+            "small_pale_stone",
+            "empty_terracotta_pot",
+            "dry_branch"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/ours-e18ffd04fc85-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/stone_cairn_and_vase/gt-f176af87315d-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.2763875722885132,
+          0,
+          -0.18128249049186707
+        ],
+        [
+          0.31313127279281616,
+          0.5765789747238159,
+          0.1415890008211136
+        ]
+      ],
+      "cameraDirection": [
+        0.27530588651212784,
+        0.5182228808249344,
+        0.8097232333589529
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/stone_cairn_and_vase/all.png",
+        "objects": {
+          "upholstered_ottoman": "assets/gallery/demos/segmentation/stone_cairn_and_vase/upholstered_ottoman.png",
+          "flat_grey_stone": "assets/gallery/demos/segmentation/stone_cairn_and_vase/flat_grey_stone.png",
+          "speckled_round_stone": "assets/gallery/demos/segmentation/stone_cairn_and_vase/speckled_round_stone.png",
+          "small_pale_stone": "assets/gallery/demos/segmentation/stone_cairn_and_vase/small_pale_stone.png",
+          "empty_terracotta_pot": "assets/gallery/demos/segmentation/stone_cairn_and_vase/empty_terracotta_pot.png",
+          "dry_branch": "assets/gallery/demos/segmentation/stone_cairn_and_vase/dry_branch.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "upholstered_ottoman",
+        "flat_grey_stone",
+        "speckled_round_stone",
+        "small_pale_stone",
+        "empty_terracotta_pot",
+        "dry_branch"
+      ]
+    },
+    {
+      "id": "shelf_and_pencils_no_green",
+      "title": "Shelf and Pencils",
+      "group": "Demo scenes",
+      "objects": [
+        "open_topped_wooden_bookshelf",
+        "dark_green_shelved_book",
+        "oxblood_shelved_book",
+        "ochre_shelved_book",
+        "navy_shelved_book_leaning",
+        "stoneware_pencil_cup",
+        "red_pencil"
+      ],
+      "objectLabels": {
+        "open_topped_wooden_bookshelf": "Open Topped Wooden Bookshelf",
+        "dark_green_shelved_book": "Dark Green Shelved Book",
+        "oxblood_shelved_book": "Oxblood Shelved Book",
+        "ochre_shelved_book": "Ochre Shelved Book",
+        "navy_shelved_book_leaning": "Navy Shelved Book Leaning",
+        "stoneware_pencil_cup": "Stoneware Pencil Cup",
+        "red_pencil": "Red Pencil"
+      },
+      "image": "assets/gallery/selected16/shelf_and_pencils_no_green/input.webp",
+      "thumbnail": "assets/gallery/selected16/shelf_and_pencils_no_green/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/ours-0fa2ae88e07c-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/ours-0fa2ae88e07c-200k.glb.gz",
+          "faces": 6468094,
+          "lightFaces": 1400002,
+          "bytes": 57198255,
+          "lightBytes": 12220800,
+          "objects": [
+            "context_support_plane",
+            "open_topped_wooden_bookshelf",
+            "dark_green_shelved_book",
+            "oxblood_shelved_book",
+            "ochre_shelved_book",
+            "navy_shelved_book_leaning",
+            "stoneware_pencil_cup",
+            "red_pencil"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/sam3d-98c5edd27714-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/sam3d-98c5edd27714-200k.glb.gz",
+          "faces": 7169548,
+          "lightFaces": 1287432,
+          "bytes": 62293848,
+          "lightBytes": 12346863,
+          "objects": [
+            "open_topped_wooden_bookshelf",
+            "dark_green_shelved_book",
+            "oxblood_shelved_book",
+            "ochre_shelved_book",
+            "navy_shelved_book_leaning",
+            "stoneware_pencil_cup",
+            "red_pencil"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/shaper-bbd5ab7fd9a0-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/shaper-bbd5ab7fd9a0-200k.glb.gz",
+          "faces": 858787,
+          "lightFaces": 858787,
+          "bytes": 9096725,
+          "lightBytes": 9117442,
+          "objects": [
+            "open_topped_wooden_bookshelf",
+            "dark_green_shelved_book",
+            "oxblood_shelved_book",
+            "ochre_shelved_book",
+            "navy_shelved_book_leaning",
+            "stoneware_pencil_cup",
+            "red_pencil"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/midi-10e48ebb8553-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/midi-10e48ebb8553-200k.glb.gz",
+          "faces": 7008520,
+          "lightFaces": 1399999,
+          "bytes": 45541486,
+          "lightBytes": 13377291,
+          "objects": [
+            "open_topped_wooden_bookshelf",
+            "dark_green_shelved_book",
+            "oxblood_shelved_book",
+            "ochre_shelved_book",
+            "navy_shelved_book_leaning",
+            "stoneware_pencil_cup",
+            "red_pencil"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.955422043800354,
+              -0.5660549402236938,
+              -0.5596359372138977
+            ],
+            [
+              0.7371611595153809,
+              0.5624828338623047,
+              0.4636133313179016
+            ]
+          ],
+          "cameraDirection": [
+            0.31061006767248334,
+            0.44011976595569596,
+            0.8425057729627723
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/gt-dd5e8a74ef57-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/gt-dd5e8a74ef57-200k.glb.gz",
+          "faces": 51212,
+          "lightFaces": 51212,
+          "bytes": 331995,
+          "lightBytes": 329886,
+          "objects": [
+            "context_support_plane",
+            "open_topped_wooden_bookshelf",
+            "dark_green_shelved_book",
+            "oxblood_shelved_book",
+            "ochre_shelved_book",
+            "navy_shelved_book_leaning",
+            "stoneware_pencil_cup",
+            "red_pencil"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/ours-0fa2ae88e07c-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/shelf_and_pencils_no_green/gt-dd5e8a74ef57-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.19749999046325684,
+          0,
+          -0.14499999582767487
+        ],
+        [
+          0.1481161266565323,
+          0.2150000035762787,
+          0.02500000223517418
+        ]
+      ],
+      "cameraDirection": [
+        0.2998808322556193,
+        0.44011976595569596,
+        0.846384119688443
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/all.png",
+        "objects": {
+          "open_topped_wooden_bookshelf": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/open_topped_wooden_bookshelf.png",
+          "dark_green_shelved_book": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/dark_green_shelved_book.png",
+          "oxblood_shelved_book": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/oxblood_shelved_book.png",
+          "ochre_shelved_book": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/ochre_shelved_book.png",
+          "navy_shelved_book_leaning": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/navy_shelved_book_leaning.png",
+          "stoneware_pencil_cup": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/stoneware_pencil_cup.png",
+          "red_pencil": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/red_pencil.png"
+        }
+      },
+      "subtitle": "7 objects",
+      "fitObjects": [
+        "open_topped_wooden_bookshelf",
+        "dark_green_shelved_book",
+        "oxblood_shelved_book",
+        "ochre_shelved_book",
+        "navy_shelved_book_leaning",
+        "stoneware_pencil_cup",
+        "red_pencil"
+      ]
+    },
+    {
+      "id": "crates_and_tool_drum",
+      "title": "Tools and Crates",
+      "group": "Demo scenes",
+      "objects": [
+        "closed_wooden_crate",
+        "stacked_plastic_crate",
+        "small_wooden_box",
+        "wooden_box_lid",
+        "open_steel_drum",
+        "long_handled_sledgehammer",
+        "worn_pickaxe"
+      ],
+      "objectLabels": {
+        "closed_wooden_crate": "Closed Wooden Crate",
+        "stacked_plastic_crate": "Stacked Plastic Crate",
+        "small_wooden_box": "Small Wooden Box",
+        "wooden_box_lid": "Wooden Box Lid",
+        "open_steel_drum": "Open Steel Drum",
+        "long_handled_sledgehammer": "Long Handled Sledgehammer",
+        "worn_pickaxe": "Worn Pickaxe"
+      },
+      "image": "assets/gallery/selected16/crates_and_tool_drum/input.webp",
+      "thumbnail": "assets/gallery/selected16/crates_and_tool_drum/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/ours-7971f8dcccb1-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/ours-7971f8dcccb1-200k.glb.gz",
+          "faces": 6495094,
+          "lightFaces": 1400002,
+          "bytes": 59313999,
+          "lightBytes": 12205074,
+          "objects": [
+            "context_support_plane",
+            "closed_wooden_crate",
+            "stacked_plastic_crate",
+            "small_wooden_box",
+            "wooden_box_lid",
+            "open_steel_drum",
+            "long_handled_sledgehammer",
+            "worn_pickaxe"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/sam3d-49c102f13892-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/sam3d-49c102f13892-200k.glb.gz",
+          "faces": 3841972,
+          "lightFaces": 1193280,
+          "bytes": 34258143,
+          "lightBytes": 11171851,
+          "objects": [
+            "closed_wooden_crate",
+            "stacked_plastic_crate",
+            "small_wooden_box",
+            "wooden_box_lid",
+            "open_steel_drum",
+            "long_handled_sledgehammer",
+            "worn_pickaxe"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/shaper-44f21aa60aa4-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/shaper-44f21aa60aa4-200k.glb.gz",
+          "faces": 875000,
+          "lightFaces": 875000,
+          "bytes": 9259204,
+          "lightBytes": 9265267,
+          "objects": [
+            "closed_wooden_crate",
+            "stacked_plastic_crate",
+            "small_wooden_box",
+            "wooden_box_lid",
+            "open_steel_drum",
+            "long_handled_sledgehammer",
+            "worn_pickaxe"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/midi-4d33e5aee36f-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/midi-4d33e5aee36f-200k.glb.gz",
+          "faces": 3482348,
+          "lightFaces": 1400000,
+          "bytes": 22831958,
+          "lightBytes": 12130369,
+          "objects": [
+            "closed_wooden_crate",
+            "stacked_plastic_crate",
+            "small_wooden_box",
+            "wooden_box_lid",
+            "open_steel_drum",
+            "long_handled_sledgehammer",
+            "worn_pickaxe"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9533271193504333,
+              -0.6041647791862488,
+              -0.7342507839202881
+            ],
+            [
+              0.7306137084960938,
+              0.49472761154174805,
+              0.340719610452652
+            ]
+          ],
+          "cameraDirection": [
+            0.34646205205433306,
+            0.5038818957499039,
+            0.7912440089010369
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/gt-2702daa57833-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/gt-2702daa57833-200k.glb.gz",
+          "faces": 75730,
+          "lightFaces": 75730,
+          "bytes": 720845,
+          "lightBytes": 727327,
+          "objects": [
+            "context_support_plane",
+            "closed_wooden_crate",
+            "stacked_plastic_crate",
+            "small_wooden_box",
+            "wooden_box_lid",
+            "open_steel_drum",
+            "long_handled_sledgehammer",
+            "worn_pickaxe"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/ours-7971f8dcccb1-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/crates_and_tool_drum/gt-2702daa57833-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.24251900613307953,
+          0,
+          -0.2096441239118576
+        ],
+        [
+          0.4994112253189087,
+          0.5809602737426758,
+          0.10242040455341339
+        ]
+      ],
+      "cameraDirection": [
+        0.2925765742333927,
+        0.5038818957499039,
+        0.8127127311328001
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/crates_and_tool_drum/all.png",
+        "objects": {
+          "closed_wooden_crate": "assets/gallery/demos/segmentation/crates_and_tool_drum/closed_wooden_crate.png",
+          "stacked_plastic_crate": "assets/gallery/demos/segmentation/crates_and_tool_drum/stacked_plastic_crate.png",
+          "small_wooden_box": "assets/gallery/demos/segmentation/crates_and_tool_drum/small_wooden_box.png",
+          "wooden_box_lid": "assets/gallery/demos/segmentation/crates_and_tool_drum/wooden_box_lid.png",
+          "open_steel_drum": "assets/gallery/demos/segmentation/crates_and_tool_drum/open_steel_drum.png",
+          "long_handled_sledgehammer": "assets/gallery/demos/segmentation/crates_and_tool_drum/long_handled_sledgehammer.png",
+          "worn_pickaxe": "assets/gallery/demos/segmentation/crates_and_tool_drum/worn_pickaxe.png"
+        }
+      },
+      "subtitle": "7 objects",
+      "fitObjects": [
+        "closed_wooden_crate",
+        "stacked_plastic_crate",
+        "small_wooden_box",
+        "wooden_box_lid",
+        "open_steel_drum",
+        "long_handled_sledgehammer",
+        "worn_pickaxe"
+      ]
+    },
+    {
+      "id": "picnic",
+      "title": "Picnic",
+      "group": "Demo scenes",
+      "objects": [
+        "table",
+        "cloth",
+        "basket",
+        "croissant",
+        "apple",
+        "thermos",
+        "journal"
+      ],
+      "objectLabels": {
+        "table": "Table",
+        "cloth": "Folded Linen Cloth",
+        "basket": "Wicker Basket",
+        "croissant": "Croissant",
+        "apple": "Apple",
+        "thermos": "Vintage Thermos",
+        "journal": "Leaning Travel Journal"
+      },
+      "image": "assets/gallery/selected16/picnic/input.webp",
+      "thumbnail": "assets/gallery/selected16/picnic/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/ours-5c9512ac602f-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/ours-5c9512ac602f-200k.glb.gz",
+          "faces": 6775724,
+          "lightFaces": 1399998,
+          "bytes": 60819177,
+          "lightBytes": 12599953,
+          "objects": [
+            "table",
+            "cloth",
+            "basket",
+            "croissant",
+            "apple",
+            "thermos",
+            "journal"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/sam3d-ed0e844bf6d7-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/sam3d-ed0e844bf6d7-200k.glb.gz",
+          "faces": 3701204,
+          "lightFaces": 1388068,
+          "bytes": 33541963,
+          "lightBytes": 12996203,
+          "objects": [
+            "table",
+            "cloth",
+            "basket",
+            "croissant",
+            "apple",
+            "thermos",
+            "journal"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/shaper-af87a31a8ec9-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/shaper-af87a31a8ec9-200k.glb.gz",
+          "faces": 875000,
+          "lightFaces": 875000,
+          "bytes": 9261609,
+          "lightBytes": 9274018,
+          "objects": [
+            "table",
+            "cloth",
+            "basket",
+            "croissant",
+            "apple",
+            "thermos",
+            "journal"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/midi-d1578984f9a6-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/midi-d1578984f9a6-200k.glb.gz",
+          "faces": 3020492,
+          "lightFaces": 1399999,
+          "bytes": 20271746,
+          "lightBytes": 12716506,
+          "objects": [
+            "table",
+            "cloth",
+            "basket",
+            "croissant",
+            "apple",
+            "thermos",
+            "journal"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9570562243461609,
+              -0.24925480782985687,
+              -0.9523719549179077
+            ],
+            [
+              0.9439219832420349,
+              0.23231631517410278,
+              0.9424706697463989
+            ]
+          ],
+          "cameraDirection": [
+            -0.7427880578188509,
+            0.4097947713726913,
+            0.529465906850766
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/gt-8291015016d0-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/gt-8291015016d0-200k.glb.gz",
+          "faces": 83658,
+          "lightFaces": 83658,
+          "bytes": 604475,
+          "lightBytes": 602400,
+          "objects": [
+            "table",
+            "cloth",
+            "basket",
+            "croissant",
+            "apple",
+            "thermos",
+            "journal"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/ours-5c9512ac602f-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/picnic/gt-8291015016d0-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.23000000417232513,
+          0,
+          -0.14499999582767487
+        ],
+        [
+          0.23000000417232513,
+          0.2310001701116562,
+          0.14499999582767487
+        ]
+      ],
+      "cameraDirection": [
+        0.5042470768110893,
+        0.4097947713726913,
+        0.7601336269913832
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/picnic/all.png",
+        "objects": {
+          "table": "assets/gallery/demos/segmentation/picnic/table.png",
+          "cloth": "assets/gallery/demos/segmentation/picnic/cloth.png",
+          "basket": "assets/gallery/demos/segmentation/picnic/basket.png",
+          "croissant": "assets/gallery/demos/segmentation/picnic/croissant.png",
+          "apple": "assets/gallery/demos/segmentation/picnic/apple.png",
+          "thermos": "assets/gallery/demos/segmentation/picnic/thermos.png",
+          "journal": "assets/gallery/demos/segmentation/picnic/journal.png"
+        }
+      },
+      "subtitle": "7 objects",
+      "fitObjects": [
+        "cloth",
+        "basket",
+        "croissant",
+        "apple",
+        "thermos",
+        "journal"
+      ]
+    },
+    {
+      "id": "woodshed_corner",
+      "title": "Woodshed",
+      "group": "Demo scenes",
+      "objects": [
+        "open_wooden_barrel",
+        "wooden_handled_axe",
+        "worn_machete",
+        "painted_wooden_bench",
+        "folded_cement_sack",
+        "small_oil_can",
+        "small_metal_tin"
+      ],
+      "objectLabels": {
+        "open_wooden_barrel": "Open Wooden Barrel",
+        "wooden_handled_axe": "Wooden Handled Axe",
+        "worn_machete": "Worn Machete",
+        "painted_wooden_bench": "Painted Wooden Bench",
+        "folded_cement_sack": "Folded Cement Sack",
+        "small_oil_can": "Small Oil Can",
+        "small_metal_tin": "Small Metal Tin"
+      },
+      "image": "assets/gallery/selected16/woodshed_corner/input.webp",
+      "thumbnail": "assets/gallery/selected16/woodshed_corner/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/ours-e3da62f47d98-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/ours-e3da62f47d98-200k.glb.gz",
+          "faces": 6356124,
+          "lightFaces": 1400002,
+          "bytes": 56176628,
+          "lightBytes": 12578495,
+          "objects": [
+            "context_support_plane",
+            "open_wooden_barrel",
+            "wooden_handled_axe",
+            "worn_machete",
+            "painted_wooden_bench",
+            "folded_cement_sack",
+            "small_oil_can",
+            "small_metal_tin"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/sam3d-fa12fcf6da7b-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/sam3d-fa12fcf6da7b-200k.glb.gz",
+          "faces": 4923068,
+          "lightFaces": 1165144,
+          "bytes": 43524950,
+          "lightBytes": 11064916,
+          "objects": [
+            "open_wooden_barrel",
+            "wooden_handled_axe",
+            "worn_machete",
+            "painted_wooden_bench",
+            "folded_cement_sack",
+            "small_oil_can",
+            "small_metal_tin"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/shaper-e3b93dc7adda-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/shaper-e3b93dc7adda-200k.glb.gz",
+          "faces": 854682,
+          "lightFaces": 854682,
+          "bytes": 8853277,
+          "lightBytes": 8866548,
+          "objects": [
+            "open_wooden_barrel",
+            "wooden_handled_axe",
+            "worn_machete",
+            "painted_wooden_bench",
+            "folded_cement_sack",
+            "small_oil_can",
+            "small_metal_tin"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/midi-3e976dc36e91-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/midi-3e976dc36e91-200k.glb.gz",
+          "faces": 3244806,
+          "lightFaces": 1355634,
+          "bytes": 21544262,
+          "lightBytes": 11663233,
+          "objects": [
+            "open_wooden_barrel",
+            "wooden_handled_axe",
+            "worn_machete",
+            "painted_wooden_bench",
+            "folded_cement_sack",
+            "small_oil_can",
+            "small_metal_tin"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9536076784133911,
+              -0.7364658117294312,
+              -0.9541075825691223
+            ],
+            [
+              0.8026116490364075,
+              0.5546379089355469,
+              0.3597232699394226
+            ]
+          ],
+          "cameraDirection": [
+            0.2859103432879016,
+            0.5299196892263052,
+            0.7983986463987084
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/gt-fe4680f9626f-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/gt-fe4680f9626f-200k.glb.gz",
+          "faces": 180592,
+          "lightFaces": 180592,
+          "bytes": 1737761,
+          "lightBytes": 1740137,
+          "objects": [
+            "context_support_plane",
+            "open_wooden_barrel",
+            "wooden_handled_axe",
+            "worn_machete",
+            "painted_wooden_bench",
+            "folded_cement_sack",
+            "small_oil_can",
+            "small_metal_tin"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/ours-e3da62f47d98-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/woodshed_corner/gt-fe4680f9626f-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.4546699523925781,
+          0,
+          -0.2075168937444687
+        ],
+        [
+          0.23475904762744904,
+          0.5540156364440918,
+          0.14028117060661316
+        ]
+      ],
+      "cameraDirection": [
+        0.27298893708586436,
+        0.5299196892263052,
+        0.802908564656665
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/woodshed_corner/all.png",
+        "objects": {
+          "open_wooden_barrel": "assets/gallery/demos/segmentation/woodshed_corner/open_wooden_barrel.png",
+          "wooden_handled_axe": "assets/gallery/demos/segmentation/woodshed_corner/wooden_handled_axe.png",
+          "worn_machete": "assets/gallery/demos/segmentation/woodshed_corner/worn_machete.png",
+          "painted_wooden_bench": "assets/gallery/demos/segmentation/woodshed_corner/painted_wooden_bench.png",
+          "folded_cement_sack": "assets/gallery/demos/segmentation/woodshed_corner/folded_cement_sack.png",
+          "small_oil_can": "assets/gallery/demos/segmentation/woodshed_corner/small_oil_can.png",
+          "small_metal_tin": "assets/gallery/demos/segmentation/woodshed_corner/small_metal_tin.png"
+        }
+      },
+      "subtitle": "7 objects",
+      "fitObjects": [
+        "open_wooden_barrel",
+        "wooden_handled_axe",
+        "worn_machete",
+        "painted_wooden_bench",
+        "folded_cement_sack",
+        "small_oil_can",
+        "small_metal_tin"
+      ]
+    },
+    {
+      "id": "book_stack",
+      "title": "Book Stack",
+      "group": "Demo scenes",
+      "objects": [
+        "dark_green_clothbound_book",
+        "oxblood_clothbound_book",
+        "ochre_clothbound_book",
+        "wooden_tray",
+        "ceramic_mug",
+        "slim_navy_notebook"
+      ],
+      "objectLabels": {
+        "dark_green_clothbound_book": "Dark Green Clothbound Book",
+        "oxblood_clothbound_book": "Oxblood Clothbound Book",
+        "ochre_clothbound_book": "Ochre Clothbound Book",
+        "wooden_tray": "Wooden Tray",
+        "ceramic_mug": "Ceramic Mug",
+        "slim_navy_notebook": "Slim Navy Notebook"
+      },
+      "image": "assets/gallery/selected16/book_stack/input.webp",
+      "thumbnail": "assets/gallery/selected16/book_stack/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/ours-537a4c7e027f-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/ours-537a4c7e027f-200k.glb.gz",
+          "faces": 5781208,
+          "lightFaces": 1200002,
+          "bytes": 53679227,
+          "lightBytes": 10689128,
+          "objects": [
+            "context_support_plane",
+            "dark_green_clothbound_book",
+            "oxblood_clothbound_book",
+            "ochre_clothbound_book",
+            "wooden_tray",
+            "ceramic_mug",
+            "slim_navy_notebook"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/sam3d-2664891da2e2-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/sam3d-2664891da2e2-200k.glb.gz",
+          "faces": 3896124,
+          "lightFaces": 1200000,
+          "bytes": 34562983,
+          "lightBytes": 11402580,
+          "objects": [
+            "dark_green_clothbound_book",
+            "oxblood_clothbound_book",
+            "ochre_clothbound_book",
+            "wooden_tray",
+            "ceramic_mug",
+            "slim_navy_notebook"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/shaper-1b9effa019b2-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/shaper-1b9effa019b2-200k.glb.gz",
+          "faces": 750000,
+          "lightFaces": 750000,
+          "bytes": 8112840,
+          "lightBytes": 8110178,
+          "objects": [
+            "dark_green_clothbound_book",
+            "oxblood_clothbound_book",
+            "ochre_clothbound_book",
+            "wooden_tray",
+            "ceramic_mug",
+            "slim_navy_notebook"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/midi-b12f42bb2bb5-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/midi-b12f42bb2bb5-200k.glb.gz",
+          "faces": 3528398,
+          "lightFaces": 1200000,
+          "bytes": 23313306,
+          "lightBytes": 11242835,
+          "objects": [
+            "dark_green_clothbound_book",
+            "oxblood_clothbound_book",
+            "ochre_clothbound_book",
+            "wooden_tray",
+            "ceramic_mug",
+            "slim_navy_notebook"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.570866584777832,
+              -0.3431606590747833,
+              -0.954271137714386
+            ],
+            [
+              0.5033312439918518,
+              0.2726888954639435,
+              0.9475309252738953
+            ]
+          ],
+          "cameraDirection": [
+            0.4900208196832274,
+            0.4741373175304526,
+            0.7314871156773749
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/gt-b76a5c96c94f-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/gt-b76a5c96c94f-200k.glb.gz",
+          "faces": 44200,
+          "lightFaces": 44200,
+          "bytes": 319791,
+          "lightBytes": 321310,
+          "objects": [
+            "context_support_plane",
+            "dark_green_clothbound_book",
+            "oxblood_clothbound_book",
+            "ochre_clothbound_book",
+            "wooden_tray",
+            "ceramic_mug",
+            "slim_navy_notebook"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/ours-537a4c7e027f-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/book_stack/gt-b76a5c96c94f-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.19797906279563904,
+          0,
+          -0.35002851486206055
+        ],
+        [
+          0.1496172696352005,
+          0.17855952680110931,
+          0.15827423334121704
+        ]
+      ],
+      "cameraDirection": [
+        0.3269912599031421,
+        0.4741373175304526,
+        0.817478146540923
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/book_stack/all.png",
+        "objects": {
+          "dark_green_clothbound_book": "assets/gallery/demos/segmentation/book_stack/dark_green_clothbound_book.png",
+          "oxblood_clothbound_book": "assets/gallery/demos/segmentation/book_stack/oxblood_clothbound_book.png",
+          "ochre_clothbound_book": "assets/gallery/demos/segmentation/book_stack/ochre_clothbound_book.png",
+          "wooden_tray": "assets/gallery/demos/segmentation/book_stack/wooden_tray.png",
+          "ceramic_mug": "assets/gallery/demos/segmentation/book_stack/ceramic_mug.png",
+          "slim_navy_notebook": "assets/gallery/demos/segmentation/book_stack/slim_navy_notebook.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "dark_green_clothbound_book",
+        "oxblood_clothbound_book",
+        "ochre_clothbound_book",
+        "wooden_tray",
+        "ceramic_mug",
+        "slim_navy_notebook"
+      ]
+    },
+    {
+      "id": "vegetables",
+      "title": "Vegetables",
+      "group": "Demo scenes",
+      "objects": [
+        "table",
+        "tray",
+        "casserole",
+        "onion",
+        "avocado",
+        "lid",
+        "cooking_spoon"
+      ],
+      "objectLabels": {
+        "table": "Table",
+        "tray": "Wooden Tray",
+        "casserole": "Enamel Casserole",
+        "onion": "Yellow Onion",
+        "avocado": "Avocado",
+        "lid": "Leaning Enamel Lid",
+        "cooking_spoon": "Wooden Cooking Spoon"
+      },
+      "image": "assets/gallery/selected16/vegetables/input.webp",
+      "thumbnail": "assets/gallery/selected16/vegetables/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/ours-c1d33a016683-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/ours-c1d33a016683-200k.glb.gz",
+          "faces": 6738288,
+          "lightFaces": 1400000,
+          "bytes": 60235494,
+          "lightBytes": 12467068,
+          "objects": [
+            "table",
+            "tray",
+            "casserole",
+            "onion",
+            "avocado",
+            "lid",
+            "cooking_spoon"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/sam3d-5a7ca31cb307-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/sam3d-5a7ca31cb307-200k.glb.gz",
+          "faces": 3043992,
+          "lightFaces": 1282584,
+          "bytes": 27627445,
+          "lightBytes": 12045591,
+          "objects": [
+            "table",
+            "tray",
+            "casserole",
+            "onion",
+            "avocado",
+            "lid",
+            "cooking_spoon"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/shaper-8e9c50bdc6d1-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/shaper-8e9c50bdc6d1-200k.glb.gz",
+          "faces": 871316,
+          "lightFaces": 871316,
+          "bytes": 9162915,
+          "lightBytes": 9185767,
+          "objects": [
+            "table",
+            "tray",
+            "casserole",
+            "onion",
+            "avocado",
+            "lid",
+            "cooking_spoon"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/midi-bf7e3daa68dc-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/midi-bf7e3daa68dc-200k.glb.gz",
+          "faces": 3552208,
+          "lightFaces": 1400000,
+          "bytes": 23586194,
+          "lightBytes": 12818667,
+          "objects": [
+            "table",
+            "tray",
+            "casserole",
+            "onion",
+            "avocado",
+            "lid",
+            "cooking_spoon"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9564124345779419,
+              -0.20463567972183228,
+              -0.9559917449951172
+            ],
+            [
+              0.9427787065505981,
+              0.1930721551179886,
+              0.9425383806228638
+            ]
+          ],
+          "cameraDirection": [
+            0.19557804177096377,
+            0.45367649452819525,
+            0.8694405487953982
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/gt-276f00ce632b-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/gt-276f00ce632b-200k.glb.gz",
+          "faces": 32307,
+          "lightFaces": 32307,
+          "bytes": 301742,
+          "lightBytes": 301791,
+          "objects": [
+            "table",
+            "tray",
+            "casserole",
+            "lid",
+            "onion",
+            "avocado",
+            "cooking_spoon"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/ours-c1d33a016683-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/vegetables/gt-276f00ce632b-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.19499999284744263,
+          0,
+          -0.14499999582767487
+        ],
+        [
+          0.19499999284744263,
+          0.16235867142677307,
+          0.14499999582767487
+        ]
+      ],
+      "cameraDirection": [
+        0.4854044679880331,
+        0.45367649452819525,
+        0.7473688117454882
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/vegetables/all.png",
+        "objects": {
+          "table": "assets/gallery/demos/segmentation/vegetables/table.png",
+          "tray": "assets/gallery/demos/segmentation/vegetables/tray.png",
+          "casserole": "assets/gallery/demos/segmentation/vegetables/casserole.png",
+          "onion": "assets/gallery/demos/segmentation/vegetables/onion.png",
+          "avocado": "assets/gallery/demos/segmentation/vegetables/avocado.png",
+          "lid": "assets/gallery/demos/segmentation/vegetables/lid.png",
+          "cooking_spoon": "assets/gallery/demos/segmentation/vegetables/cooking_spoon.png"
+        }
+      },
+      "subtitle": "7 objects",
+      "fitObjects": [
+        "tray",
+        "casserole",
+        "onion",
+        "avocado",
+        "lid",
+        "cooking_spoon"
+      ]
+    },
+    {
+      "id": "electronics_unique",
+      "title": "Electronics",
+      "group": "Demo scenes",
+      "objects": [
+        "tool_chest",
+        "laptop",
+        "circuit_board",
+        "screwdriver",
+        "pliers",
+        "multimeter"
+      ],
+      "objectLabels": {
+        "tool_chest": "Open Repair Tool Chest",
+        "laptop": "Vintage Laptop",
+        "circuit_board": "Circuit Board",
+        "screwdriver": "Slotted Screwdriver",
+        "pliers": "Pliers",
+        "multimeter": "Analog Multimeter"
+      },
+      "image": "assets/gallery/selected16/electronics_unique/input.webp",
+      "thumbnail": "assets/gallery/selected16/electronics_unique/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/ours-7d84bf6af89d-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/ours-7d84bf6af89d-200k.glb.gz",
+          "faces": 5303852,
+          "lightFaces": 1200000,
+          "bytes": 46878167,
+          "lightBytes": 10745503,
+          "objects": [
+            "context_support_plane",
+            "tool_chest",
+            "laptop",
+            "circuit_board",
+            "screwdriver",
+            "pliers",
+            "multimeter"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/sam3d-104c9facfd6d-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/sam3d-104c9facfd6d-200k.glb.gz",
+          "faces": 2935690,
+          "lightFaces": 1006938,
+          "bytes": 26467671,
+          "lightBytes": 9561339,
+          "objects": [
+            "tool_chest",
+            "laptop",
+            "circuit_board",
+            "screwdriver",
+            "pliers",
+            "multimeter"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/shaper-84ca581e3afb-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/shaper-84ca581e3afb-200k.glb.gz",
+          "faces": 750000,
+          "lightFaces": 750000,
+          "bytes": 7897825,
+          "lightBytes": 7875824,
+          "objects": [
+            "tool_chest",
+            "laptop",
+            "circuit_board",
+            "screwdriver",
+            "pliers",
+            "multimeter"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/midi-dc34c9761c91-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/midi-dc34c9761c91-200k.glb.gz",
+          "faces": 3060594,
+          "lightFaces": 1200000,
+          "bytes": 20535753,
+          "lightBytes": 11242045,
+          "objects": [
+            "tool_chest",
+            "laptop",
+            "circuit_board",
+            "screwdriver",
+            "pliers",
+            "multimeter"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9537045359611511,
+              -0.43754762411117554,
+              -0.5302011370658875
+            ],
+            [
+              0.7156200408935547,
+              0.4269822835922241,
+              0.22167329490184784
+            ]
+          ],
+          "cameraDirection": [
+            0.31008758097346106,
+            0.603055511355644,
+            0.7349624088003487
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/gt-396b66e061f5-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/gt-396b66e061f5-200k.glb.gz",
+          "faces": 50572,
+          "lightFaces": 50572,
+          "bytes": 440953,
+          "lightBytes": 437877,
+          "objects": [
+            "context_support_plane",
+            "tool_chest",
+            "laptop",
+            "circuit_board",
+            "screwdriver",
+            "pliers",
+            "multimeter"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/ours-7d84bf6af89d-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/electronics_unique/gt-396b66e061f5-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.33500000834465027,
+          0,
+          -0.12395830452442169
+        ],
+        [
+          0.38851770758628845,
+          0.3328659236431122,
+          0.18722836673259735
+        ]
+      ],
+      "cameraDirection": [
+        0.30888211248950626,
+        0.603055511355644,
+        0.7354698435745703
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/electronics_unique/all.png",
+        "objects": {
+          "tool_chest": "assets/gallery/demos/segmentation/electronics_unique/tool_chest.png",
+          "laptop": "assets/gallery/demos/segmentation/electronics_unique/laptop.png",
+          "circuit_board": "assets/gallery/demos/segmentation/electronics_unique/circuit_board.png",
+          "screwdriver": "assets/gallery/demos/segmentation/electronics_unique/screwdriver.png",
+          "pliers": "assets/gallery/demos/segmentation/electronics_unique/pliers.png",
+          "multimeter": "assets/gallery/demos/segmentation/electronics_unique/multimeter.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "tool_chest",
+        "laptop",
+        "circuit_board",
+        "screwdriver",
+        "pliers",
+        "multimeter"
+      ]
+    },
+    {
+      "id": "games_unique",
+      "title": "Chess Game",
+      "group": "Demo scenes",
+      "objects": [
+        "storage_tin",
+        "rook",
+        "pawn",
+        "console",
+        "clock",
+        "chessboard"
+      ],
+      "objectLabels": {
+        "storage_tin": "Open Metal Storage Tin",
+        "rook": "White Rook",
+        "pawn": "Black Pawn",
+        "console": "Game Console",
+        "clock": "Alarm Clock",
+        "chessboard": "Leaning Marble Chessboard"
+      },
+      "image": "assets/gallery/selected16/games_unique/input.webp",
+      "thumbnail": "assets/gallery/selected16/games_unique/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/ours-97a0f0c1dc94-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/ours-97a0f0c1dc94-200k.glb.gz",
+          "faces": 5694988,
+          "lightFaces": 1200000,
+          "bytes": 49538634,
+          "lightBytes": 10257623,
+          "objects": [
+            "context_support_plane",
+            "storage_tin",
+            "rook",
+            "pawn",
+            "console",
+            "clock",
+            "chessboard"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/sam3d-593cde540634-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/sam3d-593cde540634-200k.glb.gz",
+          "faces": 3781660,
+          "lightFaces": 1200000,
+          "bytes": 34304611,
+          "lightBytes": 11522855,
+          "objects": [
+            "storage_tin",
+            "rook",
+            "pawn",
+            "console",
+            "clock",
+            "chessboard"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/shaper-45f065e1fac5-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/shaper-45f065e1fac5-200k.glb.gz",
+          "faces": 750000,
+          "lightFaces": 750000,
+          "bytes": 7883664,
+          "lightBytes": 7872466,
+          "objects": [
+            "storage_tin",
+            "rook",
+            "pawn",
+            "console",
+            "clock",
+            "chessboard"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/midi-e403684e93af-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/midi-e403684e93af-200k.glb.gz",
+          "faces": 2250114,
+          "lightFaces": 1160668,
+          "bytes": 15079350,
+          "lightBytes": 9514917,
+          "objects": [
+            "storage_tin",
+            "rook",
+            "pawn",
+            "console",
+            "clock",
+            "chessboard"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.955362856388092,
+              -0.47038498520851135,
+              -0.8176802396774292
+            ],
+            [
+              0.6724463701248169,
+              0.3387516140937805,
+              0.9129219055175781
+            ]
+          ],
+          "cameraDirection": [
+            0.008807418230233705,
+            0.7016547312580789,
+            0.7124626779609378
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/gt-e4344725412a-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/gt-e4344725412a-200k.glb.gz",
+          "faces": 49477,
+          "lightFaces": 49477,
+          "bytes": 376058,
+          "lightBytes": 376599,
+          "objects": [
+            "context_support_plane",
+            "storage_tin",
+            "rook",
+            "pawn",
+            "console",
+            "clock",
+            "chessboard"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/ours-97a0f0c1dc94-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/games_unique/gt-e4344725412a-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.16499999165534973,
+          0,
+          -0.21427157521247864
+        ],
+        [
+          0.527494490146637,
+          0.2843896746635437,
+          0.14210838079452515
+        ]
+      ],
+      "cameraDirection": [
+        0.24724977535094053,
+        0.7016547312580789,
+        0.6682426106527947
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/games_unique/all.png",
+        "objects": {
+          "storage_tin": "assets/gallery/demos/segmentation/games_unique/storage_tin.png",
+          "rook": "assets/gallery/demos/segmentation/games_unique/rook.png",
+          "pawn": "assets/gallery/demos/segmentation/games_unique/pawn.png",
+          "console": "assets/gallery/demos/segmentation/games_unique/console.png",
+          "clock": "assets/gallery/demos/segmentation/games_unique/clock.png",
+          "chessboard": "assets/gallery/demos/segmentation/games_unique/chessboard.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "storage_tin",
+        "rook",
+        "pawn",
+        "console",
+        "clock",
+        "chessboard"
+      ]
+    },
+    {
+      "id": "garage",
+      "title": "Garage",
+      "group": "Demo scenes",
+      "objects": [
+        "tool_bin",
+        "propane_torch",
+        "pliers",
+        "oil_tin",
+        "flashlight",
+        "hacksaw"
+      ],
+      "objectLabels": {
+        "tool_bin": "Open Blue Tool Bin",
+        "propane_torch": "Unlit Propane Torch",
+        "pliers": "Groove Joint Pliers",
+        "oil_tin": "Oil Tin",
+        "flashlight": "Yellow Flashlight",
+        "hacksaw": "Rusted Hacksaw"
+      },
+      "image": "assets/gallery/selected16/garage/input.webp",
+      "thumbnail": "assets/gallery/selected16/garage/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/ours-6ea313cf50ff-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/ours-6ea313cf50ff-200k.glb.gz",
+          "faces": 5822048,
+          "lightFaces": 1200002,
+          "bytes": 50858251,
+          "lightBytes": 10412970,
+          "objects": [
+            "context_support_plane",
+            "tool_bin",
+            "propane_torch",
+            "pliers",
+            "oil_tin",
+            "flashlight",
+            "hacksaw"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/sam3d-f8d321ad95a5-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/sam3d-f8d321ad95a5-200k.glb.gz",
+          "faces": 2059120,
+          "lightFaces": 992940,
+          "bytes": 18056415,
+          "lightBytes": 9097212,
+          "objects": [
+            "tool_bin",
+            "propane_torch",
+            "pliers",
+            "oil_tin",
+            "flashlight",
+            "hacksaw"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/shaper-5a589d058838-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/shaper-5a589d058838-200k.glb.gz",
+          "faces": 688518,
+          "lightFaces": 688518,
+          "bytes": 6983138,
+          "lightBytes": 7040236,
+          "objects": [
+            "tool_bin",
+            "propane_torch",
+            "pliers",
+            "oil_tin",
+            "flashlight",
+            "hacksaw"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/midi-a0f4c8902c31-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/midi-a0f4c8902c31-200k.glb.gz",
+          "faces": 2544838,
+          "lightFaces": 1135588,
+          "bytes": 16807489,
+          "lightBytes": 9455671,
+          "objects": [
+            "tool_bin",
+            "propane_torch",
+            "pliers",
+            "oil_tin",
+            "flashlight",
+            "hacksaw"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.7794601917266846,
+              -0.604087233543396,
+              -0.9588245153427124
+            ],
+            [
+              0.7723549604415894,
+              0.6728037595748901,
+              0.9451358318328857
+            ]
+          ],
+          "cameraDirection": [
+            -0.5070691942500618,
+            0.8332622212991544,
+            0.22035177058102373
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/gt-af54d62ac834-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/gt-af54d62ac834-200k.glb.gz",
+          "faces": 32850,
+          "lightFaces": 32850,
+          "bytes": 291310,
+          "lightBytes": 292706,
+          "objects": [
+            "context_support_plane",
+            "tool_bin",
+            "propane_torch",
+            "pliers",
+            "oil_tin",
+            "flashlight",
+            "hacksaw"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/ours-6ea313cf50ff-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/garage/gt-af54d62ac834-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.2750000059604645,
+          0,
+          -0.2508520185947418
+        ],
+        [
+          0.2575641870498657,
+          0.3611803352832794,
+          0.16437813639640808
+        ]
+      ],
+      "cameraDirection": [
+        0.1666524395372176,
+        0.8332622212991544,
+        0.5271631957486155
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/garage/all.png",
+        "objects": {
+          "tool_bin": "assets/gallery/demos/segmentation/garage/tool_bin.png",
+          "propane_torch": "assets/gallery/demos/segmentation/garage/propane_torch.png",
+          "pliers": "assets/gallery/demos/segmentation/garage/pliers.png",
+          "oil_tin": "assets/gallery/demos/segmentation/garage/oil_tin.png",
+          "flashlight": "assets/gallery/demos/segmentation/garage/flashlight.png",
+          "hacksaw": "assets/gallery/demos/segmentation/garage/hacksaw.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "tool_bin",
+        "propane_torch",
+        "pliers",
+        "oil_tin",
+        "flashlight",
+        "hacksaw"
+      ]
+    },
+    {
+      "id": "ceramic_studio_no_handles",
+      "title": "Ceramic Studio",
+      "group": "Demo scenes",
+      "objects": [
+        "storage_pot",
+        "vase",
+        "branch",
+        "stool",
+        "sculpture",
+        "landscape"
+      ],
+      "objectLabels": {
+        "storage_pot": "Glazed Ceramic Storage Pot",
+        "vase": "White Ceramic Vase",
+        "branch": "Dry Decorative Branch",
+        "stool": "Low Wooden Display Stool",
+        "sculpture": "Bronze Ray Sculpture",
+        "landscape": "Framed Landscape"
+      },
+      "image": "assets/gallery/selected16/ceramic_studio_no_handles/input.webp",
+      "thumbnail": "assets/gallery/selected16/ceramic_studio_no_handles/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/ours-72a4511d3d51-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/ours-72a4511d3d51-200k.glb.gz",
+          "faces": 5815684,
+          "lightFaces": 1199998,
+          "bytes": 52021920,
+          "lightBytes": 10511325,
+          "objects": [
+            "context_support_plane",
+            "storage_pot",
+            "vase",
+            "branch",
+            "stool",
+            "sculpture",
+            "landscape"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/sam3d-e9bbead4fb36-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/sam3d-e9bbead4fb36-200k.glb.gz",
+          "faces": 3407674,
+          "lightFaces": 1036314,
+          "bytes": 31263370,
+          "lightBytes": 9991758,
+          "objects": [
+            "storage_pot",
+            "vase",
+            "branch",
+            "stool",
+            "sculpture",
+            "landscape"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/shaper-dffc3a0d5958-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/shaper-dffc3a0d5958-200k.glb.gz",
+          "faces": 657834,
+          "lightFaces": 657834,
+          "bytes": 6917858,
+          "lightBytes": 6943021,
+          "objects": [
+            "storage_pot",
+            "vase",
+            "branch",
+            "stool",
+            "sculpture",
+            "landscape"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/midi-bf61e643416c-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/midi-bf61e643416c-200k.glb.gz",
+          "faces": 2272948,
+          "lightFaces": 1200000,
+          "bytes": 15306956,
+          "lightBytes": 10213808,
+          "objects": [
+            "storage_pot",
+            "vase",
+            "branch",
+            "stool",
+            "sculpture",
+            "landscape"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9507983922958374,
+              -0.6119696497917175,
+              -0.8944938778877258
+            ],
+            [
+              0.8555673360824585,
+              0.4925292134284973,
+              0.36044397950172424
+            ]
+          ],
+          "cameraDirection": [
+            0.405567723639208,
+            0.66401109488176,
+            0.6281752043944724
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/gt-9c7897f25ab5-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/gt-9c7897f25ab5-200k.glb.gz",
+          "faces": 31368,
+          "lightFaces": 31368,
+          "bytes": 268205,
+          "lightBytes": 267406,
+          "objects": [
+            "context_support_plane",
+            "storage_pot",
+            "vase",
+            "branch",
+            "stool",
+            "sculpture",
+            "landscape"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/ours-72a4511d3d51-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/ceramic_studio_no_handles/gt-9c7897f25ab5-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.4779989719390869,
+          0,
+          -0.17968620359897614
+        ],
+        [
+          0.22360125184059143,
+          0.44303223490715027,
+          0.1735401302576065
+        ]
+      ],
+      "cameraDirection": [
+        0.265604412794761,
+        0.66401109488176,
+        0.698958912796651
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/all.png",
+        "objects": {
+          "storage_pot": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/storage_pot.png",
+          "vase": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/vase.png",
+          "branch": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/branch.png",
+          "stool": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/stool.png",
+          "sculpture": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/sculpture.png",
+          "landscape": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/landscape.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "storage_pot",
+        "vase",
+        "branch",
+        "stool",
+        "sculpture",
+        "landscape"
+      ]
+    },
+    {
+      "id": "music_unique_smaller_box",
+      "title": "Music",
+      "group": "Demo scenes",
+      "objects": [
+        "audio_box",
+        "radio",
+        "cassette_player",
+        "cassette",
+        "ukulele",
+        "spectacles"
+      ],
+      "objectLabels": {
+        "audio_box": "Open Wooden Audio Box",
+        "radio": "Worn Portable Radio",
+        "cassette_player": "Portable Cassette Player",
+        "cassette": "Audio Cassette",
+        "ukulele": "Wooden Ukulele",
+        "spectacles": "Round Spectacles"
+      },
+      "image": "assets/gallery/selected16/music_unique_smaller_box/input.webp",
+      "thumbnail": "assets/gallery/selected16/music_unique_smaller_box/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/ours-924b2e4bc052-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/ours-924b2e4bc052-200k.glb.gz",
+          "faces": 5330074,
+          "lightFaces": 1200002,
+          "bytes": 46100524,
+          "lightBytes": 10381075,
+          "objects": [
+            "context_support_plane",
+            "audio_box",
+            "radio",
+            "cassette_player",
+            "cassette",
+            "ukulele",
+            "spectacles"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/sam3d-002a3aace87c-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/sam3d-002a3aace87c-200k.glb.gz",
+          "faces": 2754766,
+          "lightFaces": 1031330,
+          "bytes": 24191124,
+          "lightBytes": 9602043,
+          "objects": [
+            "audio_box",
+            "radio",
+            "cassette_player",
+            "cassette",
+            "ukulele",
+            "spectacles"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/shaper-994b74628126-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/shaper-994b74628126-200k.glb.gz",
+          "faces": 750000,
+          "lightFaces": 750000,
+          "bytes": 7685331,
+          "lightBytes": 7749184,
+          "objects": [
+            "audio_box",
+            "radio",
+            "cassette_player",
+            "cassette",
+            "ukulele",
+            "spectacles"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/midi-2ad455cc402c-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/midi-2ad455cc402c-200k.glb.gz",
+          "faces": 2610022,
+          "lightFaces": 1019332,
+          "bytes": 17301076,
+          "lightBytes": 9042564,
+          "objects": [
+            "audio_box",
+            "radio",
+            "cassette_player",
+            "cassette",
+            "ukulele",
+            "spectacles"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.7797222137451172,
+              -0.6401433348655701,
+              -0.7249954342842102
+            ],
+            [
+              0.7223824858665466,
+              0.6141488552093506,
+              0.5099079608917236
+            ]
+          ],
+          "cameraDirection": [
+            0.4555232051221324,
+            0.6035963372929014,
+            0.6543470571507564
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/gt-9e255ac4371f-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/gt-9e255ac4371f-200k.glb.gz",
+          "faces": 50443,
+          "lightFaces": 50443,
+          "bytes": 428417,
+          "lightBytes": 432420,
+          "objects": [
+            "context_support_plane",
+            "audio_box",
+            "radio",
+            "cassette_player",
+            "cassette",
+            "ukulele",
+            "spectacles"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/ours-924b2e4bc052-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/music_unique_smaller_box/gt-9e255ac4371f-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.3017427623271942,
+          0,
+          -0.29027360677719116
+        ],
+        [
+          0.3149999678134918,
+          0.48632171750068665,
+          0.15062794089317322
+        ]
+      ],
+      "cameraDirection": [
+        0.3063304953273542,
+        0.6035963372929014,
+        0.7360931253850235
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/music_unique_smaller_box/all.png",
+        "objects": {
+          "audio_box": "assets/gallery/demos/segmentation/music_unique_smaller_box/audio_box.png",
+          "radio": "assets/gallery/demos/segmentation/music_unique_smaller_box/radio.png",
+          "cassette_player": "assets/gallery/demos/segmentation/music_unique_smaller_box/cassette_player.png",
+          "cassette": "assets/gallery/demos/segmentation/music_unique_smaller_box/cassette.png",
+          "ukulele": "assets/gallery/demos/segmentation/music_unique_smaller_box/ukulele.png",
+          "spectacles": "assets/gallery/demos/segmentation/music_unique_smaller_box/spectacles.png"
+        }
+      },
+      "subtitle": "6 objects",
+      "fitObjects": [
+        "audio_box",
+        "radio",
+        "cassette_player",
+        "cassette",
+        "ukulele",
+        "spectacles"
+      ]
+    },
+    {
+      "id": "bowl_and_bottle",
+      "title": "Bowl and Bottle",
+      "group": "Demo scenes",
+      "objects": [
+        "wide_stoneware_bowl",
+        "polished_stone_ball",
+        "amber_glazed_bottle",
+        "slate_tile"
+      ],
+      "objectLabels": {
+        "wide_stoneware_bowl": "Wide Stoneware Bowl",
+        "polished_stone_ball": "Polished Stone Ball",
+        "amber_glazed_bottle": "Amber Glazed Bottle",
+        "slate_tile": "Slate Tile"
+      },
+      "image": "assets/gallery/selected16/bowl_and_bottle/input.webp",
+      "thumbnail": "assets/gallery/selected16/bowl_and_bottle/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/ours-755a63f6f204-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/ours-755a63f6f204-200k.glb.gz",
+          "faces": 3857942,
+          "lightFaces": 800000,
+          "bytes": 43378362,
+          "lightBytes": 7358076,
+          "objects": [
+            "context_support_plane",
+            "wide_stoneware_bowl",
+            "polished_stone_ball",
+            "amber_glazed_bottle",
+            "slate_tile"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/sam3d-fca50ffe0479-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/sam3d-fca50ffe0479-200k.glb.gz",
+          "faces": 2681352,
+          "lightFaces": 800000,
+          "bytes": 28617980,
+          "lightBytes": 7522890,
+          "objects": [
+            "wide_stoneware_bowl",
+            "polished_stone_ball",
+            "amber_glazed_bottle",
+            "slate_tile"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/shaper-ae7a22481596-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/shaper-ae7a22481596-200k.glb.gz",
+          "faces": 500000,
+          "lightFaces": 500000,
+          "bytes": 6577609,
+          "lightBytes": 5239629,
+          "objects": [
+            "wide_stoneware_bowl",
+            "polished_stone_ball",
+            "amber_glazed_bottle",
+            "slate_tile"
+          ],
+          "frame": "world",
+          "hiddenObjects": []
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/midi-4be644f2ce14-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/midi-4be644f2ce14-200k.glb.gz",
+          "faces": 1867504,
+          "lightFaces": 800000,
+          "bytes": 14692978,
+          "lightBytes": 7256782,
+          "objects": [
+            "wide_stoneware_bowl",
+            "polished_stone_ball",
+            "amber_glazed_bottle",
+            "slate_tile"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.6465830206871033,
+              -0.5224859118461609,
+              -0.7030145525932312
+            ],
+            [
+              0.7232579588890076,
+              0.4627811014652252,
+              0.2860056161880493
+            ]
+          ],
+          "cameraDirection": [
+            -0.4826747526949712,
+            0.5269181732925058,
+            0.6995586621327314
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/gt-88a00fd8ec0d-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/gt-88a00fd8ec0d-200k.glb.gz",
+          "faces": 37424,
+          "lightFaces": 37424,
+          "bytes": 488268,
+          "lightBytes": 307688,
+          "objects": [
+            "context_support_plane",
+            "wide_stoneware_bowl",
+            "polished_stone_ball",
+            "amber_glazed_bottle",
+            "slate_tile"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "context_support_plane"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/ours-755a63f6f204-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/bowl_and_bottle/gt-88a00fd8ec0d-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.19441010057926178,
+          0,
+          -0.15520082414150238
+        ],
+        [
+          0.08044375479221344,
+          0.21697616577148438,
+          0.11066198348999023
+        ]
+      ],
+      "cameraDirection": [
+        0.30433620809836265,
+        0.5269181732925058,
+        0.7935595195663643
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/bowl_and_bottle/all.png",
+        "objects": {
+          "wide_stoneware_bowl": "assets/gallery/demos/segmentation/bowl_and_bottle/wide_stoneware_bowl.png",
+          "polished_stone_ball": "assets/gallery/demos/segmentation/bowl_and_bottle/polished_stone_ball.png",
+          "amber_glazed_bottle": "assets/gallery/demos/segmentation/bowl_and_bottle/amber_glazed_bottle.png",
+          "slate_tile": "assets/gallery/demos/segmentation/bowl_and_bottle/slate_tile.png"
+        }
+      },
+      "subtitle": "4 objects",
+      "fitObjects": [
+        "wide_stoneware_bowl",
+        "polished_stone_ball",
+        "amber_glazed_bottle",
+        "slate_tile"
+      ]
+    },
+    {
+      "id": "letters_mug",
+      "title": "Letters",
+      "group": "Demo scenes",
+      "objects": [
+        "table",
+        "tray",
+        "notebook",
+        "stationery_box",
+        "pencil_cup",
+        "journal",
+        "envelope",
+        "pencil"
+      ],
+      "objectLabels": {
+        "table": "Table",
+        "tray": "Wooden Tray",
+        "notebook": "Burgundy Notebook",
+        "stationery_box": "Small Stationery Box",
+        "pencil_cup": "Brass Mug With Handle",
+        "journal": "Leaning Cream Journal",
+        "envelope": "Paper Envelope",
+        "pencil": "Green Pencil"
+      },
+      "image": "assets/gallery/selected16/letters_mug/input.webp",
+      "thumbnail": "assets/gallery/selected16/letters_mug/thumbnail.webp",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/ours-506575a99cb3-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/ours-506575a99cb3-200k.glb.gz",
+          "faces": 7117606,
+          "lightFaces": 1600000,
+          "bytes": 63240759,
+          "lightBytes": 14637521,
+          "objects": [
+            "table",
+            "tray",
+            "notebook",
+            "stationery_box",
+            "pencil_cup",
+            "journal",
+            "envelope",
+            "pencil"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/sam3d-1118a33fd00f-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/sam3d-1118a33fd00f-200k.glb.gz",
+          "faces": 3798494,
+          "lightFaces": 1485110,
+          "bytes": 33231728,
+          "lightBytes": 13601843,
+          "objects": [
+            "table",
+            "tray",
+            "notebook",
+            "stationery_box",
+            "pencil_cup",
+            "journal",
+            "envelope",
+            "pencil"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/shaper-b406ad5a4664-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/shaper-b406ad5a4664-200k.glb.gz",
+          "faces": 915028,
+          "lightFaces": 915028,
+          "bytes": 9691049,
+          "lightBytes": 9712571,
+          "objects": [
+            "table",
+            "tray",
+            "notebook",
+            "stationery_box",
+            "pencil_cup",
+            "journal",
+            "envelope",
+            "pencil"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        },
+        {
+          "id": "midi",
+          "label": "MIDI",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/midi-9a6c7c283ad3-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/midi-9a6c7c283ad3-200k.glb.gz",
+          "faces": 2814638,
+          "lightFaces": 1600000,
+          "bytes": 18420982,
+          "lightBytes": 13701889,
+          "objects": [
+            "table",
+            "tray",
+            "notebook",
+            "stationery_box",
+            "pencil_cup",
+            "journal",
+            "envelope",
+            "pencil"
+          ],
+          "frame": "midi-native",
+          "displayBounds": [
+            [
+              -0.9566205739974976,
+              -0.268445760011673,
+              -0.9562273025512695
+            ],
+            [
+              0.9429972171783447,
+              0.26272276043891907,
+              0.9427835941314697
+            ]
+          ],
+          "cameraDirection": [
+            -0.10368820520021815,
+            0.3816007561659056,
+            0.9184931240874725
+          ]
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/gt-dbe97734fd21-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/gt-dbe97734fd21-200k.glb.gz",
+          "faces": 49258,
+          "lightFaces": 49258,
+          "bytes": 389672,
+          "lightBytes": 391932,
+          "objects": [
+            "table",
+            "tray",
+            "notebook",
+            "pencil_cup",
+            "pencil",
+            "journal",
+            "envelope",
+            "stationery_box"
+          ],
+          "frame": "world",
+          "hiddenObjects": [
+            "table"
+          ]
+        }
+      ],
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/ours-506575a99cb3-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/demos/letters_mug/gt-dbe97734fd21-original.glb.gz",
+      "displayBounds": [
+        [
+          -0.20999999344348907,
+          0,
+          -0.12250000238418579
+        ],
+        [
+          0.20999999344348907,
+          0.2068810611963272,
+          0.12250000238418579
+        ]
+      ],
+      "cameraDirection": [
+        0.4884521026602267,
+        0.3816007561659056,
+        0.784726325734273
+      ],
+      "imageMasks": [],
+      "preview": false,
+      "segmentation": {
+        "src": "assets/gallery/demos/segmentation/letters_mug/all.png",
+        "objects": {
+          "table": "assets/gallery/demos/segmentation/letters_mug/table.png",
+          "tray": "assets/gallery/demos/segmentation/letters_mug/tray.png",
+          "notebook": "assets/gallery/demos/segmentation/letters_mug/notebook.png",
+          "stationery_box": "assets/gallery/demos/segmentation/letters_mug/stationery_box.png",
+          "pencil_cup": "assets/gallery/demos/segmentation/letters_mug/pencil_cup.png",
+          "journal": "assets/gallery/demos/segmentation/letters_mug/journal.png",
+          "envelope": "assets/gallery/demos/segmentation/letters_mug/envelope.png",
+          "pencil": "assets/gallery/demos/segmentation/letters_mug/pencil.png"
+        }
+      },
+      "subtitle": "8 objects",
+      "fitObjects": [
+        "tray",
+        "notebook",
+        "stationery_box",
+        "pencil_cup",
+        "journal",
+        "envelope",
+        "pencil"
+      ]
+    }
+  ],
   "toys": [
     {
       "id": "v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297",
@@ -27,8 +3093,8 @@
         -0.043208686820593256,
         -0.28189883009611394
       ],
-      "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -37,8 +3103,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-200k.glb.gz",
           "faces": 946686,
           "lightFaces": 200096,
           "bytes": 8523564,
@@ -116,8 +3182,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-200k.glb.gz",
           "faces": 4216,
           "lightFaces": 4216,
           "bytes": 42361,
@@ -170,8 +3236,8 @@
         0.29144254009337506,
         -0.9475769430833435
       ],
-      "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -180,8 +3246,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-200k.glb.gz",
           "faces": 979974,
           "lightFaces": 200096,
           "bytes": 8971047,
@@ -259,8 +3325,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-200k.glb.gz",
           "faces": 56098,
           "lightFaces": 56098,
           "bytes": 502730,
@@ -310,8 +3376,8 @@
         0.284153716759959,
         0.7484552331361426
       ],
-      "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -320,8 +3386,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-200k.glb.gz",
           "faces": 992632,
           "lightFaces": 200576,
           "bytes": 9071210,
@@ -399,8 +3465,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-200k.glb.gz",
           "faces": 992,
           "lightFaces": 992,
           "bytes": 9412,
@@ -453,8 +3519,8 @@
         0.1473349080150983,
         -0.7958201957538323
       ],
-      "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -463,8 +3529,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-200k.glb.gz",
           "faces": 961194,
           "lightFaces": 200060,
           "bytes": 8675926,
@@ -542,8 +3608,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-200k.glb.gz",
           "faces": 520,
           "lightFaces": 520,
           "bytes": 6640,
@@ -602,8 +3668,8 @@
         0.5460681974884545,
         0.19570924952700808
       ],
-      "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -612,8 +3678,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-200k.glb.gz",
           "faces": 963468,
           "lightFaces": 200600,
           "bytes": 8677163,
@@ -691,8 +3757,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-200k.glb.gz",
           "faces": 1104,
           "lightFaces": 1104,
           "bytes": 10624,
@@ -747,8 +3813,8 @@
         0.4629895965368655,
         0.7213230653729354
       ],
-      "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -757,8 +3823,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-200k.glb.gz",
           "faces": 998232,
           "lightFaces": 200576,
           "bytes": 9063254,
@@ -836,8 +3902,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-200k.glb.gz",
           "faces": 3052,
           "lightFaces": 3052,
           "bytes": 32521,
@@ -890,8 +3956,8 @@
         -0.07462328672997805,
         -0.3104785412773103
       ],
-      "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -900,8 +3966,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-200k.glb.gz",
           "faces": 998002,
           "lightFaces": 200576,
           "bytes": 9173685,
@@ -979,8 +4045,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-200k.glb.gz",
           "faces": 2431,
           "lightFaces": 2431,
           "bytes": 24613,
@@ -1033,8 +4099,8 @@
         0.8054702122202936,
         -0.4370115219535399
       ],
-      "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -1043,8 +4109,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-200k.glb.gz",
           "faces": 939362,
           "lightFaces": 200012,
           "bytes": 8509589,
@@ -1122,8 +4188,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-200k.glb.gz",
           "faces": 15298,
           "lightFaces": 15298,
           "bytes": 143448,
@@ -1176,8 +4242,8 @@
         0.445236027355312,
         -0.8183935678666189
       ],
-      "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -1186,8 +4252,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-200k.glb.gz",
           "faces": 956636,
           "lightFaces": 200080,
           "bytes": 8585192,
@@ -1265,8 +4331,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-200k.glb.gz",
           "faces": 200,
           "lightFaces": 200,
           "bytes": 3210,
@@ -1319,8 +4385,8 @@
         0.3270758627674326,
         -0.8148206183449683
       ],
-      "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -1329,8 +4395,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-200k.glb.gz",
           "faces": 996898,
           "lightFaces": 200576,
           "bytes": 9038564,
@@ -1408,8 +4474,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-200k.glb.gz",
           "faces": 14352,
           "lightFaces": 14352,
           "bytes": 144351,
@@ -1462,8 +4528,8 @@
         0.8434280683815885,
         0.45982550363914676
       ],
-      "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -1472,8 +4538,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-200k.glb.gz",
           "faces": 973924,
           "lightFaces": 200060,
           "bytes": 8696790,
@@ -1551,8 +4617,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-200k.glb.gz",
           "faces": 2272,
           "lightFaces": 2272,
           "bytes": 25314,
@@ -1605,8 +4671,8 @@
         0.19509368604743033,
         -0.023342269610290983
       ],
-      "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -1615,8 +4681,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-200k.glb.gz",
           "faces": 964078,
           "lightFaces": 200012,
           "bytes": 8689862,
@@ -1694,8 +4760,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-200k.glb.gz",
           "faces": 216,
           "lightFaces": 216,
           "bytes": 3866,
@@ -1757,8 +4823,8 @@
         0.8070060595827934,
         0.4555223630656051
       ],
-      "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -1767,8 +4833,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "ss208500-slat145k-1ba147f704",
-          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-200k.glb.gz",
           "faces": 962532,
           "lightFaces": 205376,
           "bytes": 8714569,
@@ -1846,8 +4912,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-200k.glb.gz",
           "faces": 5776,
           "lightFaces": 5776,
           "bytes": 35364,
@@ -1897,8 +4963,8 @@
         0.2772516546617234,
         -0.7960558196087079
       ],
-      "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -1907,8 +4973,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-200k.glb.gz",
           "faces": 998124,
           "lightFaces": 203648,
           "bytes": 8900580,
@@ -1986,8 +5052,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-200k.glb.gz",
           "faces": 4026,
           "lightFaces": 4026,
           "bytes": 24777,
@@ -2040,8 +5106,8 @@
         0.6289556728102048,
         -0.4345502324068791
       ],
-      "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -2050,8 +5116,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-200k.glb.gz",
           "faces": 954596,
           "lightFaces": 200060,
           "bytes": 8564594,
@@ -2129,8 +5195,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-200k.glb.gz",
           "faces": 69292,
           "lightFaces": 69292,
           "bytes": 721623,
@@ -2183,8 +5249,8 @@
         -0.1507164797594517,
         -0.5307381986227102
       ],
-      "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -2193,8 +5259,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-200k.glb.gz",
           "faces": 973586,
           "lightFaces": 200192,
           "bytes": 8857542,
@@ -2272,8 +5338,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-200k.glb.gz",
           "faces": 2836,
           "lightFaces": 2836,
           "bytes": 28065,
@@ -2326,8 +5392,8 @@
         -0.09933912347052527,
         -0.6258111915797988
       ],
-      "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -2336,8 +5402,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-200k.glb.gz",
           "faces": 964596,
           "lightFaces": 200012,
           "bytes": 8730641,
@@ -2415,8 +5481,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-200k.glb.gz",
           "faces": 1912,
           "lightFaces": 1912,
           "bytes": 21878,
@@ -2469,8 +5535,8 @@
         -0.03995167246107695,
         -0.6128587020503176
       ],
-      "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -2479,8 +5545,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-200k.glb.gz",
           "faces": 998074,
           "lightFaces": 200012,
           "bytes": 8882943,
@@ -2558,8 +5624,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-200k.glb.gz",
           "faces": 12820,
           "lightFaces": 12820,
           "bytes": 111863,
@@ -2612,8 +5678,8 @@
         0.1801416225189858,
         0.7823562186559752
       ],
-      "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -2622,8 +5688,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-200k.glb.gz",
           "faces": 998002,
           "lightFaces": 203648,
           "bytes": 8942550,
@@ -2701,8 +5767,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-200k.glb.gz",
           "faces": 4078,
           "lightFaces": 4078,
           "bytes": 23538,
@@ -2755,8 +5821,8 @@
         0.45162045115838373,
         0.08117698956525646
       ],
-      "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -2765,8 +5831,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-200k.glb.gz",
           "faces": 999094,
           "lightFaces": 200096,
           "bytes": 8878429,
@@ -2844,8 +5910,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-200k.glb.gz",
           "faces": 378,
           "lightFaces": 378,
           "bytes": 5372,
@@ -2904,8 +5970,8 @@
         -0.07457950598451618,
         -0.6412577661950294
       ],
-      "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -2914,8 +5980,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-200k.glb.gz",
           "faces": 985806,
           "lightFaces": 213248,
           "bytes": 8832112,
@@ -2993,8 +6059,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-200k.glb.gz",
           "faces": 17872,
           "lightFaces": 17872,
           "bytes": 92397,
@@ -3052,8 +6118,8 @@
         -0.056584665219827454,
         0.5839320902917191
       ],
-      "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -3062,8 +6128,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-200k.glb.gz",
           "faces": 987084,
           "lightFaces": 200024,
           "bytes": 8561097,
@@ -3141,8 +6207,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-200k.glb.gz",
           "faces": 11692,
           "lightFaces": 11692,
           "bytes": 111376,
@@ -3196,8 +6262,8 @@
         0.5379813738343838,
         -0.8409562851383298
       ],
-      "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -3206,8 +6272,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-200k.glb.gz",
           "faces": 967814,
           "lightFaces": 200012,
           "bytes": 8633447,
@@ -3285,8 +6351,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-200k.glb.gz",
           "faces": 1612,
           "lightFaces": 1612,
           "bytes": 20432,
@@ -3348,8 +6414,8 @@
         0.587193542618659,
         0.6954542317073777
       ],
-      "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-original.glb.gz",
-      "reference": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-original.glb.gz",
+      "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-original.glb.gz",
+      "reference": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-original.glb.gz",
       "methods": [
         {
           "id": "ours",
@@ -3358,8 +6424,8 @@
           "frame": "world",
           "note": "GT depth · GT relations",
           "assetRevision": "contain-fixed",
-          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/ours/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-200k.glb.gz",
           "faces": 994286,
           "lightFaces": 204896,
           "bytes": 9054374,
@@ -3437,8 +6503,8 @@
           "description": "GT target and the same reference primitive.",
           "frame": "world",
           "note": "Reference geometry",
-          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-original.glb.gz",
-          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-200k.glb.gz",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/gt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-200k.glb.gz",
           "faces": 5164,
           "lightFaces": 5164,
           "bytes": 31086,

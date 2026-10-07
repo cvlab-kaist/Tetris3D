@@ -2,7 +2,7 @@
 
 ## 현재 공개 자산
 
-Tetris3D 로고, T 블록 favicon, Paper PDF, Method 그림과 Qualitative Comparisons 24개 장면을 포함합니다. Paper는 제공받은 `Tetris3D_v1.pdf`를 `assets/paper/tetris3d-paper.pdf`로 그대로 복사하며, 링크의 `v` 값에는 파일 해시를 넣어 이전 PDF 캐시를 피합니다. Method 그림은 개발본의 `assets/paper/method.webp`와 캡션을 그대로 사용합니다. 비교 장면에는 입력 이미지·GT·사용 가능한 baseline mesh·Initial state·시뮬레이션이 들어 있습니다. 대표 영상·포스터·실사 비교 이미지는 연결하지 않으며 Demo 목록은 비어 있습니다.
+Tetris3D 로고, T 블록 favicon, Paper PDF, Method 그림, V13 대표 영상, 선정 Demo 16개와 Qualitative Comparisons 24개를 포함합니다. Paper는 `Tetris3D_v1.pdf`를 그대로 복사하며 링크에 해시를 넣어 이전 캐시를 피합니다. 비교 장면에는 입력 이미지·GT·baseline mesh·Initial state·시뮬레이션이 들어 있습니다. 실사 비교는 잠시 숨기며 해당 자산은 공개하지 않습니다.
 
 원본 mesh와 경량 mesh 모두 gzip 무손실 압축으로 저장합니다. 좌표·geometry·장면 순서는 변경하지 않으며, 경량 mesh를 복원한 바이트의 SHA-256은 원본과 일치합니다. 각 파일의 출처와 해시는 `scripts/asset-provenance.json`에 기록합니다.
 
@@ -33,7 +33,7 @@ WorldSculpt도 24개 장면 모두 원본·경량 3D 보기를 제공합니다. 
 
 ## 실사 이미지 비교
 
-`public/content.json`의 `realWorldComparisons` 네 항목에 장면별 `title`과 비교 결과 `image`를 지정합니다. `thumbnail`과 `alt`는 선택 사항입니다. 예: `{ "title": "Scene 1", "image": "assets/real-world/scene-1.webp" }`. 현재 네 이미지 경로는 `null`입니다.
+`public/content.json`의 `realWorldComparisonsEnabled`는 현재 `false`입니다. 복원할 때 `realWorldComparisons`에 장면별 `title`과 비교 결과 `image`를 지정합니다. `thumbnail`과 `alt`는 선택 사항입니다. 예: `{ "title": "Scene 1", "image": "assets/real-world/scene-1.webp" }`.
 
 Qualitative Comparisons 아래에서 네 썸네일 중 선택한 장면만 선명하게 표시하고, 아래 큰 패널에 전체 비교 이미지를 비율대로 보여줍니다. 좌우 화살표 키로 장면을 선택하고, 큰 이미지를 클릭하면 기존 확대 창을 엽니다. 입력·방법별 결과가 함께 담긴 비교 이미지를 장면마다 하나씩 연결하면 됩니다.
 
@@ -46,8 +46,8 @@ npm run import:scenes -- --from /path/to/current/project-page --list
 npm run import:scenes -- --from /path/to/current/project-page \
   --demos music_unique \
   --toys v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297
-# 현재 공개 범위: Qualitative Comparisons 24개, 경량 GLB도 무손실 압축
-npm run import:scenes -- --from /path/to/current/project-page --toys all --gzip-meshes
+# 현재 공개 범위: Demo 16개와 Qualitative Comparisons 24개
+npm run import:scenes -- --from /path/to/current/project-page --demos all --toys all --gzip-meshes
 npm run build
 ```
 
@@ -57,11 +57,11 @@ ID는 쉼표로 여러 개를 지정하거나 `all`로 해당 컬렉션 전체�
 
 `--gzip-meshes`는 아직 압축되지 않은 `.glb`를 `.glb.gz`로 저장하고 경로와 다운로드 크기를 갱신합니다. 이미 압축된 원본 mesh는 그대로 복사합니다. 압축을 해제하면 바이트까지 동일하며, 별도의 단순화·재정렬·좌표 변환은 하지 않습니다. 외부 호스트 모드와 함께 사용하지 않습니다.
 
-`scripts/hosted-asset-config.json`의 방법은 자동으로 `project-page/hosted-assets/<method>/`에 저장합니다. 현재 WorldSculpt 48개 파일(24개 원본·경량 쌍)을 `page-source`에 함께 커밋하고 GitHub의 raw URL로 제공합니다. `public/`에 중복 복사하지 않아 Pages 빌드 용량을 유지합니다. importer는 해당 mesh만 HTTPS 주소로 바꾸고, 출처·해시·URL은 `asset-provenance.json`의 `hostedAssets`에 기록합니다. `check:assets`는 커밋할 사본과 모든 연결의 해시·용량도 검사합니다. 실제 공개 전에 이 파일을 포함해 `page-source`를 push해야 합니다. 저장소나 브랜치 이름을 바꾸면 설정의 `baseUrl`도 갱신한 뒤 다시 가져오세요.
+`scripts/hosted-asset-config.json`의 `methods`는 Tetris3D·GT·WorldSculpt를 `hosted-assets/<method>/`에, `meshCollections`는 모든 Demo 모델을 `hosted-assets/demos/<scene>/`에 저장합니다. `page-source`에 함께 커밋하고 GitHub raw URL로 제공합니다. importer는 실제 파일을 복사한 뒤 중복 public mesh를 제거하여 Pages 용량을 유지합니다. 출처·해시·URL은 `asset-provenance.json`의 `hostedAssets`에 기록하고 `check:assets`로 검증합니다. 원본 버퍼·pose는 변경하지 않습니다. 저장소나 브랜치 이름을 바꾸면 설정의 `baseUrl`도 갱신한 뒤 다시 가져오세요.
 
 ## 큰 자산의 외부 호스팅
 
-전체 개발 자산은 GitHub Pages 용량을 초과합니다. [Pages 사이트 제한은 1 GB](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)이며 Git LFS로 사이트 용량 제한을 해결할 수는 없습니다. 검사는 총 공개 자산에 950 MB, 개별 파일에 95 MB의 한도를 사용합니다. 현재 Qualitative Comparisons·로고·Method 그림·Paper PDF는 약 939 MB이며, 번들 및 추가 파일을 위한 여유를 남깁니다.
+전체 개발 자산은 GitHub Pages 용량을 초과합니다. [Pages 사이트 제한은 1 GB](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)이며 Git LFS로 사이트 용량 제한을 해결할 수는 없습니다. 검사는 Pages 자산에 950 MB, 개별 파일에 95 MB의 한도를 사용합니다. 대용량 mesh는 위 raw URL로 분리하고 대표 MP4는 Pages에 두어 구간 이동을 지원합니다.
 
 별도 정적 호스트에 `assets/` 디렉터리 구조를 유지해 올렸다면 다음처럼 연결할 수 있습니다. 주소는 실제 업로드가 끝난 호스트로 지정합니다.
 

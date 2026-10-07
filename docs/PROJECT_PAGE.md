@@ -12,9 +12,9 @@
 
 T2Mo와 같은 중앙 정렬 README에 Tetris3D 제목, 기존 저자 링크, KAIST AI, `arXiv 2026`을 표시합니다. 프로젝트 페이지에는 Tetris3D 로고, T 블록 favicon, Paper PDF, Method 그림과 Qualitative Comparisons 24개 장면을 공개합니다. 입력 이미지·GT·baseline·Initial state·비교용 시뮬레이션을 모두 포함합니다.
 
-대표 영상과 실사 비교는 작업 중이므로 연결하지 않습니다. `video.src`, `video.poster`는 `null`이며 Demo 목록은 비어 있습니다. Paper 버튼과 README는 최신 `Tetris3D_v1.pdf` 사본인 `assets/paper/tetris3d-paper.pdf`를 연결하며, Arxiv는 SOON으로 표시합니다. `methodFigure`에는 개발본과 같은 `assets/paper/method.webp`를 연결합니다. `preview-assets.json`에 Qualitative Comparisons 24개를 저장하고, `content.json`에서 로고와 비교용 simulation 경로를 지정합니다. 원본 geometry는 보존하고 경량 mesh 파일에도 gzip 무손실 압축을 적용해 전체 공개 자산을 약 939 MB로 유지합니다.
+대표 영상은 V13(1080p, 약 2분 15초)이며 음소거 자동 재생과 전체 시간 표시를 지원합니다. 선정 Demo 16개를 Cinema부터 Music까지 지정한 순서로 배치하고 Bowl and Bottle, Letters를 마지막에 유지합니다. Paper 버튼과 README는 최신 `Tetris3D_v1.pdf` 사본을 연결하며, Arxiv는 SOON으로 표시합니다. 실사 비교는 `realWorldComparisonsEnabled: false`로 잠시 숨깁니다.
 
-WorldSculpt의 24개 원본·경량 mesh는 `project-page/hosted-assets/worldsculpt/`에 함께 커밋하며 같은 저장소의 raw URL에서 불러옵니다. 이 파일들은 Pages 빌드에 중복 포함하지 않습니다. 다른 비교 방법과 카메라·객체 선택·확대 조작을 공유합니다. 호스팅 설정과 가져오기 방법은 [ASSETS.md](ASSETS.md)를 참고하세요.
+Demo 전체와 Qualitative Comparisons의 Tetris3D·GT·WorldSculpt 원본/경량 mesh는 `project-page/hosted-assets/`에 커밋하고 같은 저장소의 raw URL에서 불러옵니다. 이 파일들은 Pages 빌드에 중복 포함하지 않습니다. 영상·이미지·나머지 비교 자산은 Pages에서 제공합니다. 호스팅 설정과 가져오기 방법은 [ASSETS.md](ASSETS.md)를 참고하세요.
 
 ## 로컬 실행
 
@@ -44,9 +44,11 @@ CHROMIUM_PATH=/path/to/chrome npm run test:browser
 
 ## 개발본과 공개본 동기화
 
-페이지를 수정할 때는 실제 자산이 연결된 개발본과 이 저장소의 `project-page/`에 같은 UI 코드·표시 설정을 적용하고, 두 미리보기를 검증한 뒤 GitHub에도 반영합니다. 공개 자산은 로고, Paper PDF, Method 그림과 Qualitative Comparisons로 한정하며, 작업 중인 대표 영상·실사 비교와 Demo는 요청을 받은 뒤 추가합니다.
+페이지를 수정할 때는 실제 자산이 연결된 개발본과 이 저장소의 `project-page/`에 같은 UI 코드·표시 설정을 적용하고, 두 미리보기를 검증한 뒤 GitHub에도 반영합니다. 2026-10-08 사용자 승인으로 선정 Demo 16개와 V13 대표 영상도 공개합니다. 실사 비교 자산은 포함하지 않습니다.
 
 Qualitative Comparisons의 표시 순서와 이름은 `public/content.json`의 `qualitativeOrder`에서 scene ID별로 관리합니다. 지정되지 않은 장면은 원래 순서로 뒤에 표시됩니다. 같은 이름의 객체는 별도 ID로 구분합니다.
+
+Demo는 같은 파일의 `demoOrder`를 사용합니다. 기본 표시는 Object colors이며 GT·Tetris3D·SAM-3D·ShapeR의 table/support floor를 숨깁니다. MIDI mesh는 native 좌표를 유지하고 장면별 객체 배치에서 추정한 시작 카메라 방향을 적용합니다. 해당 설정과 원본 보존 기록은 `scripts/selected-demo16-provenance.json`에 있습니다.
 
 ## 커밋과 푸시
 

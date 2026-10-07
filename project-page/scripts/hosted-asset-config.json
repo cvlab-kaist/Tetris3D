@@ -1,4 +1,5 @@
 {
   "baseUrl": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/",
-  "methods": ["worldsculpt"]
+  "methods": ["worldsculpt", "gt", "ours"],
+  "meshCollections": ["demos"]
 }

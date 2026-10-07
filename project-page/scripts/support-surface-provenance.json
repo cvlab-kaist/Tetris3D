@@ -1,0 +1,531 @@
+{
+  "createdAt": "2026-10-07T23:06:53.141392+00:00",
+  "policy": "Hide table and context_support_plane in GT, Ours, SAM-3D and ShapeR across full-scene, per-object, original/light and expanded views. No source or mesh buffers changed. MIDI full-scene camera fitting ignores the table while its geometry remains visible.",
+  "entries": [
+    {
+      "scene": "music_unique_smaller_box",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/music_unique_smaller_box/ours-924b2e4bc052-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/music_unique_smaller_box/ours-924b2e4bc052-200k.glb.gz"
+    },
+    {
+      "scene": "music_unique_smaller_box",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/music_unique_smaller_box/sam3d-002a3aace87c-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/music_unique_smaller_box/sam3d-002a3aace87c-200k.glb.gz"
+    },
+    {
+      "scene": "music_unique_smaller_box",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/music_unique_smaller_box/shaper-994b74628126-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/music_unique_smaller_box/shaper-994b74628126-200k.glb.gz"
+    },
+    {
+      "scene": "music_unique_smaller_box",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/music_unique_smaller_box/gt-9e255ac4371f-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/music_unique_smaller_box/gt-9e255ac4371f-200k.glb.gz"
+    },
+    {
+      "scene": "vegetables",
+      "method": "ours",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/vegetables/ours-c1d33a016683-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/vegetables/ours-c1d33a016683-200k.glb.gz"
+    },
+    {
+      "scene": "vegetables",
+      "method": "sam3d",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/vegetables/sam3d-5a7ca31cb307-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/vegetables/sam3d-5a7ca31cb307-200k.glb.gz"
+    },
+    {
+      "scene": "vegetables",
+      "method": "shaper",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/vegetables/shaper-8e9c50bdc6d1-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/vegetables/shaper-8e9c50bdc6d1-200k.glb.gz"
+    },
+    {
+      "scene": "vegetables",
+      "method": "gt",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/vegetables/gt-276f00ce632b-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/vegetables/gt-276f00ce632b-200k.glb.gz"
+    },
+    {
+      "scene": "cinema2",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/cinema2/ours-a67a2af9f4f8-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/cinema2/ours-a67a2af9f4f8-200k.glb.gz"
+    },
+    {
+      "scene": "cinema2",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/cinema2/sam3d-658db53a3780-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/cinema2/sam3d-658db53a3780-200k.glb.gz"
+    },
+    {
+      "scene": "cinema2",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/cinema2/shaper-8813831f28e6-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/cinema2/shaper-8813831f28e6-200k.glb.gz"
+    },
+    {
+      "scene": "cinema2",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/cinema2/gt-8a4bcf24c2fa-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/cinema2/gt-8a4bcf24c2fa-200k.glb.gz"
+    },
+    {
+      "scene": "garage",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/garage/ours-6ea313cf50ff-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/garage/ours-6ea313cf50ff-200k.glb.gz"
+    },
+    {
+      "scene": "garage",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/garage/sam3d-f8d321ad95a5-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/garage/sam3d-f8d321ad95a5-200k.glb.gz"
+    },
+    {
+      "scene": "garage",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/garage/shaper-5a589d058838-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/garage/shaper-5a589d058838-200k.glb.gz"
+    },
+    {
+      "scene": "garage",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/garage/gt-af54d62ac834-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/garage/gt-af54d62ac834-200k.glb.gz"
+    },
+    {
+      "scene": "keepsakes_unique",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/keepsakes_unique/ours-c4fa7ed11285-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/keepsakes_unique/ours-c4fa7ed11285-200k.glb.gz"
+    },
+    {
+      "scene": "keepsakes_unique",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/keepsakes_unique/sam3d-d69dbfcd8c48-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/keepsakes_unique/sam3d-d69dbfcd8c48-200k.glb.gz"
+    },
+    {
+      "scene": "keepsakes_unique",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/keepsakes_unique/shaper-f4e86c415326-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/keepsakes_unique/shaper-f4e86c415326-200k.glb.gz"
+    },
+    {
+      "scene": "keepsakes_unique",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/keepsakes_unique/gt-c30fbb184772-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/keepsakes_unique/gt-c30fbb184772-200k.glb.gz"
+    },
+    {
+      "scene": "book_stack",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/book_stack/ours-537a4c7e027f-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/book_stack/ours-537a4c7e027f-200k.glb.gz"
+    },
+    {
+      "scene": "book_stack",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/book_stack/sam3d-2664891da2e2-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/book_stack/sam3d-2664891da2e2-200k.glb.gz"
+    },
+    {
+      "scene": "book_stack",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/book_stack/shaper-1b9effa019b2-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/book_stack/shaper-1b9effa019b2-200k.glb.gz"
+    },
+    {
+      "scene": "book_stack",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/book_stack/gt-b76a5c96c94f-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/book_stack/gt-b76a5c96c94f-200k.glb.gz"
+    },
+    {
+      "scene": "stone_cairn_and_vase",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/stone_cairn_and_vase/ours-e18ffd04fc85-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/stone_cairn_and_vase/ours-e18ffd04fc85-200k.glb.gz"
+    },
+    {
+      "scene": "stone_cairn_and_vase",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/stone_cairn_and_vase/sam3d-84003f6d13f8-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/stone_cairn_and_vase/sam3d-84003f6d13f8-200k.glb.gz"
+    },
+    {
+      "scene": "stone_cairn_and_vase",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/stone_cairn_and_vase/shaper-7629808d4e63-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/stone_cairn_and_vase/shaper-7629808d4e63-200k.glb.gz"
+    },
+    {
+      "scene": "stone_cairn_and_vase",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/stone_cairn_and_vase/gt-f176af87315d-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/stone_cairn_and_vase/gt-f176af87315d-200k.glb.gz"
+    },
+    {
+      "scene": "shelf_and_pencils_no_green",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/shelf_and_pencils_no_green/ours-0fa2ae88e07c-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/shelf_and_pencils_no_green/ours-0fa2ae88e07c-200k.glb.gz"
+    },
+    {
+      "scene": "shelf_and_pencils_no_green",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/shelf_and_pencils_no_green/sam3d-98c5edd27714-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/shelf_and_pencils_no_green/sam3d-98c5edd27714-200k.glb.gz"
+    },
+    {
+      "scene": "shelf_and_pencils_no_green",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/shelf_and_pencils_no_green/shaper-bbd5ab7fd9a0-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/shelf_and_pencils_no_green/shaper-bbd5ab7fd9a0-200k.glb.gz"
+    },
+    {
+      "scene": "shelf_and_pencils_no_green",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/shelf_and_pencils_no_green/gt-dd5e8a74ef57-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/shelf_and_pencils_no_green/gt-dd5e8a74ef57-200k.glb.gz"
+    },
+    {
+      "scene": "picnic",
+      "method": "ours",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/picnic/ours-5c9512ac602f-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/picnic/ours-5c9512ac602f-200k.glb.gz"
+    },
+    {
+      "scene": "picnic",
+      "method": "sam3d",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/picnic/sam3d-ed0e844bf6d7-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/picnic/sam3d-ed0e844bf6d7-200k.glb.gz"
+    },
+    {
+      "scene": "picnic",
+      "method": "shaper",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/picnic/shaper-af87a31a8ec9-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/picnic/shaper-af87a31a8ec9-200k.glb.gz"
+    },
+    {
+      "scene": "picnic",
+      "method": "gt",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/picnic/gt-8291015016d0-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/picnic/gt-8291015016d0-200k.glb.gz"
+    },
+    {
+      "scene": "electronics_unique",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/electronics_unique/ours-7d84bf6af89d-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/electronics_unique/ours-7d84bf6af89d-200k.glb.gz"
+    },
+    {
+      "scene": "electronics_unique",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/electronics_unique/sam3d-104c9facfd6d-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/electronics_unique/sam3d-104c9facfd6d-200k.glb.gz"
+    },
+    {
+      "scene": "electronics_unique",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/electronics_unique/shaper-84ca581e3afb-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/electronics_unique/shaper-84ca581e3afb-200k.glb.gz"
+    },
+    {
+      "scene": "electronics_unique",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/electronics_unique/gt-396b66e061f5-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/electronics_unique/gt-396b66e061f5-200k.glb.gz"
+    },
+    {
+      "scene": "games_unique",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/games_unique/ours-97a0f0c1dc94-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/games_unique/ours-97a0f0c1dc94-200k.glb.gz"
+    },
+    {
+      "scene": "games_unique",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/games_unique/sam3d-593cde540634-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/games_unique/sam3d-593cde540634-200k.glb.gz"
+    },
+    {
+      "scene": "games_unique",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/games_unique/shaper-45f065e1fac5-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/games_unique/shaper-45f065e1fac5-200k.glb.gz"
+    },
+    {
+      "scene": "games_unique",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/games_unique/gt-e4344725412a-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/games_unique/gt-e4344725412a-200k.glb.gz"
+    },
+    {
+      "scene": "crates_and_tool_drum",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/crates_and_tool_drum/ours-7971f8dcccb1-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/crates_and_tool_drum/ours-7971f8dcccb1-200k.glb.gz"
+    },
+    {
+      "scene": "crates_and_tool_drum",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/crates_and_tool_drum/sam3d-49c102f13892-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/crates_and_tool_drum/sam3d-49c102f13892-200k.glb.gz"
+    },
+    {
+      "scene": "crates_and_tool_drum",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/crates_and_tool_drum/shaper-44f21aa60aa4-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/crates_and_tool_drum/shaper-44f21aa60aa4-200k.glb.gz"
+    },
+    {
+      "scene": "crates_and_tool_drum",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/crates_and_tool_drum/gt-2702daa57833-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/crates_and_tool_drum/gt-2702daa57833-200k.glb.gz"
+    },
+    {
+      "scene": "woodshed_corner",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/woodshed_corner/ours-e3da62f47d98-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/woodshed_corner/ours-e3da62f47d98-200k.glb.gz"
+    },
+    {
+      "scene": "woodshed_corner",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/woodshed_corner/sam3d-fa12fcf6da7b-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/woodshed_corner/sam3d-fa12fcf6da7b-200k.glb.gz"
+    },
+    {
+      "scene": "woodshed_corner",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/woodshed_corner/shaper-e3b93dc7adda-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/woodshed_corner/shaper-e3b93dc7adda-200k.glb.gz"
+    },
+    {
+      "scene": "woodshed_corner",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/woodshed_corner/gt-fe4680f9626f-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/woodshed_corner/gt-fe4680f9626f-200k.glb.gz"
+    },
+    {
+      "scene": "ceramic_studio_no_handles",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/ceramic_studio_no_handles/ours-72a4511d3d51-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/ceramic_studio_no_handles/ours-72a4511d3d51-200k.glb.gz"
+    },
+    {
+      "scene": "ceramic_studio_no_handles",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/ceramic_studio_no_handles/sam3d-e9bbead4fb36-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/ceramic_studio_no_handles/sam3d-e9bbead4fb36-200k.glb.gz"
+    },
+    {
+      "scene": "ceramic_studio_no_handles",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/ceramic_studio_no_handles/shaper-dffc3a0d5958-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/ceramic_studio_no_handles/shaper-dffc3a0d5958-200k.glb.gz"
+    },
+    {
+      "scene": "ceramic_studio_no_handles",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/ceramic_studio_no_handles/gt-9c7897f25ab5-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/ceramic_studio_no_handles/gt-9c7897f25ab5-200k.glb.gz"
+    },
+    {
+      "scene": "bowl_and_bottle",
+      "method": "ours",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/bowl_and_bottle/ours-755a63f6f204-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/bowl_and_bottle/ours-755a63f6f204-200k.glb.gz"
+    },
+    {
+      "scene": "bowl_and_bottle",
+      "method": "sam3d",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/bowl_and_bottle/sam3d-fca50ffe0479-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/bowl_and_bottle/sam3d-fca50ffe0479-200k.glb.gz"
+    },
+    {
+      "scene": "bowl_and_bottle",
+      "method": "shaper",
+      "hiddenObjects": [],
+      "model": "assets/gallery/selected16/bowl_and_bottle/shaper-ae7a22481596-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/bowl_and_bottle/shaper-ae7a22481596-200k.glb.gz"
+    },
+    {
+      "scene": "bowl_and_bottle",
+      "method": "gt",
+      "hiddenObjects": [
+        "context_support_plane"
+      ],
+      "model": "assets/gallery/selected16/bowl_and_bottle/gt-88a00fd8ec0d-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/bowl_and_bottle/gt-88a00fd8ec0d-200k.glb.gz"
+    },
+    {
+      "scene": "letters_mug",
+      "method": "ours",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/letters_mug/ours-506575a99cb3-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/letters_mug/ours-506575a99cb3-200k.glb.gz"
+    },
+    {
+      "scene": "letters_mug",
+      "method": "sam3d",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/letters_mug/sam3d-1118a33fd00f-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/letters_mug/sam3d-1118a33fd00f-200k.glb.gz"
+    },
+    {
+      "scene": "letters_mug",
+      "method": "shaper",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/letters_mug/shaper-b406ad5a4664-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/letters_mug/shaper-b406ad5a4664-200k.glb.gz"
+    },
+    {
+      "scene": "letters_mug",
+      "method": "gt",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/letters_mug/gt-dbe97734fd21-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/letters_mug/gt-dbe97734fd21-200k.glb.gz"
+    }
+  ],
+  "updatedAt": "2026-10-07T23:27:47.752439+00:00"
+}

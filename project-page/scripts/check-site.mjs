@@ -9,6 +9,7 @@ import { checkReferenceFixture } from './check-reference-toggle.mjs';
 import { checkRealWorld } from './check-real-world.mjs';
 import { checkWorldSculpt } from './check-worldsculpt.mjs';
 import { checkWorldSculptSimulation } from './check-worldsculpt-simulation.mjs';
+import { checkSelectedDemos } from './check-selected-demos.mjs';
 
 const dist = path.resolve(process.env.BUILD_DIR || path.join(pageRoot, 'dist'));
 assert(fs.existsSync(path.join(dist, 'index.html')), 'Run npm run build first.');
@@ -113,8 +114,14 @@ try {
     assert.deepEqual(eagerMeshes, []);
     const emptyMedia = !content.logo && !content.methodFigure && !content.realWorldComparisons?.some((scene) => scene.image || scene.thumbnail) && !content.video?.src && !content.video?.poster && !content.finalExamples?.demos?.length && !content.finalExamples?.toys?.length && !preview.demos.length && !preview.toys.length;
     if (emptyMedia) assert.deepEqual(mediaRequests, [], 'The prepared page must not request research media or results.');
-    assert.equal(await page.locator('#real-world [role=tab]').count(), 4);
-    assert.equal(await page.locator('#real-world [aria-selected=true]').count(), 1);
+    if (content.realWorldComparisonsEnabled === false) {
+      assert(!await page.locator('#real-world').isVisible());
+      assert(!await page.locator('.page-nav a[href="#real-world"]').isVisible());
+      assert.equal(await page.locator('#real-world [role=tab]').count(), 0);
+    } else {
+      assert.equal(await page.locator('#real-world [role=tab]').count(), content.realWorldComparisons?.length || 4);
+      assert.equal(await page.locator('#real-world [aria-selected=true]').count(), 1);
+    }
     if (prefix === 'Tetris3D') {
       await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
       await page.screenshot({ path: path.join(review, width > 760 ? 'site-desktop.png' : 'site-mobile.png') });
@@ -124,6 +131,7 @@ try {
   }
   report.checks.push(await checkInputFit(browser));
   report.checks.push(await checkReferenceFixture(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content));
+  report.checks.push(await checkSelectedDemos(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content, preview, { review }));
   report.checks.push(await checkRealWorld(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content, review));
   report.checks.push(await checkWorldSculpt(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, preview, { review }));
   report.checks.push(await checkWorldSculptSimulation(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content, preview, { review }));

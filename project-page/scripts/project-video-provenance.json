@@ -1,0 +1,192 @@
+{
+  "createdAt": "2026-10-07T23:04:24.831609+00:00",
+  "source": {
+    "path": "/mnt/nvme2n1p1/jaeyeong/SPM/baseline_outputs/comparison_gallery/demo-viewer/public/hero-lab/Tetris3D-alternate-generation-grid-v13-1080p.mp4",
+    "size": 48310232,
+    "sha256": "2925fc676be34b9e9a9a4b94cc1819c121a0eaf1af9a08021e4c098290492a94"
+  },
+  "video": {
+    "asset": "public/assets/video/tetris3d-alternate-generation-grid-v13-1080p-2925fc676be3.mp4",
+    "method": "Byte-for-byte copy, without transcoding.",
+    "sha256": "2925fc676be34b9e9a9a4b94cc1819c121a0eaf1af9a08021e4c098290492a94",
+    "metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "134.667000",
+        "size": "48310232"
+      }
+    }
+  },
+  "poster": {
+    "asset": "public/assets/video/tetris3d-alternate-generation-grid-v13-1080p-2925fc676be3-poster.webp",
+    "sourceTimestampSeconds": 3,
+    "encoder": "/usr/bin/ffmpeg",
+    "codec": "libwebp",
+    "quality": 90,
+    "sha256": "a48b630abd484615e8648a16dceaece0a0ebec7dffa852d66c03eeec89d9f6a6"
+  },
+  "history": [
+    {
+      "createdAt": "2026-10-05T07:19:06.814715+00:00",
+      "source": {
+        "path": "/mnt/sdc/jaeyeong/SPM/Tetris3D-v17-continuous-generation-720p.mp4",
+        "size": 5968186,
+        "sha256": "319799cc3176ed85eb5033c60198edfdf23bc371628c20d7b477a4fc1b2aba19"
+      },
+      "video": {
+        "asset": "public/assets/video/tetris3d-v17-continuous-generation-720p.mp4",
+        "method": "Byte-for-byte copy, without transcoding.",
+        "sha256": "319799cc3176ed85eb5033c60198edfdf23bc371628c20d7b477a4fc1b2aba19",
+        "metadata": {
+          "programs": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1"
+            }
+          ],
+          "format": {
+            "duration": "75.917000",
+            "size": "5968186"
+          }
+        }
+      },
+      "poster": {
+        "asset": "public/assets/video/tetris3d-v17-poster.webp",
+        "sourceTimestampSeconds": 3,
+        "encoder": "/usr/bin/ffmpeg",
+        "codec": "libwebp",
+        "quality": 90,
+        "sha256": "e3cbbb367b1ff1865c4caeab6a6bd0b5893322b11865272c3fe508055950f463"
+      }
+    },
+    {
+      "createdAt": "2026-10-05T08:06:11.984906+00:00",
+      "source": {
+        "path": "/mnt/sdc/jaeyeong/SPM/Tetris3D-v20-smooth-placement-context-720p.mp4",
+        "size": 7074162,
+        "sha256": "dbf0bed785867ff41d5b2856ffe5d63d0d53a22cf45df8346e659165fcaf4317"
+      },
+      "video": {
+        "asset": "public/assets/video/tetris3d-v20-smooth-placement-context-720p.mp4",
+        "method": "Byte-for-byte copy, without transcoding.",
+        "sha256": "dbf0bed785867ff41d5b2856ffe5d63d0d53a22cf45df8346e659165fcaf4317",
+        "metadata": {
+          "programs": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1"
+            }
+          ],
+          "format": {
+            "duration": "97.000000",
+            "size": "7074162"
+          }
+        }
+      },
+      "poster": {
+        "asset": "public/assets/video/tetris3d-v20-poster.webp",
+        "sourceTimestampSeconds": 3,
+        "encoder": "/usr/bin/ffmpeg",
+        "codec": "libwebp",
+        "quality": 90,
+        "sha256": "80a6cf1785382d5380d6c1bdabfd7af56dfbc4ab89b42541b09251818300f08d"
+      }
+    },
+    {
+      "createdAt": "2026-10-06T03:15:24.617194+00:00",
+      "source": {
+        "path": "/mnt/nvme2n1p1/jaeyeong/SPM/baseline_outputs/comparison_gallery/demo-viewer/public/film-assets/Tetris3D-v23-framework-A-720p.mp4",
+        "size": 7337298,
+        "sha256": "916ce64d1bad8ab13d36448d40f1bea2928228c20f3c99ed05299a15a4e37948"
+      },
+      "video": {
+        "asset": "public/assets/video/tetris3d-v23-framework-a-720p.mp4",
+        "method": "Byte-for-byte copy, without transcoding.",
+        "sha256": "916ce64d1bad8ab13d36448d40f1bea2928228c20f3c99ed05299a15a4e37948",
+        "metadata": {
+          "programs": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1"
+            }
+          ],
+          "format": {
+            "duration": "103.667000",
+            "size": "7337298"
+          }
+        }
+      },
+      "poster": {
+        "asset": "public/assets/video/tetris3d-v23-poster.webp",
+        "sourceTimestampSeconds": 3,
+        "encoder": "/usr/bin/ffmpeg",
+        "codec": "libwebp",
+        "quality": 90,
+        "sha256": "80a6cf1785382d5380d6c1bdabfd7af56dfbc4ab89b42541b09251818300f08d"
+      }
+    },
+    {
+      "createdAt": "2026-10-06T08:57:38.837482+00:00",
+      "source": {
+        "path": "/mnt/nvme2n1p1/jaeyeong/SPM/baseline_outputs/comparison_gallery/demo-viewer/public/film-assets/Tetris3D-v30-inertial-scene-turn-1080p-HQ.mp4",
+        "size": 30805084,
+        "sha256": "51d02b27a3f36b7a90c7b7b31de3dda29b0da99ebfbcb11a4fd13857dce85acc"
+      },
+      "video": {
+        "asset": "public/assets/video/tetris3d-v30-inertial-scene-turn-1080p-hq.mp4",
+        "method": "Byte-for-byte copy, without transcoding.",
+        "sha256": "51d02b27a3f36b7a90c7b7b31de3dda29b0da99ebfbcb11a4fd13857dce85acc",
+        "metadata": {
+          "programs": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1"
+            }
+          ],
+          "format": {
+            "duration": "117.750000",
+            "size": "30805084"
+          }
+        }
+      },
+      "poster": {
+        "asset": "public/assets/video/tetris3d-v30-poster.webp",
+        "sourceTimestampSeconds": 3,
+        "encoder": "/usr/bin/ffmpeg",
+        "codec": "libwebp",
+        "quality": 90,
+        "sha256": "725ced1a7eb84e6687d17be281bba115cdc342a8ac467aa5d0b0d1f232927e81"
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@ export function initPageNavigation() {
   const entries = [...list.querySelectorAll('a[href^="#"]')].map((link) => ({
     link,
     section: document.getElementById(link.hash.slice(1)),
-  })).filter(({ section }) => section);
+  })).filter(({ section }) => section && !section.hidden);
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   let current;
   let frame;

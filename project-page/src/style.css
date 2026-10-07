@@ -121,7 +121,9 @@ sup { color:var(--accent); font-size:13px; margin-left:2px; font-weight:500; }
 .card-caption > span { font-size:12px; color:var(--muted); }
 [data-gallery=demos] .card-caption { display:none; }
 .real-world-section.wrap { width:min(1440px,calc(100% - 80px)); }
-.real-world-tabs { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; width:min(940px,100%); margin:0 auto 24px; }
+.real-world-tabs { display:grid; grid-template-columns:repeat(var(--scene-count,4),minmax(0,1fr)); gap:18px; width:min(940px,100%); margin:0 auto 24px; }
+.real-world-tabs.two-scenes { width:min(600px,100%); }
+.real-world-tabs.two-scenes .real-world-thumbnail { aspect-ratio:4/3; }
 .real-world-tab { min-width:0; padding:7px; border:1px solid transparent; border-radius:12px; background:#fff; opacity:.42; transition:opacity .2s,border-color .2s,box-shadow .2s; }
 .real-world-tab:hover { opacity:.75; }
 .real-world-tab[aria-selected=true] { opacity:1; border-color:#b99bd0; box-shadow:0 3px 15px #7552910c; }
@@ -139,6 +141,24 @@ sup { color:var(--accent); font-size:13px; margin-left:2px; font-weight:500; }
 .real-world-stage > img { width:100%; height:100%; object-fit:contain; }
 .real-world-placeholder { position:absolute; inset:0; display:grid; place-items:center; padding:24px; color:var(--muted); font-size:15px; background:#fcfaff; }
 .real-world-expand { position:absolute; right:12px; bottom:12px; padding:6px 9px; border:1px solid var(--line); border-radius:6px; background:#fffffff0; font-size:12px; color:var(--muted); }
+.has-3d-comparisons .real-world-panel { padding:20px 0 0; overflow:hidden; }
+.has-3d-comparisons .real-world-panel-heading { margin:0 24px 8px; }
+.real-world-comparison .comparison-actions { padding:12px 24px 20px; }
+.real-world-comparison .comparison-layout { --method-min:220px; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; min-width:0; }
+.real-world-comparison .comparison-geometry { grid-column:2 / -1; }
+.real-world-comparison .geometry-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+.real-world-comparison .comparison-source { align-self:start; }
+.real-world-comparison .comparison-stage { background:#fff; }
+.real-world-comparison .comparison-source > .method-card-heading { padding-inline:0; }
+.real-world-comparison .comparison-scroll { padding:0 24px 20px; }
+.real-world-comparison .demo-object-list { position:static; width:auto; margin:0 0 14px; }
+.real-world-comparison .comparison-bottom { gap:14px; }
+.real-world-comparison .comparison-help { width:100%; }
+.real-world-comparison .comparison-object-label { display:none; }
+@media(max-width:1000px) {
+  .real-world-comparison .comparison-layout { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .real-world-comparison .geometry-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
 @media(max-width:760px) {
   .real-world-section.wrap { width:calc(100% - 36px); }
   .real-world-tabs { gap:6px; margin-bottom:16px; }
@@ -146,6 +166,15 @@ sup { color:var(--accent); font-size:13px; margin-left:2px; font-weight:500; }
   .real-world-tab-title { padding-top:7px; font-size:11px; }
   .real-world-number { font-size:20px; }
   .real-world-panel { padding:12px; }
+  .has-3d-comparisons .real-world-panel-heading { margin-inline:14px; }
+  .real-world-comparison .comparison-actions { padding:10px 14px 14px; gap:12px; }
+  .real-world-comparison .comparison-scroll { padding:0 14px 16px; }
+  .real-world-comparison .comparison-layout { display:block; }
+  .real-world-comparison .comparison-source { position:static; width:calc((100% - 12px) / 2); margin:0 auto 18px; }
+  .real-world-comparison .comparison-source > .method-card-heading { height:auto; min-height:46px; flex-wrap:wrap; }
+  .real-world-comparison .geometry-grid { gap:16px 12px; }
+  .real-world-comparison .comparison-bottom { padding:14px; }
+  .real-world-comparison .comparison-geometry { padding-top:14px; border-top:1px solid var(--line); }
 }
 .example-card:hover { transform:translateY(-3px); border-color:#cbb2dd; box-shadow:0 9px 23px #75529115; }
 .example-card:hover img { transform:scale(1.035); }

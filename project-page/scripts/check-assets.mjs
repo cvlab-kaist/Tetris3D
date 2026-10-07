@@ -12,6 +12,7 @@ export function hostedAssetConfig(root = pageRoot) {
   const base = new URL(config.baseUrl);
   if (base.protocol !== 'https:' || base.username || base.password || base.search || base.hash || !base.pathname.endsWith('/')) throw new Error('Hosted asset base must be an HTTPS directory URL.');
   if (!Array.isArray(config.methods) || config.methods.some((id) => !/^[a-z0-9-]+$/.test(id))) throw new Error('Invalid hosted method IDs.');
+  if (config.meshCollections?.some((id) => !['demos', 'toys'].includes(id))) throw new Error('Invalid hosted mesh collection.');
   return config;
 }
 

@@ -1,0 +1,1371 @@
+{
+  "policy": "Visible instance IDs from the exact selected input render; object order and colors match the 3D viewer. White background, lossless indexed PNG, original resolution and mask boundaries. No inference files are modified.",
+  "palette": [
+    "#a1bfd5",
+    "#d7a998",
+    "#b4c3aa",
+    "#baa3d9",
+    "#d9bf8c",
+    "#a0c6bf",
+    "#b7bac5",
+    "#bba0d9"
+  ],
+  "samples": [
+    {
+      "id": "music_unique_smaller_box",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/scene_rgb.png",
+      "source_rgb_sha256": "44ec584a1c8dedd89729d3442f45096cc652043249e09fc48c85faf2c47b1fe6",
+      "web_rgb": "assets/gallery/selected16/music_unique_smaller_box/input.webp",
+      "web_rgb_sha256": "7e62f004ea3ae37b1b0181d48d391b4a24faf75583e2fe20b914ae9a189b8a88",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/render_metadata.json",
+      "metadata_sha256": "0a5c48f0939c93a7f454d64d9ea2a6ab9c58f3a6ed85ff0fec6e27f91833f025",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/scene_spec.json",
+      "scene_spec_sha256": "0c040a199ef0897ad76d90cf2260684f8671d96e072359d2acc0c891ca0b64f7",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/instance_ids.npy",
+      "source_ids_sha256": "02ea54da92f1cdfb1b38c9abdd391a7a697b746b058cc0d77fa84c4119eca94c",
+      "output": "assets/gallery/demos/segmentation/music_unique_smaller_box/all.png",
+      "output_sha256": "5557854c1999e1b3d8eed2a713debfbc5dfd37f0e929cf8f4f8c09cd0f09c261",
+      "objects": [
+        {
+          "id": "audio_box",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/mask_02 \u00b7 open wooden audio box.png",
+          "source_mask_sha256": "8d5156a07b46fe1a66a65cb0930e4710ec7a1444b84c620548311243f50e9081",
+          "visible_pixels": 235708,
+          "output": "assets/gallery/demos/segmentation/music_unique_smaller_box/audio_box.png",
+          "output_sha256": "af13d24a6ffb2aa4972ee3e0a1176d8bd60cf73aae669299abfc429a4b234a08"
+        },
+        {
+          "id": "radio",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/mask_03 \u00b7 worn portable radio.png",
+          "source_mask_sha256": "f26623a016f41f8e43e3e647f3597828e8f70e92ae0a4bbe50025c19c578c354",
+          "visible_pixels": 95640,
+          "output": "assets/gallery/demos/segmentation/music_unique_smaller_box/radio.png",
+          "output_sha256": "d33dbbce4aa688073e3eb9a2a7400125c8489b051a881ad3ec47983a686fc39d"
+        },
+        {
+          "id": "cassette_player",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/mask_04 \u00b7 portable cassette player.png",
+          "source_mask_sha256": "a345914eb6750a21f3af672d7314738801a2aa16d1805f5a6cf9ea0c4272cb71",
+          "visible_pixels": 26606,
+          "output": "assets/gallery/demos/segmentation/music_unique_smaller_box/cassette_player.png",
+          "output_sha256": "798248083e18fbe1fa6bf125a702e4986d74f2b287f2e81b673f8ce7ff58c692"
+        },
+        {
+          "id": "cassette",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/mask_05 \u00b7 audio cassette.png",
+          "source_mask_sha256": "70f675bcf5c39f47adf720ffd6e92e19b125372c35cc0ec77efff81d919a0727",
+          "visible_pixels": 18267,
+          "output": "assets/gallery/demos/segmentation/music_unique_smaller_box/cassette.png",
+          "output_sha256": "15a590bc044c52f5c0329b7ae8c8c99d10e53f7cfa8a86ac1b23dd85775648fb"
+        },
+        {
+          "id": "ukulele",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/mask_06 \u00b7 wooden ukulele.png",
+          "source_mask_sha256": "e9f53cd48f1a0081a67e8f4a666d1e0600a0fb21ba981a3edafb4826ded4750d",
+          "visible_pixels": 205215,
+          "output": "assets/gallery/demos/segmentation/music_unique_smaller_box/ukulele.png",
+          "output_sha256": "028ea0131532d2af17f74a3818ba5ff49ec158aa7f6cc1762abfd22258c87bb9"
+        },
+        {
+          "id": "spectacles",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/music_unique_smaller_box/render/mask_07 \u00b7 round spectacles.png",
+          "source_mask_sha256": "8c4ded7c1a9472317c35dcd983f760cce1ecc652ba0e882250458d48f036ee7e",
+          "visible_pixels": 8141,
+          "output": "assets/gallery/demos/segmentation/music_unique_smaller_box/spectacles.png",
+          "output_sha256": "dc7c82162f44c48eb2b35e7383757bd1bb522e1a00e3c2e918e556895ced30f2"
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/scene_rgb.png",
+      "source_rgb_sha256": "6f28dac2b7141c28b3cf75be5be1d1e2c3794e0cc1aac12843f962fa708cdde6",
+      "web_rgb": "assets/gallery/selected16/vegetables/input.webp",
+      "web_rgb_sha256": "d2ff50a871afdde1ee963152c71531b8c95ebf4c5324110003899e7a71509402",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/render_metadata.json",
+      "metadata_sha256": "7649daa69e710bf13a610679e03fc0ac175cd0c2cf07fb9673dc0f54b9fc66f1",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/scene_spec.json",
+      "scene_spec_sha256": "192242d1ce72335d98eb7da583977ac5ab7d73dfafe5250bfe2d99809bfb209a",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/instance_ids.npy",
+      "source_ids_sha256": "165ea02a325565283d9a2d6ddac01f4a3845cf72afe46f548cce25f09d7d9555",
+      "output": "assets/gallery/demos/segmentation/vegetables/all.png",
+      "output_sha256": "639998f44133db959b8d0c4b74a7831a1441cf9675e4ea355283b4b390da2ba9",
+      "objects": [
+        {
+          "id": "table",
+          "instance_id": 1,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/mask_01 \u00b7 table.png",
+          "source_mask_sha256": "9e49d112a6672f88ee000178d74cfa87b5a19844c680e365ecc93cc4df97ec95",
+          "visible_pixels": 1658218,
+          "output": "assets/gallery/demos/segmentation/vegetables/table.png",
+          "output_sha256": "18973e3167553dc41245fea4ed46787847bfe62302d9b4d3b1238cc0d46b32aa"
+        },
+        {
+          "id": "tray",
+          "instance_id": 2,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/mask_02 \u00b7 wooden tray.png",
+          "source_mask_sha256": "374a45d9365fb184f3332e9b7d19b2fee8de444e649502668ae998a1ab14301e",
+          "visible_pixels": 321127,
+          "output": "assets/gallery/demos/segmentation/vegetables/tray.png",
+          "output_sha256": "72bd8c03a1561897815ab0492d78701d5ca897b3076badfd628e23c413fca13c"
+        },
+        {
+          "id": "casserole",
+          "instance_id": 3,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/mask_03 \u00b7 enamel casserole.png",
+          "source_mask_sha256": "c3a37b19292cf95c64d771c252f8866c359129308fcd0348fa6b8b6c5b82868d",
+          "visible_pixels": 113373,
+          "output": "assets/gallery/demos/segmentation/vegetables/casserole.png",
+          "output_sha256": "ea674408aeb3506f0df5a30e893a8e44e2b2691b7dfac8dfa2c01cc8182b855e"
+        },
+        {
+          "id": "onion",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/mask_05 \u00b7 yellow onion.png",
+          "source_mask_sha256": "b7b04309675cfa194aa5a658506375444cfedab1314a5a49a8468c4e1a8a0985",
+          "visible_pixels": 8128,
+          "output": "assets/gallery/demos/segmentation/vegetables/onion.png",
+          "output_sha256": "f0ed68a89ab3f1e830641c96afe4087e7fb14240b3b50e39609f61b0f3ce78df"
+        },
+        {
+          "id": "avocado",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/mask_06 \u00b7 avocado.png",
+          "source_mask_sha256": "2f2ebf9917d175c1826e6918d68647a083c87c3a24e89e7afcd9eb5e77b620d7",
+          "visible_pixels": 23101,
+          "output": "assets/gallery/demos/segmentation/vegetables/avocado.png",
+          "output_sha256": "767978ec72857b419133581fb6eb21391f670b9c026e297fe1f00313efc7575b"
+        },
+        {
+          "id": "lid",
+          "instance_id": 4,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/mask_04 \u00b7 leaning enamel lid.png",
+          "source_mask_sha256": "80680bf00fd4d86b194eb569067aaf8073a199123abfab03cb88b2bc03de3883",
+          "visible_pixels": 90879,
+          "output": "assets/gallery/demos/segmentation/vegetables/lid.png",
+          "output_sha256": "1423048686e5560bdbf8283c0e3a25ba29c2f82e34e128f32ada113aefa9ea70"
+        },
+        {
+          "id": "cooking_spoon",
+          "instance_id": 7,
+          "color": "#b7bac5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/vegetables/render/mask_07 \u00b7 wooden cooking spoon.png",
+          "source_mask_sha256": "1f2df733ae4a75ceb7ea8ca69dadeeb0fe2ec813f9b3995bc781d728691ae54b",
+          "visible_pixels": 36176,
+          "output": "assets/gallery/demos/segmentation/vegetables/cooking_spoon.png",
+          "output_sha256": "d9b59701da08f2ddea6d72fc41fcbbb0f19b66f9563f4dab5277e88da945ea42"
+        }
+      ]
+    },
+    {
+      "id": "cinema2",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/scene_rgb.png",
+      "source_rgb_sha256": "a867eb75e77fe9b6c07ae1cb38562a34191e9e09bc91c34808bcc198736e2346",
+      "web_rgb": "assets/gallery/selected16/cinema2/input.webp",
+      "web_rgb_sha256": "9e0749003b259f4cadc27f3cb38d03515e80c16b4bcd4a8ee64ae78f58b7529b",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/render_metadata.json",
+      "metadata_sha256": "8095673b94bf014e64ad517e9967866a9bf60fb299deb84d1792c7ba811839c3",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/scene_spec.json",
+      "scene_spec_sha256": "58b41a833641d7bf398c30363cee63e90b9d9ef686a915bdd4cd084e5546c6c0",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/instance_ids.npy",
+      "source_ids_sha256": "fe84c5ac34e8932bd182644407694fa676f93ad78a1e9706e9632508dbbc8e0e",
+      "output": "assets/gallery/demos/segmentation/cinema2/all.png",
+      "output_sha256": "f98e863b02aa15fbbb5f62f59ba5dcd8e3630f1c9ac4305be4f291f7981478a9",
+      "objects": [
+        {
+          "id": "film_box",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/mask_02 \u00b7 open film storage box.png",
+          "source_mask_sha256": "ea3ce622f1166839701f59f4cbd08ce8293ea8a4d15499bd239b7fcba1b916b1",
+          "visible_pixels": 225746,
+          "output": "assets/gallery/demos/segmentation/cinema2/film_box.png",
+          "output_sha256": "ffa0dde974411f3328412f3acf123be6d1c37f9338272842ad3747129809faa6"
+        },
+        {
+          "id": "camera_riser",
+          "instance_id": 8,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/mask_08 \u00b7 padded wooden camera riser.png",
+          "source_mask_sha256": "e659a03528472735c000e46c40f90c20d2ede00cf7e12c5895cff8bc249b2a26",
+          "visible_pixels": 9435,
+          "output": "assets/gallery/demos/segmentation/cinema2/camera_riser.png",
+          "output_sha256": "a5df9732d05ac50b0e80a3e69db785e881fbd96ff385a6e9ef6660a2acd504df"
+        },
+        {
+          "id": "movie_camera",
+          "instance_id": 3,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/mask_03 \u00b7 8mm movie camera.png",
+          "source_mask_sha256": "bdf7f0c8beef74252a941df8f059c805858abf6e4a2ef15a282befcba20d5b3a",
+          "visible_pixels": 91726,
+          "output": "assets/gallery/demos/segmentation/cinema2/movie_camera.png",
+          "output_sha256": "b63e2c2cb4b29e540343af4edde952c6a02a097a44b559ba89979e14ed1ec962"
+        },
+        {
+          "id": "projector",
+          "instance_id": 4,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/mask_04 \u00b7 8mm projector.png",
+          "source_mask_sha256": "1245f1bca7b2d442505fd20f9ed504f4dd50294a3e247c4e8ef56474ad38433e",
+          "visible_pixels": 182118,
+          "output": "assets/gallery/demos/segmentation/cinema2/projector.png",
+          "output_sha256": "fee0ee4329e5023599a34406f8b18e0faf7ed437f6a8151de5c803956f601738"
+        },
+        {
+          "id": "recorder",
+          "instance_id": 5,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/mask_05 \u00b7 cassette recorder.png",
+          "source_mask_sha256": "e635fe5e7039c61993321e26bd7bd5c4a9a86f168586629efc103d93d8ba985b",
+          "visible_pixels": 103413,
+          "output": "assets/gallery/demos/segmentation/cinema2/recorder.png",
+          "output_sha256": "1ea543da36b214a05679ce5eb162def8093dbe4da744f773ba3f57821088215c"
+        },
+        {
+          "id": "notepad",
+          "instance_id": 6,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/mask_06 \u00b7 paper notepad.png",
+          "source_mask_sha256": "a8762f00010333a384d6e5a5057c42d4a4962970958cd3af17372e92aebfbf81",
+          "visible_pixels": 43907,
+          "output": "assets/gallery/demos/segmentation/cinema2/notepad.png",
+          "output_sha256": "435fa3ab7b3e7e3b763cb698fba69b2c562098bf42d275d54001d54ed337d34f"
+        },
+        {
+          "id": "flashlight",
+          "instance_id": 7,
+          "color": "#b7bac5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/cinema2/render/mask_07 \u00b7 red flashlight.png",
+          "source_mask_sha256": "12d9f4b84e6b148823cb55745e8935295600a5ebebe7b55e694a7608daf38bfd",
+          "visible_pixels": 42581,
+          "output": "assets/gallery/demos/segmentation/cinema2/flashlight.png",
+          "output_sha256": "4945dfa9b4557c244fa49622ca545869360e7c95b03f385890f2c746115eec96"
+        }
+      ]
+    },
+    {
+      "id": "garage",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/scene_rgb.png",
+      "source_rgb_sha256": "b301290d3b4bd77efcb7f52e0c6a7b1738c6d0a22d22416a63f976108a163490",
+      "web_rgb": "assets/gallery/selected16/garage/input.webp",
+      "web_rgb_sha256": "0436af2b65580e6e3e5e1b4ce49b17bb4b4acba82c87a20659ce8bbce0f32328",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/render_metadata.json",
+      "metadata_sha256": "637f8c96edee01c21afe1ba3a12b98a5de8939bc352cf59942d452257194732a",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/scene_spec.json",
+      "scene_spec_sha256": "5885105e21a4297476155bee8cb22fb5289f87a843bbfc9a67c0f84b0be84168",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/instance_ids.npy",
+      "source_ids_sha256": "ae5650d1cb2cbd5506d032fb831d4b98daae3ddff978111ee6412c074be533dd",
+      "output": "assets/gallery/demos/segmentation/garage/all.png",
+      "output_sha256": "85f90b96eb20650c681e1dcc5f947cd869413802f2551b59731801c7ce43ce21",
+      "objects": [
+        {
+          "id": "tool_bin",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/mask_02 \u00b7 open blue tool bin.png",
+          "source_mask_sha256": "34e6b4e4d207bb678650143c1a4deef2df53ca9c77421a166bec8e636cb5f793",
+          "visible_pixels": 901430,
+          "output": "assets/gallery/demos/segmentation/garage/tool_bin.png",
+          "output_sha256": "42a434caec193ee1ac59ba6ef5a27edf20e1881ffd220ef26dc6f42daa06cca9"
+        },
+        {
+          "id": "propane_torch",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/mask_03 \u00b7 unlit propane torch.png",
+          "source_mask_sha256": "84c6fca4540bbb0cd0d27cceba8222f7e91285a91471e17a7c92c49cd5533a92",
+          "visible_pixels": 50511,
+          "output": "assets/gallery/demos/segmentation/garage/propane_torch.png",
+          "output_sha256": "f9f72cb67cf759be8c60ca1a6fa37b2ae360944f357e7a83b66382d34f4c06f8"
+        },
+        {
+          "id": "pliers",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/mask_04 \u00b7 groove joint pliers.png",
+          "source_mask_sha256": "8f35490b5ffd9f090455f521c7d5427d2012c9e1b37d43bdef52259d306d7be3",
+          "visible_pixels": 10793,
+          "output": "assets/gallery/demos/segmentation/garage/pliers.png",
+          "output_sha256": "672f823a81f0f6384d3851c7fa593002619479c67c9e5f0f8ad3cb4dfb1c971b"
+        },
+        {
+          "id": "oil_tin",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/mask_05 \u00b7 oil tin.png",
+          "source_mask_sha256": "1e2ee08e50df86183c3eb1380ba3343c17108c507a9c20abba21afb79db12db6",
+          "visible_pixels": 128855,
+          "output": "assets/gallery/demos/segmentation/garage/oil_tin.png",
+          "output_sha256": "0f5518c42942348b7ac483148ba1c9e058e39ce9db74951615afb1770eff059a"
+        },
+        {
+          "id": "flashlight",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/mask_06 \u00b7 yellow flashlight.png",
+          "source_mask_sha256": "b6343457355ece6d9609bfaf01c39e7f20ad6359f2ade04a12318aa931fef637",
+          "visible_pixels": 23844,
+          "output": "assets/gallery/demos/segmentation/garage/flashlight.png",
+          "output_sha256": "bf7c0189b760e6a95066f9ec287bca64ccfba0e908a2fd7e8b1742be0a73cbd4"
+        },
+        {
+          "id": "hacksaw",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/garage/render/mask_07 \u00b7 rusted hacksaw.png",
+          "source_mask_sha256": "5bc6c2aa649c033ec4850823cab02ef553ffb37ec57f2acc91b5967aeda3303a",
+          "visible_pixels": 31780,
+          "output": "assets/gallery/demos/segmentation/garage/hacksaw.png",
+          "output_sha256": "7b3281553b3dcf993f4f5e0c1103a82d9fd5d1e5c4405338489aac75efd8c59e"
+        }
+      ]
+    },
+    {
+      "id": "keepsakes_unique",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/scene_rgb.png",
+      "source_rgb_sha256": "674983fbd319a5c332951ba291eebdf2b25b06f3374bb4ad84c3f6121e8f737e",
+      "web_rgb": "assets/gallery/selected16/keepsakes_unique/input.webp",
+      "web_rgb_sha256": "5fa1e5d9bee5f7969b451816550ff1500038af0a81b1f7d82579f6fb5cfe04b8",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/render_metadata.json",
+      "metadata_sha256": "4c9224aec7c486938f9845d755a74de7df3e1ccfe0a0aee21efa94a6b59c25e2",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/scene_spec.json",
+      "scene_spec_sha256": "9d5f5db0f75f2c52c6a669a4861499a0821ead2cc0f9f0960dc687e271ae984d",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/instance_ids.npy",
+      "source_ids_sha256": "4291b742f0cf783d44d82ddbbbd53b1cd5d276be4a9e19ee62e0f941df802818",
+      "output": "assets/gallery/demos/segmentation/keepsakes_unique/all.png",
+      "output_sha256": "dd1dc2f46805eec93d426d404042bd2c295a3c92a6c5919210e2a4ac61e53ff3",
+      "objects": [
+        {
+          "id": "chest",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/mask_02 \u00b7 open wooden keepsake chest.png",
+          "source_mask_sha256": "95a4d7d104dfa9b8dd506feaf36557bec37cbbf3e1838c554c527b8ad58e4b8b",
+          "visible_pixels": 352233,
+          "output": "assets/gallery/demos/segmentation/keepsakes_unique/chest.png",
+          "output_sha256": "9d7cc0b7e7d52186c1d02963382d06a87f0dcf86b4177e2e006aed73191d6cbd"
+        },
+        {
+          "id": "vase",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/mask_03 \u00b7 blue and white ceramic vase.png",
+          "source_mask_sha256": "fa4e2d4a2d6f6ff1d8a05f71bfa60fe5fd9f4850a71400a4389469bfd6d65155",
+          "visible_pixels": 98883,
+          "output": "assets/gallery/demos/segmentation/keepsakes_unique/vase.png",
+          "output_sha256": "01ed64094c1cb5cf58e90f649d574bd56ab7710482d0f7e1c3e704e15358c5f5"
+        },
+        {
+          "id": "elephant",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/mask_04 \u00b7 carved elephant.png",
+          "source_mask_sha256": "407efa3aff64078147e9c01b2497bd6bd76ff5b45770e56271fda14e222de435",
+          "visible_pixels": 40694,
+          "output": "assets/gallery/demos/segmentation/keepsakes_unique/elephant.png",
+          "output_sha256": "0b30ca63f0f5bece727cf49a9074fae8a21232b782ce8ccf4739bf9addee3e14"
+        },
+        {
+          "id": "photograph",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/mask_05 \u00b7 framed photograph.png",
+          "source_mask_sha256": "8cc5050123aa628620ea11e17f8d954a2c0d1a4c8bd33866b23234b911d248a9",
+          "visible_pixels": 427616,
+          "output": "assets/gallery/demos/segmentation/keepsakes_unique/photograph.png",
+          "output_sha256": "d2eae7189e08c416660f1d1a63881659c5745c8e2bc4c51fdd727e21885797b7"
+        },
+        {
+          "id": "candlestick",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/mask_06 \u00b7 brass candlestick.png",
+          "source_mask_sha256": "2f188ab8b0e14217071a75f89821d20debe1bfd568b1a4c2f063f6de95c5503d",
+          "visible_pixels": 50377,
+          "output": "assets/gallery/demos/segmentation/keepsakes_unique/candlestick.png",
+          "output_sha256": "f5a7e155b16ede15a79d7311746575703477867c6f3ffec1abaec97844515c0e"
+        },
+        {
+          "id": "watch",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/keepsakes_unique/render/mask_07 \u00b7 pocket watch.png",
+          "source_mask_sha256": "3255c7fd964e1dddcf4e9d9291beb281606916a1201c6c1cd9e424941c5d6a6f",
+          "visible_pixels": 20294,
+          "output": "assets/gallery/demos/segmentation/keepsakes_unique/watch.png",
+          "output_sha256": "508cde1b46f32630349e469bbac1c6eb7966832d40fdaeea015eacee82d7793d"
+        }
+      ]
+    },
+    {
+      "id": "book_stack",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/scene_rgb.png",
+      "source_rgb_sha256": "214c84c0e001529cba8d74cb06f944a361f7b06ffa64fb502a447947f429c756",
+      "web_rgb": "assets/gallery/selected16/book_stack/input.webp",
+      "web_rgb_sha256": "12c40e07ff399fcb0924bdafe7a56fa76a9dd8fe3934a484cb3f3eb68c834763",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/render_metadata.json",
+      "metadata_sha256": "ba628e1a7a1c3febfe4a8cb4fc138121935110977bd6bab6999dd06d747c089d",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/scene_spec.json",
+      "scene_spec_sha256": "dcd999d88c6d6a68c0022f192c6dec12f5810fa0d10fce6f1b6c3652e5e29eb0",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/instance_ids.npy",
+      "source_ids_sha256": "790f6c17249aa8833c5fb011bdb55b05c7aef075b285890a83501c8fb4eae1ff",
+      "output": "assets/gallery/demos/segmentation/book_stack/all.png",
+      "output_sha256": "bbacaf4033d6c41941782a0c255189e6ff96cb004f18b65aff4bd845a84e6880",
+      "objects": [
+        {
+          "id": "dark_green_clothbound_book",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/mask_02 \u00b7 dark green clothbound book.png",
+          "source_mask_sha256": "49512da474868babb03ea60943eec72d0778f3f3cbedcbad66e5c49f48d3b136",
+          "visible_pixels": 105206,
+          "output": "assets/gallery/demos/segmentation/book_stack/dark_green_clothbound_book.png",
+          "output_sha256": "ed8b2c84386cb681f887b3a676cc1b94db8f1fcb8ff357fb66b1270cbe4603e7"
+        },
+        {
+          "id": "oxblood_clothbound_book",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/mask_03 \u00b7 oxblood clothbound book.png",
+          "source_mask_sha256": "3a1945021f603a58d1ebfb42b1c80d0161b345c618604b75d37794d2b99bcf78",
+          "visible_pixels": 77329,
+          "output": "assets/gallery/demos/segmentation/book_stack/oxblood_clothbound_book.png",
+          "output_sha256": "03b10171fcffcfb816ecf592cb8a538da5e18c4015628c5f58ea24afc93341d2"
+        },
+        {
+          "id": "ochre_clothbound_book",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/mask_04 \u00b7 ochre clothbound book.png",
+          "source_mask_sha256": "9b93b85859c016a3b380c68fc902c37980012ce0c575d1014807bced3c3aa8e2",
+          "visible_pixels": 139185,
+          "output": "assets/gallery/demos/segmentation/book_stack/ochre_clothbound_book.png",
+          "output_sha256": "2b5cb0f12e2c0e677fdfc064bc5c3d1e0bfdc6e6c3c165b713db27b273664217"
+        },
+        {
+          "id": "wooden_tray",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/mask_05 \u00b7 wooden tray.png",
+          "source_mask_sha256": "df54fa17aeacf9b79f0ee9f02da2923d41216c9b2dbfd28fe0ef49279f09213e",
+          "visible_pixels": 127755,
+          "output": "assets/gallery/demos/segmentation/book_stack/wooden_tray.png",
+          "output_sha256": "9e82365b2054b7c7343b3309e7c56ebf540bf873103db118864b25e147c516c4"
+        },
+        {
+          "id": "ceramic_mug",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/mask_06 \u00b7 ceramic mug.png",
+          "source_mask_sha256": "09278814f6a028bd078691559ff15ef2cd60ff4590a85f85e1bc26b5b0925ba4",
+          "visible_pixels": 74421,
+          "output": "assets/gallery/demos/segmentation/book_stack/ceramic_mug.png",
+          "output_sha256": "8ee87a5112a64ac179e80b58c3d0c18f9d4a18f02cbd487f620058880107fcd9"
+        },
+        {
+          "id": "slim_navy_notebook",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/book_stack/render/mask_07 \u00b7 slim navy notebook.png",
+          "source_mask_sha256": "06c21712916b9098d9a44035776cabae0512eaeecfcf83f4b4e62e2d4d091452",
+          "visible_pixels": 124966,
+          "output": "assets/gallery/demos/segmentation/book_stack/slim_navy_notebook.png",
+          "output_sha256": "e479a0885b424255419b3686bb8b152d94838fb90271b4972fd59b4e67170824"
+        }
+      ]
+    },
+    {
+      "id": "stone_cairn_and_vase",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/scene_rgb.png",
+      "source_rgb_sha256": "ef0bbdd39e1cbb81d010abd5b0cfe42819cf663196c448dcc5e60ce59f094c21",
+      "web_rgb": "assets/gallery/selected16/stone_cairn_and_vase/input.webp",
+      "web_rgb_sha256": "1cf560babf92c61d14a5a09def15c2014a481c40187f3980669c0dbd29f54b2d",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/render_metadata.json",
+      "metadata_sha256": "9ef3de80e8474c7ff6597085548df57140f1c9d3343428caf5d9eb4c421e69c8",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/scene_spec.json",
+      "scene_spec_sha256": "5b2d47c243603cb8472640c7cb39441da201533d7d2b2159f81662729bf46460",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/instance_ids.npy",
+      "source_ids_sha256": "814748cb9b782eb92c2da3eee3dacad5fca09f9574f2522a0a95ca3282cc8dbb",
+      "output": "assets/gallery/demos/segmentation/stone_cairn_and_vase/all.png",
+      "output_sha256": "d6ec07d73b1e3fb21e54ff6ccbe39ee8b6e238da98da86a4eb0b4d49911bbf9c",
+      "objects": [
+        {
+          "id": "upholstered_ottoman",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/mask_02 \u00b7 upholstered ottoman.png",
+          "source_mask_sha256": "ee1b3a37456ce31cf694c8d444c671f4620f4c48475e4e5aab68ffbed3bdc9e0",
+          "visible_pixels": 210127,
+          "output": "assets/gallery/demos/segmentation/stone_cairn_and_vase/upholstered_ottoman.png",
+          "output_sha256": "6529b68524af3438d6613ffe4511f7146ad970fac4d185d02e2d977e7583d249"
+        },
+        {
+          "id": "flat_grey_stone",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/mask_03 \u00b7 flat grey stone.png",
+          "source_mask_sha256": "e10f791b322e8b83ae87acce344d2a20d5e74bf87abc1729d1ab3eefced41702",
+          "visible_pixels": 29822,
+          "output": "assets/gallery/demos/segmentation/stone_cairn_and_vase/flat_grey_stone.png",
+          "output_sha256": "da4fa94f9e3407e477a14a01df335097f961280821f879dfde4741d397834247"
+        },
+        {
+          "id": "speckled_round_stone",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/mask_04 \u00b7 speckled round stone.png",
+          "source_mask_sha256": "e9864d1a980ad67f31b4aa55cff302c33881d9808835d01abe88f993ea65f754",
+          "visible_pixels": 54957,
+          "output": "assets/gallery/demos/segmentation/stone_cairn_and_vase/speckled_round_stone.png",
+          "output_sha256": "19cfe45980d23f28ecca627344731c1b746a3fe75262540136d0b0453e62fc2d"
+        },
+        {
+          "id": "small_pale_stone",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/mask_05 \u00b7 small pale stone.png",
+          "source_mask_sha256": "2fdec64275a615c229979846babfa34d92e5dfd5f26a7a70cc244dc7875bb40e",
+          "visible_pixels": 11852,
+          "output": "assets/gallery/demos/segmentation/stone_cairn_and_vase/small_pale_stone.png",
+          "output_sha256": "df2b7447f25e8f1d97897fa88cedcdcca7a4ed7987a5c00630275e5b596cb894"
+        },
+        {
+          "id": "empty_terracotta_pot",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/mask_06 \u00b7 empty terracotta pot.png",
+          "source_mask_sha256": "82601b28ffa73af21e56d338bdeb3c39abfbeca17b83e3276ce02bd71fa3584a",
+          "visible_pixels": 239034,
+          "output": "assets/gallery/demos/segmentation/stone_cairn_and_vase/empty_terracotta_pot.png",
+          "output_sha256": "7d735fe6682c5de0571f666069db153e12145265a7c9d24d7f46c1ea2a73b36f"
+        },
+        {
+          "id": "dry_branch",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/stone_cairn_and_vase/render/mask_07 \u00b7 dry branch.png",
+          "source_mask_sha256": "9b972087d7e0d78df5681ff9745f21a5b0d9737b4a96aa5d42354de87c42b0be",
+          "visible_pixels": 32931,
+          "output": "assets/gallery/demos/segmentation/stone_cairn_and_vase/dry_branch.png",
+          "output_sha256": "da40d81c5f6dfb19bbc1f24eb7e4aa5e3d9ba14310bf515e7664f8dcbc8be3a3"
+        }
+      ]
+    },
+    {
+      "id": "shelf_and_pencils_no_green",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/scene_rgb.png",
+      "source_rgb_sha256": "670ef76b1f47ea09a17e7ea1a8272464ba7d92f58f314ffaf93b232f90758b9b",
+      "web_rgb": "assets/gallery/selected16/shelf_and_pencils_no_green/input.webp",
+      "web_rgb_sha256": "be04d0316316175b6ab70f68f5ae5865355359ea1e5792c65b7ee3040f40064b",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/render_metadata.json",
+      "metadata_sha256": "7ae50f8688b883f00ec648940a8a9426ddb8a146e3bf0d10393151147f28a292",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/scene_spec.json",
+      "scene_spec_sha256": "7544b6494c6ab1d865d48ca42aa8b84a017634c65af7680c2b206b643addd5a9",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/instance_ids.npy",
+      "source_ids_sha256": "d8bed81d7b892c28f55d59f525d791d464b6c9a433210855cd006d18413b2a14",
+      "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/all.png",
+      "output_sha256": "2948f7903dc23d6f80572689ed2744776c7c237f1227561d4aeb01845f6aa749",
+      "objects": [
+        {
+          "id": "open_topped_wooden_bookshelf",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/mask_02 \u00b7 open topped wooden bookshelf.png",
+          "source_mask_sha256": "6ac71d5c7f099b2bf4276777ba2201484660c50d96e21bb4b08e2abc823e1ab9",
+          "visible_pixels": 460302,
+          "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/open_topped_wooden_bookshelf.png",
+          "output_sha256": "7a19ebe82299a32226828d50737606f450115518ddd21fc12e656d4213475be3"
+        },
+        {
+          "id": "dark_green_shelved_book",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/mask_03 \u00b7 dark green shelved book.png",
+          "source_mask_sha256": "ab3cc38fdcd53b5ac7358fb6161e19094dc6f4867f1610612723170cd8088ca3",
+          "visible_pixels": 108909,
+          "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/dark_green_shelved_book.png",
+          "output_sha256": "f8b6e4929f70f6f4fa24ea3974c1e91cf395dba6f4fe17860d1042ebc17f3f5e"
+        },
+        {
+          "id": "oxblood_shelved_book",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/mask_04 \u00b7 oxblood shelved book.png",
+          "source_mask_sha256": "aea722d43be5a549ecc0a47f5504bb1a79f09d6f7d4193f5531a4e49e7a4dc0a",
+          "visible_pixels": 96105,
+          "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/oxblood_shelved_book.png",
+          "output_sha256": "7ef8685e1b22c2eef3b9fabc5c9f9b8cd184dc42958be6980b6483bd03e6265f"
+        },
+        {
+          "id": "ochre_shelved_book",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/mask_05 \u00b7 ochre shelved book.png",
+          "source_mask_sha256": "8a9d0dc8bd004cb8741617cf0ca0291ababfdf6c16edf5eb2c5ac739def8fabf",
+          "visible_pixels": 190665,
+          "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/ochre_shelved_book.png",
+          "output_sha256": "25215a650cc92fdcd801b5f5a2b1452a709e410959a8cc697569166095c4356f"
+        },
+        {
+          "id": "navy_shelved_book_leaning",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/mask_06 \u00b7 navy shelved book leaning.png",
+          "source_mask_sha256": "b6f6bc2df77fc503edd3ef919bf41acd355efef1cfc078848df47d5e611ecbc2",
+          "visible_pixels": 260017,
+          "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/navy_shelved_book_leaning.png",
+          "output_sha256": "ae56ee1df370a71133b59af174049c12562c2435ebe9495fb150bbc0eae40e56"
+        },
+        {
+          "id": "stoneware_pencil_cup",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/mask_07 \u00b7 stoneware pencil cup.png",
+          "source_mask_sha256": "5b19b7baa07e72b7e21c005fe06e05af848203905ad46783c88cee2a34557f92",
+          "visible_pixels": 146936,
+          "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/stoneware_pencil_cup.png",
+          "output_sha256": "8657b55ae1be945df4fb5c1f73681c3b24d9015ce4f6ee971599fc1c9679e305"
+        },
+        {
+          "id": "red_pencil",
+          "instance_id": 8,
+          "color": "#b7bac5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/shelf_and_pencils_no_green/render/mask_09 \u00b7 red pencil.png",
+          "source_mask_sha256": "fa08c6e224af237350540968fec41d8586db80697b0a7b36fa5d04f7ab0e1fe0",
+          "visible_pixels": 12205,
+          "output": "assets/gallery/demos/segmentation/shelf_and_pencils_no_green/red_pencil.png",
+          "output_sha256": "930030969ae44617ae07e84ef8cdcf17b53812f90a3808b7a0468bd33015c5db"
+        }
+      ]
+    },
+    {
+      "id": "picnic",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/scene_rgb.png",
+      "source_rgb_sha256": "2f313280265cdcd873e26cd5e6e47d023c0ef3b2cceb1ceedd6a8bd7b36a01ab",
+      "web_rgb": "assets/gallery/selected16/picnic/input.webp",
+      "web_rgb_sha256": "152d1bfa762b665fb0369dfadb6b0af679c71423b583571b61a1cf54e2e74c97",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/render_metadata.json",
+      "metadata_sha256": "4c82d18058a80d34e66480b0c1c745fee9bc0e7c251bee25f5c8501fde2d1683",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/scene_spec.json",
+      "scene_spec_sha256": "6794b25f44af0f6382009e6ff1694864c105b0dafa1b2dfb7cb2a2fbe06b7482",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/instance_ids.npy",
+      "source_ids_sha256": "7de799137cb6c87dc10617c7a0c2b0063ffd3e6722f5c0d8d5299aa1f9395248",
+      "output": "assets/gallery/demos/segmentation/picnic/all.png",
+      "output_sha256": "26864c2062bb2b0ad1f4def6426c44cb3c0f5b93063a584b2182b7046c30ca8f",
+      "objects": [
+        {
+          "id": "table",
+          "instance_id": 1,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/mask_01 \u00b7 table.png",
+          "source_mask_sha256": "583b882bb6ab0d28c14c05721d78b84414bdee47d4986fe51aa2467f410b1719",
+          "visible_pixels": 1447634,
+          "output": "assets/gallery/demos/segmentation/picnic/table.png",
+          "output_sha256": "bca4e69fba9fcb0d9a1945c604dcabfde9ab5971377d7a9011d0ee28fdc5a0dc"
+        },
+        {
+          "id": "cloth",
+          "instance_id": 2,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/mask_02 \u00b7 folded linen cloth.png",
+          "source_mask_sha256": "d62add3e2c7b1274c788c5192abbc8c0b56830a02f8c18c2dc395d3e3775aecd",
+          "visible_pixels": 202391,
+          "output": "assets/gallery/demos/segmentation/picnic/cloth.png",
+          "output_sha256": "4e3bc04eb25f28069cc4f81af7cc5218f35730a402ee627664a58c5b6f3e4864"
+        },
+        {
+          "id": "basket",
+          "instance_id": 3,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/mask_03 \u00b7 wicker basket.png",
+          "source_mask_sha256": "96e59ed61f3cfea0fb2b112fc9f5b8f1ef373ba673cf5e096591e44eb7bcb84c",
+          "visible_pixels": 215701,
+          "output": "assets/gallery/demos/segmentation/picnic/basket.png",
+          "output_sha256": "a5b983aa53ee07a6a32927565f240bb3b236c3f31c8239251dea082e97f3783a"
+        },
+        {
+          "id": "croissant",
+          "instance_id": 4,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/mask_04 \u00b7 croissant.png",
+          "source_mask_sha256": "c301e075b54265b65d54a2b1f578a47ec79b1b213e85417313052d404a56f6f2",
+          "visible_pixels": 13996,
+          "output": "assets/gallery/demos/segmentation/picnic/croissant.png",
+          "output_sha256": "bbd0021d13293a111b5cfed1ce285b4f79152b1869c3d87aac7086a4a86147c8"
+        },
+        {
+          "id": "apple",
+          "instance_id": 5,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/mask_05 \u00b7 apple.png",
+          "source_mask_sha256": "e07e5f1b89b8e6d13e64b4d800ac3b369d3f9a8ab7c3db8996e5cb9266bab51f",
+          "visible_pixels": 27296,
+          "output": "assets/gallery/demos/segmentation/picnic/apple.png",
+          "output_sha256": "77df756ac9aae778562294ddf3688d2862b39ae2c875155861a9618f714dff7e"
+        },
+        {
+          "id": "thermos",
+          "instance_id": 6,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/mask_06 \u00b7 vintage thermos.png",
+          "source_mask_sha256": "836bc96072569220571d6d27f2d78f53d4bc126d816b80bc408ac3da30b3fa10",
+          "visible_pixels": 70389,
+          "output": "assets/gallery/demos/segmentation/picnic/thermos.png",
+          "output_sha256": "00bd0f164ec012b59d20b5dfb42ad476c47826838898f75616a375c4dbacda37"
+        },
+        {
+          "id": "journal",
+          "instance_id": 7,
+          "color": "#b7bac5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/picnic/render/mask_07 \u00b7 leaning travel journal.png",
+          "source_mask_sha256": "858d126b8f757945c43c0629772a0f277a2574cc3120135b7d445538b9a089ca",
+          "visible_pixels": 111816,
+          "output": "assets/gallery/demos/segmentation/picnic/journal.png",
+          "output_sha256": "6cdecf484ee816dd14e7a963726a77eb3a14d0b69137cdebe8ebe6b0061a4d0b"
+        }
+      ]
+    },
+    {
+      "id": "electronics_unique",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/scene_rgb.png",
+      "source_rgb_sha256": "004f50feeac49c6f977c9d8d15f9694c5ae2aa1b1dbc4d4682211f4e99e91259",
+      "web_rgb": "assets/gallery/selected16/electronics_unique/input.webp",
+      "web_rgb_sha256": "7335d887a903e1f8f7051ae37fe38a47007061e72bcd33e1eebda8822cc948ac",
+      "metadata": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/render_metadata.json",
+      "metadata_sha256": "dad924702491ffec40ce9058473f73d864f7157e15a10d191b10493f57d26a93",
+      "scene_spec": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/scene_spec.json",
+      "scene_spec_sha256": "81dca961663dd834d3cc6bf8a82357ddf714f17faf9115ff7edcabd960579802",
+      "source_ids": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/instance_ids.npy",
+      "source_ids_sha256": "a2d61cf3075a7dfacbc471171ad5afc849ecee8cee3c64062c96e27ca4cf7043",
+      "output": "assets/gallery/demos/segmentation/electronics_unique/all.png",
+      "output_sha256": "a846679c6bcd386f464391d14fc4c72ee308627075f469aed7098c3ee4bf9348",
+      "objects": [
+        {
+          "id": "tool_chest",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/mask_02 \u00b7 open repair tool chest.png",
+          "source_mask_sha256": "f2d752091e15bf3b7def32948017748ce3715fbe4d75da3cda05c9fcc2ebda13",
+          "visible_pixels": 389551,
+          "output": "assets/gallery/demos/segmentation/electronics_unique/tool_chest.png",
+          "output_sha256": "7bbbce9b4bcb9b993a635e575712811e8d0c3e2e190a3936a19abf1b6c413a41"
+        },
+        {
+          "id": "laptop",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/mask_03 \u00b7 vintage laptop.png",
+          "source_mask_sha256": "524812899c8492bfae57cb3fdefa3e0f2bdf3e5da0a1cae60fccbf975c4fa76c",
+          "visible_pixels": 601818,
+          "output": "assets/gallery/demos/segmentation/electronics_unique/laptop.png",
+          "output_sha256": "a91b1d75b664783dced09ec3e2cecef9e0dc9f65a1a72723bf3256769dbb4a25"
+        },
+        {
+          "id": "circuit_board",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/mask_04 \u00b7 circuit board.png",
+          "source_mask_sha256": "e4edad571475254a87304b1c5257270400b5e7763ac860ade22ce99b54226a61",
+          "visible_pixels": 58426,
+          "output": "assets/gallery/demos/segmentation/electronics_unique/circuit_board.png",
+          "output_sha256": "aa0d84b5f5eda1f646c81f1dc6e49db850b379c1c26185dda331f07011dd55c5"
+        },
+        {
+          "id": "screwdriver",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/mask_05 \u00b7 slotted screwdriver.png",
+          "source_mask_sha256": "c5df7bd65f84e9e02850345bc8f9879dd947353f583be6a363a83f125398e88c",
+          "visible_pixels": 8993,
+          "output": "assets/gallery/demos/segmentation/electronics_unique/screwdriver.png",
+          "output_sha256": "3ef0b8d8daf8f67b4584dd43c76d5be1569f0618edc09ce3c97941780ff5a048"
+        },
+        {
+          "id": "pliers",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/mask_06 \u00b7 pliers.png",
+          "source_mask_sha256": "6f1054563e7023ccc82c009fa9c0d7cbb960378bf54aadb515d743fc1ccac8a5",
+          "visible_pixels": 22086,
+          "output": "assets/gallery/demos/segmentation/electronics_unique/pliers.png",
+          "output_sha256": "0711e8f8569f5189fcb644e18a773596ca2232dbb512c5795db108090ee591b7"
+        },
+        {
+          "id": "multimeter",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/demos/new/_ours_ss146kema_slat100kraw_training_gt_20260925/electronics_unique/render/mask_07 \u00b7 analog multimeter.png",
+          "source_mask_sha256": "5c6356464fd44a32bfbf8ea67ac3088b1eb4ffaffef08efea8e297d6a63a2924",
+          "visible_pixels": 65660,
+          "output": "assets/gallery/demos/segmentation/electronics_unique/multimeter.png",
+          "output_sha256": "a727add4795110093f3e8ca612bb6cc3672e9ade9a98ea545a86ee26aa1fa286"
+        }
+      ]
+    },
+    {
+      "id": "games_unique",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/scene_rgb.png",
+      "source_rgb_sha256": "09851220d0d7724e46dd8e5dfaaca785baf4710d0895daf49b2d6f313252f04e",
+      "web_rgb": "assets/gallery/selected16/games_unique/input.webp",
+      "web_rgb_sha256": "6fec1fe2de93d424e422f2f342d7bf48d77e64a355f4045da57676cb55754d59",
+      "metadata": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/render_metadata.json",
+      "metadata_sha256": "30532db4b1e646a196c0526e8b019eeff0ba49fe79816f22820d3755244a5841",
+      "scene_spec": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/scene_spec.json",
+      "scene_spec_sha256": "3050e3d678ed7912eaa9066f7f2c98ea29d95c24c3fc39a73ba15de582670cda",
+      "source_ids": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/instance_ids.npy",
+      "source_ids_sha256": "91ad1e580bbcf92acb42f6a84887f3410d25b8dcc277a43808686fd8dc1f1480",
+      "output": "assets/gallery/demos/segmentation/games_unique/all.png",
+      "output_sha256": "443079e84d242477dd5b9568bd810c99fc7ab023a3284c54b270d4addd51d281",
+      "objects": [
+        {
+          "id": "storage_tin",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/mask_02 \u00b7 open metal storage tin.png",
+          "source_mask_sha256": "758fc3f5d70b9200acef632b54ed4cb62ba9f766ba4e4cfe040927ce5a85200f",
+          "visible_pixels": 120291,
+          "output": "assets/gallery/demos/segmentation/games_unique/storage_tin.png",
+          "output_sha256": "8deab8eba3fd6d9505b3a0761fb083e0d406e9ae278b60f33a1d7801f74a4801"
+        },
+        {
+          "id": "rook",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/mask_03 \u00b7 white rook.png",
+          "source_mask_sha256": "b88378b8d71676101e37f18978f9243463a9c7d583008fb9ff6c174d885353b1",
+          "visible_pixels": 8984,
+          "output": "assets/gallery/demos/segmentation/games_unique/rook.png",
+          "output_sha256": "9900d0ffdbf09f3254ab9b8cd2e32d2420d42a739a01158315d17b0e109b9841"
+        },
+        {
+          "id": "pawn",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/mask_04 \u00b7 black pawn.png",
+          "source_mask_sha256": "3011f6011b5273563ae6dc95ca0cd28c3b8a24cf4d9549af5ee33a6838855a6d",
+          "visible_pixels": 4778,
+          "output": "assets/gallery/demos/segmentation/games_unique/pawn.png",
+          "output_sha256": "11abeccd74f0a5c9c15ba13fbbba26c5b3959bd7a2400d738103210c25e21fc1"
+        },
+        {
+          "id": "console",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/mask_05 \u00b7 game console.png",
+          "source_mask_sha256": "5e5219a2d0e23d5cdf0d3049515dec57febd4127c24d2b958c5f5b17b0976604",
+          "visible_pixels": 78047,
+          "output": "assets/gallery/demos/segmentation/games_unique/console.png",
+          "output_sha256": "03f78a59c75f800fba9a9079dc534294b2ee38cabc261af06f8c0852caa5e04e"
+        },
+        {
+          "id": "clock",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/mask_06 \u00b7 alarm clock.png",
+          "source_mask_sha256": "3829e4e37fa8dbb03a165e1c2c3fc06b50ae61a3278a784619d1282df7954e44",
+          "visible_pixels": 22256,
+          "output": "assets/gallery/demos/segmentation/games_unique/clock.png",
+          "output_sha256": "f3d6b3e4b4672db2cc4f95c6a72d9a8f549ca8a42f1173d2b7672e848c009900"
+        },
+        {
+          "id": "chessboard",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/data2/jaeyeong/SPM/baseline_outputs/_demos_gt_boundary3_20260926_games_unique/source_scene/games_unique/input_render/mask_07 \u00b7 leaning marble chessboard.png",
+          "source_mask_sha256": "34f4cd420d2ea8ae2cad2b4c9e6d4f6071e454dc8744091f8e58a956e513cb4d",
+          "visible_pixels": 347787,
+          "output": "assets/gallery/demos/segmentation/games_unique/chessboard.png",
+          "output_sha256": "0dab57d3cf19f22363a53afc90142b7edc0e77fadbb534db9f62ba7e060b088b"
+        }
+      ]
+    },
+    {
+      "id": "crates_and_tool_drum",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/scene_rgb.png",
+      "source_rgb_sha256": "c0ed6b198cead759ec5f720d2b6ce75dd674bd42cdbefc2dbd25889e8fa87ab5",
+      "web_rgb": "assets/gallery/selected16/crates_and_tool_drum/input.webp",
+      "web_rgb_sha256": "548703a40b31a927df5f339172345c61fb95f92f44768040a70a942f902ecd3a",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/render_metadata.json",
+      "metadata_sha256": "64bd58536d0082b7af61d698a702dd3736001c287d22f55937da8a2500a84936",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/scene_spec.json",
+      "scene_spec_sha256": "cc5e9ec9b4cd0aca38eaecb1aceccd53aab827957691cf5659ae093ef2cd004a",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/instance_ids.npy",
+      "source_ids_sha256": "66cd74030fa359433e25478bbcd6412d3e95e90a3e2416c51c60232ff6e79da6",
+      "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/all.png",
+      "output_sha256": "6b73fb25adaa2298b88128d2ca57e35a897093a4cb56cd4088f137cc0ba22b6d",
+      "objects": [
+        {
+          "id": "closed_wooden_crate",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/mask_02 \u00b7 closed wooden crate.png",
+          "source_mask_sha256": "2a7ba107c3733dd472b0d7814e6908ab56e2cc65d96cea405f5cde666b9e257b",
+          "visible_pixels": 87396,
+          "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/closed_wooden_crate.png",
+          "output_sha256": "4655c7a0ed85e8fcfbe60198fd17234da415e0894174c2a46528891cc75a5003"
+        },
+        {
+          "id": "stacked_plastic_crate",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/mask_03 \u00b7 stacked plastic crate.png",
+          "source_mask_sha256": "faa2f99006c30cf05fdf1fac1b2052a32d341d0b2166e0eaaf80464fedea7f69",
+          "visible_pixels": 166973,
+          "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/stacked_plastic_crate.png",
+          "output_sha256": "e2cd7fe507ba045a1ceae2b3bdeb9e7dc7f9a949b7ac48588a503a596e0e55cd"
+        },
+        {
+          "id": "small_wooden_box",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/mask_04 \u00b7 small wooden box.png",
+          "source_mask_sha256": "feed9582a1f9a14f0335e22c57ee72ecf29a9a60310ea2dd2398941c20108934",
+          "visible_pixels": 29616,
+          "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/small_wooden_box.png",
+          "output_sha256": "4750fbc873ebe059ac5529468f7487ffd55d7515d57d66749a7a0827dccb546b"
+        },
+        {
+          "id": "wooden_box_lid",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/mask_05 \u00b7 wooden box lid.png",
+          "source_mask_sha256": "a8bce3abf277942c2ecd62c662368acefb905f35ac2c730b953cafc4089df59e",
+          "visible_pixels": 18842,
+          "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/wooden_box_lid.png",
+          "output_sha256": "47435c7cbbaf50a0bbe8031a059ca6339cbcb240c8a9fca80696aa4030d2fe99"
+        },
+        {
+          "id": "open_steel_drum",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/mask_06 \u00b7 open steel drum.png",
+          "source_mask_sha256": "c9df4dce489d6db994e6d13dcd8078b4ca6f0b0f717fad69ab9837776df1d0eb",
+          "visible_pixels": 242284,
+          "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/open_steel_drum.png",
+          "output_sha256": "8333c5b329d7ac43d39482cbe7f0d5c426c6accb56a98ae1778e2224bcb37b5e"
+        },
+        {
+          "id": "long_handled_sledgehammer",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/mask_07 \u00b7 long handled sledgehammer.png",
+          "source_mask_sha256": "a3807842abf7e38e9036086cb0edb75b11c3b7416af4f81c32eab4b2713fcffb",
+          "visible_pixels": 32767,
+          "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/long_handled_sledgehammer.png",
+          "output_sha256": "1758622a069dd5e2b09ef56f9c94ac41cb1b6062d89597be325ff341a81d8a8b"
+        },
+        {
+          "id": "worn_pickaxe",
+          "instance_id": 8,
+          "color": "#b7bac5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/crates_and_tool_drum/render/mask_08 \u00b7 worn pickaxe.png",
+          "source_mask_sha256": "7c4b77fcf41fc532bf867b08fc5c6e52b52a5a06a09598e1c609eb7682e4da7d",
+          "visible_pixels": 59553,
+          "output": "assets/gallery/demos/segmentation/crates_and_tool_drum/worn_pickaxe.png",
+          "output_sha256": "72a2d3d657a41651b89e0ccd13a771fb294e743d7f4b4453a18a9ec4f63cf77c"
+        }
+      ]
+    },
+    {
+      "id": "woodshed_corner",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/scene_rgb.png",
+      "source_rgb_sha256": "e99930faf7353cddddbe6bea4942a3143cc6502381943bccdcd37342cfc3b6f6",
+      "web_rgb": "assets/gallery/selected16/woodshed_corner/input.webp",
+      "web_rgb_sha256": "ef84c8a1901c9e7bc119b7eab4cc8f404b482b153a42cbc0bbd2ca3b27a5d03e",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/render_metadata.json",
+      "metadata_sha256": "b7a2a6a72eecf56ff4fdae86b800bc482dd2aa07fde2ff982faf66e974231b4e",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/scene_spec.json",
+      "scene_spec_sha256": "2f4ac51dd9af6a056b60ecd683c3df9fc8430d54bfe1fc96eb5733a316b0b60d",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/instance_ids.npy",
+      "source_ids_sha256": "84bea62ef414c559c2aa45235637d8ca44f8bd1f4ce61236d3e6b013f45dfcad",
+      "output": "assets/gallery/demos/segmentation/woodshed_corner/all.png",
+      "output_sha256": "bf3988e85f82063a723d94bb812ffd5008bf090f78b07be1f04f90281924239b",
+      "objects": [
+        {
+          "id": "open_wooden_barrel",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/mask_02 \u00b7 open wooden barrel.png",
+          "source_mask_sha256": "a0b9a0fec768575723623d1f20cc3c6437e39539000500c68b9e3d6aad60f32f",
+          "visible_pixels": 364397,
+          "output": "assets/gallery/demos/segmentation/woodshed_corner/open_wooden_barrel.png",
+          "output_sha256": "b804ee5f63f474a16217296269ea145e92f5814e496a96f1d2d114c363b4b9fd"
+        },
+        {
+          "id": "wooden_handled_axe",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/mask_03 \u00b7 wooden handled axe.png",
+          "source_mask_sha256": "5d4a682592d935f259c88ee8687c2f9605c3f909b72e887314a07e8ee1b9572e",
+          "visible_pixels": 26994,
+          "output": "assets/gallery/demos/segmentation/woodshed_corner/wooden_handled_axe.png",
+          "output_sha256": "8966041369469b4c0f4149ca2605fbbfc30f1f22915b1e906befdf366f250298"
+        },
+        {
+          "id": "worn_machete",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/mask_04 \u00b7 worn machete.png",
+          "source_mask_sha256": "c5f249b65a0039142fa0d1153727055ad6c0dee2a01e607aafa67a5f82ce8f14",
+          "visible_pixels": 27116,
+          "output": "assets/gallery/demos/segmentation/woodshed_corner/worn_machete.png",
+          "output_sha256": "2d661a07eb5691b8c1877c6273ddc2e75e2dbe2f6287628668297d27883565da"
+        },
+        {
+          "id": "painted_wooden_bench",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/mask_05 \u00b7 painted wooden bench.png",
+          "source_mask_sha256": "b6dd8dc1cc184252201c22bad23895ffd3d8ece55913848697df2863d8bbe822",
+          "visible_pixels": 300407,
+          "output": "assets/gallery/demos/segmentation/woodshed_corner/painted_wooden_bench.png",
+          "output_sha256": "992aabba21d6182be7fd3b65734b054cde75d3e3bb5a82c5e0a146e9ab23e21f"
+        },
+        {
+          "id": "folded_cement_sack",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/mask_06 \u00b7 folded cement sack.png",
+          "source_mask_sha256": "035eb57f05750192087389579bfcb5c20dada941f18deb8fadc9016a2aa6ec87",
+          "visible_pixels": 84148,
+          "output": "assets/gallery/demos/segmentation/woodshed_corner/folded_cement_sack.png",
+          "output_sha256": "b26e3441243bc78e29d80877231c22351acb942a847cdbf6326d33ebd83a102e"
+        },
+        {
+          "id": "small_oil_can",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/mask_07 \u00b7 small oil can.png",
+          "source_mask_sha256": "da87551e8af31737c3a28f1bcf260700530889aaaeb7eb5ac19b2b5db583fb89",
+          "visible_pixels": 29429,
+          "output": "assets/gallery/demos/segmentation/woodshed_corner/small_oil_can.png",
+          "output_sha256": "102169306ebb417dce0ab28b37378e051b58be6a43628d8ecf25195e4fc64917"
+        },
+        {
+          "id": "small_metal_tin",
+          "instance_id": 8,
+          "color": "#b7bac5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/woodshed_corner/render/mask_08 \u00b7 small metal tin.png",
+          "source_mask_sha256": "ae0957a0ece3a4b94618e5760b7f5feb8025ff7ee6f759432e8b0818ea392e94",
+          "visible_pixels": 8781,
+          "output": "assets/gallery/demos/segmentation/woodshed_corner/small_metal_tin.png",
+          "output_sha256": "2a6bff6f17633ed780fd1a971cb9d3bf76b151e0e62b3ea4b8cac660ecd89ebf"
+        }
+      ]
+    },
+    {
+      "id": "ceramic_studio_no_handles",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/scene_rgb.png",
+      "source_rgb_sha256": "e5a17056f49f6c400be5270cc9fa0d8b890b5053a6943a15b683f4ccdc8f5dac",
+      "web_rgb": "assets/gallery/selected16/ceramic_studio_no_handles/input.webp",
+      "web_rgb_sha256": "c0270d142d7621887700ec31d73337236e41522e3809b1708eea1f92cd2d4746",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/render_metadata.json",
+      "metadata_sha256": "720724e8da138e14f0a1fc250fcf5006f317005656b12e02c604a0fcb7183ff6",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/scene_spec.json",
+      "scene_spec_sha256": "ce4e508106d0d80c1ed9e14f5801004f63bd4ae92284f8cd49180d121e83bd9e",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/instance_ids.npy",
+      "source_ids_sha256": "9048811b06699b8fae05ff1f1d6e87f36914b804c3476ecd3492107abb03b4c2",
+      "output": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/all.png",
+      "output_sha256": "a5ed4ca6d4da614503dd2f1acadfc17d23ba6d6d88f0708648af9d9e56654e66",
+      "objects": [
+        {
+          "id": "storage_pot",
+          "instance_id": 2,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/mask_02 \u00b7 glazed ceramic storage pot.png",
+          "source_mask_sha256": "437d45cf44d8637f2da9b2a6923cd2d37912fc21363af184f608b8c41869acdc",
+          "visible_pixels": 58811,
+          "output": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/storage_pot.png",
+          "output_sha256": "6da8aa6374af5c2ddc70ef139b1be33aa39b37f76b893f8551755d4de68b872b"
+        },
+        {
+          "id": "vase",
+          "instance_id": 3,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/mask_03 \u00b7 white ceramic vase.png",
+          "source_mask_sha256": "294ac7d6f75e1bb366870eccc1cf433eb8dc12ba4c706d03c6f6b8ebf36b2f82",
+          "visible_pixels": 107413,
+          "output": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/vase.png",
+          "output_sha256": "6d8b8b09caa67331ad7787ab78cd77e7e443f8d9aa4709754dd3c1fb297559d5"
+        },
+        {
+          "id": "branch",
+          "instance_id": 4,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/mask_04 \u00b7 dry decorative branch.png",
+          "source_mask_sha256": "fa8184bdacd3e8421a7d605d59c9088e3997e9c79db73ff97eab008725afaf7a",
+          "visible_pixels": 3511,
+          "output": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/branch.png",
+          "output_sha256": "a491336eac6d208fd25991960b34665a6aa73ea15a05d4d5af570fc04144650d"
+        },
+        {
+          "id": "stool",
+          "instance_id": 5,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/mask_05 \u00b7 low wooden display stool.png",
+          "source_mask_sha256": "7910c79a5d7594576426e6a5a1f956120b53594c839d9e602bf077fdb0ec15dd",
+          "visible_pixels": 210356,
+          "output": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/stool.png",
+          "output_sha256": "fa506c705bbee84da8ab636b4bc1b714c037bac275001afe21414ae643f253a6"
+        },
+        {
+          "id": "sculpture",
+          "instance_id": 6,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/mask_06 \u00b7 bronze ray sculpture.png",
+          "source_mask_sha256": "8e03d34d160ac6b1fba0bf632f438e1f359e84fe3e49a49fbecde4155dbac6a6",
+          "visible_pixels": 129395,
+          "output": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/sculpture.png",
+          "output_sha256": "14251a555e726e5e90b36e14553aee7f414d7c4b62f351298f0377b8e78cd424"
+        },
+        {
+          "id": "landscape",
+          "instance_id": 7,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/ceramic_studio_no_handles/render/mask_07 \u00b7 framed landscape.png",
+          "source_mask_sha256": "8e54f27c2dffd8881dd285fe57d341cf919dfc8c1797cee4d2c99f4b1bb402f5",
+          "visible_pixels": 188019,
+          "output": "assets/gallery/demos/segmentation/ceramic_studio_no_handles/landscape.png",
+          "output_sha256": "32e484c1cfc0229f0dc14d28b53e3c937da9297eb49154e1454146ec5b778e48"
+        }
+      ]
+    },
+    {
+      "id": "bowl_and_bottle",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/render/scene_rgb.png",
+      "source_rgb_sha256": "3863bb70be48e9ffed6f62fd9b93298fc0a505b5e88b3361af6c5cf4c6f6b077",
+      "web_rgb": "assets/gallery/selected16/bowl_and_bottle/input.webp",
+      "web_rgb_sha256": "e1416472eebe274cf40bdcf4e796233c89d4b17586f61bd2b48518b0df316c30",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/render/render_metadata.json",
+      "metadata_sha256": "0f974c7401b0267a40dd98babbc0d6694d96ee330e98f3b999a12df459053040",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/scene_spec.json",
+      "scene_spec_sha256": "9bdce1a2daee09645315f2bea4e0b67d461d640e12a85f2609eebf025ef3e742",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/render/instance_ids.npy",
+      "source_ids_sha256": "d20dd61817ef6e73c0abc505ee9511db04f18d9a464dc97c8e86433948746d9d",
+      "output": "assets/gallery/demos/segmentation/bowl_and_bottle/all.png",
+      "output_sha256": "d6532f3302fbc333911bffa76216cc7739989c489820fdaccced8163a2fa4add",
+      "objects": [
+        {
+          "id": "wide_stoneware_bowl",
+          "instance_id": 3,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/render/mask_03 \u00b7 wide stoneware bowl.png",
+          "source_mask_sha256": "f12f3bf26f5352e1adbb1e26e5b9abd1b7464b3e12ea7f43c420057021d9f42f",
+          "visible_pixels": 179370,
+          "output": "assets/gallery/demos/segmentation/bowl_and_bottle/wide_stoneware_bowl.png",
+          "output_sha256": "a76532fb325a63b61a034e6c450db6cd4702e51e68b69e22f85065c5f2550a62"
+        },
+        {
+          "id": "polished_stone_ball",
+          "instance_id": 4,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/render/mask_04 \u00b7 polished stone ball.png",
+          "source_mask_sha256": "1eb6a6a0079d88d2b88d8b4b4d3f377b856e4f6ea2e2af08f5cf0059bfb2b90e",
+          "visible_pixels": 64328,
+          "output": "assets/gallery/demos/segmentation/bowl_and_bottle/polished_stone_ball.png",
+          "output_sha256": "34571fa0307b7271edee614674d7e8a3b422e94e37eac2d405a8737bc3c69c04"
+        },
+        {
+          "id": "amber_glazed_bottle",
+          "instance_id": 5,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/render/mask_05 \u00b7 amber glazed bottle.png",
+          "source_mask_sha256": "4406d6635f88ebb97652e460492864bfb777d3564c141d18c0aabc8d2892c7b4",
+          "visible_pixels": 145225,
+          "output": "assets/gallery/demos/segmentation/bowl_and_bottle/amber_glazed_bottle.png",
+          "output_sha256": "27e704e67e822dc95a72bc8bbf17ccaa93aa09565ed92fc42f08218f86261363"
+        },
+        {
+          "id": "slate_tile",
+          "instance_id": 6,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos20_gt_boundary3_20261006/source_scene/bowl_and_bottle/render/mask_06 \u00b7 slate tile.png",
+          "source_mask_sha256": "a09aab8f8bb266199e162f40eb107e3b8cf4a8b38fe1fe303fd7d763e93a7704",
+          "visible_pixels": 329525,
+          "output": "assets/gallery/demos/segmentation/bowl_and_bottle/slate_tile.png",
+          "output_sha256": "813d2b4211b45420800f1ab18ec89e54d098cd8f127c3f6e5e5fb9125276429c"
+        }
+      ]
+    },
+    {
+      "id": "letters_mug",
+      "size": [
+        2000,
+        1500
+      ],
+      "source_rgb": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/scene_rgb.png",
+      "source_rgb_sha256": "e9b9cdd884fc4f53eea84569d4800be76475b90baa2d51cfa4449355113fcc31",
+      "web_rgb": "assets/gallery/selected16/letters_mug/input.webp",
+      "web_rgb_sha256": "25a3188acc9f92b94d7b2d18e2be13252ded5df5a652666dec82b0f5059723b0",
+      "metadata": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/render_metadata.json",
+      "metadata_sha256": "19725fe0059e9b4dc432993390a8cc17694cc5248427f742bf2452837394e401",
+      "scene_spec": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/scene_spec.json",
+      "scene_spec_sha256": "3d9b0769d70678105feb2f21e1be49cd4238f47806816e63394742785f826d27",
+      "source_ids": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/instance_ids.npy",
+      "source_ids_sha256": "c281e641a7f5a0d83e02c475f1eebd3f46d08b8bd86c55fd132484f134df28fc",
+      "output": "assets/gallery/demos/segmentation/letters_mug/all.png",
+      "output_sha256": "6abc30c8d7d532ec39cf6233ebd9a183e876e9efc62074d5cc6be88238e51ba1",
+      "objects": [
+        {
+          "id": "table",
+          "instance_id": 1,
+          "color": "#a1bfd5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_01 \u00b7 table.png",
+          "source_mask_sha256": "68c1847f70708a18c1ba9a86ae64f88bcb32eaab69d9942cb757c5dfe5577e95",
+          "visible_pixels": 1577588,
+          "output": "assets/gallery/demos/segmentation/letters_mug/table.png",
+          "output_sha256": "3024a32866151a27ccffbac2206bc7874879c54cbeef3bc3764a1097d731b405"
+        },
+        {
+          "id": "tray",
+          "instance_id": 2,
+          "color": "#d7a998",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_02 \u00b7 wooden tray.png",
+          "source_mask_sha256": "66111ff6f6126d1d7896fe11b3dd7797d099ca215c83481995fa2a2f90ce1ada",
+          "visible_pixels": 211256,
+          "output": "assets/gallery/demos/segmentation/letters_mug/tray.png",
+          "output_sha256": "58845b351e8b6bde3539d0b015c437574227c06147044cf015ed22a5741efe6b"
+        },
+        {
+          "id": "notebook",
+          "instance_id": 3,
+          "color": "#b4c3aa",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_03 \u00b7 burgundy notebook.png",
+          "source_mask_sha256": "78d4031ed20ce122c3ab26dba2f8571b1b1868e614116d51ec6eefc3466f4527",
+          "visible_pixels": 114701,
+          "output": "assets/gallery/demos/segmentation/letters_mug/notebook.png",
+          "output_sha256": "3b09b3f0469c18e9155bcc7daaaf91b6a205246031fdee017214c6dfa507fed3"
+        },
+        {
+          "id": "stationery_box",
+          "instance_id": 8,
+          "color": "#baa3d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_08 \u00b7 small stationery box.png",
+          "source_mask_sha256": "f74f3e274f01e2b6b4a2ff4a51209de5671201f027b0a6f7281b8eb0ac8fb495",
+          "visible_pixels": 31102,
+          "output": "assets/gallery/demos/segmentation/letters_mug/stationery_box.png",
+          "output_sha256": "7edd6c75fa3eccf6ab2f477814025d465fe6d75827c51aa4963143ac95f99781"
+        },
+        {
+          "id": "pencil_cup",
+          "instance_id": 4,
+          "color": "#d9bf8c",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_04 \u00b7 brass pencil cup.png",
+          "source_mask_sha256": "bccdc06d3ea814e3e61b65be4a3eccbcb2e3de1037b1ead750de564864783cb8",
+          "visible_pixels": 48017,
+          "output": "assets/gallery/demos/segmentation/letters_mug/pencil_cup.png",
+          "output_sha256": "2f80449e6da41ace451a7ae8aa9556a8e0360e2b2d5b8b8d8f7478ec2d2276ab"
+        },
+        {
+          "id": "journal",
+          "instance_id": 6,
+          "color": "#a0c6bf",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_06 \u00b7 leaning cream journal.png",
+          "source_mask_sha256": "4dfc39fc481d5ada1c27ef51a39d69721482e27f5ac4e1c555f5815c8f57a162",
+          "visible_pixels": 124282,
+          "output": "assets/gallery/demos/segmentation/letters_mug/journal.png",
+          "output_sha256": "645f635f08cecfdb85d5776eed27baf43781cce76f41a057a75cbdb44ea36392"
+        },
+        {
+          "id": "envelope",
+          "instance_id": 7,
+          "color": "#b7bac5",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_07 \u00b7 paper envelope.png",
+          "source_mask_sha256": "27907ccd7d6439dd7792a472ee26bef9f64d290806f1a2866d118bbb9e23e150",
+          "visible_pixels": 33140,
+          "output": "assets/gallery/demos/segmentation/letters_mug/envelope.png",
+          "output_sha256": "14c33a734ca20af8a9ea2947164c91dcc770bb5f6b0a7ce3e81893551ad02aa6"
+        },
+        {
+          "id": "pencil",
+          "instance_id": 5,
+          "color": "#bba0d9",
+          "source_mask": "/mnt/sdc/jaeyeong/SPM/baseline_outputs/_demos_edits7_20261006/source_scene/letters_mug/render/mask_05 \u00b7 green pencil.png",
+          "source_mask_sha256": "47c700d2a2641cb41d475fd2247f6dc351a13a2abd36ccd9626d5c7131e6c8ca",
+          "visible_pixels": 5516,
+          "output": "assets/gallery/demos/segmentation/letters_mug/pencil.png",
+          "output_sha256": "7789732259eaf0ded527e5595f6232df6778453f6829a193c551c8e9a51cc4c0"
+        }
+      ]
+    }
+  ]
+}

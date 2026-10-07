@@ -55,6 +55,7 @@ class Gallery {
       const mount = $('.comparison-mount', root); mount.hidden = false;
       this.comparison = new ComparisonPanel(mount, demo ? {
         showSimulation: false, includeReference: true, objectToolbar: true, referenceRow: true,
+        defaultAppearance: 'color',
         methodOrder: ['gt', 'ours', 'sam3d', 'shaper', 'midi'],
         extraMethods: [{ id: 'sam3d', label: 'SAM-3D' }, { id: 'shaper', label: 'ShapeR' }, { id: 'midi', label: 'MIDI', frame: 'midi-native' }],
       } : simulationConfig, openImage);
@@ -393,7 +394,13 @@ async function init() {
     }));
   }
   const isLink = (url) => url && /^(https?:\/\/|\.\/|assets\/)/.test(url);
-  initRealWorldComparisons(content.realWorldComparisons, openImage);
+  const showRealWorld = content.realWorldComparisonsEnabled !== false;
+  $('#real-world').hidden = !showRealWorld;
+  $('.page-nav a[href="#real-world"]').closest('li').hidden = !showRealWorld;
+  if (showRealWorld) initRealWorldComparisons(content.realWorldComparisons, openImage, preview.realWorld);
+  $$('main > section:not([hidden]) .section-heading .eyebrow > span[aria-hidden]').forEach((marker, index) => {
+    marker.textContent = `${String(index + 1).padStart(2, '0')} · `;
+  });
   if (isLink(content.logo)) {
     $('.project-logo').src = asset(content.logo);
     $('.project-logo').hidden = false;
@@ -452,11 +459,14 @@ async function init() {
   $$('[data-gallery]').forEach((root) => {
     const key = root.dataset.gallery;
     let samples = content.finalExamples?.[key]?.length ? content.finalExamples[key] : preview[key];
-    if (key === 'toys' && content.qualitativeOrder?.length) {
-      const order = new Map(content.qualitativeOrder.map(({ id, title }, index) => [id, { title, index }]));
+    if (key === 'toys') samples = samples.map((sample) => ({ ...sample, cameraElevationOffset: 12 }));
+    const configuredOrder = key === 'toys' ? content.qualitativeOrder : content.demoOrder;
+    if (configuredOrder?.length) {
+      const order = new Map(configuredOrder.map((entry, index) => [entry.id, { ...entry, index }]));
       samples = [...samples]
         .sort((a, b) => (order.get(a.id)?.index ?? order.size) - (order.get(b.id)?.index ?? order.size))
-        .map((sample) => ({ ...sample, title: order.get(sample.id)?.title ?? sample.title }));
+        .map((sample) => ({ ...sample, title: order.get(sample.id)?.title ?? sample.title,
+          cameraElevationOffset: order.get(sample.id)?.cameraElevationOffset ?? sample.cameraElevationOffset }));
     }
     new Gallery(root, samples, content.simulation);
     if (!samples.length) {

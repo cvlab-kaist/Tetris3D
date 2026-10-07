@@ -51,8 +51,8 @@
     "toys": []
   },
   "video": {
-    "src": null,
-    "poster": null
+    "src": "assets/video/tetris3d-alternate-generation-grid-v13-1080p-2925fc676be3.mp4",
+    "poster": "assets/video/tetris3d-alternate-generation-grid-v13-1080p-2925fc676be3-poster.webp"
   },
   "simulation": {
     "srcTemplate": null,
@@ -1109,7 +1109,8 @@
     },
     {
       "id": "v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc",
-      "title": "bottle"
+      "title": "bottle",
+      "cameraElevationOffset": 32
     },
     {
       "id": "v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47",
@@ -1153,7 +1154,8 @@
     },
     {
       "id": "v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03",
-      "title": "chess piece"
+      "title": "chess piece",
+      "cameraElevationOffset": -3
     },
     {
       "id": "v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a",
@@ -1200,22 +1202,72 @@
       "title": "monitor"
     }
   ],
-  "realWorldComparisons": [
+  "realWorldComparisons": [],
+  "demoOrder": [
     {
-      "title": "Scene 1",
-      "image": null
+      "id": "cinema2",
+      "title": "Cinema"
     },
     {
-      "title": "Scene 2",
-      "image": null
+      "id": "keepsakes_unique",
+      "title": "Keepsakes"
     },
     {
-      "title": "Scene 3",
-      "image": null
+      "id": "stone_cairn_and_vase",
+      "title": "Stone Cairn"
     },
     {
-      "title": "Scene 4",
-      "image": null
+      "id": "shelf_and_pencils_no_green",
+      "title": "Shelf and Pencils"
+    },
+    {
+      "id": "crates_and_tool_drum",
+      "title": "Tools and Crates"
+    },
+    {
+      "id": "picnic",
+      "title": "Picnic"
+    },
+    {
+      "id": "woodshed_corner",
+      "title": "Woodshed"
+    },
+    {
+      "id": "book_stack",
+      "title": "Book Stack"
+    },
+    {
+      "id": "vegetables",
+      "title": "Vegetables"
+    },
+    {
+      "id": "electronics_unique",
+      "title": "Electronics"
+    },
+    {
+      "id": "games_unique",
+      "title": "Chess Game"
+    },
+    {
+      "id": "garage",
+      "title": "Garage"
+    },
+    {
+      "id": "ceramic_studio_no_handles",
+      "title": "Ceramic Studio"
+    },
+    {
+      "id": "music_unique_smaller_box",
+      "title": "Music"
+    },
+    {
+      "id": "bowl_and_bottle",
+      "title": "Bowl and Bottle"
+    },
+    {
+      "id": "letters_mug",
+      "title": "Letters"
     }
-  ]
+  ],
+  "realWorldComparisonsEnabled": false
 }

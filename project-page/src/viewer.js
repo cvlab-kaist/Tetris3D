@@ -112,6 +112,7 @@ export class SceneViewer {
     shadow.position.y = -.02;
     shadow.receiveShadow = true;
     this.scene.add(shadow);
+    this.groundShadow = shadow;
     try {
       this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'low-power', preserveDrawingBuffer: true });
     } catch {
@@ -249,6 +250,7 @@ export class SceneViewer {
       }
       this.resource = resource;
       this.sample = sample;
+      this.groundShadow.visible = !sample.hideGround;
       this.group = resource.gltf.scene.clone(true);
       this.meshes = [];
       this.group.traverse((mesh) => {
@@ -308,7 +310,10 @@ export class SceneViewer {
   selectObject(id, { preserveCamera = false } = {}) {
     if (!this.meshes) return;
     this.object = id;
-    this.meshes.forEach((mesh) => { mesh.visible = id === 'all' || mesh.userData.objectId === id; });
+    this.meshes.forEach((mesh) => {
+      mesh.visible = !this.sample.hiddenObjects?.includes(mesh.userData.objectId) &&
+        (id === 'all' || mesh.userData.objectId === id);
+    });
     this.renderer.shadowMap.needsUpdate = true;
     this.needsRender = true;
     this.element.dataset.object = id;
@@ -317,13 +322,19 @@ export class SceneViewer {
   }
 
   getFitView() {
-    const meshes = this.meshes?.filter((mesh) => mesh.visible);
+    const meshes = this.meshes?.filter((mesh) => mesh.visible &&
+      (this.object !== 'all' || !this.sample.fitObjects || this.sample.fitObjects.includes(mesh.userData.objectId)));
     if (!meshes?.length) return;
     const box = new THREE.Box3();
     meshes.forEach((mesh) => box.expandByObject(mesh));
     const target = box.getCenter(new THREE.Vector3());
     const direction = new THREE.Vector3(...(this.sample.cameraDirection || [.7, .6, 1])).normalize();
     direction.y = Math.max(direction.y, .2); direction.normalize();
+    if (this.sample.cameraElevationOffset) {
+      const orbit = new THREE.Spherical().setFromVector3(direction);
+      orbit.phi = THREE.MathUtils.clamp(orbit.phi - THREE.MathUtils.degToRad(this.sample.cameraElevationOffset), .1, this.controls.maxPolarAngle);
+      direction.setFromSpherical(orbit);
+    }
     const fov = THREE.MathUtils.degToRad(this.camera.fov);
     const right = new THREE.Vector3().crossVectors(new THREE.Vector3(0, 1, 0), direction).normalize();
     const up = new THREE.Vector3().crossVectors(direction, right).normalize();

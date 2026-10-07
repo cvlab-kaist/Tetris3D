@@ -1,6 +1,8 @@
+import { ComparisonPanel } from './comparison.js';
+
 const asset = (path) => new URL(path, document.baseURI).href;
 
-export function initRealWorldComparisons(scenes = [], openImage) {
+export function initRealWorldComparisons(scenes = [], openImage, samples = []) {
   const root = document.querySelector('#real-world');
   const tabs = root.querySelector('.real-world-tabs');
   const panel = root.querySelector('.real-world-panel');
@@ -8,9 +10,22 @@ export function initRealWorldComparisons(scenes = [], openImage) {
   const image = stage.querySelector('img');
   const placeholder = stage.querySelector('.real-world-placeholder');
   const expand = root.querySelector('.real-world-expand');
-  const entries = Array.from({ length: 4 }, (_, index) => ({ title: `Scene ${index + 1}`, ...scenes?.[index] }));
+  const entries = (scenes.length ? scenes : Array.from({ length: 4 }, (_, index) => ({ title: `Scene ${index + 1}` })))
+    .map((scene) => ({ ...scene, sample: samples.find((sample) => sample.id === scene.id) }));
+  const mount = document.createElement('div');
+  mount.className = 'real-world-comparison'; mount.hidden = true; panel.append(mount);
+  tabs.style.setProperty('--scene-count', Math.min(entries.length, 4));
+  tabs.classList.toggle('two-scenes', entries.length === 2);
   let selected = 0;
   let animation;
+  let comparison;
+  let visited = false;
+  const observer = new IntersectionObserver(([entry]) => {
+    if (!entry.isIntersecting) return;
+    visited = true; observer.disconnect();
+    if (entries[selected].sample) comparison?.enableViewers();
+  }, { rootMargin: '120px' });
+  observer.observe(panel);
 
   function select(index, animate = true) {
     selected = index;
@@ -21,11 +36,24 @@ export function initRealWorldComparisons(scenes = [], openImage) {
     });
     panel.setAttribute('aria-labelledby', `real-world-tab-${index}`);
     root.querySelector('.real-world-title').textContent = scene.title;
-    root.querySelector('.real-world-count').textContent = `${index + 1} / 4`;
+    root.querySelector('.real-world-count').textContent = `${index + 1} / ${entries.length}`;
+    root.dataset.scene = scene.id || String(index);
+    root.classList.toggle('has-3d-comparisons', Boolean(scene.sample));
+    stage.hidden = Boolean(scene.sample);
+    mount.hidden = !scene.sample;
     stage.setAttribute('aria-label', `Expand ${scene.title} — real-world comparison`);
     stage.disabled = true; image.hidden = true; expand.hidden = true; placeholder.hidden = false;
     placeholder.textContent = scene.image ? 'Loading comparison…' : 'Comparison image coming soon';
-    if (scene.image) {
+    if (scene.sample) {
+      if (!comparison) {
+        comparison = new ComparisonPanel(mount, { showSimulation: false, objectToolbar: true }, openImage);
+        // These full multi-object scenes also retain the original meshes in Detail.
+        mount.querySelector('.comparison-quality').value = 'light';
+      }
+      comparison.setSample(scene.sample);
+      if (visited || animate) comparison.enableViewers();
+    } else if (scene.image) {
+      comparison?.suspend();
       image.alt = scene.alt || `${scene.title} — real-world comparison`;
       image.onload = () => {
         if (selected !== index) return;
@@ -33,7 +61,7 @@ export function initRealWorldComparisons(scenes = [], openImage) {
       };
       image.onerror = () => { if (selected === index) placeholder.textContent = 'Image unavailable'; };
       image.src = asset(scene.image);
-    } else image.removeAttribute('src');
+    } else { comparison?.suspend(); image.removeAttribute('src'); }
     animation?.cancel();
     if (animate && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
       animation = panel.animate([{ opacity: .35, translate: '0 6px' }, { opacity: 1, translate: '0 0' }], { duration: 250, easing: 'ease-out' });
@@ -47,16 +75,17 @@ export function initRealWorldComparisons(scenes = [], openImage) {
     tab.innerHTML = '<span class="real-world-thumbnail"><span class="real-world-number" aria-hidden="true"></span></span><span class="real-world-tab-title"></span>';
     tab.querySelector('.real-world-number').textContent = String(index + 1).padStart(2, '0');
     tab.querySelector('.real-world-tab-title').textContent = scene.title;
-    if (scene.image) {
+    const thumbnailPath = scene.sample?.thumbnail || scene.thumbnail || scene.image;
+    if (thumbnailPath) {
       const thumbnail = document.createElement('img'); thumbnail.alt = ''; thumbnail.loading = 'lazy';
       thumbnail.addEventListener('load', () => { tab.querySelector('.real-world-number').hidden = true; });
       thumbnail.addEventListener('error', () => thumbnail.remove());
-      thumbnail.src = asset(scene.thumbnail || scene.image);
+      thumbnail.src = asset(thumbnailPath);
       tab.querySelector('.real-world-thumbnail').append(thumbnail);
     }
     tab.addEventListener('click', () => select(index));
     tab.addEventListener('keydown', (event) => {
-      const next = { ArrowLeft: (index + 3) % 4, ArrowRight: (index + 1) % 4, Home: 0, End: 3 }[event.key];
+      const next = { ArrowLeft: (index + entries.length - 1) % entries.length, ArrowRight: (index + 1) % entries.length, Home: 0, End: entries.length - 1 }[event.key];
       if (next === undefined) return;
       event.preventDefault(); select(next); tabs.children[next].focus();
     });

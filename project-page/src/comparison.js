@@ -56,6 +56,7 @@ export class ComparisonPanel {
           <button class="comparison-wire" type="button" aria-pressed="false">Wireframe</button>
           <button class="comparison-fit" type="button">Fit views ↺</button>
       </fieldset></div>`;
+    $('.comparison-appearance', element).value = this.config.defaultAppearance || 'normal';
     this.runButton = $('.motion-run', element);
     this.status = $('.comparison-announcement', element);
     $('.enable-all-3d', element).addEventListener('click', () => this.toggleViewers());
@@ -483,12 +484,18 @@ export class ComparisonPanel {
       model: quality === 'light' && method.modelLight ? method.modelLight : method.model,
       displayBounds: method.displayBounds || this.sample.displayBounds,
       cameraDirection: method.cameraDirection || this.sample.cameraDirection,
+      hiddenObjects: method.hiddenObjects || [],
+      hideGround: method.id === 'ours' || method.id === 'gt' || Boolean(method.hiddenObjects?.length),
     }, { object: $('.comparison-object', this.element).value, preserveCamera: this.viewBases.has(frame) });
     if (!loaded || !card.enabled || card.version !== this.version || load !== card.load) return;
     // Selection and camera may have changed while the GLB was downloading.
     card.viewer.selectObject($('.comparison-object', this.element).value, { preserveCamera: true });
-    if (!this.viewBases.has(frame)) this.viewBases.set(frame, card.viewer.getFitView());
     card.meshReady = true;
+    if (!this.viewBases.has(frame)) {
+      const view = card.viewer.getFitView();
+      if (!view) return;
+      this.viewBases.set(frame, view);
+    }
     if (this.linkedView) {
       const view = unlinkView(this.linkedView, this.viewBases.get(frame));
       card.viewer.setView(view);
@@ -502,10 +509,12 @@ export class ComparisonPanel {
   syncView(source, view) {
     if (!source.enabled || source.version !== this.version) return;
     const frame = source.method.frame || 'world';
+    if (!this.viewBases.has(frame)) return;
     this.linkedView = linkView(view, this.viewBases.get(frame));
     for (const card of this.cards) {
       if (card === source || !card.enabled || !card.meshReady) continue;
       const peerFrame = card.method.frame || 'world';
+      if (!this.viewBases.has(peerFrame)) continue;
       const linked = peerFrame === frame ? view : unlinkView(this.linkedView, this.viewBases.get(peerFrame));
       card.viewer.setView(linked);
     }
@@ -516,12 +525,14 @@ export class ComparisonPanel {
     this.viewBases.clear();
     this.linkedView = null;
     const references = new Map();
-    if (preferred?.meshReady) references.set(preferred.method.frame || 'world', preferred);
-    for (const card of this.cards) {
+    for (const card of preferred ? [preferred, ...this.cards] : this.cards) {
       const frame = card.method.frame || 'world';
-      if (card.enabled && card.meshReady && !references.has(frame)) references.set(frame, card);
+      if (!card.enabled || !card.meshReady || references.has(frame)) continue;
+      const view = card.viewer.getFitView();
+      if (!view) continue;
+      references.set(frame, card);
+      this.viewBases.set(frame, view);
     }
-    references.forEach((card, frame) => this.viewBases.set(frame, card.viewer.getFitView()));
     const source = references.get('world') || references.values().next().value;
     if (source) {
       const view = this.viewBases.get(source.method.frame || 'world');
