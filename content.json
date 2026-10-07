@@ -90,9 +90,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/settle.mp4?v=af52f2a7420f",
+          "poster": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/initial.png?v=f4bcf367a90a",
+          "ready": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/video_validation.json?v=5a66869e4a42",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -129,9 +129,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/settle.mp4?v=d1b7b6b49b16",
+          "poster": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/initial.png?v=f496858bd876",
+          "ready": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/video_validation.json?v=3357bd55d213",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -168,9 +168,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/settle.mp4?v=33339f096172",
+          "poster": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/initial.png?v=bc72462928b9",
+          "ready": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/video_validation.json?v=dcec57aef6db",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -207,9 +207,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/settle.mp4?v=b264c7b52ec2",
+          "poster": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/initial.png?v=0a0704ffa2b9",
+          "ready": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/video_validation.json?v=5da51cbc860f",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -246,9 +246,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/settle.mp4?v=b4edf425d076",
+          "poster": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/initial.png?v=74765a936fbd",
+          "ready": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/video_validation.json?v=0e4ba400cd65",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -285,9 +285,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/settle.mp4?v=81a27999ff49",
+          "poster": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/initial.png?v=c80ef42c12c5",
+          "ready": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/video_validation.json?v=b591b9b17ac3",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -324,9 +324,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/settle.mp4?v=2143ad1c202a",
+          "poster": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/initial.png?v=06a32c4c70b6",
+          "ready": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/video_validation.json?v=61c7bc338c47",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -363,9 +363,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/settle.mp4?v=dac14531528b",
+          "poster": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/initial.png?v=934b3835d6cb",
+          "ready": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/video_validation.json?v=2b0e9a552486",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -402,9 +402,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/video_validation.json",
+          "src": null,
+          "poster": null,
+          "ready": null,
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -441,9 +441,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/settle.mp4?v=08bd34038648",
+          "poster": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/initial.png?v=b4e37f139a84",
+          "ready": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/video_validation.json?v=695920cbeecb",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -480,9 +480,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/settle.mp4?v=69c716a3a596",
+          "poster": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/initial.png?v=795cb7184daf",
+          "ready": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/video_validation.json?v=f496eadaeacf",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -519,9 +519,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/settle.mp4?v=f7460c2536ef",
+          "poster": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/initial.png?v=10d8401ec164",
+          "ready": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/video_validation.json?v=97c5aa379be8",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -558,9 +558,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/settle.mp4?v=6bb08c2db219",
+          "poster": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/initial.png?v=bc189746f303",
+          "ready": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/video_validation.json?v=1d91123effbf",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -597,9 +597,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/settle.mp4?v=aab6d03a1bdc",
+          "poster": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/initial.png?v=0fe20f184ea6",
+          "ready": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/video_validation.json?v=f26eba46af32",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -636,9 +636,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/settle.mp4?v=816f8a56da3c",
+          "poster": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/initial.png?v=e2ddc67098f3",
+          "ready": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/video_validation.json?v=6e19aaab4437",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -675,9 +675,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/settle.mp4?v=03035fe82a91",
+          "poster": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/initial.png?v=46cd6966cfde",
+          "ready": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/video_validation.json?v=c68e896f91e2",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -714,9 +714,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/settle.mp4?v=effb8e8f8e11",
+          "poster": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/initial.png?v=087670d259f9",
+          "ready": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/video_validation.json?v=067837b8c3a6",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -753,9 +753,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/settle.mp4?v=f2cfdd6166e6",
+          "poster": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/initial.png?v=888c9e6c8ea6",
+          "ready": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/video_validation.json?v=8a5d3c726c93",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -792,9 +792,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/settle.mp4?v=b722c539ba8f",
+          "poster": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/initial.png?v=e5e148a8d18a",
+          "ready": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/video_validation.json?v=1d4c9a2e1292",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -831,9 +831,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/settle.mp4?v=caa69071de16",
+          "poster": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/initial.png?v=abb6a6a5fcda",
+          "ready": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/video_validation.json?v=0af575346091",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -870,9 +870,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/settle.mp4?v=85c3f89fade3",
+          "poster": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/initial.png?v=b016fe78b671",
+          "ready": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/video_validation.json?v=993b300b4728",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -909,9 +909,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/settle.mp4?v=d04f8e8651a1",
+          "poster": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/initial.png?v=28787dc14b89",
+          "ready": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/video_validation.json?v=b8bad81249a9",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -948,9 +948,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/settle.mp4?v=5b6f17137454",
+          "poster": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/initial.png?v=16345882b873",
+          "ready": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/video_validation.json?v=648d277fe6c9",
           "sourceMethod": "WorldSculpt"
         }
       },
@@ -987,9 +987,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/settle.mp4",
-          "poster": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/initial.png",
-          "ready": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/video_validation.json",
+          "src": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/settle.mp4?v=60ca2b52bd78",
+          "poster": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/initial.png?v=2ffe360a196b",
+          "ready": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/video_validation.json?v=2b89ec4fe24b",
           "sourceMethod": "WorldSculpt"
         }
       }
