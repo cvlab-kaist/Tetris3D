@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Tetris3D red T block</title>
+  <defs>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d63228"/>
+      <stop offset="1" stop-color="#b51f1b"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ff8b80"/>
+      <stop offset="1" stop-color="#f1685c"/>
+    </linearGradient>
+    <g id="cube" stroke-linejoin="round">
+      <path d="M0 0 3-3h13l-3 3Z" fill="url(#top)"/>
+      <path d="M13 0 16-3v13l-3 3Z" fill="#e84f43" stroke="#c43c32" stroke-width=".4"/>
+      <rect width="13" height="13" rx=".7" fill="url(#front)" stroke="#971b18" stroke-width=".55"/>
+      <path d="M1 1h11M1 1v10.5" fill="none" stroke="#eb584c" stroke-width=".65"/>
+    </g>
+  </defs>
+  <use href="#cube" x="23" y="46"/>
+  <use href="#cube" x="23" y="33"/>
+  <use href="#cube" x="23" y="20"/>
+  <use href="#cube" x="10" y="7"/>
+  <use href="#cube" x="23" y="7"/>
+  <use href="#cube" x="36" y="7"/>
+</svg>
