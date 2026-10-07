@@ -1,5 +1,9 @@
 {
   "passed": true,
   "scene_id": "v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d",
-  "method": "WorldSculpt"
+  "method": "WorldSculpt",
+  "sourceMeshSha256": "8f7de88592f10dff7185b06e02af0278869760f4fcd53282550aa1f28fb0b938",
+  "videoSha256": "5b6f171374547fbf1f1e05a9c0b47ec5b85c6fcd4362179790b4eb533d4eefa0",
+  "posterSha256": "16345882b8732bcdb8d5497fdb12bbc1112ef36f974cab530fa38f210e0df924",
+  "simulationRevision": "toys4k_worldsculpt_qualitative24_gt_videos_20261008"
 }

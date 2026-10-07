@@ -50,7 +50,7 @@ if (options.list) {
     overrides: subset(sourceContent.simulation?.overrides),
     initialStates: subset(sourceContent.simulation?.initialStates),
   };
-  const validationPaths = new Set(Object.values(simulation.overrides).flatMap((methods) => Object.values(methods).filter(Boolean).map((entry) => entry.ready)).filter(Boolean));
+  const validationPaths = new Set(Object.values(simulation.overrides).flatMap((methods) => Object.values(methods).filter(Boolean).map((entry) => entry.ready)).filter(Boolean).map((reference) => reference.split(/[?#]/)[0]));
   const hostedConfig = hostedAssetConfig();
   const hostedReferences = new Map();
   if (!externalBase) for (const scene of Object.values(selected).flat()) {
@@ -72,9 +72,9 @@ if (options.list) {
     let data;
     if (validation) {
       const metadata = JSON.parse(fs.readFileSync(source));
-      const { passed, scene_id, method } = metadata;
+      const { passed, scene_id, method, sourceMeshSha256, videoSha256, posterSha256, simulationRevision } = metadata;
       if (typeof passed !== 'boolean' || !scene_id || !method) throw new Error(`Invalid simulation validation: ${reference}`);
-      data = Buffer.from(JSON.stringify({ passed, scene_id, method }, null, 2) + '\n');
+      data = Buffer.from(JSON.stringify({ passed, scene_id, method, sourceMeshSha256, videoSha256, posterSha256, simulationRevision }, null, 2) + '\n');
     }
     const hosted = hostedReferences.has(reference);
     const gzipMesh = (options.gzipMeshes || hosted) && reference.endsWith('.glb');
@@ -106,7 +106,7 @@ if (options.list) {
     if (Array.isArray(value)) return value.map(rewrite);
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, rewrite(child)]));
     if (typeof value === 'string' && rewritten.has(value)) return rewritten.get(value).path;
-    if (externalBase && typeof value === 'string' && value.startsWith('assets/') && !validationPaths.has(value)) return new URL(value, externalBase).href;
+    if (externalBase && typeof value === 'string' && value.startsWith('assets/') && !validationPaths.has(value.split(/[?#]/)[0])) return new URL(value, externalBase).href;
     return value;
   }
   const atomicWrite = (file, data) => { fs.writeFileSync(file + '.publishing', data); fs.renameSync(file + '.publishing', file); };
@@ -125,7 +125,7 @@ if (options.list) {
       sha256: checksum(fs.readFileSync(destination)),
       ...(hosted ? { url: new URL(reference, hostedConfig.baseUrl).href } : {}),
       ...(sourceSha256 ? { sourceSha256 } : {}),
-      operation: gzipMesh ? 'Lossless gzip compression; decompressed GLB matches the source exactly.' : data ? 'Simulation validation fields only: passed, scene_id, method.' : 'Unmodified copy from the development project page.',
+      operation: gzipMesh ? 'Lossless gzip compression; decompressed GLB matches the source exactly.' : data ? 'Portable simulation readiness and optional inference/video checksum fields.' : 'Unmodified copy from the development project page.',
     });
   }
   const contentPath = path.join(publicRoot, 'content.json');

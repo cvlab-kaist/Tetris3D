@@ -6,7 +6,7 @@ Tetris3D 로고, T 블록 favicon, Paper PDF, Method 그림과 Qualitative Compa
 
 원본 mesh와 경량 mesh 모두 gzip 무손실 압축으로 저장합니다. 좌표·geometry·장면 순서는 변경하지 않으며, 경량 mesh를 복원한 바이트의 SHA-256은 원본과 일치합니다. 각 파일의 출처와 해시는 `scripts/asset-provenance.json`에 기록합니다.
 
-WorldSculpt도 24개 장면 모두 원본·경량 3D 보기를 제공합니다. `WorldSculpt/toys4k_qualitative24_gt_20261008`의 composite를 공통 표시 좌표계로 회전한 사본이며, 입력 RGB·카메라·target·view와 원본 geometry·GT primitive 일치를 검증했습니다. 검증 기록은 `scripts/worldsculpt-provenance.json`에 있습니다. 기존 9월 paper24 시뮬레이션 영상은 유지하며, 이 mesh 가져오기 작업에서 궤적을 다시 계산하지 않습니다.
+WorldSculpt도 24개 장면 모두 원본·경량 3D 보기를 제공합니다. `WorldSculpt/toys4k_qualitative24_gt_20261008`의 composite를 공통 표시 좌표계로 회전한 사본이며, 입력 RGB·카메라·target·view와 원본 geometry·GT primitive 일치를 검증했습니다. 검증 기록은 `scripts/worldsculpt-provenance.json`에 있습니다. 시뮬레이션은 동일한 새 추론을 사용한 `toys4k_worldsculpt_qualitative24_gt_videos_20261008` 영상입니다. 3D 출처와 source mesh SHA-256, 공통 비교 camera와 physics를 대조합니다. 미완료 장면에는 이전 영상 대신 대기 상태를 표시합니다.
 
 ## 대표 영상·이미지·논문 연결
 
@@ -53,7 +53,7 @@ npm run build
 
 ID는 쉼표로 여러 개를 지정하거나 `all`로 해당 컬렉션 전체를 선택합니다. 원본 목록의 순서를 유지합니다. 명령을 실행하면 두 갤러리 목록을 이번 선택으로 교체하며, 지정하지 않은 컬렉션은 빈 목록이 됩니다. 기존 파일은 삭제하지 않습니다.
 
-입력·분할·마스크·GT·모든 사용 가능한 baseline·원본/경량 mesh와 해당 simulation을 함께 복사합니다. 외부 디스크를 가리키던 simulation 링크는 실제 파일 사본으로 바꾸며 검증 JSON에는 화면에서 사용하는 완료 여부·장면·방법만 남깁니다. 가져온 파일의 해시는 `scripts/asset-provenance.json`에 기록합니다.
+입력·분할·마스크·GT·모든 사용 가능한 baseline·원본/경량 mesh와 해당 simulation을 함께 복사합니다. 외부 디스크를 가리키던 simulation 링크는 실제 파일 사본으로 바꾸며 검증 JSON에는 완료 여부·장면·방법과 새 추론 영상의 검증 해시만 남깁니다. 가져온 파일의 해시는 `scripts/asset-provenance.json`에 기록합니다.
 
 `--gzip-meshes`는 아직 압축되지 않은 `.glb`를 `.glb.gz`로 저장하고 경로와 다운로드 크기를 갱신합니다. 이미 압축된 원본 mesh는 그대로 복사합니다. 압축을 해제하면 바이트까지 동일하며, 별도의 단순화·재정렬·좌표 변환은 하지 않습니다. 외부 호스트 모드와 함께 사용하지 않습니다.
 
@@ -91,3 +91,15 @@ Qualitative Comparisons의 `Show GT`는 `methods`의 `id: "gt"` mesh를 입력 �
 재생성은 `project-page/`에서 `node scripts/prepare-input-crops.mjs /path/to/development/project-page /path/to/input-cache`로 실행합니다. 생성기는 PNG와 `manifest.json`을 지정한 디렉터리에 저장하며 원본과 장면 metadata는 수정하지 않습니다. manifest의 `output`을 장면 `image`·`thumbnail`에 적용한 뒤 생성물을 `public/assets/input-cache/`로 복사합니다. 개발본에서 장면을 가져오면 크롭 저장본과 원본 경로도 포함됩니다.
 
 2026-10-06에 지정한 bottle과 두 번째 chess piece(knight)의 RGBA 원본 사본은 `project-page/examples/input-overrides/`에 보관하며, 공개 페이지에는 해당 이미지에서 만든 크롭 저장본을 연결합니다. 대응 scene ID와 SHA-256은 `project-page/scripts/input-overrides-provenance.json`에, 24개 크롭 경로·해시는 `project-page/scripts/input-crop-provenance.json`에 기록합니다. 원래 카메라 마스크를 새 이미지에 적용하지 마세요.
+
+## WorldSculpt 시뮬레이션 교체
+
+`project-page/`에서 다음 명령으로 새 MP4·초기 poster·검증 기록만 교체합니다. `VIDEO_PATHS.tsv`의 scene ID로 매핑하므로 웹의 장면 순서는 유지합니다.
+
+```sh
+node scripts/import-worldsculpt-simulations.mjs --from /path/to/video-campaign
+# 전체 로컬 개발본에도 같은 검증과 매핑을 적용
+node scripts/import-worldsculpt-simulations.mjs --from /path/to/video-campaign --page /path/to/development/project-page
+```
+
+기본값은 24개 검증 영상이 모두 있어야 반영합니다. 생성 중 `--allow-pending`을 지정하면 완료본을 가져오고 나머지는 대기로 표시합니다. 완료 후 같은 명령을 다시 실행합니다. 원본 결과는 수정하지 않고 웹 사본만 교체하며, URL의 `v`에는 파일 해시를 넣어 이전 영상·poster 캐시를 피합니다. 상태와 입력 mesh·영상·poster 해시는 `scripts/worldsculpt-simulation-provenance.json`에 기록합니다. GT Initial state 및 다른 방법의 영상은 유지합니다.

@@ -2976,24 +2976,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/settle.mp4",
-      "bytes": 496599,
-      "sha256": "87bbc762df693474609d8d9b0794fd801c6fa1e6e749eeeb3289d1022f4144d7",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/settle.mp4",
+      "bytes": 392548,
+      "sha256": "af52f2a7420f9bfa82cfa29a6f4bbb11a59d66e139e1de0e5ec6eb9cd50b6ec9",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/initial.png",
-      "bytes": 135589,
-      "sha256": "02df01c842949d4452b1beda199bdc85cb29e086d27b97f1d6aabdb9843f4f47",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/initial.png",
+      "bytes": 135463,
+      "sha256": "f4bcf367a90a27dad108773a5b44a97d87794aeb3f1ac89643c398c91ec0e814",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "9afd43b2140b02808022d57f678857a2ba00266118d152ed7db4a376fe674220",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/01_v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "5a66869e4a42a05c5fe9901561d570436cd8a533179bfd9940491fa3aaa84f62",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/Ours/settle.mp4",
@@ -3102,24 +3102,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/settle.mp4",
-      "bytes": 374119,
-      "sha256": "dc3b1e889801b250c60b10bb63aaa1e5ecf407dcec5481fee80eb583b99a782f",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/settle.mp4",
+      "bytes": 336679,
+      "sha256": "d1b7b6b49b1611a0afca90fa1e06b1142f4d6a7fdb1378c91bcd6dd2c03dc221",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/initial.png",
-      "bytes": 122173,
-      "sha256": "229c731e8390592986c04cce3b1b49e15eff5483029abe9205004506ee3b1532",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/initial.png",
+      "bytes": 122228,
+      "sha256": "f496858bd8764327e467fa19c57663af3140558afbb702287e197749100f534c",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "bade0ee7cf4110865f3489882ff9c6ac06ab02c9adcf6d8b39047d04db65815f",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/02_v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "3357bd55d2139c251f0a58b11124a24332d9290a86df4185050350898a61d1bd",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/Ours/settle.mp4",
@@ -3228,24 +3228,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/settle.mp4",
-      "bytes": 232620,
-      "sha256": "f878487f8335d6074a6f1f8ce6b1e8d29cecf8afec854b601d44150b6c6ad71a",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/settle.mp4",
+      "bytes": 232611,
+      "sha256": "33339f096172af76df54ef822eb42356f5f6c76ddefa7c3492f79df2c5794822",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/initial.png",
-      "bytes": 120053,
-      "sha256": "bcaea23f2a992e35d46f96cb9b97138af8c36feb7580c6c5db13cf89c691280a",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/initial.png",
+      "bytes": 120047,
+      "sha256": "bc72462928b9b6798b72d800ab98b201ad152be04811d108a1eb69c5edae4615",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "b13a4139740b4f0ac3c512f10b171df1f253734f818ccb11fedd2c843b9b049c",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Main/03_v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "dcec57aef6dbd0db6567fc19b3bfd13ec332b0743e39159f414669cef7301e6b",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/Ours/settle.mp4",
@@ -3354,24 +3354,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/settle.mp4",
-      "bytes": 262023,
-      "sha256": "936e781dbb8aa345467ac23a53ce82cb97a7566b6f4934beb841766ca35acce5",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/settle.mp4",
+      "bytes": 262341,
+      "sha256": "b264c7b52ec2b0f2aeb915314d735050899d05dc1e8045b63b7b709067b0f87d",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/initial.png",
-      "bytes": 116440,
-      "sha256": "60987ff7c1ff05acacd505d7f3db554d475374a332160564e94fd3662275c38e",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/initial.png",
+      "bytes": 116308,
+      "sha256": "0a0704ffa2b991f49cc57ac205de1990bdc98d386cbbac5b99f61350d59b3dab",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "587aa400e784aafdae8de218a8e968d3b3b1048c8a08fbddcfe8bc092768917d",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/01_v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "5da51cbc860fab21e7556463cbba560cc3c858a6c45d0ebae202e03b18b4b40c",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/Ours/settle.mp4",
@@ -3480,24 +3480,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/settle.mp4",
-      "bytes": 467950,
-      "sha256": "fd0a98f4da582e1e34e033680705b479ac9dc7f5160caef089886ff3ab45468f",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/settle.mp4",
+      "bytes": 459686,
+      "sha256": "b4edf425d0767b0d15ca6b98328a6d6035098344348bd25556135ca689b11f13",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/initial.png",
-      "bytes": 165478,
-      "sha256": "7c014b66f1238946be5bf603a57eee19f5df355576249755368fd3536e152ce4",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/initial.png",
+      "bytes": 165737,
+      "sha256": "74765a936fbd05f66b3d1b65538f84f944d7521040cb5581c1dd6b879a4385f6",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "317e225e0320b197d4c3a1bc5706371d82346e22fb8664dbd35b747de9cc3043",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/02_v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "0e4ba400cd65a5e8f98a7195fd6588ac3813342845c06ea5701670aa58eedd58",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/Ours/settle.mp4",
@@ -3606,24 +3606,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/settle.mp4",
-      "bytes": 267312,
-      "sha256": "aedc798e4bed9ed91435ddcd1e617e43f8ac430c67dcad395812b0315ead8a19",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/settle.mp4",
+      "bytes": 270577,
+      "sha256": "81a27999ff49c40d440103696f6ecbb7680dd0dab19a2e122038497cdc030374",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/initial.png",
-      "bytes": 105375,
-      "sha256": "da0e906e99ad23964af7c4a1ff65925841560e11a1932cfe3a3ea25d81e03269",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/initial.png",
+      "bytes": 105538,
+      "sha256": "c80ef42c12c5892589688100dfd3fc80d94f146688c9ca481e3c1217fa0a3f36",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "63b07c2a77d5def733ed26c7bb9f5217cdc1297fa20bc349d0d34ad7f87a5610",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/03_v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "b591b9b17ac3b7927dd386470862b23176b3db9812e5546bf36bb7a53eb0e6a2",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/Ours/settle.mp4",
@@ -3732,24 +3732,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/settle.mp4",
-      "bytes": 517754,
-      "sha256": "cd94cf4d122ba332ef18528acd81552e5e6487ca46de429d37ab1d8aaa69e208",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/settle.mp4",
+      "bytes": 443720,
+      "sha256": "2143ad1c202a8557407f47b7aa5293db090218a7a1c156895d000168e85a7694",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/initial.png",
-      "bytes": 127388,
-      "sha256": "50ede50b0ec4684dc14a0f2868e388811fc9de216bd15a1b64f0784101282e54",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/initial.png",
+      "bytes": 127454,
+      "sha256": "06a32c4c70b6dd5de1b54faaffe1772c814f0cd13d924800c57125ca3b12e55b",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "8366c534ef9b6e46ed63aeef0533f9eceb29904d199ace42bcd4813c99a807ed",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/04_v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "61c7bc338c4725e5398ed3985f420671f34cb17e43f2dde0cb6c762e7f75d451",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/Ours/settle.mp4",
@@ -3858,24 +3858,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/settle.mp4",
-      "bytes": 263833,
-      "sha256": "32ebcdbf31fadfd5d079178164a4cfd809e4edd7456c9dec5843d569b57b7075",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/settle.mp4",
+      "bytes": 285572,
+      "sha256": "dac14531528b262635fd182eff9bc92d11bf267b01be870038221e68667d4ba0",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/initial.png",
-      "bytes": 133874,
-      "sha256": "c2d3e8eef89d54ba796989f3c8b62e220f7c1305288e2825b82c667955aaa170",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/initial.png",
+      "bytes": 133891,
+      "sha256": "934b3835d6cb94b7fa1132da11115a24016f63edc9a6798e7cd190bc007c5d3c",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "598a1b2cc26b7a99873d181860426b48cd51da51c4405f6b8d2abb481e52603f",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/05_v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "2b0e9a5524864ae593882e1fe4995a1317ab185d9303e7e484e3ccc97b9c66b4",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/Ours/settle.mp4",
@@ -4110,24 +4110,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/settle.mp4",
-      "bytes": 412041,
-      "sha256": "9047bb0e40fb2d3b595c8525033a8ad3b57ad4995af3431c886829db429ed6d0",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/settle.mp4",
+      "bytes": 577196,
+      "sha256": "08bd340386489082f9fef9ebfd503dbc0d0b7f2a8fa8b5adaa13fe8ba9218310",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/initial.png",
-      "bytes": 129821,
-      "sha256": "b43f214db71ae36e35ce8063ce080a5691da638d5b89ccd6d018ec31aa8d0c71",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/initial.png",
+      "bytes": 129599,
+      "sha256": "b4e37f139a843cb9dad5854dc0c572903024598502c36f913873217d9fb81b95",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "641db5cef5d731737ab11719efcd70019129a59e8e78ebae35b7cfef6d0c5f3a",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "695920cbeecb7017f9e81852a7d782a98b63e7c3e60e83a49c24084ee81d59c4",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/Ours/settle.mp4",
@@ -4236,24 +4236,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/settle.mp4",
-      "bytes": 255098,
-      "sha256": "7c527bb1eed490a64de9ddafab773ec8da0d2b47a8094160981179cbbbec8a66",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/settle.mp4",
+      "bytes": 255437,
+      "sha256": "69c716a3a5962e11256343f2eee3c8348cb886611bc4b7760bd31070278d8cdc",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/initial.png",
-      "bytes": 130388,
-      "sha256": "a9c20ee555310fdae2a9dcca82bf156cbbf94daf03fb8168bdad6fffe66a476a",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/initial.png",
+      "bytes": 130500,
+      "sha256": "795cb7184daf709874133da0893e7ecdaaa05aeef4d1ecad7bc171255b93756b",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "705675d01f75eb8d7f8874159b01987687811ba67b5890e9ba107f7b49546c74",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/01_v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "f496eadaeacf7d7d6454bc8c2538b540cc1f40797a3ae43e7805968023b4c5ad",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/Ours/settle.mp4",
@@ -4362,24 +4362,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/settle.mp4",
-      "bytes": 939252,
-      "sha256": "264bbc802bbd4fb7542455d8fcf6c2711326e6dbe2d14313dc3ab09e349be38b",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/settle.mp4",
+      "bytes": 889083,
+      "sha256": "f7460c2536efa4e9fe94bed4b94a2d7c3c1c3666722f6a3dd9570de19baa9a84",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/initial.png",
-      "bytes": 121499,
-      "sha256": "a79e4a2b8b6a7fbbe558815a898a47f87e4c33fe51bc195cf5988801ec2761c7",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/initial.png",
+      "bytes": 121449,
+      "sha256": "10d8401ec1647b0361bf673432e62c6ba6efb8cab07f1a08508e3c5553c94b49",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "a80c2ad7bbd7caacf8ab4362f1b74341acd8a4116ec99741bce0fc73f0e3cc50",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/02_v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "97c5aa379be888a92cc3ee3b3b8bbb93e97d3eda909b31a373d92da5fae35b05",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/Ours/settle.mp4",
@@ -4488,24 +4488,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/settle.mp4",
-      "bytes": 273678,
-      "sha256": "8a8bccd4256a4d2c67593e22c04375661da49f8e636bb04e143c5ae0671e2263",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/settle.mp4",
+      "bytes": 274293,
+      "sha256": "6bb08c2db21984f31ff29ff2a741fe00ca69ab9ba42ea1dd679ecb1e77360b50",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/initial.png",
-      "bytes": 132535,
-      "sha256": "2d4a2ba4e4ad7eb147fbf2627f915489d170d8eaec05ee9f60f7217d17d242ae",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/initial.png",
+      "bytes": 132274,
+      "sha256": "bc189746f3032827599f3d7c8a8b7cfe6e5a1583bd05491df3d38c8a6e4f1844",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "231ff7676893d78e19b7852bc66f98e5cb89d3ae4aea860a3f69fe1c70eb9ff7",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/03_v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "1d91123effbf41dbb6e638162b4729a4ed259a7125b8dfd1c6ac5293814a2f75",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/Ours/settle.mp4",
@@ -4614,24 +4614,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/settle.mp4",
-      "bytes": 406161,
-      "sha256": "c08c2201e1b97e5cfd4ede20f250385676727d65f9f71cc178f7d15943179e74",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/settle.mp4",
+      "bytes": 319282,
+      "sha256": "aab6d03a1bdceceb976292239cd154878badc3d107607920d107e061837eb148",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/initial.png",
-      "bytes": 117081,
-      "sha256": "2362dbc6ce52f32a2cb56b4ceb4248e895674df105fd21b7ed4b342a3e063d4f",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/initial.png",
+      "bytes": 117055,
+      "sha256": "0fe20f184ea679647b9b7f8d11b279d901a7f3942d7e7522c5ca311354330518",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "0d30332f5171314d38745d70d86b44e8991167dfb88ffe9f5704841a1c847d3a",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/04_v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "f26eba46af32dd981e0ce24231a6fe4004b55dabbe696cfab51a7d03f08dfb1b",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/Ours/settle.mp4",
@@ -4740,24 +4740,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/settle.mp4",
-      "bytes": 525986,
-      "sha256": "b9eb7bcf97a2c6e1bf668146001d565e7ebf106f32349779089b07b98f51883f",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/settle.mp4",
+      "bytes": 588460,
+      "sha256": "816f8a56da3cdb06a49341e7e822c48c24b346763a059a2b9a274175a09e0f15",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/initial.png",
-      "bytes": 122966,
-      "sha256": "153f09351f8404b3085d208447a6c1a80192a88c3c1b74ca0d03e26bfe26fe01",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/initial.png",
+      "bytes": 122997,
+      "sha256": "e2ddc67098f38f2f22d0b3aff94f0030c2706a387257e5ef52864b91a32037d8",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "9ace52825143da36492006f1d610d39d84e141c2e4c0e4604aef2743c79f70d9",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/05_v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "6e19aaab44379b851f8c0ccd5766e70c88891e9b5896f558cb27e1f9678fceb7",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/Ours/settle.mp4",
@@ -4866,24 +4866,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/settle.mp4",
-      "bytes": 298806,
-      "sha256": "fae1b55d852875cd1d633ef1cadcfe78be0caf7c1d16da566a5aa696948c2782",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/settle.mp4",
+      "bytes": 304553,
+      "sha256": "03035fe82a91617a98898d01ddea3e5872bca9365512dc94a93344295e43e525",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/initial.png",
-      "bytes": 132137,
-      "sha256": "9bf66ecee2842325a278aa6a30434fcee384b291d44bf7d235cdbe5c10e6feb2",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/initial.png",
+      "bytes": 132031,
+      "sha256": "46cd6966cfde57201616546ed74190e558915ea602003cfb4f9049ed10f0ca72",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "ffacee2cd1d0adb07ddff1d71b4d4b20e40e890f2f72a27c3bafa66294be3445",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/06_v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "c68e896f91e27e595cec68e078cbbc5984e2604b6abf201e38f5dae5b7d77c2b",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/Ours/settle.mp4",
@@ -4992,24 +4992,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/settle.mp4",
-      "bytes": 279221,
-      "sha256": "522df89ac5611ec7e56707a6557af326dc427bc71fcf2f1a8b62dc0821a77fac",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/settle.mp4",
+      "bytes": 318953,
+      "sha256": "effb8e8f8e1138c768a082572e2f8f16e36b0eceeff52462434665df20696df7",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/initial.png",
-      "bytes": 104340,
-      "sha256": "7cc94793c360404b581eace8d957acd2286e99764c10d191af0f22b649dae81a",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/initial.png",
+      "bytes": 104366,
+      "sha256": "087670d259f9890e8d079b394259b3e148b23f1720d469d84b8f3f48a473eb19",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "03fbe7fee1c6c39c826d6aa7668b6d686b28c3525a49235ef77eed86f46369be",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig2/07_v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "067837b8c3a6996a9ef2faab99e31a5fbfc34f39b3d9276cb36ac33e71db5c23",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/Ours/settle.mp4",
@@ -5118,24 +5118,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/settle.mp4",
-      "bytes": 443053,
-      "sha256": "5b14768d21bb7ef6f6be6172da268e3ed6911eed09a54284f298ed58bf1bb800",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/settle.mp4",
+      "bytes": 429582,
+      "sha256": "f2cfdd6166e6d205a0aeb3c21bba1de7ae8ffab70ad943515df9af8364a45e9b",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/initial.png",
-      "bytes": 110119,
-      "sha256": "dd7f62721692ce09e6f0c18dcec71d117052f2a3206db11ebca2ce75696a6a71",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/initial.png",
+      "bytes": 110151,
+      "sha256": "888c9e6c8ea60ac3343d6b8b3428c171bc9e1acb0d7aa8eb6a4d821c4ca5d57d",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "6de037b36fe66184f56de0dcb32bce0efb2b9518cd70d682a2c37803c36ae74e",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/01_v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "8a5d3c726c9361d2bf9e2cded8acb64464ed7eae3c65ddfd2084b3b34992f1fc",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/Ours/settle.mp4",
@@ -5244,24 +5244,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/settle.mp4",
-      "bytes": 386504,
-      "sha256": "70c75abba9ece0cd9562e99d08f6524c741768b730e20f031618d3e6fc4e868e",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/settle.mp4",
+      "bytes": 389846,
+      "sha256": "b722c539ba8f5e2bd56e12536c82de7cca529a8a5e42d2253e2f610609b8b91e",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/initial.png",
-      "bytes": 131359,
-      "sha256": "d25aa89d81874ac1d3c9b4edcf73b8211475ebdc5fbd3e4922ab2c7ebadbcbec",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/initial.png",
+      "bytes": 131454,
+      "sha256": "e5e148a8d18ab3e6034f1a062777a383067f6767f6053a2c5f5b5a86bd827fd2",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "f2f4cad4eff29686ceb987a2cd6c6669c22aad64fc9ec2bb47bf40f64c9dc0c3",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/02_v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "1d4c9a2e1292252468f4668bc5f8bd850148cd9c0102fdeb57a9c231b93735cc",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/Ours/settle.mp4",
@@ -5370,24 +5370,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/settle.mp4",
-      "bytes": 297874,
-      "sha256": "abf904cddcad43f559e6bdad4a1b526339fb8ad92ed0a36e9a866995ec857052",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/settle.mp4",
+      "bytes": 298514,
+      "sha256": "caa69071de160276ec5d465ca2a29a50aaa24cd8d6a1127f3cc5175b2c0449bb",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/initial.png",
-      "bytes": 141748,
-      "sha256": "53713749f8e4dd0b63a6118fc334d0b44d503c73c83580e1c8e637b6cb78622f",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/initial.png",
+      "bytes": 141776,
+      "sha256": "abb6a6a5fcdaaf5363fd373f9f70ead7d5bdc3073e576dc2114eedbbf9ffb807",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "10fd7be072ac5087988eac40ecf7b33ddf96970f7c351ab285164172e25a438d",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/03_v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "0af575346091295a16a8781c9dfcd72214a5748bd63574d1202f9ea3593796e9",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/Ours/settle.mp4",
@@ -5496,24 +5496,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/settle.mp4",
-      "bytes": 278322,
-      "sha256": "3659762f8f56ba00cf536cedbcd06eeadf66fa1b3d5e7bebcc2a2dc37cd266f9",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/settle.mp4",
+      "bytes": 267526,
+      "sha256": "85c3f89fade3a074591efefa67e4e6be05b0ad49f3c79b1f3073d5be83075140",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/initial.png",
-      "bytes": 112006,
-      "sha256": "eb7b29a0d9cea79b3e644afbfade1a7f2c9afec7adfc96e425ca9681e117528c",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/initial.png",
+      "bytes": 112055,
+      "sha256": "b016fe78b6712f57b74fb6b40dd4545e73984927d794633ba8b6c1f89fad0899",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "9e5ed4e32176fce91f093fe60537ae76f94f8c16cbaf06db577db2aedd627cee",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/04_v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "993b300b4728f1d390553226b482cd5af840365db3dcd2122e70ef1e1b314344",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/Ours/settle.mp4",
@@ -5622,24 +5622,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/settle.mp4",
-      "bytes": 605758,
-      "sha256": "bede8f251e7195cf77ffc07995f1e8befab5b97914b4160efcc42efe3f396417",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/settle.mp4",
+      "bytes": 727053,
+      "sha256": "d04f8e8651a12239c2280fcbd5800a4191caba70efd3589923763083ddc3b93b",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/initial.png",
-      "bytes": 115417,
-      "sha256": "0f73fc694c69b70ff7a84f09803a03aeb5b629b1c7e72434f6749db488277ac6",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/initial.png",
+      "bytes": 115201,
+      "sha256": "28787dc14b891bfc8123a2a98b9d3993e97281180d2f9fe661fb1d3563b5dd30",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "a8b2966362c1351ededbfc77125e12a5ffc38aac27445345f33bfcc24657db54",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/05_v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "b8bad81249a9e7261ac8d0166d2034301515013cc2190a4b9489f3bff35a3950",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/Ours/settle.mp4",
@@ -5748,24 +5748,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/settle.mp4",
-      "bytes": 379156,
-      "sha256": "5b25e7807dc55e33b74857c75cc33090715443b2250c3bdfe336f12371c66e73",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/settle.mp4",
+      "bytes": 381194,
+      "sha256": "5b6f171374547fbf1f1e05a9c0b47ec5b85c6fcd4362179790b4eb533d4eefa0",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/initial.png",
-      "bytes": 154568,
-      "sha256": "b8312e6c01310039262d903d41d518a5e9068defc62b450a765eb1e58d369e47",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/initial.png",
+      "bytes": 154410,
+      "sha256": "16345882b8732bcdb8d5497fdb12bbc1112ef36f974cab530fa38f210e0df924",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "1ce50e11fe2c9a37d76991aa0102a5cd067c6fc82c8cb6c1a05694652443f166",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/06_v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "648d277fe6c900cb8f08c2d177ff8fd73f25d8462170965c1401833c225bee1a",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/Ours/settle.mp4",
@@ -5874,24 +5874,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/settle.mp4",
-      "bytes": 256532,
-      "sha256": "7e8b0c9dfed048988cdbd9c91ed0689bdddec5959fd5d1769a9763535793e56a",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/settle.mp4",
+      "bytes": 257058,
+      "sha256": "60ca2b52bd78708f076f04e545be716f676d661d48f0c66f826f88c2b94c3d70",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/initial.png",
-      "bytes": 114873,
-      "sha256": "a185ed96300707364fcde5029a874c338aa5d87778d1330f0a0a440058dc0fbe",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/initial.png",
+      "bytes": 114846,
+      "sha256": "2ffe360a196b444e53827c45449e06ebc948caec0f1c8afd043711465c428b34",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "7d9d84cef0bbb4d5cfde8a26a0307143be5b374ca56d7a6df5c2ac675134f5fa",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig3/07_v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "2b89ec4fe24b8a91ef2a3c7c10f110d9669ed5461e88322ef9a3b8b6c72a6a40",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/gt-initial/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297.png",
@@ -6084,7 +6084,7 @@
       "operation": "Unmodified copy of the author-provided Tetris3D_v1.pdf."
     }
   ],
-  "updatedAt": "2026-10-07T19:28:43.698Z",
+  "updatedAt": "2026-10-07T19:46:36.074Z",
   "selection": {
     "demos": [],
     "toys": [

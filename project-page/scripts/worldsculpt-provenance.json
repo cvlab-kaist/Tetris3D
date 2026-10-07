@@ -2,7 +2,10 @@
   "source": "WorldSculpt/toys4k_qualitative24_gt_20261008",
   "scenes": 24,
   "policy": "Original geometry preserved; rigid Z-up to Y-up display rotation only. Optional light meshes use the existing 200k faces/part limit. Original reference primitives match GT.",
-  "simulation": "Existing September paper24 recordings are retained; this import only replaces missing 3D meshes and does not regenerate simulation trajectories.",
+  "simulation": {
+    "sourceCampaign": "toys4k_worldsculpt_qualitative24_gt_videos_20261008",
+    "provenance": "scripts/worldsculpt-simulation-provenance.json"
+  },
   "entries": [
     {
       "scene_id": "v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297",
@@ -33,7 +36,7 @@
             "light_faces": 96,
             "vertices_sha256": "74ba7b51066815a676f05ac53646cb3d367cc199af74439cc654afce31105a3f",
             "faces_sha256": "8f2945207107f62c2ac7b34d728f65c73ac4a1854ad95b30958c502897301fd2",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -65,28 +68,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -122,7 +125,7 @@
             "light_faces": 96,
             "vertices_sha256": "be2e062e328e6ff7f68c96f0df886a77ba21442bbd8974d72c10dbd10332856f",
             "faces_sha256": "8f2945207107f62c2ac7b34d728f65c73ac4a1854ad95b30958c502897301fd2",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -154,28 +157,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -211,7 +214,7 @@
             "light_faces": 576,
             "vertices_sha256": "d1f512138e8bb152f05b40b655ac5efa9201c17f22e5ef971bd9547c10bc76a0",
             "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -243,28 +246,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -300,7 +303,7 @@
             "light_faces": 60,
             "vertices_sha256": "98b3ee014a1dfbe115f8aa8560887565af18c652ef60cfee2898eadba3c43cfb",
             "faces_sha256": "f7ba6cb00654ca92044ddb382ee5b633fc91dfbc44d744e30dc58679952a46c3",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -332,28 +335,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -389,7 +392,7 @@
             "light_faces": 576,
             "vertices_sha256": "7a589a31f7872aaaed9f6c4672d9fda20bdaeecb9541ec9b92be8b74b28ac136",
             "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_2",
@@ -400,7 +403,7 @@
             "light_faces": 12,
             "vertices_sha256": "48e63f5d48dcf65a8f3b4f3a14cd982252d288fb3096e92bb44c07408f5c5f37",
             "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_1",
@@ -411,7 +414,7 @@
             "light_faces": 12,
             "vertices_sha256": "774ad5669effed4b3fa89884d048a64fe9407d366a754b5433e41ba5833ecf2d",
             "faces_sha256": "c83af687f587001eb7231e37c7c055244e41ade6668c4aa14e1513914262f962",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -443,28 +446,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -500,7 +503,7 @@
             "light_faces": 576,
             "vertices_sha256": "940339457bb210a19067311d01ff927cb1e6a29b35b526908c8b8454e7cfd4a9",
             "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -532,28 +535,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -589,7 +592,7 @@
             "light_faces": 576,
             "vertices_sha256": "4f374ecde62abfb9497b1807ae3ecd9309f32db91036a7dbd8a2c06e4bf94aa7",
             "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -621,28 +624,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -678,7 +681,7 @@
             "light_faces": 12,
             "vertices_sha256": "77dcc15551e4383dbebdbb46b6f667538861005a4267dd59c0fd332dd0aa2c31",
             "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -710,28 +713,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -767,7 +770,7 @@
             "light_faces": 80,
             "vertices_sha256": "a3f1ba6049502e03f50e293af0abeb72d1f51f4c94f5b69028ec13833d45ad01",
             "faces_sha256": "42cdaaa7bec47e4f11d18faacadca771ad912ddc91f560a8ede975d1e63b8fe9",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -799,28 +802,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -856,7 +859,7 @@
             "light_faces": 576,
             "vertices_sha256": "4189c711e41027cb44d56270c30480bc6208c5456ee5a36c5d23278de3d17a3a",
             "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -888,28 +891,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -945,7 +948,7 @@
             "light_faces": 60,
             "vertices_sha256": "df7b3ad61c73cd34b76ca5c4b21de3f4964db9254af5357ad79a712215afe0a7",
             "faces_sha256": "f7ba6cb00654ca92044ddb382ee5b633fc91dfbc44d744e30dc58679952a46c3",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -977,28 +980,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1034,7 +1037,7 @@
             "light_faces": 12,
             "vertices_sha256": "35437345edd9a5d62c7471f34a9496c5112cd4e59133d6c7a9c2cfa86ff7b387",
             "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1066,28 +1069,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1123,7 +1126,7 @@
             "light_faces": 4416,
             "vertices_sha256": "173b47a1e2bbcc93e7045921d6155808aa9132d21f507fa6dfcbf2f6aa93d6a1",
             "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_3",
@@ -1134,7 +1137,7 @@
             "light_faces": 192,
             "vertices_sha256": "1214785fa5dffca42ece87f7667e3b2b20f8dced598d391a87441e1765e70eb4",
             "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_2",
@@ -1145,7 +1148,7 @@
             "light_faces": 576,
             "vertices_sha256": "1e9486a69cb4b213fdebe4244202e263e76718b581a6e61d1888f26df2e70227",
             "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_1",
@@ -1156,7 +1159,7 @@
             "light_faces": 192,
             "vertices_sha256": "6fc2454333b47a2779ce7a66beea097dc40263caa395c69c00f51ba78a3929da",
             "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1188,28 +1191,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1245,7 +1248,7 @@
             "light_faces": 3648,
             "vertices_sha256": "f98b45c950d2c360769b07c610b13249ada551017669784d78bfef9696d759d6",
             "faces_sha256": "92a3015951cce0366f45e60eb9e2fed464c04484d3e26d3556331f8748c068f4",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1277,28 +1280,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1334,7 +1337,7 @@
             "light_faces": 60,
             "vertices_sha256": "b1a73330ebf34b504e37b6497b9222cb98731140bd0733927702c3bd795c7aef",
             "faces_sha256": "f7ba6cb00654ca92044ddb382ee5b633fc91dfbc44d744e30dc58679952a46c3",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1366,28 +1369,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1423,7 +1426,7 @@
             "light_faces": 192,
             "vertices_sha256": "23338346e77ceef5ac87756343f9f9331e3358e9147ff98dcd1093cc84b26dec",
             "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1455,28 +1458,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1512,7 +1515,7 @@
             "light_faces": 12,
             "vertices_sha256": "590086189f5865a70db9335290564eb2bbd2ae9bb0e3ec5180954ba53b6f1ce3",
             "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1544,28 +1547,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1601,7 +1604,7 @@
             "light_faces": 12,
             "vertices_sha256": "85434d724d09b1a59484f911c1db9c9dacedccd0a89f3e30d74b5fb40e817bb3",
             "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1633,28 +1636,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1690,7 +1693,7 @@
             "light_faces": 3648,
             "vertices_sha256": "8953905e3f48c83dfb63b46e54f796f553e90e0b75da33a573fe6241843309e0",
             "faces_sha256": "92a3015951cce0366f45e60eb9e2fed464c04484d3e26d3556331f8748c068f4",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1722,28 +1725,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1779,7 +1782,7 @@
             "light_faces": 96,
             "vertices_sha256": "dfd01f592e9acb9c9cc21c4d39ad3fa562812cc6a6a68470840caabefc02ce82",
             "faces_sha256": "8f2945207107f62c2ac7b34d728f65c73ac4a1854ad95b30958c502897301fd2",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1811,28 +1814,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1868,7 +1871,7 @@
             "light_faces": 4416,
             "vertices_sha256": "1b896d1a38182e2b0db9ff070b1168e46fc15a06f9ef482bc51bebd47aefbbc2",
             "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_2",
@@ -1879,7 +1882,7 @@
             "light_faces": 4416,
             "vertices_sha256": "ae35ea40de49db56f52c1473f8fe915cf418d1244a4e06a89b62663c3474caa9",
             "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_1",
@@ -1890,7 +1893,7 @@
             "light_faces": 4416,
             "vertices_sha256": "74ce0e3edcb21d8fc2691668108c939fe87f8ee3b9ba6c379556c3eec7056ff4",
             "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -1922,28 +1925,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -1979,7 +1982,7 @@
             "light_faces": 12,
             "vertices_sha256": "7abe3961156a1a27bcc1b67b06d2e37c304ad48afea0fd3bd4b5ff1b8fce3a26",
             "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_1",
@@ -1990,7 +1993,7 @@
             "light_faces": 12,
             "vertices_sha256": "cc1248726fb587c780c4ef6db2e237e97916f50999782f5f95108d1faeef98f4",
             "faces_sha256": "c83af687f587001eb7231e37c7c055244e41ade6668c4aa14e1513914262f962",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -2022,28 +2025,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -2079,7 +2082,7 @@
             "light_faces": 12,
             "vertices_sha256": "568cb1298b30896b6660cd66eea7fb27b16f28ce2b328e1db7639f8a7900bcbe",
             "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -2111,28 +2114,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
@@ -2168,7 +2171,7 @@
             "light_faces": 4416,
             "vertices_sha256": "6dd96b670033b8d11cea7164736d938550148328a9143b0fd373fd7c1721823f",
             "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_3",
@@ -2179,7 +2182,7 @@
             "light_faces": 192,
             "vertices_sha256": "f97da867857ebf0625032fd3c2e3f437140a3a52d1d553c821e1ac89dacfc240",
             "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_2",
@@ -2190,7 +2193,7 @@
             "light_faces": 96,
             "vertices_sha256": "b9dd006417ed329997f34c21332377ba406abd98ec2229ea765201edcc51cc61",
             "faces_sha256": "7a1d57b26ed87c176689ac0c14903846c08f4fd37ae984f69f7282ef6782767b",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "context_1",
@@ -2201,7 +2204,7 @@
             "light_faces": 192,
             "vertices_sha256": "196509b5411835d80b384e4fb8eb5517ab476816273362582dafa731cffbc900",
             "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
-            "gt_primitive_vertex_max_error": 0.0
+            "gt_primitive_vertex_max_error": 0
           },
           {
             "object_id": "target",
@@ -2233,28 +2236,28 @@
         ],
         "rotation": [
           [
-            1.0,
-            0.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0,
-            0.0
+            0,
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            -1.0,
-            0.0,
-            0.0
+            0,
+            -1,
+            0,
+            0
           ],
           [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            0,
+            1
           ]
         ]
       },
