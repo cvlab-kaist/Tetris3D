@@ -3984,24 +3984,24 @@
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/settle.mp4",
-      "source": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/settle.mp4",
-      "bytes": 248834,
-      "sha256": "93b731b7a35359df3a33558ca3be1f096b9ec9b64ba58124c78d1666737b05e7",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/settle.mp4",
+      "bytes": 248606,
+      "sha256": "6fd2a5ff2c5367356e7b89629cc09e9a161f4475816dd93e6b87cde97d1c6793",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/initial.png",
-      "source": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/initial.png",
-      "bytes": 121378,
-      "sha256": "7a87a0cc025c1b6376aba9c52bb2959af1ef5ca08d3df46f012f5eeaf24a2cf2",
-      "operation": "Unmodified copy from the development project page."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/initial.png",
+      "bytes": 121380,
+      "sha256": "c11b2321ff8c1051835577acfb79148aded0728acd6ce15bba21c75bcaaebd57",
+      "operation": "Unmodified WorldSculpt video/poster from the new inference simulation; verified source SHA-256."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/video_validation.json",
-      "source": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/video_validation.json",
-      "bytes": 133,
-      "sha256": "f9e7fa312f0ecb9c8422204422ed62661edd9e2746521758e0cde57925365455",
-      "operation": "Simulation validation fields only: passed, scene_id, method."
+      "source": "toys4k_worldsculpt_qualitative24_gt_videos_20261008/videos/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/video_validation.json",
+      "bytes": 473,
+      "sha256": "0186a6100ddab180989cc46f6f25a3190854be69a108cdc04479ce4a46ba1a70",
+      "operation": "Portable readiness record with matching inference and video hashes."
     },
     {
       "asset": "assets/simulations/paper24/Appendix_Fig1/07_v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/Ours/settle.mp4",
@@ -6084,7 +6084,7 @@
       "operation": "Unmodified copy of the author-provided Tetris3D_v1.pdf."
     }
   ],
-  "updatedAt": "2026-10-07T19:46:36.074Z",
+  "updatedAt": "2026-10-07T19:59:30.220Z",
   "selection": {
     "demos": [],
     "toys": [

@@ -402,9 +402,9 @@
         },
         "gt": null,
         "worldsculpt": {
-          "src": null,
-          "poster": null,
-          "ready": null,
+          "src": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/settle.mp4?v=6fd2a5ff2c53",
+          "poster": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/initial.png?v=c11b2321ff8c",
+          "ready": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/video_validation.json?v=0186a6100dda",
           "sourceMethod": "WorldSculpt"
         }
       },

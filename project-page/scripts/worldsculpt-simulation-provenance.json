@@ -1,9 +1,9 @@
 {
   "sourceCampaign": "toys4k_worldsculpt_qualitative24_gt_videos_20261008",
-  "checkedAt": "2026-10-07T19:46:36.074Z",
+  "checkedAt": "2026-10-07T19:59:30.220Z",
   "scenes": 24,
-  "completed": 23,
-  "pending": 1,
+  "completed": 24,
+  "pending": 0,
   "policy": "Fresh simulation of the exact WorldSculpt inference used by the 3D viewer; shared comparison camera and physics preserved. Pending videos never fall back to the historical run.",
   "entries": [
     {
@@ -102,7 +102,17 @@
       "source": "videos/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/settle.mp4",
       "sourceMeshSha256": "8cb50ecbcc394ab3a3a4a4397c8638941a547d9c61377a247695df6d11c44427",
       "newSimulation": true,
-      "complete": false
+      "src": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/settle.mp4?v=6fd2a5ff2c53",
+      "poster": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/initial.png?v=c11b2321ff8c",
+      "ready": "assets/simulations/paper24/Appendix_Fig1/06_v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/WorldSculpt/video_validation.json?v=0186a6100dda",
+      "sourceMethod": "WorldSculpt",
+      "complete": true,
+      "videoSha256": "6fd2a5ff2c5367356e7b89629cc09e9a161f4475816dd93e6b87cde97d1c6793",
+      "posterSha256": "c11b2321ff8c1051835577acfb79148aded0728acd6ce15bba21c75bcaaebd57",
+      "trajectorySha256": "36804ab330340ae62797d5ecf4c6672d65f96f6de0be4ffede5b29b6051c3e7e",
+      "cameraMatchesComparison": true,
+      "frames": 553,
+      "duration": 23.041667
     },
     {
       "scene": "v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753",
