@@ -5,6 +5,9 @@ import http from 'node:http';
 import path from 'node:path';
 import { pageRoot } from './check-assets.mjs';
 import { checkInputFit } from './check-input-fit.mjs';
+import { checkHeaderBackground } from './check-header-background.mjs';
+import { checkReferenceFixture } from './check-reference-toggle.mjs';
+import { checkRealWorld } from './check-real-world.mjs';
 
 const dist = path.join(pageRoot, 'dist');
 assert(fs.existsSync(path.join(dist, 'index.html')), 'Run npm run build first.');
@@ -39,7 +42,7 @@ await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
 const browser = await chromium.launch({
   ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : { channel: 'chrome' }),
   headless: true,
-  args: ['--no-sandbox', '--disable-dev-shm-usage'],
+  args: ['--no-sandbox', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--disable-dev-shm-usage'],
 });
 const report = { date: new Date().toISOString(), checks: [], errors: [] };
 const review = path.join(pageRoot, 'review');
@@ -107,8 +110,14 @@ try {
     }
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
     assert.deepEqual(eagerMeshes, []);
-    const emptyMedia = !content.logo && !content.methodFigure && !content.video?.src && !content.video?.poster && !content.finalExamples?.demos?.length && !content.finalExamples?.toys?.length && !preview.demos.length && !preview.toys.length;
+    const emptyMedia = !content.logo && !content.methodFigure && !content.headerVideo?.src && !content.realWorldComparisons?.some((scene) => scene.image || scene.thumbnail) && !content.video?.src && !content.video?.poster && !content.finalExamples?.demos?.length && !content.finalExamples?.toys?.length && !preview.demos.length && !preview.toys.length;
     if (emptyMedia) assert.deepEqual(mediaRequests, [], 'The prepared page must not request research media or results.');
+    if (!content.headerVideo?.src) {
+      assert(!await page.locator('.header-backdrop').isVisible());
+      assert.equal(await page.locator('#header-video').getAttribute('src'), null);
+    }
+    assert.equal(await page.locator('#real-world [role=tab]').count(), 4);
+    assert.equal(await page.locator('#real-world [aria-selected=true]').count(), 1);
     if (prefix === 'Tetris3D') {
       await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
       await page.screenshot({ path: path.join(review, width > 760 ? 'site-desktop.png' : 'site-mobile.png') });
@@ -117,6 +126,9 @@ try {
     await page.close();
   }
   report.checks.push(await checkInputFit(browser));
+  report.checks.push(await checkHeaderBackground(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content, review));
+  report.checks.push(await checkReferenceFixture(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content));
+  report.checks.push(await checkRealWorld(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content, review));
   assert.deepEqual(report.errors, []);
   report.passed = true;
   console.log(JSON.stringify(report, null, 2));

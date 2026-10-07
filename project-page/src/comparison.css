@@ -14,6 +14,9 @@
 .comparison-actions { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px 24px; padding:12px 18px 20px; }
 .comparison-layout { --method-min:135px; display:grid; grid-template-columns:repeat(calc(var(--method-count) + 1),minmax(0,1fr)); gap:18px 10px; min-width:calc((var(--method-count) + 1) * var(--method-min) + var(--method-count) * 10px); }
 .comparison-source { grid-column:1; grid-row:1; display:flex; flex-direction:column; min-width:0; padding-top:24px; }
+.comparison-reference-toggle { flex-shrink:0; padding:3px 6px; border:1px solid #dfcdea; border-radius:6px; background:#f7f0fc; color:var(--accent); font-size:10px; line-height:1.4; white-space:nowrap; }
+.comparison-reference-toggle:hover,.comparison-reference-toggle[aria-pressed=true] { border-color:#ab86c5; background:#eee1f7; }
+.comparison-reference-toggle:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 .comparison-initial { grid-column:1; grid-row:3; min-width:0; }
 .simulation-actions { grid-column:1 / -1; grid-row:2; justify-self:start; position:sticky; left:0; width:100cqw; padding:12px 0; border-block:1px solid var(--line); background:#fff; z-index:1; }
 .comparison-input,.initial-state-image,.segmentation-image { position:relative; display:block; width:100%; aspect-ratio:1; padding:0; overflow:hidden; border:1px solid #dfd5e8; background:#fff; border-radius:9px; cursor:zoom-in; }
@@ -57,7 +60,8 @@
 .comparison-grid { display:grid; grid-template-columns:repeat(var(--method-count),minmax(0,1fr)); gap:10px; }
 .method-card { min-width:0; padding:0; }
 .method-card-heading { display:flex; justify-content:space-between; align-items:center; align-content:center; flex-wrap:wrap; gap:2px 5px; height:46px; padding:6px 7px; }
-.method-card-heading h4 { margin:0; font-size:14px; font-weight:500; letter-spacing:-.02em; white-space:nowrap; color:var(--accent); }
+.method-card-heading h4 { margin:0; font-size:14px; font-weight:500; line-height:1.15; letter-spacing:-.02em; white-space:normal; color:var(--accent); }
+.method-pose-label { display:block; white-space:nowrap; }
 .method-card-heading > span { font-size:9px; letter-spacing:.1em; color:var(--muted); }
 .method-card-heading > span:empty { display:none; }
 .method-card[data-method=ours] .method-card-heading h4 { color:var(--accent); font-weight:600; }

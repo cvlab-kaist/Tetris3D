@@ -18,12 +18,14 @@
       <li><a href="#video">Video</a></li>
       <li><a href="#demos">Demo scenes</a></li>
       <li><a href="#toys4k">Comparisons</a></li>
+      <li><a href="#real-world">Real world</a></li>
       <li><a href="#method">Method</a></li>
       <li><a href="#citation">Citation</a></li>
     </ol>
   </nav>
   <main id="main">
     <header class="paper-header wrap" id="overview">
+      <div class="header-backdrop" aria-hidden="true" hidden><video id="header-video" autoplay muted loop playsinline preload="metadata" tabindex="-1" disablepictureinpicture disableremoteplayback></video></div>
       <img class="project-logo" alt="Tetris3D" width="1043" height="237" fetchpriority="high" hidden/>
       <p class="project-wordmark" aria-hidden="true">Tetris3D</p>
       <h1><span class="sr-only">Tetris3D: </span><span class="paper-title">3D Scene Generation with Objects That Fit Together</span></h1>
@@ -71,15 +73,24 @@
       <div class="gallery-mount"></div>
     </section>
 
+    <section class="display-section real-world-section wrap" id="real-world" aria-labelledby="real-world-heading">
+      <div class="section-heading"><p class="eyebrow"><span aria-hidden="true">03 · </span>REAL WORLD</p><h2 id="real-world-heading">Comparison on Real World Image</h2></div>
+      <div class="real-world-tabs" role="tablist" aria-label="Choose a real-world scene"></div>
+      <div class="real-world-panel" id="real-world-panel" role="tabpanel">
+        <div class="real-world-panel-heading"><h3 class="real-world-title"></h3><span class="real-world-count"></span></div>
+        <button class="real-world-stage" type="button" disabled><img hidden/><span class="real-world-placeholder">Comparison image coming soon</span><span class="real-world-expand" hidden>Expand ↗</span></button>
+      </div>
+    </section>
+
     <section class="method-section wrap" id="method">
-      <div class="section-heading"><p class="eyebrow"><span aria-hidden="true">03 · </span>METHOD</p><h2>Method</h2></div>
+      <div class="section-heading"><p class="eyebrow"><span aria-hidden="true">04 · </span>METHOD</p><h2>Method</h2></div>
       <figure class="paper-figure" id="method-figure" hidden><button class="figure-open" data-figure-label="Tetris3D framework" aria-label="Enlarge method figure"><img alt="Tetris3D: physical dependency ordering, interaction-aware generation, and visible-to-invisible attention." width="2388" height="1062" loading="lazy"/><span class="figure-zoom">Expand ↗</span></button><figcaption data-content="methodCaption"></figcaption></figure>
       <p class="asset-pending" id="method-placeholder">Method overview coming soon.</p>
       <p class="method-description" data-content="abstract"></p>
     </section>
 
     <section class="citation-section wrap" id="citation">
-      <div class="section-heading"><p class="eyebrow"><span aria-hidden="true">04 · </span>CITATION</p><h2>BibTeX</h2></div>
+      <div class="section-heading"><p class="eyebrow"><span aria-hidden="true">05 · </span>CITATION</p><h2>BibTeX</h2></div>
       <div class="citation-box"><button id="copy-citation" aria-label="Copy BibTeX citation">Copy ⧉</button><pre id="bibtex"></pre></div>
       <p class="citation-note">arXiv 2026 · Identifier coming soon.</p>
     </section>

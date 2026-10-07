@@ -13,6 +13,7 @@ export class ComparisonPanel {
     this.element = element;
     this.config = config || {};
     this.hasSimulation = this.config.showSimulation !== false;
+    this.hasInputReference = !this.config.referenceRow;
     this.openImage = openImage;
     this.expansion = new ViewerDialog(element, openImage);
     this.rate = Math.min(8, Math.max(1, Number(config?.playbackRate) || 2));
@@ -29,8 +30,9 @@ export class ComparisonPanel {
       <div class="comparison-scroll" tabindex="0" role="region" aria-label="Input image and method comparison">
         <div class="comparison-layout">
           ${this.config.referenceRow ? '<section class="demo-reference" aria-label="Input and reference"><h4 class="demo-section-label">Input &amp; reference</h4><div class="demo-reference-grid">' : ''}
-          <div class="comparison-source"><div class="method-card-heading"><h4>Input image</h4></div>
+          <div class="comparison-source"><div class="method-card-heading"><h4 class="comparison-source-title">Input image</h4>${this.hasInputReference ? '<button class="comparison-reference-toggle" type="button" aria-pressed="false" hidden>Show GT</button>' : ''}</div>
             <button class="comparison-input" aria-label="Enlarge input image"><img alt="Observed input image"/><span>Expand ↗</span></button>
+            ${this.hasInputReference ? '<div class="comparison-reference" hidden></div>' : ''}
           </div>
           ${this.config.referenceRow ? `<div class="comparison-segmentation"><div class="method-card-heading"><h4>Segmentation mask</h4></div><button class="segmentation-image" type="button" aria-label="Enlarge segmentation mask"><img alt="Visible object segmentation"/><span>Expand ↗</span></button></div><div class="demo-reference-method"></div></div></section>` : ''}
           <section class="comparison-geometry" aria-label="${this.config.referenceRow ? 'Predictions' : '3D viewer comparison'}"><h4 class="comparison-row-label">${this.config.referenceRow ? 'Predictions' : '3D viewer'}</h4>
@@ -66,6 +68,7 @@ export class ComparisonPanel {
       $('.initial-state-image', element).addEventListener('click', () => this.openImage(this.config.initialStates[this.sample.id].src, `${this.sample.title} — Initial state`));
     }
     $('.comparison-input', element).addEventListener('click', () => this.openImage(this.sample.image, `${this.sample.title} — input image`, this.sample.imageMasks, this.sample.imageOriginal));
+    $('.comparison-reference-toggle', element)?.addEventListener('click', () => this.showReference(!this.showingReference));
     $('.segmentation-image', element)?.addEventListener('click', () => this.openImage(this.segmentationPath, `${this.sample.title} — Segmentation mask`));
     $('.comparison-object', element).addEventListener('change', (event) => this.selectObject(event.target.value));
     $('[data-object-mode=all]', element)?.addEventListener('click', () => this.selectObject('all'));
@@ -109,6 +112,8 @@ export class ComparisonPanel {
       card.video?.pause(); card.video?.removeAttribute('src'); card.video?.load();
     });
     this.cards = [];
+    this.referenceCard = null;
+    this.showReference(false);
     this.viewBases = new Map();
     this.linkedView = null;
     this.lastObject = null;
@@ -144,21 +149,23 @@ export class ComparisonPanel {
       this.updateObjectControls();
     }
     this.updateColorControls();
-    const methods = [...sample.methods.filter((method) => this.config.includeReference || method.id !== 'gt')];
+    const methods = [...sample.methods.filter((method) => this.hasInputReference || this.config.includeReference || method.id !== 'gt')];
     for (const extra of this.config.extraMethods || []) if (!methods.some((method) => method.id === extra.id)) methods.push(extra);
     if (this.config.methodOrder) methods.sort((a, b) => this.config.methodOrder.indexOf(a.id) - this.config.methodOrder.indexOf(b.id));
     const grid = $('.geometry-grid', this.element); grid.replaceChildren();
     const reference = $('.demo-reference-method', this.element); reference?.replaceChildren();
+    const inputReference = $('.comparison-reference', this.element); inputReference?.replaceChildren();
     const simulationGrid = $('.simulation-grid', this.element); simulationGrid?.replaceChildren();
-    $('.comparison-layout', this.element).style.setProperty('--method-count', methods.filter((method) => !reference || method.id !== 'gt').length);
+    $('.comparison-layout', this.element).style.setProperty('--method-count', methods.filter((method) => !(reference || inputReference) || method.id !== 'gt').length);
     for (const method of methods) {
-      const entry = this.config.overrides?.[sample.id]?.[method.id];
-      const el = document.createElement('article'); el.className = 'method-card geometry-card'; el.dataset.method = method.id;
+      const isInputReference = Boolean(inputReference && method.id === 'gt');
+      const entry = isInputReference ? null : this.config.overrides?.[sample.id]?.[method.id];
+      const el = document.createElement('article'); el.className = `method-card ${isInputReference ? 'reference-card' : 'geometry-card'}`; el.dataset.method = method.id;
       el.classList.toggle('is-unavailable', !method.model);
       el.dataset.frame = method.frame || 'world';
       el.innerHTML = `<div class="method-card-heading"><h4></h4><span></span></div><div class="comparison-stage"><div class="comparison-placeholder">${cube}<span></span></div><div class="viewer comparison-viewer" tabindex="0" role="img" hidden><div class="viewer-loading"><span class="loader-ring"></span><span>Loading original geometry…</span></div></div><div class="interactive-tools" hidden><button type="button" data-viewer-action="fit" aria-label="Fit 3D view" title="Fit view"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8V3m0 5h5m-5 0a8 8 0 1 1-1 8"/></svg></button><button type="button" data-viewer-action="expand" aria-label="Expand 3D view" title="Expand view"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button></div></div><button class="enable-card-3d" type="button" aria-pressed="false">Enable this 3D view</button>`;
       let simulationEl = null, image = null, video = null;
-      if (this.hasSimulation) {
+      if (this.hasSimulation && !isInputReference) {
         simulationEl = document.createElement('article'); simulationEl.className = 'method-card simulation-card'; simulationEl.dataset.method = method.id;
         simulationEl.innerHTML = `<div class="method-card-heading"><h4></h4><span></span></div><div class="comparison-stage"><div class="comparison-frame"><img class="comparison-poster" hidden/><video muted playsinline preload="none" tabindex="-1" hidden></video></div><div class="comparison-placeholder">${cube}<span></span></div></div>`;
         $('.comparison-placeholder span', simulationEl).textContent = entry?.src ? 'Preparing preview…' : 'Simulation coming soon';
@@ -169,13 +176,23 @@ export class ComparisonPanel {
         simulationGrid.append(simulationEl);
       }
       for (const tile of [el, simulationEl].filter(Boolean)) {
-        $('.method-card-heading h4', tile).textContent = method.label;
+        const heading = $('.method-card-heading h4', tile);
+        heading.textContent = method.label;
+        if (method.label.endsWith(' + FoundationPose')) {
+          const pose = document.createElement('span');
+          pose.className = 'method-pose-label'; pose.textContent = 'FoundationPose';
+          heading.replaceChildren(method.label.slice(0, -pose.textContent.length), pose);
+        }
         $('.method-card-heading > span', tile).textContent = method.id === 'ours' ? 'OURS' : '';
       }
       const placeholder = $('.comparison-placeholder span', el);
       placeholder.textContent = method.model ? 'Enable 3D to explore' : this.hasSimulation ? '3D mesh unavailable' : 'No result for this scene';
       const view = $('.comparison-viewer', el); view.setAttribute('aria-label', `${method.label} interactive 3D reconstruction`);
-      const card = { el, simulationEl, method, entry, image, video, view, version: this.version, enabled: false };
+      const card = { el, simulationEl, method, entry, image, video, view, isInputReference, version: this.version, enabled: false };
+      if (isInputReference) {
+        this.referenceCard = card;
+        $('.method-card-heading', el).remove();
+      }
       view.addEventListener('viewer-view-change', (event) => {
         if (card.meshReady && !event.detail.synchronized) this.syncView(card, event.detail.view);
       });
@@ -196,10 +213,26 @@ export class ComparisonPanel {
       button.disabled = !method.model;
       if (!method.model) { button.textContent = this.hasSimulation ? 'Simulation only' : 'Unavailable'; button.title = 'Interactive mesh is not available for this method.'; }
       button.addEventListener('click', () => card.enabled ? this.disable3D(card) : this.enable3D(card));
-      (reference && method.id === 'gt' ? reference : grid).append(el); this.cards.push(card);
+      (isInputReference ? inputReference : reference && method.id === 'gt' ? reference : grid).append(el); this.cards.push(card);
     }
+    const referenceToggle = $('.comparison-reference-toggle', this.element);
+    if (referenceToggle) referenceToggle.hidden = !this.referenceCard?.method.model;
     this.update3DControls();
     if (this.visible) this.preparePosters();
+  }
+
+  showReference(show) {
+    const toggle = $('.comparison-reference-toggle', this.element);
+    if (!toggle) return;
+    const card = this.referenceCard;
+    this.showingReference = Boolean(show && card?.method.model);
+    toggle.textContent = this.showingReference ? 'Show input' : 'Show GT';
+    toggle.setAttribute('aria-pressed', String(this.showingReference));
+    $('.comparison-source-title', this.element).textContent = this.showingReference ? 'Ground truth' : 'Input image';
+    $('.comparison-input', this.element).hidden = this.showingReference;
+    $('.comparison-reference', this.element).hidden = !this.showingReference;
+    if (this.showingReference && !card.enabled) this.enable3D(card);
+    else if (!this.showingReference && card?.enabled) this.disable3D(card);
   }
 
   cardStatus(card, text) {
@@ -381,6 +414,7 @@ export class ComparisonPanel {
 
   suspend() {
     this.expansion.close();
+    this.showReference(false);
     this.pause();
     this.viewerBatch++;
     this.pending?.abort();
@@ -407,7 +441,7 @@ export class ComparisonPanel {
   async enableViewers() {
     if (this.cards.some((card) => card.enabled)) return;
     const batch = ++this.viewerBatch;
-    const queue = this.cards.filter((card) => card.method.model).map((card) => ({ card, load: card.load || 0 }));
+    const queue = this.cards.filter((card) => card.method.model && (!card.isInputReference || this.showingReference)).map((card) => ({ card, load: card.load || 0 }));
     // Show every available view immediately, including those waiting to load.
     queue.forEach(({ card }) => this.activate3D(card));
     // Avoid parsing all original meshes at once; each canvas remains interactive

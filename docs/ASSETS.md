@@ -29,6 +29,27 @@
 
 이 예시는 현재 설정에 연결되어 있지 않습니다. 경로를 지정하면 로고·영상·Method 그림이 자동으로 나타나므로 HTML에 자산 경로를 추가할 필요가 없습니다. 영상은 음소거 자동 재생과 `현재 시간 / 전체 길이` 표시를 지원합니다. 자산 해시와 출처는 `scripts/asset-provenance.json`에 기록합니다.
 
+## 헤더 배경 영상
+
+제목·저자 뒤의 영상은 `public/content.json`의 `headerVideo`로 별도 지정합니다. 현재는 `null`이며 파일 요청이나 빈 영상 영역이 생기지 않습니다. 파일이 준비되면 다음 설정으로 연결합니다.
+
+```json
+"headerVideo": {
+  "src": "assets/video/header.mp4",
+  "poster": "assets/video/header.webp",
+  "opacity": 0.18,
+  "position": "50% 50%"
+}
+```
+
+`poster`는 선택 사항입니다. 기본 불투명도는 18%이며 상하단은 흰 배경으로 부드럽게 사라집니다. 음소거·반복·인라인 자동 재생을 사용하고, 헤더가 화면 밖에 있거나 탭이 숨겨지면 일시정지합니다. 동작 줄이기 설정에서는 정지 화면을 표시합니다. 기존 대표 영상과는 별도로 연결합니다.
+
+## 실사 이미지 비교
+
+`public/content.json`의 `realWorldComparisons` 네 항목에 장면별 `title`과 비교 결과 `image`를 지정합니다. `thumbnail`과 `alt`는 선택 사항입니다. 예: `{ "title": "Scene 1", "image": "assets/real-world/scene-1.webp" }`. 현재 네 이미지 경로는 `null`입니다.
+
+Qualitative Comparisons 아래에서 네 썸네일 중 선택한 장면만 선명하게 표시하고, 아래 큰 패널에 전체 비교 이미지를 비율대로 보여줍니다. 좌우 화살표 키로 장면을 선택하고, 큰 이미지를 클릭하면 기존 확대 창을 엽니다. 입력·방법별 결과가 함께 담긴 비교 이미지를 장면마다 하나씩 연결하면 됩니다.
+
 ## 개발본에서 장면 가져오기
 
 `project-page/`에서 실행합니다. `--from`에는 기존 Vite 프로젝트의 루트를 지정합니다.
@@ -65,6 +86,8 @@ npm run import:scenes -- --from /path/to/current/project-page \
 - `public/assets/`: 준비한 이미지·GLB·PDF·MP4. JSON 경로는 `assets/...`로 시작하거나 외부 HTTPS URL을 사용합니다.
 
 `model: null`은 결과 없음으로 표시합니다. Mesh의 객체 이름은 `objects`와 맞추고 원래 좌표를 보존합니다. `modelLight`는 선택 사항입니다. 새로운 baseline이 없으면 임의 결과를 대신 넣지 않습니다.
+
+Qualitative Comparisons의 `Show GT`는 `methods`의 `id: "gt"` mesh를 입력 이미지 자리에서 표시합니다. GT는 버튼을 눌렀을 때만 불러오며 다른 결과와 카메라·객체 선택을 공유합니다. `Show input`으로 돌아가거나 장면을 닫으면 뷰어를 정리합니다. GT mesh가 없는 장면은 버튼을 숨기며 Initial state와 simulation 행은 그대로 유지합니다.
 
 자산을 교체한 뒤 `npm run check:assets`, `npm run build`, `npm run test:browser`로 확인합니다. 외부 자산의 실제 다운로드·3D·simulation 동작은 최종 호스트를 연결한 뒤 직접 확인합니다.
 

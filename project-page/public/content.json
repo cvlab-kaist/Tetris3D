@@ -93,5 +93,12 @@
     {"id": "v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803", "title": "robot"},
     {"id": "v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab", "title": "boat"},
     {"id": "v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472", "title": "monitor"}
+  ],
+  "headerVideo": null,
+  "realWorldComparisons": [
+    {"title": "Scene 1", "image": null},
+    {"title": "Scene 2", "image": null},
+    {"title": "Scene 3", "image": null},
+    {"title": "Scene 4", "image": null}
   ]
 }

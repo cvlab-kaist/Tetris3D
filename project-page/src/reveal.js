@@ -1,4 +1,4 @@
-const targets = '.paper-header > *, .section-heading, .video-summary, .project-film, .gallery-toolbar, .gallery-caption, .example-card, .paper-figure, .method-description, .citation-box, .citation-note, .site-footer';
+const targets = '.paper-header > :not(.header-backdrop), .section-heading, .video-summary, .project-film, .real-world-tabs, .real-world-panel, .gallery-toolbar, .gallery-caption, .example-card, .paper-figure, .method-description, .citation-box, .citation-note, .site-footer';
 
 export function initRevealAnimations() {
   if (!('IntersectionObserver' in window) || !Element.prototype.animate) return () => {};
@@ -15,7 +15,7 @@ export function initRevealAnimations() {
     observer.unobserve(element);
     element.classList.remove('reveal-pending');
     if (!animate || reducedMotion.matches) return;
-    const index = [...element.parentElement.children].filter((child) => !child.hidden).indexOf(element);
+    const index = [...element.parentElement.children].filter((child) => !child.hidden && !child.classList.contains('header-backdrop')).indexOf(element);
     const delay = element.matches('.paper-header > *') ? index * 70 : element.matches('.example-card') ? index * 45 : 0;
     // Use translate independently so thumbnail hover transforms keep working.
     const animation = element.animate([
