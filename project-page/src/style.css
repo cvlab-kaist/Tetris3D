@@ -49,12 +49,12 @@ sup { color:var(--accent); font-size:13px; margin-left:2px; font-weight:500; }
 
 .video-section { margin-top:52px; }
 .video-section.wrap { width:min(1276px,calc(100% - 29px)); }
-.video-summary { position:relative; max-width:880px; margin:0 auto 36px; padding:4px 96px; text-align:center; color:#000; }
-.video-summary::before,.video-summary::after { content:''; position:absolute; top:0; bottom:0; width:17px; border-block:4px solid currentColor; pointer-events:none; }
-.video-summary::before { left:0; border-left:4px solid currentColor; border-radius:4px 0 0 4px; }
-.video-summary::after { right:0; border-right:4px solid currentColor; border-radius:0 4px 4px 0; }
-.video-summary h2 { font-family:var(--serif); font-size:24px; font-weight:700; font-synthesis:weight; line-height:1.1; letter-spacing:-.02em; }
-.video-summary p { margin-top:4px; font-size:15px; font-weight:600; line-height:1.35; color:#000; }
+.video-summary { position:relative; max-width:944px; margin:0 auto 36px; padding:18px 96px; text-align:center; color:#000; }
+.summary-quote { position:absolute; top:50%; width:40px; height:40px; font:700 72px/1 Georgia,'Times New Roman',serif; font-synthesis:weight; transform:translateY(-50%); pointer-events:none; user-select:none; }
+.summary-quote-start { left:14px; }
+.summary-quote-end { right:14px; }
+.video-summary h2 { font-family:var(--serif); font-size:32px; font-weight:400; letter-spacing:-.02em; }
+.video-summary p { margin-top:12px; font-size:17px; line-height:1.75; text-wrap:balance; color:#000; }
 .project-film { position:relative; aspect-ratio:16/9; overflow:hidden; border:0; border-radius:14.5px; background:#0c0d10; }
 .project-film video { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#000; cursor:pointer; }
 .project-film:fullscreen { width:100%; height:100%; aspect-ratio:auto; border-radius:0; }
@@ -286,10 +286,12 @@ dialog::backdrop { background:#30213cb8; backdrop-filter:blur(5px); }
   .button { font-size:14px; padding:8px 13px; min-height:39px; }
   .button svg { width:14px; height:14px; }
   .video-section { margin-top:34px; }
-  .video-summary { margin-bottom:28px; padding:4px 51px; }
-  .video-summary::before,.video-summary::after { width:11px; }
-  .video-summary h2 { font-size:20px; }
-  .video-summary p { font-size:14px; }
+  .video-summary { margin-bottom:28px; padding:16px 51px; }
+  .summary-quote { width:30px; height:32px; font-size:56px; }
+  .summary-quote-start { left:3px; }
+  .summary-quote-end { right:3px; }
+  .video-summary h2 { font-size:26px; }
+  .video-summary p { margin-top:12px; font-size:15px; }
   .film-controls { gap:6px; padding:20px 8px 5px; }
   .video-caption { left:19px; bottom:18px; right:19px; gap:5px; }
   .video-status { font-size:11px; padding:3px 9px; }
