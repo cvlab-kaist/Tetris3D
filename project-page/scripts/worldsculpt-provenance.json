@@ -1,0 +1,2265 @@
+{
+  "source": "WorldSculpt/toys4k_qualitative24_gt_20261008",
+  "scenes": 24,
+  "policy": "Original geometry preserved; rigid Z-up to Y-up display rotation only. Optional light meshes use the existing 200k faces/part limit. Original reference primitives match GT.",
+  "simulation": "Existing September paper24 recordings are retained; this import only replaces missing 3D meshes and does not regenerate simulation trajectories.",
+  "entries": [
+    {
+      "scene_id": "v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297",
+      "title": "panda",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297",
+        "source_sha256": "1f25037f2924e1b0128cfa34188074a84bc6a5f37c1dbf3a0c7e7a8ff4fa166a",
+        "rgb_sha256": "0682b8dddb847aeb96614c87366d198089208e598e51adea11ab2ab324b8307e",
+        "camera_sha256": "fe96693047f91a73f7bd2cc815007abc7999ba2a84e37b507869cf3fa68732dd",
+        "view_index": 0,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "96a0274217586e449d1b85eba201419a4dcbe4a679d2845d0d7a1299323603dd"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/composited_scene.glb",
+            "source_node": "primitive_001_poly_bin",
+            "source_faces": 96,
+            "display_faces": 96,
+            "light_faces": 96,
+            "vertices_sha256": "74ba7b51066815a676f05ac53646cb3d367cc199af74439cc654afce31105a3f",
+            "faces_sha256": "8f2945207107f62c2ac7b34d728f65c73ac4a1854ad95b30958c502897301fd2",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 945858,
+            "display_faces": 945858,
+            "light_faces": 200000,
+            "vertices_sha256": "66f6c32a34eb6d41ce325731f4e9f6374f5903e79c8e41368e91472cc5e5b1c5",
+            "faces_sha256": "cf150598c10707b5ad9c4e67a3ff167192ed1c2a1dafb4d3bacd1986770a9769"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8556400,
+        "decoded_bytes": 18899200,
+        "light_output": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3596828,
+        "bounds": [
+          [
+            -0.4147050678730011,
+            -0.3117750585079193,
+            -0.4010953903198242
+          ],
+          [
+            0.5,
+            0.3074073791503906,
+            0.39908501505851746
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc",
+      "title": "bottle",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc",
+        "source_sha256": "224b3dccf5408beabca6c7b5bd0ddf7ab332d75eef1ae25dd320d9d5c570655a",
+        "rgb_sha256": "572ab989d36a5db412c392453c7ec9fdd8871381a39021e5e19366aa3084c5a7",
+        "camera_sha256": "911bd84e48e319a795e44192f2446d6db37c58b54cc4cf62e6227fe108579e3d",
+        "view_index": 7,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 7.958078640513122e-13,
+        "scene_export_sha256": "d2b976e24deeba9d03a81f18bb8a65ca07ac5cbe42754c980dcd3465264facf2"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/composited_scene.glb",
+            "source_node": "primitive_001_poly_bin",
+            "source_faces": 96,
+            "display_faces": 96,
+            "light_faces": 96,
+            "vertices_sha256": "be2e062e328e6ff7f68c96f0df886a77ba21442bbd8974d72c10dbd10332856f",
+            "faces_sha256": "8f2945207107f62c2ac7b34d728f65c73ac4a1854ad95b30958c502897301fd2",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 955929,
+            "display_faces": 955929,
+            "light_faces": 199999,
+            "vertices_sha256": "1376c6df1e2897fe61e7a9c5d1ec7848b8b7c5b0a330e1744b80151e831d880d",
+            "faces_sha256": "b6f16ca2fb6e618bb9face6f46511a10626562487bf3e147bb5a94476d565344"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8593443,
+        "decoded_bytes": 19088656,
+        "light_output": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3594620,
+        "bounds": [
+          [
+            -0.251120924949646,
+            -0.5,
+            -0.2536936104297638
+          ],
+          [
+            0.251120924949646,
+            0.5030616521835327,
+            0.2536936104297638
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47",
+      "title": "chess piece",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47",
+        "source_sha256": "c5b9e739bf6f2c039b3b375de131319f99295899ad1da493b94aee92505719af",
+        "rgb_sha256": "e8fb92a06ad54b5ab619a2145518312ea484802b745340f25fd4cae3f5a9a62d",
+        "camera_sha256": "2516bc4f2203acec5994d9065a61757d93f19103988777b00c5e47bd8dd423e9",
+        "view_index": 8,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 2.2737367544323206e-13,
+        "scene_export_sha256": "95f8525210d78d1b44c059aa83ddde21090ab3c5812ec4ac1267e1dbd1b2b465"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/composited_scene.glb",
+            "source_node": "primitive_001_tube",
+            "source_faces": 576,
+            "display_faces": 576,
+            "light_faces": 576,
+            "vertices_sha256": "d1f512138e8bb152f05b40b655ac5efa9201c17f22e5ef971bd9547c10bc76a0",
+            "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 942691,
+            "display_faces": 942691,
+            "light_faces": 200000,
+            "vertices_sha256": "1ad811d977d82fdb7e01bc4954986b125856c0142f1f129a3fba815c10d0bae1",
+            "faces_sha256": "eebbdb97cfe99b180eda5616c60c94c2f9f423490050f7089ec20b9697333961"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8433127,
+        "decoded_bytes": 18637540,
+        "light_output": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3534096,
+        "bounds": [
+          [
+            -0.5,
+            -0.27199333906173706,
+            -0.5
+          ],
+          [
+            0.5,
+            0.28742849826812744,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c",
+      "title": "fries",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c",
+        "source_sha256": "a5dd28e74ea8d09e896a40b75c3ab97c92226bbd57fcf2aff6173ba223e4828a",
+        "rgb_sha256": "b3d8c1b20e2f33834d10ef1bc34fbaa3231b902172869090a3c956b4aecf78a0",
+        "camera_sha256": "396b6ee113b626fc400a7a143443dfa6d7d1437f19f4f430f8686da95fd7daf4",
+        "view_index": 8,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 5.684341886080801e-13,
+        "scene_export_sha256": "115f8192565f10535e436de604f904d3b52c58c3c9a99335a8d62baae5eca4da"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/composited_scene.glb",
+            "source_node": "primitive_001_open_bin",
+            "source_faces": 60,
+            "display_faces": 60,
+            "light_faces": 60,
+            "vertices_sha256": "98b3ee014a1dfbe115f8aa8560887565af18c652ef60cfee2898eadba3c43cfb",
+            "faces_sha256": "f7ba6cb00654ca92044ddb382ee5b633fc91dfbc44d744e30dc58679952a46c3",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 975600,
+            "display_faces": 975600,
+            "light_faces": 200000,
+            "vertices_sha256": "30797fdfae852a6764ca6d8dc5c97d40e12ec85258a105c4fb8f820e09fae144",
+            "faces_sha256": "288b89dbe05bf6fcc00d828cfbc579d49a0ac7de6368b2bd2956660eeec40c19"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8866371,
+        "decoded_bytes": 19360896,
+        "light_output": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3550072,
+        "bounds": [
+          [
+            -0.3602253496646881,
+            -0.5,
+            -0.36693719029426575
+          ],
+          [
+            0.3736490309238434,
+            0.5118380188941956,
+            0.36693719029426575
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8",
+      "title": "chair2",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8",
+        "source_sha256": "b09758251303eb72b71ff69b42fe866df005410ffa9e31a25273a755b9743666",
+        "rgb_sha256": "4cd689e0684cc19a38854154408f521415188f065178101f6f1070bce85e6616",
+        "camera_sha256": "7fef2715a6ed9e7e54ed40484e6a7daaa3078622af964d10dca67effe75c81d5",
+        "view_index": 3,
+        "target_id": "obj_03",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 3.410605131648481e-13,
+        "scene_export_sha256": "74bc3366c59490e707ba78268553d923ee064fa9a8112ae07531e71d74c635c0"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context_3",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/composited_scene.glb",
+            "source_node": "primitive_003_tube",
+            "source_faces": 576,
+            "display_faces": 576,
+            "light_faces": 576,
+            "vertices_sha256": "7a589a31f7872aaaed9f6c4672d9fda20bdaeecb9541ec9b92be8b74b28ac136",
+            "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_2",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/composited_scene.glb",
+            "source_node": "primitive_002_box",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "48e63f5d48dcf65a8f3b4f3a14cd982252d288fb3096e92bb44c07408f5c5f37",
+            "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_1",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/composited_scene.glb",
+            "source_node": "primitive_001_wedge",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "774ad5669effed4b3fa89884d048a64fe9407d366a754b5433e41ba5833ecf2d",
+            "faces_sha256": "c83af687f587001eb7231e37c7c055244e41ade6668c4aa14e1513914262f962",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 924588,
+            "display_faces": 924588,
+            "light_faces": 200000,
+            "vertices_sha256": "c6eab9e3206ab06e14fe6f692975c765fec952488595b3c96246e167409c0e52",
+            "faces_sha256": "c1645ba45bcb8b9c654349538cc95ed6271ed51057d2c64a3cb175f654f9cff4"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8306664,
+        "decoded_bytes": 18493560,
+        "light_output": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3610140,
+        "bounds": [
+          [
+            -0.4354359805583954,
+            -0.3847002685070038,
+            -0.5
+          ],
+          [
+            0.4354359805583954,
+            0.38829028606414795,
+            0.500686764717102
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1",
+      "title": "sofa",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1",
+        "source_sha256": "8cb50ecbcc394ab3a3a4a4397c8638941a547d9c61377a247695df6d11c44427",
+        "rgb_sha256": "f444aeca64d43c7a70db0d2ab5276f18e5f4407f74bdfd546e2aeb9a260d593c",
+        "camera_sha256": "3b62f27007b69b6eaf3780ba740654c23b9620b68c7e8b7bdeb89e24e23ccdc0",
+        "view_index": 3,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 3.410605131648481e-13,
+        "scene_export_sha256": "a6951e6f8bcdd995b5acba989a0ee5d24caf1b72eef264fa30081d56c11513ec"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/composited_scene.glb",
+            "source_node": "primitive_001_cup",
+            "source_faces": 576,
+            "display_faces": 576,
+            "light_faces": 576,
+            "vertices_sha256": "940339457bb210a19067311d01ff927cb1e6a29b35b526908c8b8454e7cfd4a9",
+            "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 966856,
+            "display_faces": 966856,
+            "light_faces": 199999,
+            "vertices_sha256": "3fd924439071d67fad248e94d028fd92b80671e59f3c19bc869432fdcbafe259",
+            "faces_sha256": "2b09cd6d8eccf67cb6158bda2818e64e6a8f8e7c7a0a1b896f3b383bf7e50ae3"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8714045,
+        "decoded_bytes": 19323516,
+        "light_output": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3603144,
+        "bounds": [
+          [
+            -0.43281176686286926,
+            -0.5,
+            -0.43281176686286926
+          ],
+          [
+            0.43281176686286926,
+            0.5069810748100281,
+            0.43281176686286926
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753",
+      "title": "truck",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753",
+        "source_sha256": "350aa257b0d2fb8a4de31d7556191e7e302f24c1908ebd50aae637e7708e6f84",
+        "rgb_sha256": "ba94747ebd00098a143362266cf3e603a370eff5e918f17d35a27bc13baea3ce",
+        "camera_sha256": "921a645c71a1d14dc9058ab4a1c39bd7eb699648509e311a22394ab4468bf0fa",
+        "view_index": 5,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 3.410605131648481e-13,
+        "scene_export_sha256": "a8d7435b726cc9999ec25dd31f20fec9677c411b0c4e3cf8e0b034f61bff8b9b"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/composited_scene.glb",
+            "source_node": "primitive_001_cup",
+            "source_faces": 576,
+            "display_faces": 576,
+            "light_faces": 576,
+            "vertices_sha256": "4f374ecde62abfb9497b1807ae3ecd9309f32db91036a7dbd8a2c06e4bf94aa7",
+            "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 989792,
+            "display_faces": 989792,
+            "light_faces": 200000,
+            "vertices_sha256": "3f329df19f112299399a4dd31164edf8d6790697ce15210214db3e04c22424fc",
+            "faces_sha256": "8d87765a0a52ba1a2890d005306e756ddbaca0be5fb54ca4e6e121c84f4e15b7"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8958255,
+        "decoded_bytes": 19724668,
+        "light_output": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3582756,
+        "bounds": [
+          [
+            -0.39627981185913086,
+            -0.5,
+            -0.4187316596508026
+          ],
+          [
+            0.5363982915878296,
+            0.5108706951141357,
+            0.4187316596508026
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47",
+      "title": "hammer 1",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47",
+        "source_sha256": "c72675b418edc29a924749b7299cf87faf8028d967082c1a682d37dcbf01f5b3",
+        "rgb_sha256": "8d69cd34ebbac9d62b16e8e6efb1bd272c4640ed0c3a86b7df9ed0406b4cdf6e",
+        "camera_sha256": "a4e9c4d8ed3edc623c7ff033eb77105a592a8ffc49d4c8608832a4ee8ee5b57a",
+        "view_index": 6,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 3.410605131648481e-13,
+        "scene_export_sha256": "34b4a8be3ea4f651eb94c9738f1b9156f8f434bc02990808cf3959d1af434219"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/composited_scene.glb",
+            "source_node": "primitive_001_box",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "77dcc15551e4383dbebdbb46b6f667538861005a4267dd59c0fd332dd0aa2c31",
+            "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 965235,
+            "display_faces": 965235,
+            "light_faces": 199999,
+            "vertices_sha256": "13ae5128973cfeab4cd40c00cf06dcaa566dc969c6b762ee6b39790794d5ebe7",
+            "faces_sha256": "632dc22a53cd18e5f669566ccc00704f8aa6c0abe1641032a27e68ac959e3d02"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8691741,
+        "decoded_bytes": 19284620,
+        "light_output": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3595708,
+        "bounds": [
+          [
+            -0.5228937268257141,
+            -0.4599300026893616,
+            -0.45579957962036133
+          ],
+          [
+            0.5,
+            0.4432162344455719,
+            0.45579957962036133
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8",
+      "title": "ladder",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8",
+        "source_sha256": "f7d6aef09d7e6cddd7c472ef189659bc0611c195fa893d4407c2dc8e3854c7fd",
+        "rgb_sha256": "afd5a6fe81921f8b2cee1c6329862747820dc82cbe3e6f1e2bbf529ef3388781",
+        "camera_sha256": "6a5cef09a2f630ca9c1128cb4e4832e97e02a25fe1a7563dcf7b3a21a3c79d69",
+        "view_index": 6,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 2.2737367544323206e-13,
+        "scene_export_sha256": "7e6ff49161cbd0758ee24c3c4b405f35e1ef35c2ee87fbc3f207369020fa8a3e"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/composited_scene.glb",
+            "source_node": "primitive_001_poly_bin",
+            "source_faces": 80,
+            "display_faces": 80,
+            "light_faces": 80,
+            "vertices_sha256": "a3f1ba6049502e03f50e293af0abeb72d1f51f4c94f5b69028ec13833d45ad01",
+            "faces_sha256": "42cdaaa7bec47e4f11d18faacadca771ad912ddc91f560a8ede975d1e63b8fe9",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 961388,
+            "display_faces": 961388,
+            "light_faces": 200000,
+            "vertices_sha256": "fb630092c33133de2fb054ca56f61a77c723d615025234a67cec2d60b4e03cc7",
+            "faces_sha256": "1b5d6b8fe0029dbf042cd5a5e259dd9c69b6156066be7ec898ba6eaf6cb1d1d5"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8672911,
+        "decoded_bytes": 19214816,
+        "light_output": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3596852,
+        "bounds": [
+          [
+            -0.48404204845428467,
+            -0.3262767195701599,
+            -0.568083643913269
+          ],
+          [
+            0.48404204845428467,
+            0.3545311689376831,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7",
+      "title": "train",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7",
+        "source_sha256": "cf4767e1f9e5225d09cd0c853f85365c667f8953f2bb0756a990388a21a04cc4",
+        "rgb_sha256": "33c373427b39aa6b945085de2ae1f3b96d60f66705fa2d153b17bb60fb2c81c5",
+        "camera_sha256": "19c33fe7b96b20953b29616e9e8e136060c52ce614bca2b1696b1825b033b121",
+        "view_index": 6,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "77c86a533cbe069a685f5cee209bf6a5da6f942fb3199b96db4e99cb42040132"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/composited_scene.glb",
+            "source_node": "primitive_001_tube",
+            "source_faces": 576,
+            "display_faces": 576,
+            "light_faces": 576,
+            "vertices_sha256": "4189c711e41027cb44d56270c30480bc6208c5456ee5a36c5d23278de3d17a3a",
+            "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 976711,
+            "display_faces": 976711,
+            "light_faces": 199999,
+            "vertices_sha256": "84c1c16a141ca9c9fbc0e35b69fd68d37a8f38778ab95edced7746ef7a4020bb",
+            "faces_sha256": "328c328da207c82b0761d4b2a97b1b91ec19296ee82eff78f93afaf2dcdedb81"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8856731,
+        "decoded_bytes": 19510332,
+        "light_output": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3595724,
+        "bounds": [
+          [
+            -0.2750040888786316,
+            -0.5,
+            -0.2750040888786316
+          ],
+          [
+            0.2750040888786316,
+            0.501865029335022,
+            0.2750040888786316
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1",
+      "title": "tree",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1",
+        "source_sha256": "c6fa0c6d1ab7f965d6afc132a935a5a80a00ee8ca1ac52c8c3267118573d3589",
+        "rgb_sha256": "bd34811588c6dcbe893fc3d23534b0a5b4dc6d020e1d55817fb4ca1a8730f162",
+        "camera_sha256": "310b78de39d89101856d6e0ef2ec3fe3de5bd5cf8cccff32f1afe8d24ec801ac",
+        "view_index": 9,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "6e55c798845ffd6eb23becdc8bbb5d49a3474c634cd4ba722a0a6dc4114298b4"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/composited_scene.glb",
+            "source_node": "primitive_001_open_bin",
+            "source_faces": 60,
+            "display_faces": 60,
+            "light_faces": 60,
+            "vertices_sha256": "df7b3ad61c73cd34b76ca5c4b21de3f4964db9254af5357ad79a712215afe0a7",
+            "faces_sha256": "f7ba6cb00654ca92044ddb382ee5b633fc91dfbc44d744e30dc58679952a46c3",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 984878,
+            "display_faces": 984878,
+            "light_faces": 200000,
+            "vertices_sha256": "9df8e29cc6e03f9e9301c960d8bca5fa241d2750b55073ccfd8575c9b001a48f",
+            "faces_sha256": "84588234015578e48182a231815f680fe795767603a8526efe85247735b6c9b7"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8809028,
+        "decoded_bytes": 19688860,
+        "light_output": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3599276,
+        "bounds": [
+          [
+            -0.5679206848144531,
+            -0.20982728898525238,
+            -0.3767164945602417
+          ],
+          [
+            0.5,
+            0.2107296884059906,
+            0.3767164945602417
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5",
+      "title": "chicken",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5",
+        "source_sha256": "03ee6271332dacb8e204079dd4244f1401270cc44fb9973dcd2ea9465cb7922a",
+        "rgb_sha256": "305f25dc0c63af5e95805fe20201fec5de6122393aa91a7f3e42b8fcb0a3b29d",
+        "camera_sha256": "ea4f0f9375d00e840a38bd29be1740a914470a77a23d132729c424cb5b06e92a",
+        "view_index": 9,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "8fa425a115b234cbc9703e30e3bd272edc5f26901cf5cbbe71ee11018e46c3aa"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/composited_scene.glb",
+            "source_node": "primitive_001_box",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "35437345edd9a5d62c7471f34a9496c5112cd4e59133d6c7a9c2cfa86ff7b387",
+            "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 987244,
+            "display_faces": 987244,
+            "light_faces": 200000,
+            "vertices_sha256": "352fe76e3fedb273ea39235d605cf5f0b7291d41324aee9b5eb91eb6e2f7624f",
+            "faces_sha256": "93b7e36d6b14c99333c3d4bcf0e9b9ad9625a323eaf7eff0ea12b1482891f1dd"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8954103,
+        "decoded_bytes": 19728124,
+        "light_output": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3592756,
+        "bounds": [
+          [
+            -0.5,
+            -0.43685537576675415,
+            -0.40644580125808716
+          ],
+          [
+            0.5,
+            0.43750038743019104,
+            0.37511810660362244
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03",
+      "title": "chess piece",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03",
+        "source_sha256": "c869337b95253e271704f01b53bc71ad8165d199ebd60f7640059996e25078c6",
+        "rgb_sha256": "eb0e00ecb9a3d4cbe1dc206dd28c69bbc8007fe2a52bf9c32c90320d7a553901",
+        "camera_sha256": "836a38169748646a955077dbad11d2c149a87f77c26c7e080e8226764311cf8c",
+        "view_index": 7,
+        "target_id": "obj_04",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 6.821210263296962e-13,
+        "scene_export_sha256": "23990c4c8bd7192576b9b8051deca04fbf39ddabd6248c920155e1979d4e36b8"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context_4",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/composited_scene.glb",
+            "source_node": "primitive_004_sphere",
+            "source_faces": 4416,
+            "display_faces": 4416,
+            "light_faces": 4416,
+            "vertices_sha256": "173b47a1e2bbcc93e7045921d6155808aa9132d21f507fa6dfcbf2f6aa93d6a1",
+            "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_3",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/composited_scene.glb",
+            "source_node": "primitive_003_cylinder",
+            "source_faces": 192,
+            "display_faces": 192,
+            "light_faces": 192,
+            "vertices_sha256": "1214785fa5dffca42ece87f7667e3b2b20f8dced598d391a87441e1765e70eb4",
+            "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_2",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/composited_scene.glb",
+            "source_node": "primitive_002_tube",
+            "source_faces": 576,
+            "display_faces": 576,
+            "light_faces": 576,
+            "vertices_sha256": "1e9486a69cb4b213fdebe4244202e263e76718b581a6e61d1888f26df2e70227",
+            "faces_sha256": "cbfe5fa068e257ee26f3f5b137a118d2822c34dc96d7c4656290f16fe5b63234",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_1",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/composited_scene.glb",
+            "source_node": "primitive_001_cylinder",
+            "source_faces": 192,
+            "display_faces": 192,
+            "light_faces": 192,
+            "vertices_sha256": "6fc2454333b47a2779ce7a66beea097dc40263caa395c69c00f51ba78a3929da",
+            "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 998118,
+            "display_faces": 998118,
+            "light_faces": 199999,
+            "vertices_sha256": "da0388eb0bfc8cd31455edcbb592c5db5677cfa9cc5257c25eb6c7c6f6d623c3",
+            "faces_sha256": "7cad1eda3a006869f0fad7ee6a2841f28e799f690d474242c92d36b8c8896cd7"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 9143678,
+        "decoded_bytes": 20064180,
+        "light_output": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3704552,
+        "bounds": [
+          [
+            -0.5,
+            -0.39597785472869873,
+            -0.5
+          ],
+          [
+            0.5,
+            0.35851845145225525,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a",
+      "title": "trashcan",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a",
+        "source_sha256": "7fd7196d45bad053ce161fb9dfec9832728abfb6ce7c300313cf633d1e3bbc7e",
+        "rgb_sha256": "eadf7ed92590c3483935ad80d37bd35cb155059dbc44db73bdf9c7b660645b6b",
+        "camera_sha256": "7cd65faf9f239370ba1f715c25b0cf0afc8115832ea28d3c3f752defd73c1aa4",
+        "view_index": 9,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "603b05768e7d09bc53101b31a36fbc056eb314e2a24bfe610ca7ac64a77670f7"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/composited_scene.glb",
+            "source_node": "primitive_001_bowl",
+            "source_faces": 3648,
+            "display_faces": 3648,
+            "light_faces": 3648,
+            "vertices_sha256": "f98b45c950d2c360769b07c610b13249ada551017669784d78bfef9696d759d6",
+            "faces_sha256": "92a3015951cce0366f45e60eb9e2fed464c04484d3e26d3556331f8748c068f4",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 949460,
+            "display_faces": 949460,
+            "light_faces": 199999,
+            "vertices_sha256": "b91d3a08823fdf3dc0432fc11917fbe27ae20a25a2f797112fd63159079b77dc",
+            "faces_sha256": "8573cf5298a3e4f1a131c719635040099f0b88b01e2c4c6d71968c756bc8fb85"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8639422,
+        "decoded_bytes": 19038948,
+        "light_output": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3665216,
+        "bounds": [
+          [
+            -0.5,
+            -0.2780093848705292,
+            -0.5
+          ],
+          [
+            0.5,
+            0.2932187616825104,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d",
+      "title": "tractor",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d",
+        "source_sha256": "8f7de88592f10dff7185b06e02af0278869760f4fcd53282550aa1f28fb0b938",
+        "rgb_sha256": "e2f944a05f7c0584f3814b1df27a9ef0ad0e326e9225d8aec48bcfd2aabf1b58",
+        "camera_sha256": "03cf44c9a816e1ec4f276c2d46da2b8e6c06739170fef4dc840a424712f910de",
+        "view_index": 2,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 5.684341886080801e-13,
+        "scene_export_sha256": "636303bfe712266d993d24a2b1dc428f9c91b73ae83637f33094d61a01113084"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/composited_scene.glb",
+            "source_node": "primitive_001_open_bin",
+            "source_faces": 60,
+            "display_faces": 60,
+            "light_faces": 60,
+            "vertices_sha256": "b1a73330ebf34b504e37b6497b9222cb98731140bd0733927702c3bd795c7aef",
+            "faces_sha256": "f7ba6cb00654ca92044ddb382ee5b633fc91dfbc44d744e30dc58679952a46c3",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 990561,
+            "display_faces": 990561,
+            "light_faces": 199999,
+            "vertices_sha256": "6fdc5fd61eb6a17826aa5ce3f8373fd5020cca0d635b0327066839dfe4558fcf",
+            "faces_sha256": "ec5a2dad14e84cbec52a1f1034ea90d7cdd195ca079a10cdfd31bade194ecbb3"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8873899,
+        "decoded_bytes": 19440236,
+        "light_output": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3471956,
+        "bounds": [
+          [
+            -0.4475545883178711,
+            -0.3258897066116333,
+            -0.5
+          ],
+          [
+            0.43977540731430054,
+            0.3138386011123657,
+            0.512799859046936
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2",
+      "title": "chair",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2",
+        "source_sha256": "1a7322c8fea38642143b3c839a3cbc36908fb5df61b11b53fbc3d0bc93856ea7",
+        "rgb_sha256": "fb9bc4bd999f7fb9abf1200d330e084174913813cd972d7b31f871db1dad52c0",
+        "camera_sha256": "59f7142615a8adbb37d5d67de48a08b956d96c8d2db97d15f2d671b91804f319",
+        "view_index": 7,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 3.410605131648481e-13,
+        "scene_export_sha256": "316d7c4e0e01dce89004d4acfd1ba22c612cad50e4d71cb3f190cc7500cf4d73"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/composited_scene.glb",
+            "source_node": "primitive_001_cylinder",
+            "source_faces": 192,
+            "display_faces": 192,
+            "light_faces": 192,
+            "vertices_sha256": "23338346e77ceef5ac87756343f9f9331e3358e9147ff98dcd1093cc84b26dec",
+            "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 975049,
+            "display_faces": 975049,
+            "light_faces": 199999,
+            "vertices_sha256": "2e00f4f2daa7f376171cb30131aa4140b0981b255045478aaff4839a152319ae",
+            "faces_sha256": "16655c4d536543ba6e91a8979bbd8aef7a6eec0c18b808449f033d698a94bdd7"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8385305,
+        "decoded_bytes": 18523920,
+        "light_output": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3308548,
+        "bounds": [
+          [
+            -0.5,
+            -0.35572460293769836,
+            -0.4415374994277954
+          ],
+          [
+            0.4409562945365906,
+            0.370182067155838,
+            0.35909944772720337
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad",
+      "title": "boat",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad",
+        "source_sha256": "a19ab1dc58bebceee6dbeaa48632a0aa07ecf0fee4e2457591bff65f3b615efc",
+        "rgb_sha256": "002ca9d59e71e990dbcd1ff4b0f68ac4cec3ffefd13fb924866e7e9610d3627c",
+        "camera_sha256": "153b512745f6428003b5143d4af41c92f2b5081104bfd14c6ec33df62a2cc850",
+        "view_index": 0,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 2.2737367544323206e-13,
+        "scene_export_sha256": "92a5f0583eac480202ce6660e128561888a99d2b10f8adcc0a64002d0788df99"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/composited_scene.glb",
+            "source_node": "primitive_001_plank",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "590086189f5865a70db9335290564eb2bbd2ae9bb0e3ec5180954ba53b6f1ce3",
+            "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 977471,
+            "display_faces": 977471,
+            "light_faces": 200000,
+            "vertices_sha256": "2bb9153f7d1c33c160f313debbfc623a333d8b5db9074090b7e51614b6c9faff",
+            "faces_sha256": "c34ee464e043f64be71ce3f1fc9b3aa6e93880c13ca90edd60397c9915a62e2a"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8913263,
+        "decoded_bytes": 19528220,
+        "light_output": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3594812,
+        "bounds": [
+          [
+            -0.34482717514038086,
+            -0.15151074528694153,
+            -0.48892682790756226
+          ],
+          [
+            0.5040683150291443,
+            0.1499030888080597,
+            0.35716304183006287
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492",
+      "title": "butterfly",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492",
+        "source_sha256": "fa2f0821853bf99075250afcc05c8163c5bb0dc70da9ce7959faeeeb5d223de9",
+        "rgb_sha256": "64f134e814355ad021745b8f32ca6a0e18883eb7ee65a6be8623b34967c275dd",
+        "camera_sha256": "41d5d3b80f8cd74cd54e0003d2d23430c5f05e6f124101a1e1c8063e56187a3b",
+        "view_index": 8,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 2.2737367544323206e-13,
+        "scene_export_sha256": "7f1518c370f2d862d1f9da865ae0d348b4edfdb130fd3a3be5d68ba9cd397470"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/composited_scene.glb",
+            "source_node": "primitive_001_box",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "85434d724d09b1a59484f911c1db9c9dacedccd0a89f3e30d74b5fb40e817bb3",
+            "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 941561,
+            "display_faces": 941561,
+            "light_faces": 199999,
+            "vertices_sha256": "b187d42351a2ee85a708875d4489ddfbe71c73680794a7b260d320ca79e411bb",
+            "faces_sha256": "815ce1e8193eb189496567972d498aaba194e7bf6f05f97160d6fc724a7502d9"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8270177,
+        "decoded_bytes": 18412884,
+        "light_output": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3453064,
+        "bounds": [
+          [
+            -0.4569650888442993,
+            -0.47102439403533936,
+            -0.48714369535446167
+          ],
+          [
+            0.4947987496852875,
+            0.4822208881378174,
+            0.40031030774116516
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767",
+      "title": "hammer2",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767",
+        "source_sha256": "95cf155d30348a7526b707a8e507e6c7f15c1bf098ead9e25fff644310242a3f",
+        "rgb_sha256": "e4aac606b1ab893c7043d01e724dfb8481c65a1378ea75cc42e61f80657bf842",
+        "camera_sha256": "37cb3046a10c0215eafcf3e5db6a937bd3aa73c0fded4e8b7098ea9eb9067854",
+        "view_index": 4,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 3.410605131648481e-13,
+        "scene_export_sha256": "4cf960e791ca570ffa8beccf7086182358f27fd80f1bd2d5bb4b37e458c6dc01"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/composited_scene.glb",
+            "source_node": "primitive_001_bowl",
+            "source_faces": 3648,
+            "display_faces": 3648,
+            "light_faces": 3648,
+            "vertices_sha256": "8953905e3f48c83dfb63b46e54f796f553e90e0b75da33a573fe6241843309e0",
+            "faces_sha256": "92a3015951cce0366f45e60eb9e2fed464c04484d3e26d3556331f8748c068f4",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 954958,
+            "display_faces": 954958,
+            "light_faces": 200000,
+            "vertices_sha256": "f4c26401df9c7db427d664b1f44aa744c897a00689811865144e9ca5f07b98c6",
+            "faces_sha256": "ac17016982b575ea1f60b58c327d8714122ddaaae92da823006cd55808adf028"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8500439,
+        "decoded_bytes": 19173612,
+        "light_output": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3674572,
+        "bounds": [
+          [
+            -0.5,
+            -0.2706281840801239,
+            -0.5
+          ],
+          [
+            0.5,
+            0.27465400099754333,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7",
+      "title": "monitor",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7",
+        "source_sha256": "fc12c0dbbfe4921d5679a8b18080a9063a38dbaf19a25fc3cdc84b79a53fbb9f",
+        "rgb_sha256": "7d82129a42b1f9942a7c0eea46ca8120ef9ef4c79202c3fbb511db8712abc3ad",
+        "camera_sha256": "f09bbe06658877ba2291a34d8f389300ef19c5879829cae84e21abeb13ab0687",
+        "view_index": 8,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 5.684341886080801e-13,
+        "scene_export_sha256": "6902080db60352a00a2a6d9fa7b9eaa8a58bb4e3852d350be2a082e3706dda7e"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/composited_scene.glb",
+            "source_node": "primitive_001_poly_bin",
+            "source_faces": 96,
+            "display_faces": 96,
+            "light_faces": 96,
+            "vertices_sha256": "dfd01f592e9acb9c9cc21c4d39ad3fa562812cc6a6a68470840caabefc02ce82",
+            "faces_sha256": "8f2945207107f62c2ac7b34d728f65c73ac4a1854ad95b30958c502897301fd2",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 973677,
+            "display_faces": 973677,
+            "light_faces": 199997,
+            "vertices_sha256": "26e733d5524c6ac289818d434213deb3ee5c2763c2b6e17dbc391570f2cf8b32",
+            "faces_sha256": "d4b7e54a02d2f6dda9a3cdf7bc64bcf101ba6bbfab965967f838a64a7bea3770"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8299681,
+        "decoded_bytes": 18641972,
+        "light_output": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3294016,
+        "bounds": [
+          [
+            -0.42971473932266235,
+            -0.2936175763607025,
+            -0.48740461468696594
+          ],
+          [
+            0.4729251265525818,
+            0.3173166811466217,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29",
+      "title": "chair3",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29",
+        "source_sha256": "2046eda3b00e3caf65c1c387ab3afd254551af198f8a11661541891cc5a7c7ab",
+        "rgb_sha256": "6e4629fd0fc8ae9e150fc22a40cd1fabaa4a0ddeca1a2d7a5991dc9150d4174b",
+        "camera_sha256": "ecaf9ca2da64f649ed83a73c408119a21880835197f54a216faa9955827fb508",
+        "view_index": 5,
+        "target_id": "obj_03",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "a5aac16cc361f902cb197a9539e691d6a9a6211cd321b5eda6c59016fb5e4901"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context_3",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/composited_scene.glb",
+            "source_node": "primitive_003_sphere",
+            "source_faces": 4416,
+            "display_faces": 4416,
+            "light_faces": 4416,
+            "vertices_sha256": "1b896d1a38182e2b0db9ff070b1168e46fc15a06f9ef482bc51bebd47aefbbc2",
+            "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_2",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/composited_scene.glb",
+            "source_node": "primitive_002_sphere",
+            "source_faces": 4416,
+            "display_faces": 4416,
+            "light_faces": 4416,
+            "vertices_sha256": "ae35ea40de49db56f52c1473f8fe915cf418d1244a4e06a89b62663c3474caa9",
+            "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_1",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/composited_scene.glb",
+            "source_node": "primitive_001_sphere",
+            "source_faces": 4416,
+            "display_faces": 4416,
+            "light_faces": 4416,
+            "vertices_sha256": "74ce0e3edcb21d8fc2691668108c939fe87f8ee3b9ba6c379556c3eec7056ff4",
+            "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 934016,
+            "display_faces": 934016,
+            "light_faces": 199999,
+            "vertices_sha256": "baeac79e15779fe7ff668dbe67772b2c89cb7714d22a9374b44c8213a1a59c64",
+            "faces_sha256": "adf2fb9533b0c815ee11257fd0eb0d8faf5e232a967596e7ecd129339575403a"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8452001,
+        "decoded_bytes": 18699624,
+        "light_output": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3702516,
+        "bounds": [
+          [
+            -0.4665050804615021,
+            -0.31661656498908997,
+            -0.5
+          ],
+          [
+            0.4665050804615021,
+            0.3635300397872925,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803",
+      "title": "robot",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803",
+        "source_sha256": "a041a7a9a7483aa2369e4e090248c96c354d61d2a14f634de0b1b00959643088",
+        "rgb_sha256": "5219398ea84a4a061d0468fe4640cd558530057f708ff92f6f79852d5991de89",
+        "camera_sha256": "daa15a36af080760650f9d9a7eda34e8438e1a7ed1ba6f1017226f2dd02a95c2",
+        "view_index": 9,
+        "target_id": "obj_02",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "21fd2e49ad86cc586c08158c4dc0fc46ab4866340891899245482f3ac677cd2b"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context_2",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/composited_scene.glb",
+            "source_node": "primitive_002_box",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "7abe3961156a1a27bcc1b67b06d2e37c304ad48afea0fd3bd4b5ff1b8fce3a26",
+            "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_1",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/composited_scene.glb",
+            "source_node": "primitive_001_wedge",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "cc1248726fb587c780c4ef6db2e237e97916f50999782f5f95108d1faeef98f4",
+            "faces_sha256": "c83af687f587001eb7231e37c7c055244e41ade6668c4aa14e1513914262f962",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 941211,
+            "display_faces": 941211,
+            "light_faces": 199999,
+            "vertices_sha256": "5b000bb34d3a1a6df81ff1b255196d659c6bb0a2e8aa802674edcb84ec859e17",
+            "faces_sha256": "7798366bffffc37f8685b8c2aca817b5b900c3459ec315b077019906b0da3256"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8539302,
+        "decoded_bytes": 18606424,
+        "light_output": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3514340,
+        "bounds": [
+          [
+            -0.5,
+            -0.27978870272636414,
+            -0.3208710253238678
+          ],
+          [
+            0.5,
+            0.27978870272636414,
+            0.3208710253238678
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab",
+      "title": "boat",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab",
+        "source_sha256": "4c56ce3dd07a7d19c0f4ca971f7bcb76dff2f64b3c1a53b39c5ed3fa159e7e37",
+        "rgb_sha256": "fa996717bae3da8a13f352023e1c580d0f7ffc0ca417b119e2ba37eaed1a4131",
+        "camera_sha256": "db53ac38414979503696ff1ae7d52e1afbe0c48869e2056b37fef786b58dcadb",
+        "view_index": 7,
+        "target_id": "obj_01",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 5.684341886080801e-13,
+        "scene_export_sha256": "a0effa02fe60bee005e939db580cd61895a48474efc28a2097a434462976d2d9"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/composited_scene.glb",
+            "source_node": "primitive_001_box",
+            "source_faces": 12,
+            "display_faces": 12,
+            "light_faces": 12,
+            "vertices_sha256": "568cb1298b30896b6660cd66eea7fb27b16f28ce2b328e1db7639f8a7900bcbe",
+            "faces_sha256": "057fe8bbcd123fb890de0b0e585ed56d31ba9deb56d31e13c6b23fb988902059",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 966966,
+            "display_faces": 966966,
+            "light_faces": 200000,
+            "vertices_sha256": "ac1e117f84d1622efc0cf167b1ff1258bc6b01c7651985cec611a3a250d1a580",
+            "faces_sha256": "2f3754e5acadbc0bd4fed78868eeec6b266e18eabf381efb9f4ec915bc4cf3de"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8750638,
+        "decoded_bytes": 19175088,
+        "light_output": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3547852,
+        "bounds": [
+          [
+            -0.3949364721775055,
+            -0.5,
+            -0.42040565609931946
+          ],
+          [
+            0.3949364721775055,
+            0.4910444915294647,
+            0.42040565609931946
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    },
+    {
+      "scene_id": "v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472",
+      "title": "monitor",
+      "source": {
+        "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472",
+        "source_sha256": "49b7e0b0fb1ff4a2455bafffaa8d3c81f89cc0a94dbd5dd72d3b5a0db18ad3dd",
+        "rgb_sha256": "e34b25626f3919a6ef2f87794533fb45c074d349386c6779b77681254768acaf",
+        "camera_sha256": "345faad3a6cd27dc4c218df43dc265d3a743e72b57707289cdf7eec1b6cdfbb1",
+        "view_index": 6,
+        "target_id": "obj_04",
+        "coordinate_frame": "normalized render world, Z-up",
+        "extra_scale": 1,
+        "icp_applied": false,
+        "original_primitives": true,
+        "projection_error_px": 4.547473508864641e-13,
+        "scene_export_sha256": "dcc93b01f27341999dda6ef7bf5cffb8f75a2b84f9534d18cf79fee56829804e"
+      },
+      "asset": {
+        "method": "worldsculpt",
+        "parts": [
+          {
+            "object_id": "context_4",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/composited_scene.glb",
+            "source_node": "primitive_004_sphere",
+            "source_faces": 4416,
+            "display_faces": 4416,
+            "light_faces": 4416,
+            "vertices_sha256": "6dd96b670033b8d11cea7164736d938550148328a9143b0fd373fd7c1721823f",
+            "faces_sha256": "dd15acae6da5e75fde3f21335a57d1bdacb28c6326da0f42ae4d705abafb5c5d",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_3",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/composited_scene.glb",
+            "source_node": "primitive_003_cylinder",
+            "source_faces": 192,
+            "display_faces": 192,
+            "light_faces": 192,
+            "vertices_sha256": "f97da867857ebf0625032fd3c2e3f437140a3a52d1d553c821e1ac89dacfc240",
+            "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_2",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/composited_scene.glb",
+            "source_node": "primitive_002_cone",
+            "source_faces": 96,
+            "display_faces": 96,
+            "light_faces": 96,
+            "vertices_sha256": "b9dd006417ed329997f34c21332377ba406abd98ec2229ea765201edcc51cc61",
+            "faces_sha256": "7a1d57b26ed87c176689ac0c14903846c08f4fd37ae984f69f7282ef6782767b",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "context_1",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/composited_scene.glb",
+            "source_node": "primitive_001_cylinder",
+            "source_faces": 192,
+            "display_faces": 192,
+            "light_faces": 192,
+            "vertices_sha256": "196509b5411835d80b384e4fb8eb5517ab476816273362582dafa731cffbc900",
+            "faces_sha256": "706ab0d7299ad3fc1424731d20b5157628fee8b56a6d3a345799ce0398b1e9cb",
+            "gt_primitive_vertex_max_error": 0.0
+          },
+          {
+            "object_id": "target",
+            "source": "WorldSculpt/toys4k_qualitative24_gt_20261008/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/composited_scene.glb",
+            "source_node": "obj01",
+            "source_faces": 963202,
+            "display_faces": 963202,
+            "light_faces": 200000,
+            "vertices_sha256": "ee3e2d93abe80c289399ba24f0bcee002024e439a06f71e5250a8bdced61ce64",
+            "faces_sha256": "08cd0e596ace63142f3da089bd2c2297cf478e24233dbc3722b2675f59e369a6"
+          }
+        ],
+        "output": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-original.glb.gz",
+        "bytes": 8770264,
+        "decoded_bytes": 19358516,
+        "light_output": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-200k.glb",
+        "light_bytes": 3697444,
+        "bounds": [
+          [
+            -0.5,
+            -0.2083541303873062,
+            -0.5
+          ],
+          [
+            0.5,
+            0.2083541303873062,
+            0.5
+          ]
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_geometry_preserved": true,
+      "shared_gt_frame_preserved": true
+    }
+  ]
+}

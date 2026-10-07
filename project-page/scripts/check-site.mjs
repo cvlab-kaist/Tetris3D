@@ -7,8 +7,9 @@ import { pageRoot } from './check-assets.mjs';
 import { checkInputFit } from './check-input-fit.mjs';
 import { checkReferenceFixture } from './check-reference-toggle.mjs';
 import { checkRealWorld } from './check-real-world.mjs';
+import { checkWorldSculpt } from './check-worldsculpt.mjs';
 
-const dist = path.join(pageRoot, 'dist');
+const dist = path.resolve(process.env.BUILD_DIR || path.join(pageRoot, 'dist'));
 assert(fs.existsSync(path.join(dist, 'index.html')), 'Run npm run build first.');
 const content = JSON.parse(fs.readFileSync(path.join(dist, 'content.json')));
 const preview = JSON.parse(fs.readFileSync(path.join(dist, 'preview-assets.json')));
@@ -123,6 +124,7 @@ try {
   report.checks.push(await checkInputFit(browser));
   report.checks.push(await checkReferenceFixture(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content));
   report.checks.push(await checkRealWorld(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, content, review));
+  report.checks.push(await checkWorldSculpt(browser, `http://127.0.0.1:${server.address().port}/Tetris3D/`, preview, { review }));
   assert.deepEqual(report.errors, []);
   report.passed = true;
   console.log(JSON.stringify(report, null, 2));

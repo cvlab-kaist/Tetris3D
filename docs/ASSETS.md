@@ -6,6 +6,8 @@ Tetris3D 로고, T 블록 favicon, Paper PDF, Method 그림과 Qualitative Compa
 
 원본 mesh와 경량 mesh 모두 gzip 무손실 압축으로 저장합니다. 좌표·geometry·장면 순서는 변경하지 않으며, 경량 mesh를 복원한 바이트의 SHA-256은 원본과 일치합니다. 각 파일의 출처와 해시는 `scripts/asset-provenance.json`에 기록합니다.
 
+WorldSculpt도 24개 장면 모두 원본·경량 3D 보기를 제공합니다. `WorldSculpt/toys4k_qualitative24_gt_20261008`의 composite를 공통 표시 좌표계로 회전한 사본이며, 입력 RGB·카메라·target·view와 원본 geometry·GT primitive 일치를 검증했습니다. 검증 기록은 `scripts/worldsculpt-provenance.json`에 있습니다. 기존 9월 paper24 시뮬레이션 영상은 유지하며, 이 mesh 가져오기 작업에서 궤적을 다시 계산하지 않습니다.
+
 ## 대표 영상·이미지·논문 연결
 
 최종 파일을 `project-page/public/assets/`에 넣고 `public/content.json`에서 필요한 항목만 지정합니다. 지정하지 않은 항목은 `null`로 둡니다.
@@ -54,6 +56,8 @@ ID는 쉼표로 여러 개를 지정하거나 `all`로 해당 컬렉션 전체�
 입력·분할·마스크·GT·모든 사용 가능한 baseline·원본/경량 mesh와 해당 simulation을 함께 복사합니다. 외부 디스크를 가리키던 simulation 링크는 실제 파일 사본으로 바꾸며 검증 JSON에는 화면에서 사용하는 완료 여부·장면·방법만 남깁니다. 가져온 파일의 해시는 `scripts/asset-provenance.json`에 기록합니다.
 
 `--gzip-meshes`는 아직 압축되지 않은 `.glb`를 `.glb.gz`로 저장하고 경로와 다운로드 크기를 갱신합니다. 이미 압축된 원본 mesh는 그대로 복사합니다. 압축을 해제하면 바이트까지 동일하며, 별도의 단순화·재정렬·좌표 변환은 하지 않습니다. 외부 호스트 모드와 함께 사용하지 않습니다.
+
+`scripts/hosted-asset-config.json`의 방법은 자동으로 `project-page/hosted-assets/<method>/`에 저장합니다. 현재 WorldSculpt 48개 파일(24개 원본·경량 쌍)을 `page-source`에 함께 커밋하고 GitHub의 raw URL로 제공합니다. `public/`에 중복 복사하지 않아 Pages 빌드 용량을 유지합니다. importer는 해당 mesh만 HTTPS 주소로 바꾸고, 출처·해시·URL은 `asset-provenance.json`의 `hostedAssets`에 기록합니다. `check:assets`는 커밋할 사본과 모든 연결의 해시·용량도 검사합니다. 실제 공개 전에 이 파일을 포함해 `page-source`를 push해야 합니다. 저장소나 브랜치 이름을 바꾸면 설정의 `baseUrl`도 갱신한 뒤 다시 가져오세요.
 
 ## 큰 자산의 외부 호스팅
 

@@ -6084,7 +6084,7 @@
       "operation": "Unmodified copy of the author-provided Tetris3D_v1.pdf."
     }
   ],
-  "updatedAt": "2026-10-07T17:43:39.515983+00:00",
+  "updatedAt": "2026-10-07T19:28:43.698Z",
   "selection": {
     "demos": [],
     "toys": [
@@ -6114,6 +6114,419 @@
       "v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472"
     ],
     "externalAssetBase": null,
-    "gzipMeshes": true
-  }
+    "gzipMeshes": true,
+    "hostedMethods": [
+      "worldsculpt"
+    ]
+  },
+  "hostedAssets": [
+    {
+      "asset": "worldsculpt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8556400,
+      "sha256": "40b8857fe0f9a35baaef9cd3577e5c39757d95eaaea000852fc56b7aa780eea7",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1859807,
+      "sha256": "728f7be949f3cdaf5d2bfdc280d386493585f3f16d4dc0306a997ec5389ef53b",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "d994f7056a60c20411fbf5c0824649032b1cee6d5151bfe9f9ba2349aa0dc564",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8593443,
+      "sha256": "7b82265582c1f9a4e4533931af2020412f0175a057c60d2c2a99d84d5a536eab",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1855461,
+      "sha256": "3355fa08897359dac9b7a8966c3ae79483ba085b3364cfc8201cceefb8aafcdb",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "655b3625abd72fd04403e8a66f952750e235a1078f04f6b7b223976bf6be04ec",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8433127,
+      "sha256": "040a5ae0af17d9a48b56253dc3dfeab7a556b54cd36a99425a08cca8af0732e7",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1804983,
+      "sha256": "b07f992c052065767fb983e05c5b1fecc77908435262901f21a1891a605418b1",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "da048efc8dc87639d2c37f27acf83515d7396734c8c83569692cf28f4803631a",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8866371,
+      "sha256": "0acdea7d80df235ab3f7331f41c0e3ddfc8465caaf3d43566b88a0a6c5368d74",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1855019,
+      "sha256": "c688af1095b13f85ccbc32550e542747fcc78b24f51228fc398282c704258d88",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "1fda26e5973a7b902ab842402cb130cad03af45177889ee7616d13b62f854e4e",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8306664,
+      "sha256": "0f76cfb2e88a5afaa94c5fe15b14ccd15a63368274a0d72ea29eb99d74950d91",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1853915,
+      "sha256": "af5b7a01c9bf9aa526dcabe3552fff635250fc7a883e8fefc969a2d92df0c877",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "01a125295cea680c2a67e5434fdf6f5ac103354c1888a1d07ac54bfe76011444",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8714045,
+      "sha256": "e5b66b1f615a0e54242a8dce477f183516e837ef02367c73ce9f66f3bb56b3aa",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1861348,
+      "sha256": "7ebed5b9ff87553a906906d9548225b1a41d173f076b723ec035912d1fddaf33",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "84e2399122ef1e74c32371443576cf0ef68dba2dba95d0d782019b241bb7d82b",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8958255,
+      "sha256": "a92eb1757a58f7b976669e91db436b159b938ad05ab8bf69d4817bd053665676",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1849464,
+      "sha256": "b461343653f2f01ee0ef4f987dc9faa8c36369b74629c1dbd34270405a0b709c",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "af2b6dbb6384c58184012b7c659bf0110db8c1e6570bd008317a1ed508a20aa2",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8691741,
+      "sha256": "a91fae93b82067bb64e5468df4b2cf4e093b72abdad48dbd072d63fc5eda7372",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1852341,
+      "sha256": "30190fa930c7d8a0b5432b4d5377f5b1f93004bd495155320ca2c0a19b11c8b0",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "1cc13c0498a91335d8ec38367d210f9e448c34c693a8c523e0a7eeca60aae6b0",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8672911,
+      "sha256": "81ec64d988d45cfcbbd1c5b684bf5be6ac042d4553b95327501145c2a5f5c920",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1859198,
+      "sha256": "36bd474176ee76cdf0c59c5dcd61ae27274139a6dbb7e5506d477c1cd70eeb37",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "f4e8817e13f1a5ceb2ed42fa55a5ea4a11e623a4195a24e16d7a2a5df37503d7",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8856731,
+      "sha256": "e20d79ccecf46e4faf762ac2e833adb01753c2cb0f72d1284e703b3249ef83ea",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1866001,
+      "sha256": "7bb17d70d81c4c7ff73f6add47499d6b1b4221144110ef7e8b5be0d1159062bb",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "b35991db81cfac758111312c39698788d5d9d40471e90cd16064ab3306be1794",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8809028,
+      "sha256": "cc2e63d1aaa217e31ecba83bae8897e5aa1a0c73458fc621356af1de79c45747",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1857132,
+      "sha256": "9f20a6aaf4450baf43eddc6600c7514e1e423e50950c61c7d8aa097e9f5aa441",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "a7b5002df1531a37279b9d5d1da7bbd63e32c01ec95850fd6b24ae049f9a3599",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8954103,
+      "sha256": "3f985c4c197744f3c6d6cb2527f15470e775a8c67597b842d46e1d8e5450e09f",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1864959,
+      "sha256": "4b5fbccfe488deb260931e58041692b2f32f2a33d4da4aa21416df932e0745c3",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "c776e8c946c0d31a2019d838d71fb909ce89f8119c70415b014e68def8c68a63",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 9143678,
+      "sha256": "ea4307cecf13c57d9b283bf29f8291dd88f61a3d65f93552bf5ba83ce9a4f1bc",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1905125,
+      "sha256": "42947762ce4900af6c73b96fb2a3204a94246444025a6ef263f408180c8ad144",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "760912adc555d39d50c956f68f36e6ae959cd8eaf8fbc1f144184484fe285fc7",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8639422,
+      "sha256": "4768bcda0b3b5c28b886b54c1bd4f7c2fcfa5d75dbcce071bd7177c8ee6b3615",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1881661,
+      "sha256": "5eb2eaafceff63043aef65fdb031bf7316fe8958196235f3080b7de2263b3c77",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "7210fd31a201e000ea7a2aa8da1cf4c8bfc289db97dc304fc140156af3446066",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8873899,
+      "sha256": "97a98e62a2ff3dc61671ac53be1d1a481abf805262ea6a6c66c32c0d423d3892",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1773403,
+      "sha256": "786cc5fd13a26f3adacb1f06220feb7be846ca14addf1eb26649b2c6a395dab8",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "b25da9513527d715fc84d53887b4ae24b2785ab5d35aae76673c6755e29e2ee0",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8385305,
+      "sha256": "6bb49ebb42cfae529e2dc18a66ba74740dcfab4b1b8adb594a715be350a5a643",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1602622,
+      "sha256": "9c58bb6cf6d9793e5bb2ab4239549079cd59df4ef716490dfc78aee96939056d",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "4af97a7b8bd9ee71f9e00d8af9e72ed023a985c28fec7846889dfa688a4c022d",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8913263,
+      "sha256": "0e2143ce7a443794c25fb42d86003fd24e44342e3db854ec597c9561ae7fbacf",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1881874,
+      "sha256": "b20154ff43edc29016220fd6243fa9655282c8697d4d0dbb3a206148eb772bdc",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "5b7013b4306673cb0b451732de6bcef0d1b67c846ae4c8a949dc875c71e87ac7",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8270177,
+      "sha256": "d28a6cbc86c4bec57f54614dd79af9e13ea13552173155205cf459c7bd197491",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1718025,
+      "sha256": "2dd44541fe49516664e9ab90a3bfc2648541f9ceccb80a2e949fd534ef8812a4",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "5d8c224dfd937cd4c8963d9e084c9a28fce8db04fa477a0ac4fbaf0e11c00b5c",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8500439,
+      "sha256": "764a4d70ab586054caffa734fcc11f6b09e8a1a9c8b8c74e834b651d353c5835",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1859514,
+      "sha256": "7d6f080d65ff217d25bd3dd39a7906d37f3c9b56aafa9eac16926a8ddc44a8fb",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "3f87f2c7235384b95f45e62e0361481c8505f549f8486471d6adf8019a313b89",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8299681,
+      "sha256": "0247fd9d50864db973dcf6607ca7c44049de6f30ccb0eaf0260cd9ccb0bdff67",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1543660,
+      "sha256": "49571c302e4bec726ad0e376f690ef221c7e1ec2debe1f507df58cabbc99f1da",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "6385e780d42dbde66596b974eebaac3128a59add4f4c784be9b8828390d24469",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8452001,
+      "sha256": "f4088224338906474dc495acab916fcab98d2fa90ecce4500f190e94ec6d7a5d",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1876301,
+      "sha256": "ca81e0d2a73707b19c9d87ae98712b65009339ffdf26036b90c0a3edadf6c244",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "dae61ef4911a47fee6084680ce2d0855419fdd4b46d1232034dffc0192e8a1d8",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8539302,
+      "sha256": "9b5bf9bf80e9e8168d4697364e3d754680206b8ced6169dda625f0cb01619aea",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1815182,
+      "sha256": "64be8d1c46623d30ccf0e749b8cdc6b8db4af68ba43cf1ba122498e6d6d3e004",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "2bedab52a3ad3eb79eb3fed20c34005527bf5a6ebc2dc61cdea67c3fe26de2bb",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8750638,
+      "sha256": "d261b06de216f16fbda1a86b4f707a74b7cdb30fa7ba0f7b7956cca0f618e35b",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1838143,
+      "sha256": "41d6360192a640b05473d7a71e608cd3885d39e6f0bd41f7755bdf96907d92b7",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "3fa88d9929f1bc092ced84d347ca3921b84e35da3e0e38f956af22ed5a8a9665",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    },
+    {
+      "asset": "worldsculpt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-original.glb.gz",
+      "source": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-original.glb.gz",
+      "bytes": 8770264,
+      "sha256": "c77a009df3c5d2742de517988f8961c71b44c35503a340c4fc91113a1120b7b2",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-original.glb.gz",
+      "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "worldsculpt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-200k.glb.gz",
+      "source": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-200k.glb",
+      "bytes": 1910399,
+      "sha256": "1843e624d266ad339cff297b96273e4d843cf7bb03b8961ad7fafbfd1bd1e09e",
+      "url": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-200k.glb.gz",
+      "sourceSha256": "28a99bd170dd22d5b55cb41a5a90f3cbd45b0530a9a4c522f73d15ac493315cf",
+      "operation": "Lossless gzip compression; decompressed GLB matches the source exactly."
+    }
+  ]
 }

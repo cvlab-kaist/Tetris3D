@@ -14,6 +14,8 @@ T2Mo와 같은 중앙 정렬 README에 Tetris3D 제목, 기존 저자 링크, KA
 
 대표 영상과 실사 비교는 작업 중이므로 연결하지 않습니다. `video.src`, `video.poster`는 `null`이며 Demo 목록은 비어 있습니다. Paper 버튼과 README는 최신 `Tetris3D_v1.pdf` 사본인 `assets/paper/tetris3d-paper.pdf`를 연결하며, Arxiv는 SOON으로 표시합니다. `methodFigure`에는 개발본과 같은 `assets/paper/method.webp`를 연결합니다. `preview-assets.json`에 Qualitative Comparisons 24개를 저장하고, `content.json`에서 로고와 비교용 simulation 경로를 지정합니다. 원본 geometry는 보존하고 경량 mesh 파일에도 gzip 무손실 압축을 적용해 전체 공개 자산을 약 939 MB로 유지합니다.
 
+WorldSculpt의 24개 원본·경량 mesh는 `project-page/hosted-assets/worldsculpt/`에 함께 커밋하며 같은 저장소의 raw URL에서 불러옵니다. 이 파일들은 Pages 빌드에 중복 포함하지 않습니다. 다른 비교 방법과 카메라·객체 선택·확대 조작을 공유합니다. 호스팅 설정과 가져오기 방법은 [ASSETS.md](ASSETS.md)를 참고하세요.
+
 ## 로컬 실행
 
 ```sh

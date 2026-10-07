@@ -1,10 +1,41 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 export const maxFileBytes = 95_000_000;
 export const maxPublicBytes = 950_000_000;
 export const pageRoot = fileURLToPath(new URL('../', import.meta.url));
+
+export function hostedAssetConfig(root = pageRoot) {
+  const config = JSON.parse(fs.readFileSync(path.join(root, 'scripts/hosted-asset-config.json')));
+  const base = new URL(config.baseUrl);
+  if (base.protocol !== 'https:' || base.username || base.password || base.search || base.hash || !base.pathname.endsWith('/')) throw new Error('Hosted asset base must be an HTTPS directory URL.');
+  if (!Array.isArray(config.methods) || config.methods.some((id) => !/^[a-z0-9-]+$/.test(id))) throw new Error('Invalid hosted method IDs.');
+  return config;
+}
+
+function checkHostedAssets(root, ...documents) {
+  const config = hostedAssetConfig(root);
+  const provenance = JSON.parse(fs.readFileSync(path.join(root, 'scripts/asset-provenance.json')));
+  const records = new Map((provenance.hostedAssets || []).map((entry) => [entry.url, entry]));
+  let bytes = 0;
+  for (const entry of records.values()) {
+    const file = assetPath(path.join(root, 'hosted-assets'), entry.asset);
+    if (entry.url !== new URL(entry.asset, config.baseUrl).href) throw new Error(`Invalid hosted URL: ${entry.url}`);
+    if (!fs.existsSync(file) || fs.lstatSync(file).isSymbolicLink() || !fs.statSync(file).isFile()) throw new Error(`Missing hosted asset: ${entry.asset}`);
+    const data = fs.readFileSync(file);
+    if (data.length !== entry.bytes || data.length > maxFileBytes || crypto.createHash('sha256').update(data).digest('hex') !== entry.sha256) throw new Error(`Hosted asset size/checksum mismatch: ${entry.asset}`);
+    bytes += data.length;
+  }
+  function visit(value) {
+    if (Array.isArray(value)) value.forEach(visit);
+    else if (value && typeof value === 'object') Object.values(value).forEach(visit);
+    else if (typeof value === 'string' && value.startsWith(config.baseUrl) && !records.has(value)) throw new Error(`Unregistered hosted asset: ${value}`);
+  }
+  documents.forEach(visit);
+  return { hostedAssets: records.size, hostedAssetBytes: bytes };
+}
 
 export function localReferences(...documents) {
   const references = new Set();
@@ -72,7 +103,7 @@ export function checkAssets(root = pageRoot) {
     if (!fs.existsSync(target) || !fs.statSync(target).isFile()) throw new Error(`Missing public asset: ${reference}`);
   }
   const files = publicFiles(publicRoot);
-  return { files: files.size, referencedAssets: references.size, bytes: checkSizes(files), scenes: { demos: preview.demos.length, toys: preview.toys.length } };
+  return { files: files.size, referencedAssets: references.size, bytes: checkSizes(files), ...checkHostedAssets(root, content, preview), scenes: { demos: preview.demos.length, toys: preview.toys.length } };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
