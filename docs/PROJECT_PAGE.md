@@ -6,7 +6,7 @@
 
 T2Mo와 같은 중앙 정렬 README에 Tetris3D 제목, 기존 저자 링크, KAIST AI, `arXiv 2026`을 표시합니다. 프로젝트 페이지는 현재 디자인과 뷰어 코드를 유지한 준비 페이지입니다. 영상, 포스터, 로고 이미지, 논문 PDF, Method 그림, 갤러리 결과는 연결하거나 포함하지 않습니다. 텍스트 제목과 T 블록 favicon, 공개 예정 안내만 표시합니다.
 
-`project-page/public/content.json`의 `logo`, `methodFigure`, `headerVideo`, `video.src`, `video.poster`, 논문 링크는 `null`입니다. `preview-assets.json`과 `finalExamples`의 장면 목록도 비어 있습니다. 이전 자산 사본은 Git에서 제외되는 로컬 `project-page/review/disconnected-assets/`에 보관합니다.
+`project-page/public/content.json`의 `logo`, `methodFigure`, `video.src`, `video.poster`, 논문 링크는 `null`입니다. `preview-assets.json`과 `finalExamples`의 장면 목록도 비어 있습니다. 이전 자산 사본은 Git에서 제외되는 로컬 `project-page/review/disconnected-assets/`에 보관합니다.
 
 ## 로컬 실행
 

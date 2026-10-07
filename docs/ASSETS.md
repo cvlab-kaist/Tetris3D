@@ -29,21 +29,6 @@
 
 이 예시는 현재 설정에 연결되어 있지 않습니다. 경로를 지정하면 로고·영상·Method 그림이 자동으로 나타나므로 HTML에 자산 경로를 추가할 필요가 없습니다. 영상은 음소거 자동 재생과 `현재 시간 / 전체 길이` 표시를 지원합니다. 자산 해시와 출처는 `scripts/asset-provenance.json`에 기록합니다.
 
-## 헤더 배경 영상
-
-제목·저자 뒤의 영상은 `public/content.json`의 `headerVideo`로 별도 지정합니다. 현재는 `null`이며 파일 요청이나 빈 영상 영역이 생기지 않습니다. 파일이 준비되면 다음 설정으로 연결합니다.
-
-```json
-"headerVideo": {
-  "src": "assets/video/header.mp4",
-  "poster": "assets/video/header.webp",
-  "opacity": 0.18,
-  "position": "50% 50%"
-}
-```
-
-`poster`는 선택 사항입니다. 기본 불투명도는 18%이며 상하단은 흰 배경으로 부드럽게 사라집니다. 음소거·반복·인라인 자동 재생을 사용하고, 헤더가 화면 밖에 있거나 탭이 숨겨지면 일시정지합니다. 동작 줄이기 설정에서는 정지 화면을 표시합니다. 기존 대표 영상과는 별도로 연결합니다.
-
 ## 실사 이미지 비교
 
 `public/content.json`의 `realWorldComparisons` 네 항목에 장면별 `title`과 비교 결과 `image`를 지정합니다. `thumbnail`과 `alt`는 선택 사항입니다. 예: `{ "title": "Scene 1", "image": "assets/real-world/scene-1.webp" }`. 현재 네 이미지 경로는 `null`입니다.

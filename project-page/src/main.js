@@ -367,28 +367,6 @@ class Gallery {
   }
 }
 
-function initHeaderBackground(config) {
-  const backdrop = $('.header-backdrop'), video = $('#header-video');
-  const motion = matchMedia('(prefers-reduced-motion: reduce)');
-  const opacity = Number.isFinite(config.opacity) ? config.opacity : 0.18;
-  backdrop.style.setProperty('--header-video-opacity', Math.min(1, Math.max(0, opacity)));
-  if (config.position) backdrop.style.setProperty('--header-video-position', config.position);
-  video.muted = true; video.autoplay = false;
-  if (config.poster) { video.poster = asset(config.poster); backdrop.hidden = false; }
-  let visible = false;
-  const sync = () => {
-    const playing = visible && !document.hidden && !motion.matches;
-    video.autoplay = playing;
-    if (playing) video.play().catch(() => {}); else video.pause();
-  };
-  video.addEventListener('loadeddata', () => { backdrop.hidden = false; sync(); });
-  video.addEventListener('error', () => { backdrop.hidden = !config.poster; });
-  new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; sync(); }).observe($('#overview'));
-  document.addEventListener('visibilitychange', sync);
-  motion.addEventListener('change', sync);
-  video.src = asset(config.src);
-}
-
 async function init() {
   const [content, preview] = await Promise.all(['content.json', 'preview-assets.json'].map((path) =>
     fetch(asset(path)).then((response) => { if (!response.ok) throw new Error(`${path} unavailable`); return response.json(); })
@@ -415,7 +393,6 @@ async function init() {
     }));
   }
   const isLink = (url) => url && /^(https?:\/\/|\.\/|assets\/)/.test(url);
-  if (isLink(content.headerVideo?.src)) initHeaderBackground(content.headerVideo);
   initRealWorldComparisons(content.realWorldComparisons, openImage);
   if (isLink(content.logo)) {
     $('.project-logo').src = asset(content.logo);

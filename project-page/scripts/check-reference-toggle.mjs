@@ -63,7 +63,7 @@ export async function checkReferenceFixture(browser, base, content) {
       buffers: [{ byteLength: 72, uri: 'data:application/octet-stream;base64,' + Buffer.from(vertices.buffer).toString('base64') }] };
     const sample = { id: 'reference-test', title: 'Reference test', image: 'assets/reference-test.svg', objects: ['target', 'context'], cameraDirection: [1, 1, 1], displayBounds: [[-1, 0, -1], [1, 1, 1]],
       methods: [{ id: 'ours', label: 'Tetris3D', model: 'assets/reference-test-ours.glb' }, { id: 'gt', label: 'Ground truth', model: 'assets/reference-test-gt.glb' }] };
-    await page.route('**/content.json', (route) => route.fulfill({ json: { ...content, video: null, headerVideo: null, finalExamples: { demos: [], toys: [] }, simulation: { showSimulation: false } } }));
+    await page.route('**/content.json', (route) => route.fulfill({ json: { ...content, video: null, finalExamples: { demos: [], toys: [] }, simulation: { showSimulation: false } } }));
     await page.route('**/preview-assets.json', (route) => route.fulfill({ json: { demos: [], toys: [sample, { ...sample, id: 'no-reference-test', title: 'No reference test', methods: sample.methods.slice(0, 1) }] } }));
     await page.route('**/reference-test-*.glb', (route) => route.fulfill({ contentType: 'model/gltf+json', body: JSON.stringify(geometry) }));
     await page.route('**/reference-test.svg', (route) => route.fulfill({ contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><path d="M50 160 150 160 100 30Z" fill="#ae8ec7"/></svg>' }));

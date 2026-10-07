@@ -8,7 +8,7 @@ export async function checkRealWorld(browser, base, content, review) {
     page.on('pageerror', (error) => errors.push(error.message));
     try {
       const scenes = Array.from({ length: 4 }, (_, i) => ({ title: `Test scene ${i + 1}`, image: `assets/real-world-test-${i + 1}.svg` }));
-      await page.route('**/content.json', (route) => route.fulfill({ json: { ...content, video: null, headerVideo: null, realWorldComparisons: scenes, finalExamples: { demos: [], toys: [] } } }));
+      await page.route('**/content.json', (route) => route.fulfill({ json: { ...content, video: null, realWorldComparisons: scenes, finalExamples: { demos: [], toys: [] } } }));
       await page.route('**/real-world-test-*.svg', (route) => route.fulfill({ contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600"><rect width="1200" height="600" fill="white"/><path d="M100 500 300 500 200 100Z M500 500 700 500 600 100Z M900 500 1100 500 1000 100Z" fill="#bca3ce"/></svg>' }));
       await page.goto(base + '#real-world', { waitUntil: 'domcontentloaded' });
       await page.waitForSelector('html[data-ready=true]');

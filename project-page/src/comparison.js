@@ -35,7 +35,7 @@ export class ComparisonPanel {
             ${this.hasInputReference ? '<div class="comparison-reference" hidden></div>' : ''}
           </div>
           ${this.config.referenceRow ? `<div class="comparison-segmentation"><div class="method-card-heading"><h4>Segmentation mask</h4></div><button class="segmentation-image" type="button" aria-label="Enlarge segmentation mask"><img alt="Visible object segmentation"/><span>Expand ↗</span></button></div><div class="demo-reference-method"></div></div></section>` : ''}
-          <section class="comparison-geometry" aria-label="${this.config.referenceRow ? 'Predictions' : '3D viewer comparison'}"><h4 class="comparison-row-label">${this.config.referenceRow ? 'Predictions' : '3D viewer'}</h4>
+          <section class="comparison-geometry" aria-label="${this.config.referenceRow ? 'Predictions' : '3D viewer comparison'}">${this.config.referenceRow ? '<h4 class="comparison-row-label">Predictions</h4>' : ''}
             ${this.config.objectToolbar ? '<div class="demo-object-list" role="group" aria-label="Choose an object" hidden></div>' : ''}
             <div class="comparison-grid geometry-grid"></div></section>
           ${this.hasSimulation ? `<div class="simulation-actions" role="group" aria-label="Simulation controls">
@@ -228,7 +228,7 @@ export class ComparisonPanel {
     this.showingReference = Boolean(show && card?.method.model);
     toggle.textContent = this.showingReference ? 'Show input' : 'Show GT';
     toggle.setAttribute('aria-pressed', String(this.showingReference));
-    $('.comparison-source-title', this.element).textContent = this.showingReference ? 'Ground truth' : 'Input image';
+    $('.comparison-source-title', this.element).textContent = this.showingReference ? 'GT' : 'Input image';
     $('.comparison-input', this.element).hidden = this.showingReference;
     $('.comparison-reference', this.element).hidden = !this.showingReference;
     if (this.showingReference && !card.enabled) this.enable3D(card);
