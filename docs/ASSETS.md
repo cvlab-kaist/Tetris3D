@@ -1,10 +1,10 @@
 # 페이지 자산 관리
 
-## 현재 준비본
+## 현재 공개 자산
 
-현재는 페이지 코드와 T 블록 favicon만 포함합니다. 대표 영상·포스터·로고 이미지·PDF·Method 그림의 경로는 `null`이고, Demo·Qualitative Comparisons 목록은 비어 있습니다. 공개 페이지에서는 해당 영역에 공개 예정 안내를 표시하며 미디어를 요청하지 않습니다.
+Tetris3D 로고, T 블록 favicon과 Qualitative Comparisons 24개 장면을 포함합니다. 비교 장면에는 입력 이미지·GT·사용 가능한 baseline mesh·Initial state·시뮬레이션이 들어 있습니다. 대표 영상·포스터·PDF·Method 그림·실사 비교 이미지는 연결하지 않으며 Demo 목록은 비어 있습니다.
 
-기존 자산은 Git에서 제외되는 `project-page/review/disconnected-assets/`에 보관합니다. 아래 명령과 설정은 나중에 공개할 자산을 확정한 뒤 사용합니다. 원본 좌표·geometry·장면 순서는 변경하지 않습니다.
+원본 mesh와 경량 mesh 모두 gzip 무손실 압축으로 저장합니다. 좌표·geometry·장면 순서는 변경하지 않으며, 경량 mesh를 복원한 바이트의 SHA-256은 원본과 일치합니다. 각 파일의 출처와 해시는 `scripts/asset-provenance.json`에 기록합니다.
 
 ## 대표 영상·이미지·논문 연결
 
@@ -44,6 +44,8 @@ npm run import:scenes -- --from /path/to/current/project-page --list
 npm run import:scenes -- --from /path/to/current/project-page \
   --demos music_unique \
   --toys v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297
+# 현재 공개 범위: Qualitative Comparisons 24개, 경량 GLB도 무손실 압축
+npm run import:scenes -- --from /path/to/current/project-page --toys all --gzip-meshes
 npm run build
 ```
 
@@ -51,9 +53,11 @@ ID는 쉼표로 여러 개를 지정하거나 `all`로 해당 컬렉션 전체�
 
 입력·분할·마스크·GT·모든 사용 가능한 baseline·원본/경량 mesh와 해당 simulation을 함께 복사합니다. 외부 디스크를 가리키던 simulation 링크는 실제 파일 사본으로 바꾸며 검증 JSON에는 화면에서 사용하는 완료 여부·장면·방법만 남깁니다. 가져온 파일의 해시는 `scripts/asset-provenance.json`에 기록합니다.
 
+`--gzip-meshes`는 아직 압축되지 않은 `.glb`를 `.glb.gz`로 저장하고 경로와 다운로드 크기를 갱신합니다. 이미 압축된 원본 mesh는 그대로 복사합니다. 압축을 해제하면 바이트까지 동일하며, 별도의 단순화·재정렬·좌표 변환은 하지 않습니다. 외부 호스트 모드와 함께 사용하지 않습니다.
+
 ## 큰 자산의 외부 호스팅
 
-전체 개발 자산은 GitHub Pages 용량을 초과합니다. [Pages 사이트 제한은 1 GB](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)이며 Git LFS로 사이트 용량 제한을 해결할 수는 없습니다. 준비본의 검사는 총 공개 자산에 900 MB, 개별 파일에 95 MB의 여유 있는 한도를 사용합니다.
+전체 개발 자산은 GitHub Pages 용량을 초과합니다. [Pages 사이트 제한은 1 GB](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)이며 Git LFS로 사이트 용량 제한을 해결할 수는 없습니다. 검사는 총 공개 자산에 950 MB, 개별 파일에 95 MB의 한도를 사용합니다. 현재 Qualitative Comparisons와 로고는 약 918 MB이며, 번들 및 추가 파일을 위한 여유를 남깁니다.
 
 별도 정적 호스트에 `assets/` 디렉터리 구조를 유지해 올렸다면 다음처럼 연결할 수 있습니다. 주소는 실제 업로드가 끝난 호스트로 지정합니다.
 
@@ -80,6 +84,6 @@ Qualitative Comparisons의 `Show GT`는 `methods`의 `id: "gt"` mesh를 입력 �
 
 마스크 또는 PNG alpha가 있는 입력은 피사체 범위를 미리 잘라 긴 변의 3.5% 여백을 남긴 흰 배경 PNG로 저장합니다. `assets/input-cache/`의 콘텐츠 해시 파일을 장면 `image`·`thumbnail`에 지정하고 `imageMasks`는 빈 배열로 둡니다. 썸네일·비교 패널·확대 창에서 저장본을 바로 불러오므로 방문 후 이미지 크기가 바뀌지 않습니다. `imageOriginal`·`imageOriginalMasks`에 원본 경로·마스크를 보존하며 Original 링크는 원본을 엽니다. 불투명한 실사 장면은 그대로 표시합니다.
 
-재생성은 `project-page/`에서 `node scripts/prepare-input-crops.mjs /path/to/development/project-page /path/to/input-cache`로 실행합니다. 생성기는 PNG와 `manifest.json`을 지정한 디렉터리에 저장하며 원본과 장면 metadata는 수정하지 않습니다. manifest의 `output`을 장면 `image`·`thumbnail`에 적용한 뒤 생성물을 `public/assets/input-cache/`로 복사합니다. 개발본에서 장면을 가져오면 크롭 저장본과 원본 경로도 포함됩니다. 현재 공개 준비본의 빈 갤러리는 유지합니다.
+재생성은 `project-page/`에서 `node scripts/prepare-input-crops.mjs /path/to/development/project-page /path/to/input-cache`로 실행합니다. 생성기는 PNG와 `manifest.json`을 지정한 디렉터리에 저장하며 원본과 장면 metadata는 수정하지 않습니다. manifest의 `output`을 장면 `image`·`thumbnail`에 적용한 뒤 생성물을 `public/assets/input-cache/`로 복사합니다. 개발본에서 장면을 가져오면 크롭 저장본과 원본 경로도 포함됩니다.
 
-2026-10-06에 지정한 bottle과 두 번째 chess piece(knight)의 RGBA 원본 사본은 `project-page/examples/input-overrides/`에 보관합니다. 이 파일들은 공개 페이지에 연결되지 않습니다. 대응 scene ID와 SHA-256은 `project-page/scripts/input-overrides-provenance.json`에, 24개 크롭 경로·해시는 `project-page/scripts/input-crop-provenance.json`에 기록합니다. 직접 연결할 때는 PNG를 기록된 `assets/input-overrides/` 경로로 복사한 뒤 위 명령으로 표시용 크롭을 생성합니다. 원래 카메라 마스크를 새 이미지에 적용하지 마세요.
+2026-10-06에 지정한 bottle과 두 번째 chess piece(knight)의 RGBA 원본 사본은 `project-page/examples/input-overrides/`에 보관하며, 공개 페이지에는 해당 이미지에서 만든 크롭 저장본을 연결합니다. 대응 scene ID와 SHA-256은 `project-page/scripts/input-overrides-provenance.json`에, 24개 크롭 경로·해시는 `project-page/scripts/input-crop-provenance.json`에 기록합니다. 원래 카메라 마스크를 새 이미지에 적용하지 마세요.

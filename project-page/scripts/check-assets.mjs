@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export const maxFileBytes = 95_000_000;
-export const maxPublicBytes = 900_000_000;
+export const maxPublicBytes = 950_000_000;
 export const pageRoot = fileURLToPath(new URL('../', import.meta.url));
 
 export function localReferences(...documents) {

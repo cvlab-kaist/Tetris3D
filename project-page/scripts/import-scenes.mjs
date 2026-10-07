@@ -1,12 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { gzipSync } from 'node:zlib';
 import { assetPath, checkAssets, checkSizes, localReferences, pageRoot, publicFiles } from './check-assets.mjs';
 
 const options = {};
 for (let index = 2; index < process.argv.length; index++) {
   const argument = process.argv[index];
   if (argument === '--list') options.list = true;
+  else if (argument === '--gzip-meshes') options.gzipMeshes = true;
   else if (['--from', '--demos', '--toys', '--asset-base'].includes(argument)) {
     const value = process.argv[++index];
     if (!value || value.startsWith('--')) throw new Error(`Missing value for ${argument}`);
@@ -30,6 +32,7 @@ if (options.list) {
   if (!options.demos && !options.toys) throw new Error('Select --demos and/or --toys (comma-separated scene IDs, or all).');
   let externalBase;
   if (options['asset-base']) {
+    if (options.gzipMeshes) throw new Error('--gzip-meshes creates local files; use it without --asset-base.');
     externalBase = new URL(options['asset-base']);
     if (externalBase.protocol !== 'https:' || externalBase.username || externalBase.password || externalBase.search || externalBase.hash) throw new Error('--asset-base must be an HTTPS directory URL without credentials, query, or fragment.');
     if (!externalBase.pathname.endsWith('/')) externalBase.pathname += '/';
@@ -51,6 +54,7 @@ if (options.list) {
   const references = localReferences(selected, simulation);
   const files = publicFiles(publicRoot);
   const copies = [];
+  const compressed = new Map();
   for (const reference of references) {
     const source = assetPath(sourceRoot, reference);
     if (!fs.existsSync(source) || !fs.statSync(source).isFile()) throw new Error(`Missing source asset: ${reference}`);
@@ -63,14 +67,31 @@ if (options.list) {
       if (typeof passed !== 'boolean' || !scene_id || !method) throw new Error(`Invalid simulation validation: ${reference}`);
       data = Buffer.from(JSON.stringify({ passed, scene_id, method }, null, 2) + '\n');
     }
-    files.set(reference, data?.length ?? fs.statSync(source).size);
-    copies.push({ reference, source, data });
+    const gzipMesh = options.gzipMeshes && reference.endsWith('.glb');
+    const destinationReference = gzipMesh ? `${reference}.gz` : reference;
+    let sourceSha256;
+    if (gzipMesh) {
+      const original = fs.readFileSync(source);
+      data = gzipSync(original, { level: 9 });
+      sourceSha256 = crypto.createHash('sha256').update(original).digest('hex');
+      compressed.set(reference, { path: destinationReference, bytes: data.length });
+    }
+    files.set(destinationReference, data?.length ?? fs.statSync(source).size);
+    copies.push({ reference: destinationReference, sourceReference: reference, source, data, gzipMesh, sourceSha256 });
   }
   // Complete the size/missing-file preflight before replacing any metadata.
   checkSizes(files);
+  for (const scenes of Object.values(selected)) {
+    for (const scene of scenes) {
+      for (const method of scene.methods || []) {
+        if (compressed.has(method.modelLight)) method.lightBytes = compressed.get(method.modelLight).bytes;
+      }
+    }
+  }
   function rewrite(value) {
     if (Array.isArray(value)) return value.map(rewrite);
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, rewrite(child)]));
+    if (typeof value === 'string' && compressed.has(value)) return compressed.get(value).path;
     if (externalBase && typeof value === 'string' && value.startsWith('assets/') && !validationPaths.has(value)) return new URL(value, externalBase).href;
     return value;
   }
@@ -79,15 +100,16 @@ if (options.list) {
   const provenancePath = path.join(pageRoot, 'scripts/asset-provenance.json');
   const provenance = JSON.parse(fs.readFileSync(provenancePath));
   const records = new Map(provenance.assets.map((entry) => [entry.asset, entry]));
-  for (const { reference, source, data } of copies) {
+  for (const { reference, sourceReference, source, data, gzipMesh, sourceSha256 } of copies) {
     const destination = assetPath(publicRoot, reference);
     fs.mkdirSync(path.dirname(destination), { recursive: true });
     if (data) atomicWrite(destination, data);
     else { fs.copyFileSync(source, destination + '.publishing'); fs.renameSync(destination + '.publishing', destination); }
     records.set(reference, {
-      asset: reference, source: reference, bytes: fs.statSync(destination).size,
+      asset: reference, source: sourceReference, bytes: fs.statSync(destination).size,
       sha256: checksum(fs.readFileSync(destination)),
-      operation: data ? 'Simulation validation fields only: passed, scene_id, method.' : 'Unmodified copy from the development project page.',
+      ...(sourceSha256 ? { sourceSha256 } : {}),
+      operation: gzipMesh ? 'Lossless gzip compression; decompressed GLB matches the source exactly.' : data ? 'Simulation validation fields only: passed, scene_id, method.' : 'Unmodified copy from the development project page.',
     });
   }
   const contentPath = path.join(publicRoot, 'content.json');
@@ -98,7 +120,7 @@ if (options.list) {
   atomicWrite(contentPath, JSON.stringify(content, null, 2) + '\n');
   provenance.updatedAt = new Date().toISOString();
   provenance.assets = [...records.values()];
-  provenance.selection = { demos: selected.demos.map((scene) => scene.id), toys: selected.toys.map((scene) => scene.id), externalAssetBase: externalBase?.href || null };
+  provenance.selection = { demos: selected.demos.map((scene) => scene.id), toys: selected.toys.map((scene) => scene.id), externalAssetBase: externalBase?.href || null, gzipMeshes: Boolean(options.gzipMeshes) };
   atomicWrite(provenancePath, JSON.stringify(provenance, null, 2) + '\n');
   console.log(JSON.stringify({ imported: provenance.selection, copiedFiles: copies.length, validation: checkAssets() }, null, 2));
 }
