@@ -37,7 +37,7 @@
   },
   "abstract": "Tetris3D reconstructs a scene by generating each object in relation to its neighbors. Surrounding geometry and physical relationships guide both shape and pose, helping recover the parts hidden by contact and occlusion. Objects are generated in a physical dependency order, so previously generated surfaces become context for the next object. Voxel-aligned conditions guide both sparse structure and structured latent generation at each step. Visible-to-invisible attention transfers cues from observed regions to occluded surfaces, helping complete the object in its surrounding context.",
   "links": {
-    "paper": null,
+    "paper": "assets/paper/tetris3d-paper.pdf?v=d69c4cedb978",
     "code": "https://github.com/cvlab-kaist/Tetris3D",
     "supplementary": null,
     "arxiv": null

@@ -13,7 +13,7 @@
 <h3 align="center">arXiv 2026</h3>
 
 <h3 align="center">
-  Paper (coming soon) |
+  <a href="https://cvlab-kaist.github.io/Tetris3D/assets/paper/tetris3d-paper.pdf?v=d69c4cedb978">Paper</a> |
   Arxiv (coming soon) |
   <a href="https://cvlab-kaist.github.io/Tetris3D/">Project Page</a>
 </h3>
