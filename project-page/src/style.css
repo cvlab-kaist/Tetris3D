@@ -53,8 +53,8 @@ sup { color:var(--accent); font-size:13px; margin-left:2px; font-weight:500; }
 .summary-quote { position:absolute; top:50%; width:40px; height:40px; font:700 72px/1 Georgia,'Times New Roman',serif; font-synthesis:weight; transform:translateY(-50%); pointer-events:none; user-select:none; }
 .summary-quote-start { left:14px; }
 .summary-quote-end { right:14px; }
-.video-summary h2 { font-family:var(--serif); font-size:32px; font-weight:400; letter-spacing:-.02em; }
-.video-summary p { margin-top:12px; font-size:17px; line-height:1.75; text-wrap:balance; color:#000; }
+.video-summary h2 { font-family:var(--serif); font-size:34px; font-weight:400; letter-spacing:-.02em; }
+.video-summary p { margin-top:12px; font-size:18px; line-height:1.75; text-wrap:balance; color:#000; }
 .project-film { position:relative; aspect-ratio:16/9; overflow:hidden; border:0; border-radius:14.5px; background:#0c0d10; }
 .project-film video { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#000; cursor:pointer; }
 .project-film:fullscreen { width:100%; height:100%; aspect-ratio:auto; border-radius:0; }
@@ -228,7 +228,7 @@ sup { color:var(--accent); font-size:13px; margin-left:2px; font-weight:500; }
 .figure-zoom { position:absolute; right:24px; bottom:24px; font-size:12px; color:var(--accent); background:#f6edffed; border:1px solid #d1bde3; border-radius:20px; padding:4px 10px; opacity:0; }
 .figure-open:hover .figure-zoom, .figure-open:focus-visible .figure-zoom { opacity:1; }
 .paper-figure figcaption { font-size:14px; color:var(--muted); line-height:1.8; text-align:center; margin:15px auto 0; max-width:850px; }
-.method-description { max-width:860px; margin:32px auto 0; font-size:17px; line-height:1.85; }
+.method-description { max-width:860px; margin:32px auto 0; font-size:18px; line-height:1.85; }
 .citation-section { max-width:850px; margin-top:96px; }
 .citation-box { position:relative; background:#f8f4fc; border:1px solid #e6dbee; border-radius:12px; padding:31px 27px 26px; }
 .citation-box > button { position:absolute; top:11px; right:13px; background:#f0e7f8; color:var(--muted); border:1px solid #e1d0ed; border-radius:5px; padding:3px 8px; font-size:12px; }
@@ -290,8 +290,8 @@ dialog::backdrop { background:#30213cb8; backdrop-filter:blur(5px); }
   .summary-quote { width:30px; height:32px; font-size:56px; }
   .summary-quote-start { left:3px; }
   .summary-quote-end { right:3px; }
-  .video-summary h2 { font-size:26px; }
-  .video-summary p { margin-top:12px; font-size:15px; }
+  .video-summary h2 { font-size:28px; }
+  .video-summary p { margin-top:12px; font-size:16px; }
   .film-controls { gap:6px; padding:20px 8px 5px; }
   .video-caption { left:19px; bottom:18px; right:19px; gap:5px; }
   .video-status { font-size:11px; padding:3px 9px; }
@@ -360,7 +360,7 @@ dialog::backdrop { background:#30213cb8; backdrop-filter:blur(5px); }
   .figure-open { padding:8px; border-radius:10px; }
   .figure-zoom { opacity:1; font-size:11px; right:14px; bottom:14px; }
   .paper-figure figcaption { font-size:13px; }
-  .method-description { font-size:15px; }
+  .method-description { font-size:16px; }
   .citation-section { margin-top:54px; }
   .citation-box { padding:31px 16px 21px; }
   .citation-box pre { font-size:12px; }
