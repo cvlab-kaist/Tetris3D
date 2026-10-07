@@ -1,6 +1,6 @@
 {
   "createdAt": "2026-10-06T12:47:58.631723+00:00",
-  "description": "Published Tetris3D logo and 24 Qualitative Comparisons. Demo, real-world comparison figures, project video, paper PDF, and method figure remain disconnected.",
+  "description": "Published Tetris3D logo, method figure, and 24 Qualitative Comparisons. Demo, real-world comparison figures, project video, and paper PDF remain disconnected.",
   "assets": [
     {
       "asset": "favicon.svg",
@@ -6067,9 +6067,16 @@
       "bytes": 295082,
       "sha256": "4ed535fed3e7df037a8e382c98348b2d6b8cc679195fbfa19552ea505cf2420c",
       "operation": "Unmodified copy from the development project page."
+    },
+    {
+      "asset": "assets/paper/method.webp",
+      "source": "assets/paper/method.webp",
+      "bytes": 264154,
+      "sha256": "a47563521df535ebc0ab71b4833a17f50be984b3c7f735e5d439d7f80e6223e9",
+      "operation": "Unmodified copy from the development project page."
     }
   ],
-  "updatedAt": "2026-10-07T11:08:19.429424+00:00",
+  "updatedAt": "2026-10-07T16:34:46.479074+00:00",
   "selection": {
     "demos": [],
     "toys": [

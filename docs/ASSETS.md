@@ -2,7 +2,7 @@
 
 ## 현재 공개 자산
 
-Tetris3D 로고, T 블록 favicon과 Qualitative Comparisons 24개 장면을 포함합니다. 비교 장면에는 입력 이미지·GT·사용 가능한 baseline mesh·Initial state·시뮬레이션이 들어 있습니다. 대표 영상·포스터·PDF·Method 그림·실사 비교 이미지는 연결하지 않으며 Demo 목록은 비어 있습니다.
+Tetris3D 로고, T 블록 favicon, Method 그림과 Qualitative Comparisons 24개 장면을 포함합니다. Method 그림은 개발본의 `assets/paper/method.webp`와 캡션을 그대로 사용합니다. 비교 장면에는 입력 이미지·GT·사용 가능한 baseline mesh·Initial state·시뮬레이션이 들어 있습니다. 대표 영상·포스터·PDF·실사 비교 이미지는 연결하지 않으며 Demo 목록은 비어 있습니다.
 
 원본 mesh와 경량 mesh 모두 gzip 무손실 압축으로 저장합니다. 좌표·geometry·장면 순서는 변경하지 않으며, 경량 mesh를 복원한 바이트의 SHA-256은 원본과 일치합니다. 각 파일의 출처와 해시는 `scripts/asset-provenance.json`에 기록합니다.
 

@@ -42,8 +42,8 @@
     "supplementary": null,
     "arxiv": null
   },
-  "methodFigure": null,
-  "methodCaption": "",
+  "methodFigure": "assets/paper/method.webp",
+  "methodCaption": "Tetris3D generates objects autoregressively in a physical dependency order. Sparse structure and structured latent generation use voxel-aligned conditions and visible-to-invisible attention.",
   "citationPending": true,
   "bibtex": "@misc{kim2026tetris3d,\n  title  = {Tetris3D: 3D Scene Generation with\n            Objects That Fit Together},\n  author = {Kim, Jaeyeong and Jang, Jinhyuk and Lee, Jongmin\n            and Park, Kyehong and Kim, Seungryong},\n  year   = {2026},\n  archivePrefix = {arXiv},\n  note   = {Preprint; arXiv identifier to be added}\n}",
   "finalExamples": {
