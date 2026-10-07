@@ -1,4 +1,3136 @@
 {
   "demos": [],
-  "toys": []
+  "toys": [
+    {
+      "id": "v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297",
+      "title": "panda",
+      "subtitle": "Leaning",
+      "group": "Main",
+      "groupIndex": 1,
+      "interaction": "leaning",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Panda",
+        "context": "Poly Bin"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-b2bdec910410.png",
+      "thumbnail": "assets/input-cache/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-b2bdec910410.png",
+      "cameraDirection": [
+        0.9584706875923136,
+        -0.043208686820593256,
+        -0.28189883009611394
+      ],
+      "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-ours-contain-fixed-200k.glb.gz",
+          "faces": 946686,
+          "lightFaces": 200096,
+          "bytes": 8523564,
+          "lightBytes": 1850048
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-sam3d-200k.glb.gz",
+          "faces": 443996,
+          "lightFaces": 200096,
+          "bytes": 4090751,
+          "lightBytes": 1952584
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-shaper-200k.glb.gz",
+          "faces": 125096,
+          "lightFaces": 125096,
+          "bytes": 1340767,
+          "lightBytes": 1349009
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-amodal3r-200k.glb.gz",
+          "faces": 559540,
+          "lightFaces": 200096,
+          "bytes": 5190830,
+          "lightBytes": 1952705
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gena3d-200k.glb.gz",
+          "faces": 462852,
+          "lightFaces": 200096,
+          "bytes": 4262561,
+          "lightBytes": 1964165
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-gt-200k.glb.gz",
+          "faces": 4216,
+          "lightFaces": 4216,
+          "bytes": 42361,
+          "lightBytes": 42794
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.31450355052948,
+          -0.39908501505851746
+        ],
+        [
+          0.5,
+          0.31450355052948,
+          0.39908501505851746
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/001.png",
+        "assets/gallery/toys/input-masks/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297/002.png"
+      ]
+    },
+    {
+      "id": "v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc",
+      "title": "bottle",
+      "subtitle": "Containing",
+      "group": "Main",
+      "groupIndex": 3,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Bottle",
+        "context": "Poly Bin"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-0cb480a0304b.png",
+      "thumbnail": "assets/input-cache/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-0cb480a0304b.png",
+      "cameraDirection": [
+        0.1309930637886877,
+        0.29144254009337506,
+        -0.9475769430833435
+      ],
+      "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-ours-contain-fixed-200k.glb.gz",
+          "faces": 979974,
+          "lightFaces": 200096,
+          "bytes": 8971047,
+          "lightBytes": 1876939
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-sam3d-200k.glb.gz",
+          "faces": 643780,
+          "lightFaces": 200096,
+          "bytes": 5933305,
+          "lightBytes": 1953513
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-shaper-200k.glb.gz",
+          "faces": 125096,
+          "lightFaces": 125096,
+          "bytes": 1331653,
+          "lightBytes": 1336820
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-amodal3r-200k.glb.gz",
+          "faces": 535360,
+          "lightFaces": 200096,
+          "bytes": 4834557,
+          "lightBytes": 1924113
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gena3d-200k.glb.gz",
+          "faces": 617292,
+          "lightFaces": 200096,
+          "bytes": 5663944,
+          "lightBytes": 1940813
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-gt-200k.glb.gz",
+          "faces": 56098,
+          "lightFaces": 56098,
+          "bytes": 502730,
+          "lightBytes": 530800
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.251120924949646,
+          -0.5,
+          -0.2536936104297638
+        ],
+        [
+          0.251120924949646,
+          0.5,
+          0.2536936104297638
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/input-overrides/bottle-input.png",
+      "imageOriginalMasks": []
+    },
+    {
+      "id": "v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47",
+      "title": "chess piece",
+      "subtitle": "Containing",
+      "group": "Main",
+      "groupIndex": 2,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Chess Piece",
+        "context": "Tube"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-d3cff4e85ea7.png",
+      "thumbnail": "assets/input-cache/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-d3cff4e85ea7.png",
+      "cameraDirection": [
+        0.5992256914073557,
+        0.284153716759959,
+        0.7484552331361426
+      ],
+      "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-ours-contain-fixed-200k.glb.gz",
+          "faces": 992632,
+          "lightFaces": 200576,
+          "bytes": 9071210,
+          "lightBytes": 1882426
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-sam3d-200k.glb.gz",
+          "faces": 1238360,
+          "lightFaces": 200576,
+          "bytes": 11217649,
+          "lightBytes": 1981404
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-shaper-200k.glb.gz",
+          "faces": 125576,
+          "lightFaces": 125576,
+          "bytes": 1369756,
+          "lightBytes": 1377873
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-amodal3r-200k.glb.gz",
+          "faces": 556538,
+          "lightFaces": 200576,
+          "bytes": 5169575,
+          "lightBytes": 1953579
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gena3d-200k.glb.gz",
+          "faces": 600212,
+          "lightFaces": 200576,
+          "bytes": 5600071,
+          "lightBytes": 1953581
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-gt-200k.glb.gz",
+          "faces": 992,
+          "lightFaces": 992,
+          "bytes": 9412,
+          "lightBytes": 9991
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.27199333906173706,
+          -0.5
+        ],
+        [
+          0.5,
+          0.27199333906173706,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/001.png",
+        "assets/gallery/toys/input-masks/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47/002.png"
+      ]
+    },
+    {
+      "id": "v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c",
+      "title": "fries",
+      "subtitle": "Containing",
+      "group": "Appendix Fig. 2",
+      "groupIndex": 3,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Fries",
+        "context": "Open Bin"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-8af685d0e946.png",
+      "thumbnail": "assets/input-cache/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-8af685d0e946.png",
+      "cameraDirection": [
+        -0.58733520319364,
+        0.1473349080150983,
+        -0.7958201957538323
+      ],
+      "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-ours-contain-fixed-200k.glb.gz",
+          "faces": 961194,
+          "lightFaces": 200060,
+          "bytes": 8675926,
+          "lightBytes": 1760756
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-sam3d-200k.glb.gz",
+          "faces": 1736788,
+          "lightFaces": 200060,
+          "bytes": 15210689,
+          "lightBytes": 2012931
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-shaper-200k.glb.gz",
+          "faces": 125060,
+          "lightFaces": 125060,
+          "bytes": 1346103,
+          "lightBytes": 1347449
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-amodal3r-200k.glb.gz",
+          "faces": 637318,
+          "lightFaces": 200060,
+          "bytes": 5865315,
+          "lightBytes": 1966224
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gena3d-200k.glb.gz",
+          "faces": 761736,
+          "lightFaces": 200060,
+          "bytes": 7053087,
+          "lightBytes": 1980589
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-gt-200k.glb.gz",
+          "faces": 520,
+          "lightFaces": 520,
+          "bytes": 6640,
+          "lightBytes": 7277
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.3736490309238434,
+          -0.5,
+          -0.36693719029426575
+        ],
+        [
+          0.3736490309238434,
+          0.5,
+          0.36693719029426575
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/001.png",
+        "assets/gallery/toys/input-masks/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c/002.png"
+      ]
+    },
+    {
+      "id": "v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8",
+      "title": "chair2",
+      "subtitle": "Piled",
+      "group": "Appendix Fig. 1",
+      "groupIndex": 4,
+      "interaction": "piled",
+      "objects": [
+        "target",
+        "context_1",
+        "context_2",
+        "context_3"
+      ],
+      "objectLabels": {
+        "target": "Chair",
+        "context_1": "Wedge",
+        "context_2": "Box",
+        "context_3": "Tube"
+      },
+      "contextIds": {
+        "1": "context_1",
+        "2": "context_2",
+        "3": "context_3"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-0fc5976616ff.png",
+      "thumbnail": "assets/input-cache/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-0fc5976616ff.png",
+      "cameraDirection": [
+        0.8145596438206877,
+        0.5460681974884545,
+        0.19570924952700808
+      ],
+      "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-ours-contain-fixed-200k.glb.gz",
+          "faces": 963468,
+          "lightFaces": 200600,
+          "bytes": 8677163,
+          "lightBytes": 1863286
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-sam3d-200k.glb.gz",
+          "faces": 209856,
+          "lightFaces": 200600,
+          "bytes": 1894695,
+          "lightBytes": 1819814
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-shaper-200k.glb.gz",
+          "faces": 125600,
+          "lightFaces": 125600,
+          "bytes": 1340801,
+          "lightBytes": 1348789
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-amodal3r-200k.glb.gz",
+          "faces": 231604,
+          "lightFaces": 200600,
+          "bytes": 2099789,
+          "lightBytes": 1840486
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gena3d-200k.glb.gz",
+          "faces": 229184,
+          "lightFaces": 200600,
+          "bytes": 2086114,
+          "lightBytes": 1855724
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-gt-200k.glb.gz",
+          "faces": 1104,
+          "lightFaces": 1104,
+          "bytes": 10624,
+          "lightBytes": 11463
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.4354359805583954,
+          -0.3847002685070038,
+          -0.5
+        ],
+        [
+          0.4354359805583954,
+          0.3847002685070038,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/001.png",
+        "assets/gallery/toys/input-masks/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/002.png",
+        "assets/gallery/toys/input-masks/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/003.png",
+        "assets/gallery/toys/input-masks/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8/004.png"
+      ]
+    },
+    {
+      "id": "v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1",
+      "title": "sofa",
+      "subtitle": "Containing",
+      "group": "Appendix Fig. 1",
+      "groupIndex": 6,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Sofa",
+        "context": "Cup"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-4283cf92e2a8.png",
+      "thumbnail": "assets/input-cache/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-4283cf92e2a8.png",
+      "cameraDirection": [
+        0.515105492942584,
+        0.4629895965368655,
+        0.7213230653729354
+      ],
+      "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-ours-contain-fixed-200k.glb.gz",
+          "faces": 998232,
+          "lightFaces": 200576,
+          "bytes": 9063254,
+          "lightBytes": 1820425
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-sam3d-200k.glb.gz",
+          "faces": 1072996,
+          "lightFaces": 200576,
+          "bytes": 9509114,
+          "lightBytes": 1965730
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-shaper-200k.glb.gz",
+          "faces": 125576,
+          "lightFaces": 125576,
+          "bytes": 1358789,
+          "lightBytes": 1364604
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-amodal3r-200k.glb.gz",
+          "faces": 802014,
+          "lightFaces": 200576,
+          "bytes": 7327135,
+          "lightBytes": 1974725
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gena3d-200k.glb.gz",
+          "faces": 823532,
+          "lightFaces": 200576,
+          "bytes": 7388739,
+          "lightBytes": 1937769
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-gt-200k.glb.gz",
+          "faces": 3052,
+          "lightFaces": 3052,
+          "bytes": 32521,
+          "lightBytes": 32190
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.43281176686286926,
+          -0.5,
+          -0.43281176686286926
+        ],
+        [
+          0.43281176686286926,
+          0.5,
+          0.43281176686286926
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/001.png",
+        "assets/gallery/toys/input-masks/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1/002.png"
+      ]
+    },
+    {
+      "id": "v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753",
+      "title": "truck",
+      "subtitle": "Containing",
+      "group": "Appendix Fig. 1",
+      "groupIndex": 7,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Truck",
+        "context": "Cup"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-0135d02cd80f.png",
+      "thumbnail": "assets/input-cache/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-0135d02cd80f.png",
+      "cameraDirection": [
+        0.9476467909954261,
+        -0.07462328672997805,
+        -0.3104785412773103
+      ],
+      "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-ours-contain-fixed-200k.glb.gz",
+          "faces": 998002,
+          "lightFaces": 200576,
+          "bytes": 9173685,
+          "lightBytes": 1875462
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-sam3d-200k.glb.gz",
+          "faces": 504306,
+          "lightFaces": 200576,
+          "bytes": 4495828,
+          "lightBytes": 1902324
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-shaper-200k.glb.gz",
+          "faces": 125576,
+          "lightFaces": 125576,
+          "bytes": 1330166,
+          "lightBytes": 1340565
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-amodal3r-200k.glb.gz",
+          "faces": 1316240,
+          "lightFaces": 200576,
+          "bytes": 11791717,
+          "lightBytes": 1957039
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gena3d-200k.glb.gz",
+          "faces": 1096744,
+          "lightFaces": 200576,
+          "bytes": 9975777,
+          "lightBytes": 1980349
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-gt-200k.glb.gz",
+          "faces": 2431,
+          "lightFaces": 2431,
+          "bytes": 24613,
+          "lightBytes": 26586
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.4757734537124634,
+          -0.5,
+          -0.4187316596508026
+        ],
+        [
+          0.4757734537124634,
+          0.5,
+          0.4187316596508026
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/001.png",
+        "assets/gallery/toys/input-masks/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753/002.png"
+      ]
+    },
+    {
+      "id": "v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47",
+      "title": "hammer 1",
+      "subtitle": "Leaning",
+      "group": "Appendix Fig. 2",
+      "groupIndex": 2,
+      "interaction": "leaning",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Hammer",
+        "context": "Box"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-07ad53a75302.png",
+      "thumbnail": "assets/input-cache/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-07ad53a75302.png",
+      "cameraDirection": [
+        0.4002982224612619,
+        0.8054702122202936,
+        -0.4370115219535399
+      ],
+      "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-ours-contain-fixed-200k.glb.gz",
+          "faces": 939362,
+          "lightFaces": 200012,
+          "bytes": 8509589,
+          "lightBytes": 1841075
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-sam3d-200k.glb.gz",
+          "faces": 245384,
+          "lightFaces": 200012,
+          "bytes": 2243736,
+          "lightBytes": 1869172
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-shaper-200k.glb.gz",
+          "faces": 125012,
+          "lightFaces": 125012,
+          "bytes": 1287050,
+          "lightBytes": 1294373
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-amodal3r-200k.glb.gz",
+          "faces": 526210,
+          "lightFaces": 200012,
+          "bytes": 4830506,
+          "lightBytes": 1967342
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gena3d-200k.glb.gz",
+          "faces": 743788,
+          "lightFaces": 200012,
+          "bytes": 6790962,
+          "lightBytes": 1959397
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-gt-200k.glb.gz",
+          "faces": 15298,
+          "lightFaces": 15298,
+          "bytes": 143448,
+          "lightBytes": 148007
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.4432162344455719,
+          -0.45579957962036133
+        ],
+        [
+          0.5,
+          0.4432162344455719,
+          0.45579957962036133
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/001.png",
+        "assets/gallery/toys/input-masks/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47/002.png"
+      ]
+    },
+    {
+      "id": "v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8",
+      "title": "ladder",
+      "subtitle": "Containing",
+      "group": "Appendix Fig. 2",
+      "groupIndex": 4,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Ladder",
+        "context": "Poly Bin"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-cabbbac4db79.png",
+      "thumbnail": "assets/input-cache/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-cabbbac4db79.png",
+      "cameraDirection": [
+        -0.3633137046952752,
+        0.445236027355312,
+        -0.8183935678666189
+      ],
+      "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-ours-contain-fixed-200k.glb.gz",
+          "faces": 956636,
+          "lightFaces": 200080,
+          "bytes": 8585192,
+          "lightBytes": 1852645
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-sam3d-200k.glb.gz",
+          "faces": 283062,
+          "lightFaces": 200080,
+          "bytes": 2564393,
+          "lightBytes": 1857471
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-shaper-200k.glb.gz",
+          "faces": 125080,
+          "lightFaces": 125080,
+          "bytes": 1343276,
+          "lightBytes": 1350642
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-amodal3r-200k.glb.gz",
+          "faces": 374940,
+          "lightFaces": 200080,
+          "bytes": 3443107,
+          "lightBytes": 1901081
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gena3d-200k.glb.gz",
+          "faces": 194026,
+          "lightFaces": 194026,
+          "bytes": 1769177,
+          "lightBytes": 1787288
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-gt-200k.glb.gz",
+          "faces": 200,
+          "lightFaces": 200,
+          "bytes": 3210,
+          "lightBytes": 3345
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.48404204845428467,
+          -0.3262767195701599,
+          -0.5
+        ],
+        [
+          0.48404204845428467,
+          0.3262767195701599,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/001.png",
+        "assets/gallery/toys/input-masks/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8/002.png"
+      ]
+    },
+    {
+      "id": "v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7",
+      "title": "train",
+      "subtitle": "Containing",
+      "group": "Appendix Fig. 2",
+      "groupIndex": 1,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Train",
+        "context": "Tube"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-58c6222f9fe2.png",
+      "thumbnail": "assets/input-cache/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-58c6222f9fe2.png",
+      "cameraDirection": [
+        0.47863215512004964,
+        0.3270758627674326,
+        -0.8148206183449683
+      ],
+      "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-ours-contain-fixed-200k.glb.gz",
+          "faces": 996898,
+          "lightFaces": 200576,
+          "bytes": 9038564,
+          "lightBytes": 1821877
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-sam3d-200k.glb.gz",
+          "faces": 1497994,
+          "lightFaces": 200575,
+          "bytes": 12961698,
+          "lightBytes": 1931283
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-shaper-200k.glb.gz",
+          "faces": 125576,
+          "lightFaces": 125576,
+          "bytes": 1363418,
+          "lightBytes": 1368322
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-amodal3r-200k.glb.gz",
+          "faces": 1106180,
+          "lightFaces": 200576,
+          "bytes": 9755594,
+          "lightBytes": 1928292
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gena3d-200k.glb.gz",
+          "faces": 1036712,
+          "lightFaces": 200576,
+          "bytes": 9373942,
+          "lightBytes": 1968015
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-gt-200k.glb.gz",
+          "faces": 14352,
+          "lightFaces": 14352,
+          "bytes": 144351,
+          "lightBytes": 151080
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.2750040888786316,
+          -0.5,
+          -0.2750040888786316
+        ],
+        [
+          0.2750040888786316,
+          0.5,
+          0.2750040888786316
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/001.png",
+        "assets/gallery/toys/input-masks/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7/002.png"
+      ]
+    },
+    {
+      "id": "v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1",
+      "title": "tree",
+      "subtitle": "Leaning",
+      "group": "Appendix Fig. 1",
+      "groupIndex": 3,
+      "interaction": "leaning",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Tree",
+        "context": "Open Bin"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-1a8f21899d53.png",
+      "thumbnail": "assets/input-cache/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-1a8f21899d53.png",
+      "cameraDirection": [
+        0.2778301633536352,
+        0.8434280683815885,
+        0.45982550363914676
+      ],
+      "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-ours-contain-fixed-200k.glb.gz",
+          "faces": 973924,
+          "lightFaces": 200060,
+          "bytes": 8696790,
+          "lightBytes": 1847611
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-sam3d-200k.glb.gz",
+          "faces": 263480,
+          "lightFaces": 200060,
+          "bytes": 2442260,
+          "lightBytes": 1908684
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-shaper-200k.glb.gz",
+          "faces": 125060,
+          "lightFaces": 125060,
+          "bytes": 1314902,
+          "lightBytes": 1327879
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-amodal3r-200k.glb.gz",
+          "faces": 345572,
+          "lightFaces": 200060,
+          "bytes": 3226200,
+          "lightBytes": 1944922
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gena3d-200k.glb.gz",
+          "faces": 1178728,
+          "lightFaces": 200059,
+          "bytes": 10431608,
+          "lightBytes": 1893961
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-gt-200k.glb.gz",
+          "faces": 2272,
+          "lightFaces": 2272,
+          "bytes": 25314,
+          "lightBytes": 28542
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.2107296884059906,
+          -0.3767164945602417
+        ],
+        [
+          0.5,
+          0.2107296884059906,
+          0.3767164945602417
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/001.png",
+        "assets/gallery/toys/input-masks/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1/002.png"
+      ]
+    },
+    {
+      "id": "v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5",
+      "title": "chicken",
+      "subtitle": "Leaning",
+      "group": "Appendix Fig. 2",
+      "groupIndex": 7,
+      "interaction": "leaning",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Chicken",
+        "context": "Box"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-816692c44198.png",
+      "thumbnail": "assets/input-cache/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-816692c44198.png",
+      "cameraDirection": [
+        0.9805068037060565,
+        0.19509368604743033,
+        -0.023342269610290983
+      ],
+      "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-ours-contain-fixed-200k.glb.gz",
+          "faces": 964078,
+          "lightFaces": 200012,
+          "bytes": 8689862,
+          "lightBytes": 1849207
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-sam3d-200k.glb.gz",
+          "faces": 1015036,
+          "lightFaces": 200012,
+          "bytes": 9082246,
+          "lightBytes": 1959909
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-shaper-200k.glb.gz",
+          "faces": 125012,
+          "lightFaces": 125012,
+          "bytes": 1352060,
+          "lightBytes": 1360066
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-amodal3r-200k.glb.gz",
+          "faces": 643136,
+          "lightFaces": 200012,
+          "bytes": 5959845,
+          "lightBytes": 1963694
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gena3d-200k.glb.gz",
+          "faces": 867848,
+          "lightFaces": 200011,
+          "bytes": 8000113,
+          "lightBytes": 2001133
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-gt-200k.glb.gz",
+          "faces": 216,
+          "lightFaces": 216,
+          "bytes": 3866,
+          "lightBytes": 4163
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.43750038743019104,
+          -0.40644580125808716
+        ],
+        [
+          0.5,
+          0.43750038743019104,
+          0.40644580125808716
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/001.png",
+        "assets/gallery/toys/input-masks/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5/002.png"
+      ]
+    },
+    {
+      "id": "v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03",
+      "title": "chess piece",
+      "subtitle": "Piled",
+      "group": "Appendix Fig. 3",
+      "groupIndex": 2,
+      "interaction": "piled",
+      "objects": [
+        "target",
+        "context_1",
+        "context_2",
+        "context_3",
+        "context_4"
+      ],
+      "objectLabels": {
+        "target": "Chess Piece",
+        "context_1": "Cylinder",
+        "context_2": "Tube",
+        "context_3": "Cylinder",
+        "context_4": "Sphere"
+      },
+      "contextIds": {
+        "1": "context_1",
+        "2": "context_2",
+        "3": "context_3",
+        "4": "context_4"
+      },
+      "sourceDescription": "SS208.5k EMA / SLat145k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-10c1a9243ceb.png",
+      "thumbnail": "assets/input-cache/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-10c1a9243ceb.png",
+      "cameraDirection": [
+        -0.37581989907904034,
+        0.8070060595827934,
+        0.4555223630656051
+      ],
+      "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS208.5k EMA / SLat145k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "ss208500-slat145k-1ba147f704",
+          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-ours-ss208500-slat145k-1ba147f704-200k.glb.gz",
+          "faces": 962532,
+          "lightFaces": 205376,
+          "bytes": 8714569,
+          "lightBytes": 1887233
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-sam3d-200k.glb.gz",
+          "faces": 564340,
+          "lightFaces": 205376,
+          "bytes": 5174923,
+          "lightBytes": 1991584
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-shaper-200k.glb.gz",
+          "faces": 130376,
+          "lightFaces": 130376,
+          "bytes": 1356887,
+          "lightBytes": 1371753
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-amodal3r-200k.glb.gz",
+          "faces": 684008,
+          "lightFaces": 205376,
+          "bytes": 6334070,
+          "lightBytes": 2000368
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gena3d-200k.glb.gz",
+          "faces": 165496,
+          "lightFaces": 165496,
+          "bytes": 1425475,
+          "lightBytes": 1434648
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-gt-200k.glb.gz",
+          "faces": 5776,
+          "lightFaces": 5776,
+          "bytes": 35364,
+          "lightBytes": 38059
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.39597785472869873,
+          -0.5
+        ],
+        [
+          0.5,
+          0.39597785472869873,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/input-overrides/knight-input.png",
+      "imageOriginalMasks": []
+    },
+    {
+      "id": "v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a",
+      "title": "trashcan",
+      "subtitle": "Containing",
+      "group": "Appendix Fig. 1",
+      "groupIndex": 5,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Trashcan",
+        "context": "Bowl"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-6bf4efd11f62.png",
+      "thumbnail": "assets/input-cache/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-6bf4efd11f62.png",
+      "cameraDirection": [
+        -0.537983877132433,
+        0.2772516546617234,
+        -0.7960558196087079
+      ],
+      "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-ours-contain-fixed-200k.glb.gz",
+          "faces": 998124,
+          "lightFaces": 203648,
+          "bytes": 8900580,
+          "lightBytes": 1748394
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-sam3d-200k.glb.gz",
+          "faces": 522376,
+          "lightFaces": 203648,
+          "bytes": 4793137,
+          "lightBytes": 1979797
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-shaper-200k.glb.gz",
+          "faces": 128647,
+          "lightFaces": 128647,
+          "bytes": 1352779,
+          "lightBytes": 1351419
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-amodal3r-200k.glb.gz",
+          "faces": 522404,
+          "lightFaces": 203648,
+          "bytes": 4820245,
+          "lightBytes": 1965888
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gena3d-200k.glb.gz",
+          "faces": 458060,
+          "lightFaces": 203648,
+          "bytes": 4216895,
+          "lightBytes": 1969750
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-gt-200k.glb.gz",
+          "faces": 4026,
+          "lightFaces": 4026,
+          "bytes": 24777,
+          "lightBytes": 26785
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.2780093848705292,
+          -0.5
+        ],
+        [
+          0.5,
+          0.2780093848705292,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/001.png",
+        "assets/gallery/toys/input-masks/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a/002.png"
+      ]
+    },
+    {
+      "id": "v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d",
+      "title": "tractor",
+      "subtitle": "Leaning",
+      "group": "Appendix Fig. 3",
+      "groupIndex": 6,
+      "interaction": "leaning",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Tractor",
+        "context": "Open Bin"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-61c208a46a32.png",
+      "thumbnail": "assets/input-cache/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-61c208a46a32.png",
+      "cameraDirection": [
+        0.6446556112801547,
+        0.6289556728102048,
+        -0.4345502324068791
+      ],
+      "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-ours-contain-fixed-200k.glb.gz",
+          "faces": 954596,
+          "lightFaces": 200060,
+          "bytes": 8564594,
+          "lightBytes": 1786441
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-sam3d-200k.glb.gz",
+          "faces": 1050860,
+          "lightFaces": 200060,
+          "bytes": 9768620,
+          "lightBytes": 2028015
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-shaper-200k.glb.gz",
+          "faces": 125060,
+          "lightFaces": 125060,
+          "bytes": 1360494,
+          "lightBytes": 1362510
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-amodal3r-200k.glb.gz",
+          "faces": 645304,
+          "lightFaces": 200060,
+          "bytes": 5981237,
+          "lightBytes": 1985785
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gena3d-200k.glb.gz",
+          "faces": 1056600,
+          "lightFaces": 200060,
+          "bytes": 9791589,
+          "lightBytes": 2016447
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-gt-200k.glb.gz",
+          "faces": 69292,
+          "lightFaces": 69292,
+          "bytes": 721623,
+          "lightBytes": 747144
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.43977540731430054,
+          -0.3258897066116333,
+          -0.5
+        ],
+        [
+          0.43977540731430054,
+          0.3258897066116333,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/001.png",
+        "assets/gallery/toys/input-masks/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d/002.png"
+      ]
+    },
+    {
+      "id": "v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2",
+      "title": "chair",
+      "subtitle": "Leaning",
+      "group": "Appendix Fig. 1",
+      "groupIndex": 2,
+      "interaction": "leaning",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Chair",
+        "context": "Cylinder"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-9a6db3c1c70c.png",
+      "thumbnail": "assets/input-cache/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-9a6db3c1c70c.png",
+      "cameraDirection": [
+        -0.8340272820787336,
+        -0.1507164797594517,
+        -0.5307381986227102
+      ],
+      "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-ours-contain-fixed-200k.glb.gz",
+          "faces": 973586,
+          "lightFaces": 200192,
+          "bytes": 8857542,
+          "lightBytes": 1866900
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-sam3d-200k.glb.gz",
+          "faces": 636904,
+          "lightFaces": 200192,
+          "bytes": 5914189,
+          "lightBytes": 1991166
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-shaper-200k.glb.gz",
+          "faces": 125192,
+          "lightFaces": 125192,
+          "bytes": 1324682,
+          "lightBytes": 1327299
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-amodal3r-200k.glb.gz",
+          "faces": 675900,
+          "lightFaces": 200192,
+          "bytes": 6163467,
+          "lightBytes": 1967438
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gena3d-200k.glb.gz",
+          "faces": 664302,
+          "lightFaces": 200191,
+          "bytes": 5965709,
+          "lightBytes": 1948004
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-gt-200k.glb.gz",
+          "faces": 2836,
+          "lightFaces": 2836,
+          "bytes": 28065,
+          "lightBytes": 31426
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.35572460293769836,
+          -0.4415374994277954
+        ],
+        [
+          0.5,
+          0.35572460293769836,
+          0.4415374994277954
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/001.png",
+        "assets/gallery/toys/input-masks/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2/002.png"
+      ]
+    },
+    {
+      "id": "v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad",
+      "title": "boat",
+      "subtitle": "Stacking",
+      "group": "Appendix Fig. 1",
+      "groupIndex": 1,
+      "interaction": "stacking",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Boat",
+        "context": "Plank"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-27b9bd7288e7.png",
+      "thumbnail": "assets/input-cache/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-27b9bd7288e7.png",
+      "cameraDirection": [
+        0.773622705872559,
+        -0.09933912347052527,
+        -0.6258111915797988
+      ],
+      "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-ours-contain-fixed-200k.glb.gz",
+          "faces": 964596,
+          "lightFaces": 200012,
+          "bytes": 8730641,
+          "lightBytes": 1868249
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-sam3d-200k.glb.gz",
+          "faces": 390184,
+          "lightFaces": 200012,
+          "bytes": 3639113,
+          "lightBytes": 1952949
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-shaper-200k.glb.gz",
+          "faces": 125012,
+          "lightFaces": 125012,
+          "bytes": 1341456,
+          "lightBytes": 1344968
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-amodal3r-200k.glb.gz",
+          "faces": 225228,
+          "lightFaces": 200012,
+          "bytes": 2046061,
+          "lightBytes": 1847967
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gena3d-200k.glb.gz",
+          "faces": 299160,
+          "lightFaces": 200012,
+          "bytes": 2738268,
+          "lightBytes": 1895616
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-gt-200k.glb.gz",
+          "faces": 1912,
+          "lightFaces": 1912,
+          "bytes": 21878,
+          "lightBytes": 23811
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.15151074528694153,
+          -0.45552754402160645
+        ],
+        [
+          0.5,
+          0.15151074528694153,
+          0.45552754402160645
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/001.png",
+        "assets/gallery/toys/input-masks/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad/002.png"
+      ]
+    },
+    {
+      "id": "v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492",
+      "title": "butterfly",
+      "subtitle": "Stacking",
+      "group": "Appendix Fig. 2",
+      "groupIndex": 5,
+      "interaction": "stacking",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Butterfly",
+        "context": "Box"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-0e14da2681f7.png",
+      "thumbnail": "assets/input-cache/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-0e14da2681f7.png",
+      "cameraDirection": [
+        -0.7891819024716437,
+        -0.03995167246107695,
+        -0.6128587020503176
+      ],
+      "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-ours-contain-fixed-200k.glb.gz",
+          "faces": 998074,
+          "lightFaces": 200012,
+          "bytes": 8882943,
+          "lightBytes": 1835175
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-sam3d-200k.glb.gz",
+          "faces": 147480,
+          "lightFaces": 147480,
+          "bytes": 1320451,
+          "lightBytes": 1337235
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-shaper-200k.glb.gz",
+          "faces": 125012,
+          "lightFaces": 125012,
+          "bytes": 1297413,
+          "lightBytes": 1313883
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-amodal3r-200k.glb.gz",
+          "faces": 250340,
+          "lightFaces": 200012,
+          "bytes": 2219792,
+          "lightBytes": 1822170
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gena3d-200k.glb.gz",
+          "faces": 675944,
+          "lightFaces": 200012,
+          "bytes": 6083254,
+          "lightBytes": 1900386
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-gt-200k.glb.gz",
+          "faces": 12820,
+          "lightFaces": 12820,
+          "bytes": 111863,
+          "lightBytes": 113235
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.47102439403533936,
+          -0.43325987458229065
+        ],
+        [
+          0.5,
+          0.47102439403533936,
+          0.43325987458229065
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/001.png",
+        "assets/gallery/toys/input-masks/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492/002.png"
+      ]
+    },
+    {
+      "id": "v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767",
+      "title": "hammer2",
+      "subtitle": "Containing",
+      "group": "Appendix Fig. 2",
+      "groupIndex": 6,
+      "interaction": "containing",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Hammer",
+        "context": "Bowl"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+      "image": "assets/input-cache/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-0f9e34c89a06.png",
+      "thumbnail": "assets/input-cache/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-0f9e34c89a06.png",
+      "cameraDirection": [
+        0.5962111563586774,
+        0.1801416225189858,
+        0.7823562186559752
+      ],
+      "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · target-visible + primitive 2D bbox ×1.2 (contain-fixed)",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-ours-contain-fixed-200k.glb.gz",
+          "faces": 998002,
+          "lightFaces": 203648,
+          "bytes": 8942550,
+          "lightBytes": 1856540
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-sam3d-200k.glb.gz",
+          "faces": 136096,
+          "lightFaces": 136096,
+          "bytes": 1245865,
+          "lightBytes": 1267499
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-shaper-200k.glb.gz",
+          "faces": 128648,
+          "lightFaces": 128648,
+          "bytes": 1357781,
+          "lightBytes": 1369466
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-amodal3r-200k.glb.gz",
+          "faces": 316324,
+          "lightFaces": 203648,
+          "bytes": 2967171,
+          "lightBytes": 1975875
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gena3d-200k.glb.gz",
+          "faces": 111708,
+          "lightFaces": 111708,
+          "bytes": 992029,
+          "lightBytes": 998725
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-gt-200k.glb.gz",
+          "faces": 4078,
+          "lightFaces": 4078,
+          "bytes": 23538,
+          "lightBytes": 25508
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.2706281840801239,
+          -0.5
+        ],
+        [
+          0.5,
+          0.2706281840801239,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/001.png",
+        "assets/gallery/toys/input-masks/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767/002.png"
+      ]
+    },
+    {
+      "id": "v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7",
+      "title": "monitor",
+      "subtitle": "Leaning",
+      "group": "Appendix Fig. 3",
+      "groupIndex": 1,
+      "interaction": "leaning",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Monitor",
+        "context": "Poly Bin"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-e4f3a4e96654.png",
+      "thumbnail": "assets/input-cache/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-e4f3a4e96654.png",
+      "cameraDirection": [
+        0.8885095747714934,
+        0.45162045115838373,
+        0.08117698956525646
+      ],
+      "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-ours-contain-fixed-200k.glb.gz",
+          "faces": 999094,
+          "lightFaces": 200096,
+          "bytes": 8878429,
+          "lightBytes": 1785758
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-sam3d-200k.glb.gz",
+          "faces": 500884,
+          "lightFaces": 200096,
+          "bytes": 4403135,
+          "lightBytes": 1890312
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-shaper-200k.glb.gz",
+          "faces": 125095,
+          "lightFaces": 125095,
+          "bytes": 1322500,
+          "lightBytes": 1328971
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-amodal3r-200k.glb.gz",
+          "faces": 300880,
+          "lightFaces": 200096,
+          "bytes": 2585430,
+          "lightBytes": 1797919
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gena3d-200k.glb.gz",
+          "faces": 290052,
+          "lightFaces": 200096,
+          "bytes": 2519555,
+          "lightBytes": 1815212
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-gt-200k.glb.gz",
+          "faces": 378,
+          "lightFaces": 378,
+          "bytes": 5372,
+          "lightBytes": 5585
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.4729251265525818,
+          -0.2947760224342346,
+          -0.5
+        ],
+        [
+          0.4729251265525818,
+          0.2947760224342346,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/001.png",
+        "assets/gallery/toys/input-masks/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7/002.png"
+      ]
+    },
+    {
+      "id": "v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29",
+      "title": "chair3",
+      "subtitle": "Piled",
+      "group": "Appendix Fig. 3",
+      "groupIndex": 3,
+      "interaction": "piled",
+      "objects": [
+        "target",
+        "context_1",
+        "context_2",
+        "context_3"
+      ],
+      "objectLabels": {
+        "target": "Chair",
+        "context_1": "Sphere",
+        "context_2": "Sphere",
+        "context_3": "Sphere"
+      },
+      "contextIds": {
+        "1": "context_1",
+        "2": "context_2",
+        "3": "context_3"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-623307d1f376.png",
+      "thumbnail": "assets/input-cache/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-623307d1f376.png",
+      "cameraDirection": [
+        0.7636925916765636,
+        -0.07457950598451618,
+        -0.6412577661950294
+      ],
+      "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-ours-contain-fixed-200k.glb.gz",
+          "faces": 985806,
+          "lightFaces": 213248,
+          "bytes": 8832112,
+          "lightBytes": 1907105
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-sam3d-200k.glb.gz",
+          "faces": 221428,
+          "lightFaces": 213248,
+          "bytes": 1941613,
+          "lightBytes": 1895207
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-shaper-200k.glb.gz",
+          "faces": 138248,
+          "lightFaces": 138248,
+          "bytes": 1373725,
+          "lightBytes": 1386878
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-amodal3r-200k.glb.gz",
+          "faces": 184624,
+          "lightFaces": 184624,
+          "bytes": 1620974,
+          "lightBytes": 1646691
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gena3d-200k.glb.gz",
+          "faces": 198594,
+          "lightFaces": 198594,
+          "bytes": 1776644,
+          "lightBytes": 1812521
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-gt-200k.glb.gz",
+          "faces": 17872,
+          "lightFaces": 17872,
+          "bytes": 92397,
+          "lightBytes": 95060
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.4665050804615021,
+          -0.31661656498908997,
+          -0.5
+        ],
+        [
+          0.4665050804615021,
+          0.31661656498908997,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/001.png",
+        "assets/gallery/toys/input-masks/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/002.png",
+        "assets/gallery/toys/input-masks/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/003.png",
+        "assets/gallery/toys/input-masks/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29/004.png"
+      ]
+    },
+    {
+      "id": "v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803",
+      "title": "robot",
+      "subtitle": "Piled",
+      "group": "Appendix Fig. 3",
+      "groupIndex": 4,
+      "interaction": "piled",
+      "objects": [
+        "target",
+        "context_1",
+        "context_2"
+      ],
+      "objectLabels": {
+        "target": "Robot",
+        "context_1": "Wedge",
+        "context_2": "Box"
+      },
+      "contextIds": {
+        "1": "context_1",
+        "2": "context_2"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-3ffd58bda780.png",
+      "thumbnail": "assets/input-cache/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-3ffd58bda780.png",
+      "cameraDirection": [
+        -0.8098280617449012,
+        -0.056584665219827454,
+        0.5839320902917191
+      ],
+      "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-ours-contain-fixed-200k.glb.gz",
+          "faces": 987084,
+          "lightFaces": 200024,
+          "bytes": 8561097,
+          "lightBytes": 1648021
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-sam3d-200k.glb.gz",
+          "faces": 331424,
+          "lightFaces": 200024,
+          "bytes": 3129270,
+          "lightBytes": 1974900
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-shaper-200k.glb.gz",
+          "faces": 125024,
+          "lightFaces": 125024,
+          "bytes": 1331942,
+          "lightBytes": 1339582
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-amodal3r-200k.glb.gz",
+          "faces": 404524,
+          "lightFaces": 200024,
+          "bytes": 3775183,
+          "lightBytes": 1953442
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gena3d-200k.glb.gz",
+          "faces": 561012,
+          "lightFaces": 200024,
+          "bytes": 5243856,
+          "lightBytes": 1953404
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-gt-200k.glb.gz",
+          "faces": 11692,
+          "lightFaces": 11692,
+          "bytes": 111376,
+          "lightBytes": 110479
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.27978870272636414,
+          -0.3208710253238678
+        ],
+        [
+          0.5,
+          0.27978870272636414,
+          0.3208710253238678
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/001.png",
+        "assets/gallery/toys/input-masks/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/002.png",
+        "assets/gallery/toys/input-masks/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803/003.png"
+      ]
+    },
+    {
+      "id": "v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab",
+      "title": "boat",
+      "subtitle": "Stacking",
+      "group": "Appendix Fig. 3",
+      "groupIndex": 5,
+      "interaction": "stacking",
+      "objects": [
+        "target",
+        "context"
+      ],
+      "objectLabels": {
+        "target": "Boat",
+        "context": "Box"
+      },
+      "contextIds": {
+        "1": "context"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-87d253731cd9.png",
+      "thumbnail": "assets/input-cache/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-87d253731cd9.png",
+      "cameraDirection": [
+        -0.058039365034511556,
+        0.5379813738343838,
+        -0.8409562851383298
+      ],
+      "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-ours-contain-fixed-200k.glb.gz",
+          "faces": 967814,
+          "lightFaces": 200012,
+          "bytes": 8633447,
+          "lightBytes": 1738769
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-sam3d-200k.glb.gz",
+          "faces": 769544,
+          "lightFaces": 200011,
+          "bytes": 7190808,
+          "lightBytes": 1983550
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-shaper-200k.glb.gz",
+          "faces": 125012,
+          "lightFaces": 125012,
+          "bytes": 1340772,
+          "lightBytes": 1345934
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-amodal3r-200k.glb.gz",
+          "faces": 1148004,
+          "lightFaces": 200012,
+          "bytes": 10476376,
+          "lightBytes": 2003182
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gena3d-200k.glb.gz",
+          "faces": 789204,
+          "lightFaces": 200012,
+          "bytes": 7238374,
+          "lightBytes": 1973584
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-gt-200k.glb.gz",
+          "faces": 1612,
+          "lightFaces": 1612,
+          "bytes": 20432,
+          "lightBytes": 22298
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.3949364721775055,
+          -0.5,
+          -0.42040565609931946
+        ],
+        [
+          0.3949364721775055,
+          0.5,
+          0.42040565609931946
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/001.png",
+        "assets/gallery/toys/input-masks/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab/002.png"
+      ]
+    },
+    {
+      "id": "v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472",
+      "title": "monitor",
+      "subtitle": "Piled",
+      "group": "Appendix Fig. 3",
+      "groupIndex": 7,
+      "interaction": "piled",
+      "objects": [
+        "target",
+        "context_1",
+        "context_2",
+        "context_3",
+        "context_4"
+      ],
+      "objectLabels": {
+        "target": "Monitor",
+        "context_1": "Cylinder",
+        "context_2": "Cone",
+        "context_3": "Cylinder",
+        "context_4": "Sphere"
+      },
+      "contextIds": {
+        "1": "context_1",
+        "2": "context_2",
+        "3": "context_3",
+        "4": "context_4"
+      },
+      "sourceDescription": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+      "image": "assets/input-cache/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-95cbca542b50.png",
+      "thumbnail": "assets/input-cache/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-95cbca542b50.png",
+      "cameraDirection": [
+        0.41418251424613506,
+        0.587193542618659,
+        0.6954542317073777
+      ],
+      "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-original.glb.gz",
+      "reference": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-original.glb.gz",
+      "methods": [
+        {
+          "id": "ours",
+          "label": "Tetris3D",
+          "description": "SS146k EMA / SLat90k RAW · GT relations · GT depth · visible pixel crop ×2.0",
+          "frame": "world",
+          "note": "GT depth · GT relations",
+          "assetRevision": "contain-fixed",
+          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-ours-contain-fixed-200k.glb.gz",
+          "faces": 994286,
+          "lightFaces": 204896,
+          "bytes": 9054374,
+          "lightBytes": 1908522
+        },
+        {
+          "id": "sam3d",
+          "label": "SAM-3D",
+          "description": "SAM3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-sam3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-sam3d-200k.glb.gz",
+          "faces": 355960,
+          "lightFaces": 204896,
+          "bytes": 3243631,
+          "lightBytes": 1945990
+        },
+        {
+          "id": "shaper",
+          "label": "ShapeR",
+          "description": "ShapeR · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth",
+          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-shaper-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-shaper-200k.glb.gz",
+          "faces": 129896,
+          "lightFaces": 129896,
+          "bytes": 1337375,
+          "lightBytes": 1344072
+        },
+        {
+          "id": "amodal3r",
+          "label": "Amodal3R + FoundationPose",
+          "description": "Amodal3R · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-amodal3r-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-amodal3r-200k.glb.gz",
+          "faces": 225468,
+          "lightFaces": 204896,
+          "bytes": 1977839,
+          "lightBytes": 1831555
+        },
+        {
+          "id": "gena3d",
+          "label": "GENA3D + FoundationPose",
+          "description": "GENA3D · toys4k_output_0919_noerasing · original reference primitive; no extra alignment.",
+          "frame": "world",
+          "note": "GT depth · FoundationPose",
+          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gena3d-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gena3d-200k.glb.gz",
+          "faces": 210356,
+          "lightFaces": 204896,
+          "bytes": 1903442,
+          "lightBytes": 1877230
+        },
+        {
+          "id": "gt",
+          "label": "Ground truth",
+          "description": "GT target and the same reference primitive.",
+          "frame": "world",
+          "note": "Reference geometry",
+          "model": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-original.glb.gz",
+          "modelLight": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-gt-200k.glb.gz",
+          "faces": 5164,
+          "lightFaces": 5164,
+          "bytes": 31086,
+          "lightBytes": 32824
+        }
+      ],
+      "displayBounds": [
+        [
+          -0.5,
+          -0.2083541303873062,
+          -0.5
+        ],
+        [
+          0.5,
+          0.2083541303873062,
+          0.5
+        ]
+      ],
+      "preview": false,
+      "imageMasks": [],
+      "imageOriginal": "assets/gallery/toys/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472.webp",
+      "imageOriginalMasks": [
+        "assets/gallery/toys/input-masks/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/001.png",
+        "assets/gallery/toys/input-masks/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/002.png",
+        "assets/gallery/toys/input-masks/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/003.png",
+        "assets/gallery/toys/input-masks/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/004.png",
+        "assets/gallery/toys/input-masks/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472/005.png"
+      ]
+    }
+  ]
 }
