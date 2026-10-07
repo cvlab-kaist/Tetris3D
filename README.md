@@ -14,6 +14,7 @@
 
 <h3 align="center">
   Paper (coming soon) |
+  Arxiv (coming soon) |
   <a href="https://cvlab-kaist.github.io/Tetris3D/">Project Page</a>
 </h3>
 
