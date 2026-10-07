@@ -2,7 +2,7 @@ name: Check project page
 
 on:
   push:
-    branches: [main]
+    branches: [page-source]
     paths: ['project-page/**', '.github/workflows/**']
   pull_request:
     paths: ['project-page/**', '.github/workflows/**']

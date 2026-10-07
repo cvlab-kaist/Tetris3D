@@ -1,8 +1,8 @@
-name: Deploy project page
+name: Publish project page
 
 on:
   push:
-    branches: [main]
+    branches: [page-source]
     paths: ['project-page/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 
@@ -10,16 +10,16 @@ permissions:
   contents: read
 
 concurrency:
-  group: github-pages
+  group: publish-gh-pages
   cancel-in-progress: false
 
 jobs:
-  build:
-    if: github.ref == 'refs/heads/main'
+  publish:
+    if: github.ref == 'refs/heads/page-source'
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      pages: read
+      contents: write
+      pages: write
     defaults:
       run:
         working-directory: project-page
@@ -34,20 +34,46 @@ jobs:
       - run: npm run build
       - run: npx playwright install --with-deps chrome
       - run: npm run test:browser
-      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
-      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+      - name: Check out publishing branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          path: project-page/dist
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+          ref: gh-pages
+          path: .pages-publish
+      - name: Update gh-pages
+        working-directory: .
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          rsync -a --delete --exclude=.git project-page/dist/ .pages-publish/
+          git -C .pages-publish config user.name "$(git log -1 --format=%an)"
+          git -C .pages-publish config user.email "$(git log -1 --format=%ae)"
+          git -C .pages-publish add --all
+          if ! git -C .pages-publish diff --cached --quiet; then
+            git -C .pages-publish commit -m "Publish project page from $SOURCE_SHA"
+            git -C .pages-publish push origin HEAD:gh-pages
+          fi
+      - name: Request Pages build
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          node --input-type=module <<'JS'
+          const endpoint = `https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/pages`;
+          const headers = {
+            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28',
+          };
+          const site = await fetch(endpoint, { headers });
+          if (site.status === 404) {
+            console.log('::notice::gh-pages is ready. A repository administrator must enable Pages from gh-pages / (root).');
+            process.exit(0);
+          }
+          if (!site.ok) throw new Error(`Cannot read Pages settings: ${site.status}`);
+          const settings = await site.json();
+          if (settings.build_type !== 'legacy' || settings.source?.branch !== 'gh-pages' || settings.source?.path !== '/') {
+            throw new Error('Set Pages to Deploy from a branch: gh-pages / (root).');
+          }
+          const build = await fetch(`${endpoint}/builds`, { method: 'POST', headers });
+          if (!build.ok) throw new Error(`Cannot request Pages build: ${build.status} ${await build.text()}`);
+          console.log('Requested publication of gh-pages.');
+          JS
