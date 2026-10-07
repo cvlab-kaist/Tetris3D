@@ -97,6 +97,20 @@
           "lightBytes": 1964165
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8ec2bf095bdea084040af96d947e69bb5ef8a4d4662fb8383504aa9a0ee12297-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 945954,
+          "lightFaces": 200096,
+          "bytes": 8556400,
+          "lightBytes": 1859807
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -226,6 +240,20 @@
           "lightBytes": 1940813
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ca41cd8c2d07d26f3d46f4d9b986fafb3b932127dd30896af3467f39d09da9cc-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 956025,
+          "lightFaces": 200095,
+          "bytes": 8593443,
+          "lightBytes": 1855461
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -350,6 +378,20 @@
           "lightFaces": 200576,
           "bytes": 5600071,
           "lightBytes": 1953581
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_e9ea88a388e321820d835b3bfb49c9c0590f3ac6169daa8c5f43106c0b96bf47-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 943267,
+          "lightFaces": 200576,
+          "bytes": 8433127,
+          "lightBytes": 1804983
         },
         {
           "id": "gt",
@@ -479,6 +521,20 @@
           "lightFaces": 200060,
           "bytes": 7053087,
           "lightBytes": 1980589
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_d8313cd144b28270df89d166349e6bffca65242c36cdc034c60e290e80a43e3c-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 975660,
+          "lightFaces": 200060,
+          "bytes": 8866371,
+          "lightBytes": 1855019
         },
         {
           "id": "gt",
@@ -616,6 +672,20 @@
           "lightBytes": 1855724
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8331cf178fd0a3ad3abea5ed7643b2992fd58f82108abf733dd947a1677884c8-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 925188,
+          "lightFaces": 200600,
+          "bytes": 8306664,
+          "lightBytes": 1853915
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -747,6 +817,20 @@
           "lightBytes": 1937769
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8efbce014e1c404fa135688e50253fcaa9cea1c97ff3010d8eed63f78b7b1aa1-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 967432,
+          "lightFaces": 200575,
+          "bytes": 8714045,
+          "lightBytes": 1861348
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -874,6 +958,20 @@
           "lightFaces": 200576,
           "bytes": 9975777,
           "lightBytes": 1980349
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_5186ba168ec2028674d24b5a92b2a60664abc09cb6a4ba989b880856a545d753-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 990368,
+          "lightFaces": 200576,
+          "bytes": 8958255,
+          "lightBytes": 1849464
         },
         {
           "id": "gt",
@@ -1005,6 +1103,20 @@
           "lightBytes": 1959397
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_942275ae0f556e462ecb9168402959fc87c3c1e8fd3d91fdd742f08e6e4b8c47-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 965247,
+          "lightFaces": 200011,
+          "bytes": 8691741,
+          "lightBytes": 1852341
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -1132,6 +1244,20 @@
           "lightFaces": 194026,
           "bytes": 1769177,
           "lightBytes": 1787288
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1881b6b4fbe1998ff08446b201ba99d944cfae74fd65cb2dfcc7aa27a21445f8-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 961468,
+          "lightFaces": 200080,
+          "bytes": 8672911,
+          "lightBytes": 1859198
         },
         {
           "id": "gt",
@@ -1263,6 +1389,20 @@
           "lightBytes": 1968015
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c55600fed77ec8256b14554953115e51e116a11affa9f9affeabf120435e5ff7-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 977287,
+          "lightFaces": 200575,
+          "bytes": 8856731,
+          "lightBytes": 1866001
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -1392,6 +1532,20 @@
           "lightBytes": 1893961
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_1ef450a5bd03f3def2d8484f0bd9f570695d5735bde974cb51cc3a3c506279d1-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 984938,
+          "lightFaces": 200060,
+          "bytes": 8809028,
+          "lightBytes": 1857132
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -1519,6 +1673,20 @@
           "lightFaces": 200011,
           "bytes": 8000113,
           "lightBytes": 2001133
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3ed010b10de5bd4941bc7d8e141851e2f96234b8aa8e58e52acfd355408c3c5-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 987256,
+          "lightFaces": 200012,
+          "bytes": 8954103,
+          "lightBytes": 1864959
         },
         {
           "id": "gt",
@@ -1659,6 +1827,20 @@
           "lightBytes": 1434648
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c7208d23c46954bfcad1ebfb5ccb971f28ee3eadea93a8213d6b84776e645d03-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 1003494,
+          "lightFaces": 205375,
+          "bytes": 9143678,
+          "lightBytes": 1905125
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -1783,6 +1965,20 @@
           "lightFaces": 203648,
           "bytes": 4216895,
           "lightBytes": 1969750
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a117450e6b1a36c2381d066710a87ab262813e345f53d7f65caa6d300e5c84a-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 953108,
+          "lightFaces": 203647,
+          "bytes": 8639422,
+          "lightBytes": 1881661
         },
         {
           "id": "gt",
@@ -1914,6 +2110,20 @@
           "lightBytes": 2016447
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_28c8ba8a6888324d8307140531db32e366e4e7dc4faa78e25f19b5aa0893e86d-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 990621,
+          "lightFaces": 200059,
+          "bytes": 8873899,
+          "lightBytes": 1773403
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -2041,6 +2251,20 @@
           "lightFaces": 200191,
           "bytes": 5965709,
           "lightBytes": 1948004
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_50823f95d726ca0fa917b4f4b089065b9518d1cc643cfcaeb7726aa0670758e2-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 975241,
+          "lightFaces": 200191,
+          "bytes": 8385305,
+          "lightBytes": 1602622
         },
         {
           "id": "gt",
@@ -2172,6 +2396,20 @@
           "lightBytes": 1895616
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_57362bb4d3fb1082b27a529c928efe0a251894d6887097f825e63f2a3a0942ad-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 977483,
+          "lightFaces": 200012,
+          "bytes": 8913263,
+          "lightBytes": 1881874
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -2299,6 +2537,20 @@
           "lightFaces": 200012,
           "bytes": 6083254,
           "lightBytes": 1900386
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_8a2e2a9c5e0fcc3afc399dffca237dda78638d1390a1f62402f0164b75bf0492-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 941573,
+          "lightFaces": 200011,
+          "bytes": 8270177,
+          "lightBytes": 1718025
         },
         {
           "id": "gt",
@@ -2430,6 +2682,20 @@
           "lightBytes": 998725
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_7e810ef66c604eee7275402764e9efe755df869d31539c81e8489773217c7767-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 958606,
+          "lightFaces": 203648,
+          "bytes": 8500439,
+          "lightBytes": 1859514
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -2557,6 +2823,20 @@
           "lightFaces": 200096,
           "bytes": 2519555,
           "lightBytes": 1815212
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_da0e0e87e626f08230d5b4fa7480cc98e061c63e4e0e177fa969e563551771e7-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 973773,
+          "lightFaces": 200093,
+          "bytes": 8299681,
+          "lightBytes": 1543660
         },
         {
           "id": "gt",
@@ -2694,6 +2974,20 @@
           "lightBytes": 1812521
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_c3bda702bad708beba0204b66932b10d886e3a148e188b4c1dd68673c77b1f29-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 947264,
+          "lightFaces": 213247,
+          "bytes": 8452001,
+          "lightBytes": 1876301
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -2828,6 +3122,20 @@
           "lightBytes": 1953404
         },
         {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_ce29483855bddb0745c05348617d1a45bee19e09a41f96eaffd80af03c0d5803-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 941235,
+          "lightFaces": 200023,
+          "bytes": 8539302,
+          "lightBytes": 1815182
+        },
+        {
           "id": "gt",
           "label": "Ground truth",
           "description": "GT target and the same reference primitive.",
@@ -2956,6 +3264,20 @@
           "lightFaces": 200012,
           "bytes": 7238374,
           "lightBytes": 1973584
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_b47c667247821a0e587b745ef5733cb02ca3eb6b860617987ff6d8aa49d39dab-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 966978,
+          "lightFaces": 200012,
+          "bytes": 8750638,
+          "lightBytes": 1838143
         },
         {
           "id": "gt",
@@ -3094,6 +3416,20 @@
           "lightFaces": 204896,
           "bytes": 1903442,
           "lightBytes": 1877230
+        },
+        {
+          "id": "worldsculpt",
+          "label": "WorldSculpt",
+          "description": "WorldSculpt · qualitative24 GT 20261008 · generated target and original reference primitives; no extra alignment.",
+          "frame": "world",
+          "note": "WorldSculpt · original reference primitives",
+          "assetRevision": "gt20261008",
+          "model": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-original.glb.gz",
+          "modelLight": "https://raw.githubusercontent.com/cvlab-kaist/Tetris3D/page-source/project-page/hosted-assets/worldsculpt/v3_161c015428409a363b6c28420ef8e16434970b2d1d78eea08370a2da15680472-worldsculpt-gt20261008-200k.glb.gz",
+          "faces": 968098,
+          "lightFaces": 204896,
+          "bytes": 8770264,
+          "lightBytes": 1910399
         },
         {
           "id": "gt",
