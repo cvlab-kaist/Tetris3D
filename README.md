@@ -14,7 +14,7 @@
 
 <h3 align="center">
   <a href="https://cvlab-kaist.github.io/Tetris3D/assets/paper/tetris3d-paper.pdf?v=d69c4cedb978">Paper</a> |
-  Arxiv (coming soon) |
+  <a href="https://arxiv.org/abs/2610.10539">arXiv</a> |
   <a href="https://cvlab-kaist.github.io/Tetris3D/">Project Page</a>
 </h3>
 
