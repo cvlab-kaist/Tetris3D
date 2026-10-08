@@ -12,7 +12,7 @@
 
 T2Mo와 같은 중앙 정렬 README에 Tetris3D 제목, 기존 저자 링크, KAIST AI, `arXiv 2026`을 표시합니다. 프로젝트 페이지에는 Tetris3D 로고, T 블록 favicon, Paper PDF, Method 그림과 Qualitative Comparisons 24개 장면을 공개합니다. 입력 이미지·GT·baseline·Initial state·비교용 시뮬레이션을 모두 포함합니다.
 
-대표 영상은 V13(1080p, 약 2분 15초)이며 음소거 자동 재생과 전체 시간 표시를 지원합니다. 선정 Demo 16개를 Cinema부터 Music까지 지정한 순서로 배치하고 Bowl and Bottle, Letters를 마지막에 유지합니다. Paper 버튼과 README는 최신 `Tetris3D_v1.pdf` 사본을 연결하며, Arxiv는 SOON으로 표시합니다. 실사 비교는 `realWorldComparisonsEnabled: false`로 잠시 숨깁니다.
+대표 영상은 V13(1080p, 약 2분 15초)이며 음소거 자동 재생과 전체 시간 표시를 지원합니다. 선정 Demo 16개를 Cinema부터 Music까지 지정한 순서로 배치하고 Bowl and Bottle, Letters를 마지막에 유지합니다. Paper 버튼과 README는 최신 `Tetris3D_v1.pdf` 사본을 연결하며, arXiv는 [arXiv:2610.10539](https://arxiv.org/abs/2610.10539)로 연결합니다. 실사 비교는 `realWorldComparisonsEnabled: false`로 잠시 숨깁니다.
 
 Demo 전체와 Qualitative Comparisons의 Tetris3D·GT·WorldSculpt 원본/경량 mesh는 `project-page/hosted-assets/`에 커밋하고 같은 저장소의 raw URL에서 불러옵니다. 이 파일들은 Pages 빌드에 중복 포함하지 않습니다. 영상·이미지·나머지 비교 자산은 Pages에서 제공합니다. 호스팅 설정과 가져오기 방법은 [ASSETS.md](ASSETS.md)를 참고하세요.
 

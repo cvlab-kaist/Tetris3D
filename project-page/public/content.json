@@ -40,12 +40,12 @@
     "paper": "assets/paper/tetris3d-paper.pdf?v=d69c4cedb978",
     "code": "https://github.com/cvlab-kaist/Tetris3D",
     "supplementary": null,
-    "arxiv": null
+    "arxiv": "https://arxiv.org/abs/2610.10539"
   },
   "methodFigure": "assets/paper/method.webp",
   "methodCaption": "Tetris3D generates objects autoregressively in a physical dependency order. Sparse structure and structured latent generation use voxel-aligned conditions and visible-to-invisible attention.",
-  "citationPending": true,
-  "bibtex": "@misc{kim2026tetris3d,\n  title  = {Tetris3D: 3D Scene Generation with\n            Objects That Fit Together},\n  author = {Kim, Jaeyeong and Jang, Jinhyuk and Lee, Jongmin\n            and Park, Kyehong and Kim, Seungryong},\n  year   = {2026},\n  archivePrefix = {arXiv},\n  note   = {Preprint; arXiv identifier to be added}\n}",
+  "citationPending": false,
+  "bibtex": "@misc{kim2026tetris3d,\n  title  = {Tetris3D: 3D Scene Generation with\n            Objects That Fit Together},\n  author = {Kim, Jaeyeong and Jang, Jinhyuk and Lee, Jongmin\n            and Park, Kyehong and Kim, Seungryong},\n  year   = {2026},\n  eprint = {2610.10539},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.CV},\n  url    = {https://arxiv.org/abs/2610.10539}\n}",
   "finalExamples": {
     "demos": [],
     "toys": []

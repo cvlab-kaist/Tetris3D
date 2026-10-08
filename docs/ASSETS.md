@@ -22,7 +22,7 @@ WorldSculpt도 24개 장면 모두 원본·경량 3D 보기를 제공합니다. 
   "methodFigure": "assets/method.webp",
   "links": {
     "paper": "assets/paper.pdf",
-    "arxiv": null,
+    "arxiv": "https://arxiv.org/abs/2610.10539",
     "code": null,
     "supplementary": null
   }
