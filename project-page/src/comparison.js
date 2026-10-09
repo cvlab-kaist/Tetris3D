@@ -57,6 +57,7 @@ export class ComparisonPanel {
           <button class="comparison-fit" type="button">Fit views ↺</button>
       </fieldset></div>`;
     $('.comparison-appearance', element).value = this.config.defaultAppearance || 'normal';
+    $('.comparison-quality', element).value = this.config.defaultQuality || 'original';
     this.runButton = $('.motion-run', element);
     this.status = $('.comparison-announcement', element);
     $('.enable-all-3d', element).addEventListener('click', () => this.toggleViewers());
@@ -73,7 +74,7 @@ export class ComparisonPanel {
     $('.segmentation-image', element)?.addEventListener('click', () => this.openImage(this.segmentationPath, `${this.sample.title} — Segmentation mask`));
     $('.comparison-object', element).addEventListener('change', (event) => this.selectObject(event.target.value));
     $('[data-object-mode=all]', element)?.addEventListener('click', () => this.selectObject('all'));
-    $('[data-object-mode=single]', element)?.addEventListener('click', () => this.selectObject(this.lastObject || this.sample.objects[0]));
+    $('[data-object-mode=single]', element)?.addEventListener('click', () => this.selectObject(this.lastObject || this.objects[0]));
     $('.comparison-quality', element).addEventListener('change', () => this.cards.forEach((card) => { if (card.enabled) this.loadMesh(card); }));
     $('.comparison-appearance', element).addEventListener('change', (event) => this.cards.forEach((card) => card.viewer?.setMode(event.target.value)));
     $('.comparison-color-object', element).addEventListener('change', (event) => {
@@ -119,6 +120,7 @@ export class ComparisonPanel {
     this.linkedView = null;
     this.lastObject = null;
     this.sample = sample;
+    this.objects = sample.objects.filter((id) => !sample.hiddenObjects?.includes(id));
     this.colors = this.sceneColors.get(sample.id) || new Map();
     this.sceneColors.set(sample.id, this.colors);
     if (this.status) this.status.textContent = '';
@@ -130,9 +132,9 @@ export class ComparisonPanel {
       if (initial?.src) initialImage.src = asset(initial.src); else initialImage.removeAttribute('src');
     }
     const objects = $('.comparison-object', this.element);
-    objects.replaceChildren(new Option('Full scene', 'all'), ...sample.objects.map((id) => new Option(objectLabel(sample, id), id)));
+    objects.replaceChildren(new Option('Full scene', 'all'), ...this.objects.map((id) => new Option(objectLabel(sample, id), id)));
     const colorObjects = $('.comparison-color-object', this.element);
-    const colorTargets = sample.objects.filter((id) => !isPrimitive(id));
+    const colorTargets = this.objects.filter((id) => !isPrimitive(id));
     colorObjects.replaceChildren(...colorTargets.map((id) => new Option(objectLabel(sample, id), id)));
     $('.comparison-color-object-label', this.element).hidden = colorTargets.length <= 1;
     $('.comparison-color-label span', this.element).textContent = colorTargets.length === 1 ? 'Target color' : 'Color';
@@ -140,9 +142,9 @@ export class ComparisonPanel {
     this.updateSegmentation();
     const objectList = $('.demo-object-list', this.element);
     if (objectList) {
-      objectList.replaceChildren(...sample.objects.map((id, index) => {
+      objectList.replaceChildren(...this.objects.map((id) => {
         const button = document.createElement('button'); button.type = 'button'; button.dataset.objectId = id;
-        const color = document.createElement('i'); color.style.background = objectColor(id, index);
+        const color = document.createElement('i'); color.style.background = objectColor(id, sample.objects.indexOf(id));
         button.append(color, document.createTextNode(objectLabel(sample, id)));
         button.addEventListener('click', () => this.selectObject(id));
         return button;
@@ -244,7 +246,7 @@ export class ComparisonPanel {
   }
 
   selectObject(id) {
-    if (id !== 'all' && !this.sample.objects.includes(id)) return;
+    if (id !== 'all' && !this.objects.includes(id)) return;
     $('.comparison-object', this.element).value = id;
     if (id !== 'all') {
       this.lastObject = id;
@@ -296,7 +298,7 @@ export class ComparisonPanel {
   setColor(color) {
     if (!/^#[\da-f]{6}$/i.test(color)) return;
     const id = $('.comparison-color-object', this.element).value;
-    if (!this.sample.objects.includes(id) || isPrimitive(id)) return;
+    if (!this.objects.includes(id) || isPrimitive(id)) return;
     const selected = $('.comparison-object', this.element).value;
     if (selected !== 'all' && selected !== id) this.selectObject(id);
     this.colors.set(id, color);
@@ -477,6 +479,7 @@ export class ComparisonPanel {
     const quality = $('.comparison-quality', this.element).value;
     const method = card.method;
     const frame = method.frame || 'world';
+    const hiddenObjects = [...new Set([...(this.sample.hiddenObjects || []), ...(method.hiddenObjects || [])])];
     card.viewer.setColors(this.colors);
     card.viewer.setMode($('.comparison-appearance', this.element).value);
     card.viewer.setWire($('.comparison-wire', this.element).getAttribute('aria-pressed') === 'true');
@@ -484,8 +487,8 @@ export class ComparisonPanel {
       model: quality === 'light' && method.modelLight ? method.modelLight : method.model,
       displayBounds: method.displayBounds || this.sample.displayBounds,
       cameraDirection: method.cameraDirection || this.sample.cameraDirection,
-      hiddenObjects: method.hiddenObjects || [],
-      hideGround: method.id === 'ours' || method.id === 'gt' || Boolean(method.hiddenObjects?.length),
+      hiddenObjects,
+      hideGround: method.id === 'ours' || method.id === 'gt' || hiddenObjects.length > 0,
     }, { object: $('.comparison-object', this.element).value, preserveCamera: this.viewBases.has(frame) });
     if (!loaded || !card.enabled || card.version !== this.version || load !== card.load) return;
     // Selection and camera may have changed while the GLB was downloading.

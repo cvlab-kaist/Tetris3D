@@ -1,6 +1,6 @@
 {
   "createdAt": "2026-10-07T23:06:53.141392+00:00",
-  "policy": "Hide table and context_support_plane in GT, Ours, SAM-3D and ShapeR across full-scene, per-object, original/light and expanded views. No source or mesh buffers changed. MIDI full-scene camera fitting ignores the table while its geometry remains visible.",
+  "policy": "Hide table and context_support_plane in GT, Ours, SAM-3D and ShapeR. Picnic hides table and folded linen cloth, and Vegetables hides table, in every method including MIDI. Hidden scene objects are excluded from object controls and camera fitting. Applies to full-scene, per-object, original/light and expanded views. No source or mesh buffers changed.",
   "entries": [
     {
       "scene": "music_unique_smaller_box",
@@ -60,6 +60,15 @@
       ],
       "model": "assets/gallery/selected16/vegetables/shaper-8e9c50bdc6d1-original.glb.gz",
       "modelLight": "assets/gallery/selected16/vegetables/shaper-8e9c50bdc6d1-200k.glb.gz"
+    },
+    {
+      "scene": "vegetables",
+      "method": "midi",
+      "hiddenObjects": [
+        "table"
+      ],
+      "model": "assets/gallery/selected16/vegetables/midi-bf7e3daa68dc-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/vegetables/midi-bf7e3daa68dc-200k.glb.gz"
     },
     {
       "scene": "vegetables",
@@ -266,7 +275,8 @@
       "scene": "picnic",
       "method": "ours",
       "hiddenObjects": [
-        "table"
+        "table",
+        "cloth"
       ],
       "model": "assets/gallery/selected16/picnic/ours-5c9512ac602f-original.glb.gz",
       "modelLight": "assets/gallery/selected16/picnic/ours-5c9512ac602f-200k.glb.gz"
@@ -275,7 +285,8 @@
       "scene": "picnic",
       "method": "sam3d",
       "hiddenObjects": [
-        "table"
+        "table",
+        "cloth"
       ],
       "model": "assets/gallery/selected16/picnic/sam3d-ed0e844bf6d7-original.glb.gz",
       "modelLight": "assets/gallery/selected16/picnic/sam3d-ed0e844bf6d7-200k.glb.gz"
@@ -284,16 +295,28 @@
       "scene": "picnic",
       "method": "shaper",
       "hiddenObjects": [
-        "table"
+        "table",
+        "cloth"
       ],
       "model": "assets/gallery/selected16/picnic/shaper-af87a31a8ec9-original.glb.gz",
       "modelLight": "assets/gallery/selected16/picnic/shaper-af87a31a8ec9-200k.glb.gz"
     },
     {
       "scene": "picnic",
+      "method": "midi",
+      "hiddenObjects": [
+        "table",
+        "cloth"
+      ],
+      "model": "assets/gallery/selected16/picnic/midi-d1578984f9a6-original.glb.gz",
+      "modelLight": "assets/gallery/selected16/picnic/midi-d1578984f9a6-200k.glb.gz"
+    },
+    {
+      "scene": "picnic",
       "method": "gt",
       "hiddenObjects": [
-        "table"
+        "table",
+        "cloth"
       ],
       "model": "assets/gallery/selected16/picnic/gt-8291015016d0-original.glb.gz",
       "modelLight": "assets/gallery/selected16/picnic/gt-8291015016d0-200k.glb.gz"
@@ -527,5 +550,5 @@
       "modelLight": "assets/gallery/selected16/letters_mug/gt-dbe97734fd21-200k.glb.gz"
     }
   ],
-  "updatedAt": "2026-10-07T23:27:47.752439+00:00"
+  "updatedAt": "2026-10-09T08:37:41.276590+00:00"
 }

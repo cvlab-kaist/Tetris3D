@@ -55,7 +55,7 @@ class Gallery {
       const mount = $('.comparison-mount', root); mount.hidden = false;
       this.comparison = new ComparisonPanel(mount, demo ? {
         showSimulation: false, includeReference: true, objectToolbar: true, referenceRow: true,
-        defaultAppearance: 'color',
+        defaultAppearance: 'color', defaultQuality: 'light',
         methodOrder: ['gt', 'ours', 'sam3d', 'shaper', 'midi'],
         extraMethods: [{ id: 'sam3d', label: 'SAM-3D' }, { id: 'shaper', label: 'ShapeR' }, { id: 'midi', label: 'MIDI', frame: 'midi-native' }],
       } : simulationConfig, openImage);

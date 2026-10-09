@@ -3,7 +3,7 @@
   "selectionSha256": "eb78f7f79375c84dcfba0c3df51aadd5c7de79b2244184889449add854143aea",
   "scenes": 16,
   "methods": 64,
-  "policy": "Author-selected composite scenes; original geometry binary/local transforms preserved. Shared Z-up to Y-up display rotation; MIDI stays native with no ICP. GT, Ours, SAM-3D and ShapeR hide table/support planes. MIDI camera yaw follows matching foreground object centers; all full-scene camera fits exclude table/support. Exclude the selected Bowl and Bottle linen cloth.",
+  "policy": "Author-selected composite scenes; original geometry binary/local transforms preserved. Shared Z-up to Y-up display rotation; MIDI stays native with no ICP. GT, Ours, SAM-3D and ShapeR hide table/support planes. Picnic hides table and cloth, and Vegetables hides table in every method including MIDI. MIDI camera yaw follows matching visible foreground object centers; all full-scene camera fits exclude hidden objects and table/support. Exclude the selected Bowl and Bottle linen cloth.",
   "samples": [
     {
       "signature": "748d69c6334a6e25983cc8f68898df14b6f653ec96e65f7b782f016407a15510",
@@ -777,6 +777,9 @@
               0.19557804177096377,
               0.45367649452819525,
               0.8694405487953982
+            ],
+            "hiddenObjects": [
+              "table"
             ]
           },
           {
@@ -836,7 +839,7 @@
             "cooking_spoon": "assets/gallery/demos/segmentation/vegetables/cooking_spoon.png"
           }
         },
-        "subtitle": "7 objects",
+        "subtitle": "6 objects",
         "fitObjects": [
           "tray",
           "casserole",
@@ -844,6 +847,9 @@
           "avocado",
           "lid",
           "cooking_spoon"
+        ],
+        "hiddenObjects": [
+          "table"
         ]
       },
       "source": {
@@ -5321,7 +5327,8 @@
             ],
             "frame": "world",
             "hiddenObjects": [
-              "table"
+              "table",
+              "cloth"
             ]
           },
           {
@@ -5344,7 +5351,8 @@
             ],
             "frame": "world",
             "hiddenObjects": [
-              "table"
+              "table",
+              "cloth"
             ]
           },
           {
@@ -5367,7 +5375,8 @@
             ],
             "frame": "world",
             "hiddenObjects": [
-              "table"
+              "table",
+              "cloth"
             ]
           },
           {
@@ -5402,9 +5411,13 @@
               ]
             ],
             "cameraDirection": [
-              -0.7427880578188509,
-              0.4097947713726913,
-              0.529465906850766
+              -0.7433603815032437,
+              0.4080304871689647,
+              0.5300249661591531
+            ],
+            "hiddenObjects": [
+              "table",
+              "cloth"
             ]
           },
           {
@@ -5427,7 +5440,8 @@
             ],
             "frame": "world",
             "hiddenObjects": [
-              "table"
+              "table",
+              "cloth"
             ]
           }
         ],
@@ -5435,20 +5449,20 @@
         "reference": "assets/gallery/selected16/picnic/gt-8291015016d0-original.glb.gz",
         "displayBounds": [
           [
-            -0.23000000417232513,
-            0.0,
-            -0.14499999582767487
+            -0.20463669300079346,
+            0.008999999612569809,
+            -0.10771679133176804
           ],
           [
-            0.23000000417232513,
+            0.20130085945129395,
             0.2310001701116562,
-            0.14499999582767487
+            0.11900553107261658
           ]
         ],
         "cameraDirection": [
-          0.5042470768110893,
-          0.4097947713726913,
-          0.7601336269913832
+          0.507520414566871,
+          0.4080304871689647,
+          0.7589032549268243
         ],
         "imageMasks": [],
         "preview": false,
@@ -5464,14 +5478,17 @@
             "journal": "assets/gallery/demos/segmentation/picnic/journal.png"
           }
         },
-        "subtitle": "7 objects",
+        "subtitle": "5 objects",
         "fitObjects": [
-          "cloth",
           "basket",
           "croissant",
           "apple",
           "thermos",
           "journal"
+        ],
+        "hiddenObjects": [
+          "table",
+          "cloth"
         ]
       },
       "source": {
@@ -5863,7 +5880,6 @@
       "supportPlanePreservedExcludedFromFit": true,
       "midiCamera": {
         "objects": [
-          "cloth",
           "basket",
           "croissant",
           "apple",
@@ -5872,18 +5888,13 @@
         ],
         "model": "assets/gallery/selected16/picnic/midi-d1578984f9a6-original.glb.gz",
         "cameraDirection": [
-          -0.7427880578188509,
-          0.4097947713726913,
-          0.529465906850766
+          -0.7433603815032437,
+          0.4080304871689647,
+          0.5300249661591531
         ],
-        "nativeToWorldYawDegrees": 88.07734900711642,
-        "normalizedLayoutResidual": 0.37262077108269487,
+        "nativeToWorldYawDegrees": 88.28349784443994,
+        "normalizedLayoutResidual": 0.36239813817927324,
         "nativeCenters": [
-          [
-            -0.02349667251110077,
-            -0.04144865274429321,
-            0.0313134491443634
-          ],
           [
             -0.0002956092357635498,
             -0.03575368970632553,
@@ -5911,11 +5922,6 @@
           ]
         ],
         "gtCenters": [
-          [
-            0.0,
-            0.005498841870576143,
-            0.0
-          ],
           [
             0.013999998569488525,
             0.05159075930714607,

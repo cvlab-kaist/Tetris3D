@@ -9,9 +9,11 @@ export async function checkSelectedDemos(browser, base, content, preview, { loca
   assert.deepEqual(scenes.map(({ id, title }) => ({ id, title })), content.demoOrder);
   const page = await browser.newPage({ viewport: { width: 1600, height: 1100 }, reducedMotion: 'reduce' });
   const errors = [];
+  const meshRequests = [];
+  page.on('request', (request) => { if (/\.glb(?:\.gz)?(?:\?|$)/.test(request.url())) meshRequests.push(request.url()); });
   page.on('pageerror', (error) => errors.push(error.message));
   page.on('response', (response) => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
-  const waitViews = () => page.waitForFunction(() => document.querySelectorAll('#demos .viewer.is-loaded[data-quality=light]:not([data-error])').length === 5, null, { timeout: 180000 });
+  const waitViews = (quality = 'light') => page.waitForFunction((quality) => [...document.querySelectorAll('#demos .viewer.is-loaded:not([data-error])')].filter((viewer) => viewer.dataset.quality === quality).length === 5, quality, { timeout: 180000 });
   const views = (root) => root.locator('.geometry-card .viewer').evaluateAll((elements) => Object.fromEntries(elements.map((element) => [element.dataset.method, element.testView])));
   const direction = (view) => {
     const offset = view.position.map((value, index) => value - view.target[index]);
@@ -43,16 +45,15 @@ export async function checkSelectedDemos(browser, base, content, preview, { loca
     }
     await page.setViewportSize({ width: 1600, height: 1100 });
     await root.locator('[data-gallery-page="0"]').click();
-    await root.locator('.example-card').first().evaluate((button) => {
-      button.click();
-      const quality = document.querySelector('#demos .comparison-quality');
-      quality.value = 'light'; quality.dispatchEvent(new Event('change', { bubbles: true }));
-    });
-    for (const id of ['cinema2', 'vegetables', 'bowl_and_bottle']) {
+    await root.locator('.example-card').first().click();
+    assert.equal(await root.locator('.comparison-quality').inputValue(), 'light');
+    for (const id of ['cinema2', 'picnic', 'vegetables', 'bowl_and_bottle']) {
       const scene = scenes.find((sample) => sample.id === id);
       if (!scene) continue;
       await root.locator('.scene-select').selectOption(String(scenes.indexOf(scene)));
       await waitViews();
+      assert.equal(await root.locator('.comparison-quality').inputValue(), 'light');
+      if (id === 'cinema2') assert(meshRequests.length > 0 && meshRequests.every((url) => !url.includes('-original.glb')), 'Initial Demo load downloads only lightweight meshes.');
       assert.equal(await root.locator('.comparison-appearance').inputValue(), 'color');
       assert.equal(await root.locator('.enable-all-3d').textContent(), 'Disable 3D viewer');
       for (const method of scene.methods) {
@@ -65,7 +66,35 @@ export async function checkSelectedDemos(browser, base, content, preview, { loca
       const expected = scene.methods.find((method) => method.id === 'midi').cameraDirection;
       assert(actual.every((value, index) => Math.abs(value - expected[index]) < 1e-7), `${id}: MIDI starts from the calibrated camera direction`);
       assert(Math.abs(actual[1] - direction(states.ours)[1]) < 1e-7);
-      if (scene.objects.includes('table')) {
+      const excluded = { picnic: ['table', 'cloth'], vegetables: ['table'] }[id];
+      if (excluded) {
+        assert.deepEqual(scene.hiddenObjects, excluded);
+        for (const object of excluded) {
+          assert(!scene.fitObjects.includes(object));
+          assert.equal(await root.locator(`[data-object-id="${object}"], .comparison-object option[value="${object}"], .comparison-color-object option[value="${object}"]`).count(), 0);
+          for (const method of scene.methods) assert(!JSON.parse(await root.locator(`.geometry-card[data-method=${method.id}] .viewer`).getAttribute('data-visible-objects')).includes(object));
+        }
+        await root.locator('[data-object-mode=single]').click();
+        const firstObject = scene.objects.find((object) => !excluded.includes(object));
+        for (const method of scene.methods) assert.deepEqual(JSON.parse(await root.locator(`.geometry-card[data-method=${method.id}] .viewer`).getAttribute('data-visible-objects')), [firstObject]);
+        await root.locator('.geometry-card[data-method=midi] [data-viewer-action=expand]').click();
+        assert.deepEqual(JSON.parse(await root.locator('.viewer-dialog[open] .viewer').getAttribute('data-visible-objects')), [firstObject]);
+        for (const object of excluded) assert.equal(await root.locator(`.viewer-dialog [data-object-id="${object}"]`).count(), 0);
+        await root.locator('.expanded-close').click();
+        await root.locator('[data-object-mode=all]').click();
+        if (id === 'picnic') {
+          await root.locator('.comparison-quality').selectOption('original');
+          await waitViews('original');
+          for (const method of scene.methods) {
+            const viewer = root.locator(`.geometry-card[data-method=${method.id}] .viewer`);
+            assert.equal(Number(await viewer.getAttribute('data-faces')), method.faces);
+            assert.deepEqual(JSON.parse(await viewer.getAttribute('data-visible-objects')).sort(), scene.objects.filter((object) => !excluded.includes(object)).sort());
+          }
+          await root.locator('.comparison-quality').selectOption('light');
+          await waitViews();
+        }
+      }
+      if (scene.objects.includes('table') && !scene.hiddenObjects?.includes('table')) {
         await root.locator('[data-object-mode=single]').click();
         await root.locator('[data-object-id=table]').click();
         for (const method of ['gt', 'ours', 'sam3d', 'shaper']) assert.deepEqual(JSON.parse(await root.locator(`.geometry-card[data-method=${method}] .viewer`).getAttribute('data-visible-objects')), []);
@@ -95,6 +124,6 @@ export async function checkSelectedDemos(browser, base, content, preview, { loca
     await root.locator('.gallery-back').click();
     assert.equal(await root.locator('canvas').count(), 0);
     assert.deepEqual(errors, []);
-    return { selectedDemos: scenes.length, orderAndTitles: true, desktopAndMobilePagination: true, hiddenSupports: true, calibratedMidiCamera: true, synchronizedOrbit: true, objectColors: true, expansionAndCleanup: true, hostedSource: localHosted ? 'committed local copies' : 'live remote URLs' };
+    return { selectedDemos: scenes.length, orderAndTitles: true, desktopAndMobilePagination: true, lightweightDefault: true, hiddenSupports: true, picnicTableAndClothRemoved: true, vegetablesTableRemoved: true, originalMeshVisibility: true, calibratedMidiCamera: true, synchronizedOrbit: true, objectColors: true, expansionAndCleanup: true, hostedSource: localHosted ? 'committed local copies' : 'live remote URLs' };
   } finally { await page.close(); }
 }

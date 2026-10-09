@@ -48,7 +48,7 @@ CHROMIUM_PATH=/path/to/chrome npm run test:browser
 
 Qualitative Comparisons의 표시 순서와 이름은 `public/content.json`의 `qualitativeOrder`에서 scene ID별로 관리합니다. 지정되지 않은 장면은 원래 순서로 뒤에 표시됩니다. 같은 이름의 객체는 별도 ID로 구분합니다.
 
-Demo는 같은 파일의 `demoOrder`를 사용합니다. 기본 표시는 Object colors이며 GT·Tetris3D·SAM-3D·ShapeR의 table/support floor를 숨깁니다. MIDI mesh는 native 좌표를 유지하고 장면별 객체 배치에서 추정한 시작 카메라 방향을 적용합니다. 해당 설정과 원본 보존 기록은 `scripts/selected-demo16-provenance.json`에 있습니다.
+Demo는 같은 파일의 `demoOrder`를 사용합니다. 기본 표시는 Lightweight와 Object colors이며, Detail에서 Original mesh로 전환할 수 있습니다. GT·Tetris3D·SAM-3D·ShapeR의 table/support floor를 숨깁니다. Picnic의 table·folded linen cloth와 Vegetables의 table은 MIDI를 포함한 모든 결과 및 객체 선택에서 제외합니다. MIDI mesh는 native 좌표를 유지하고 보이는 객체 배치에서 추정한 시작 카메라 방향을 적용합니다. 해당 설정과 원본 보존 기록은 `scripts/selected-demo16-provenance.json`에 있습니다.
 
 ## 커밋과 푸시
 
